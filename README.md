@@ -1,2 +1,11 @@
-# SBOM-Dataset-y-Archivos-TFG
-Este repositorio contiene el conjunto de SBOMs, resultados de evaluación y scripts de apoyo utilizados para el análisis, comparación y fusión de SBOMs. This repository contains the SBOM dataset, evaluation results, and supporting scripts used for the analysis, comparison, and fusion of SBOMs.
+## Descripción
+Este repositorio contiene el conjunto de SBOMs de proyectos Java-Maven y scripts de apoyo utilizados para el análisis, comparación y fusión de Software Bills of Materials (SBOMs).
+
+---
+
+## Repository Structure
+
+
+datasets/        SBOMs generados ordenados en carpetas por software de generación
+scripts/         Scripts de codigo Python.
+docs/            Documentación adicional
