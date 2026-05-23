@@ -1,0 +1,609 @@
+{
+  "files": [
+    {
+      "fileName": "./hashids-java-master/.gitignore",
+      "SPDXID": "SPDXRef-File--hashids-java-master-.gitignore-1A62B162B0B98EB16E42B83BA21BDE259E04A4D3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5b0ed83cd461e2ea85f264f73caabc3decfbbab15d795296032a1f9b5ebe6449"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1a62b162b0b98eb16e42b83ba21bde259e04a4d3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/.project",
+      "SPDXID": "SPDXRef-File--hashids-java-master-.project-FADF7F4F7F20AB18E82B55697401EE2C4344223E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e1861999e968cd898ed2a133710f1ebd5b58fb8dc8b7bc9896e1493f2c7f4046"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fadf7f4f7f20ab18e82b55697401ee2c4344223e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/pom.xml",
+      "SPDXID": "SPDXRef-File--hashids-java-master-pom.xml-3E94846B47387B1507DE8E29DD4C781E52F54635",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "06a50b189bcbbb63faac8bbc52a0cf5c898d6366331385132aa2294645b0869a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3e94846b47387b1507de8e29dd4c781e52f54635"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/.circleci/config.yml",
+      "SPDXID": "SPDXRef-File--hashids-java-master-.circleci-config.yml-F6EC671357CA5EC971CEF10A301B2F1E0ECD9B66",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4cd4ec1ddc3ec210bd43945223cda0f0027ee8794fa911c50184fba1428d64e7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f6ec671357ca5ec971cef10a301b2f1e0ecd9b66"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/bin/.circleci/config.yml",
+      "SPDXID": "SPDXRef-File--hashids-java-master-bin-.circleci-config.yml-F6EC671357CA5EC971CEF10A301B2F1E0ECD9B66",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4cd4ec1ddc3ec210bd43945223cda0f0027ee8794fa911c50184fba1428d64e7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f6ec671357ca5ec971cef10a301b2f1e0ecd9b66"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/LICENSE",
+      "SPDXID": "SPDXRef-File--hashids-java-master-LICENSE-8F583F5B0205BF9C4FD60DAF4E40EBB5A6417423",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aab8818c155816c749a5993d57baa9e668ade220b0d583386ade976f572fec15"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8f583f5b0205bf9c4fd60daf4e40ebb5a6417423"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/bin/LICENSE",
+      "SPDXID": "SPDXRef-File--hashids-java-master-bin-LICENSE-8F583F5B0205BF9C4FD60DAF4E40EBB5A6417423",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aab8818c155816c749a5993d57baa9e668ade220b0d583386ade976f572fec15"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8f583f5b0205bf9c4fd60daf4e40ebb5a6417423"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/.classpath",
+      "SPDXID": "SPDXRef-File--hashids-java-master-.classpath-A2A6C87FC86A70D7E061A70D7162B5D258FD30ED",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "16b955d48fd370e138e589a4500b5ed552378d09f080fe4b642c2cbec763024f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a2a6c87fc86a70d7e061a70d7162b5d258fd30ed"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/.settings/org.eclipse.jdt.core.prefs",
+      "SPDXID": "SPDXRef-File--hashids-java-master-.settings-org.eclipse.jdt.core.prefs-197C186D62BEA33927CB4F9EBAAE01DE148B23C1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "da5c3fe686e1a9b4f0f8cb2d10515069e47af1d188e333e15b0b636faaa15509"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "197c186d62bea33927cb4f9ebaae01de148b23c1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/bin/.gitignore",
+      "SPDXID": "SPDXRef-File--hashids-java-master-bin-.gitignore-1A62B162B0B98EB16E42B83BA21BDE259E04A4D3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5b0ed83cd461e2ea85f264f73caabc3decfbbab15d795296032a1f9b5ebe6449"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1a62b162b0b98eb16e42b83ba21bde259e04a4d3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/bin/src/test/java/org/hashids/HashidsTest.class",
+      "SPDXID": "SPDXRef-File--hashids-java-master-bin-src-test-java-org-hashids-HashidsTest.class-8AC943CB1B8151EC0AD1FFA943D3CF6C89DAB0E4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "beb0bd586792c3edd6a9dc6366977057c6a094583527150f538615458a6cf95e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8ac943cb1b8151ec0ad1ffa943d3cf6c89dab0e4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/.settings/org.eclipse.core.resources.prefs",
+      "SPDXID": "SPDXRef-File--hashids-java-master-.settings-org.eclipse.core.resources.prefs-0D78A989C585AAC6E6244DEDCEF06DF92D4EA31B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f17d1ebad1247faf05cf16a36c3d981b55b90ba0f363071df19eb5f7c99fe8ed"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0d78a989c585aac6e6244dedcef06df92d4ea31b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/bin/.settings/org.eclipse.core.resources.prefs",
+      "SPDXID": "SPDXRef-File--hashids-java-master-bin-.settings-org.eclipse.core.resources.prefs-F55DB755B6F0FC57BBF923919FBE41367430DF63",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1a5b17d8a429f89e30d0d5fc6e12e81d37ea8f6f3f4a206383f4af8564292ac0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f55db755b6f0fc57bbf923919fbe41367430df63"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/target/classes/META-INF/maven/org.hashids/hashids/pom.xml",
+      "SPDXID": "SPDXRef-File--hashids-java-master-target-classes-META-INF-maven-org.hashids-hashids-pom.xml-3E94846B47387B1507DE8E29DD4C781E52F54635",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "06a50b189bcbbb63faac8bbc52a0cf5c898d6366331385132aa2294645b0869a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3e94846b47387b1507de8e29dd4c781e52f54635"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/bin/.project",
+      "SPDXID": "SPDXRef-File--hashids-java-master-bin-.project-FADF7F4F7F20AB18E82B55697401EE2C4344223E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e1861999e968cd898ed2a133710f1ebd5b58fb8dc8b7bc9896e1493f2c7f4046"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fadf7f4f7f20ab18e82b55697401ee2c4344223e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/bin/pom.xml",
+      "SPDXID": "SPDXRef-File--hashids-java-master-bin-pom.xml-01BB8D18BB083F421A73F85D50FACF706D044C0F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d0acfacea657ba314503dcbdbd2f4fdd1ebe9d5e53d5732ac8c9be4041f17335"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "01bb8d18bb083f421a73f85d50facf706d044c0f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/target/bom.json",
+      "SPDXID": "SPDXRef-File--hashids-java-master-target-bom.json-0F6DC189A6D4D3BA8BD586BBE98E2BE0B8EC4EBD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0c3400e944cfa4423e817298911ffa7219b0c8ef8eac3f3a58fdf88d4ace5828"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0f6dc189a6d4d3ba8bd586bbe98e2be0b8ec4ebd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/bin/src/main/java/org/hashids/Hashids.class",
+      "SPDXID": "SPDXRef-File--hashids-java-master-bin-src-main-java-org-hashids-Hashids.class-0A5E40BDD2BACAFBE8369B6EBC6614B59BBD115D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8fe71d78ed57c9066d2a6a918b94bb46bedb878e1c0b25e69bcacfeadace8296"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0a5e40bdd2bacafbe8369b6ebc6614b59bbd115d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/README.md",
+      "SPDXID": "SPDXRef-File--hashids-java-master-README.md-B1DD60E67FF002B5E02371EAA1CA2295328ED524",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5e7680b4a43d9a4134343e8f4636d1ff1dc29188f547dc31879a68c4cf08839e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b1dd60e67ff002b5e02371eaa1ca2295328ed524"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/bin/README.md",
+      "SPDXID": "SPDXRef-File--hashids-java-master-bin-README.md-B1DD60E67FF002B5E02371EAA1CA2295328ED524",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5e7680b4a43d9a4134343e8f4636d1ff1dc29188f547dc31879a68c4cf08839e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b1dd60e67ff002b5e02371eaa1ca2295328ed524"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/target/bom.xml",
+      "SPDXID": "SPDXRef-File--hashids-java-master-target-bom.xml-72283FF78EC2EF3C85ACCBB7CCB2FA5A5AE532FA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d5aa7e70916286858adcb2697ab1aab11206c35438399f45ee54dec842bc5a7e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "72283ff78ec2ef3c85accbb7ccb2fa5a5ae532fa"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/src/main/java/org/hashids/Hashids.java",
+      "SPDXID": "SPDXRef-File--hashids-java-master-src-main-java-org-hashids-Hashids.java-73C5CFC503B437F6348A9CB274B299A6607E0E5D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c0369769c982a80d24d5d52d895522a34eeff9c0a1f5afe31642a83610ca44eb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "73c5cfc503b437f6348a9cb274b299a6607e0e5d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/src/test/java/org/hashids/HashidsTest.java",
+      "SPDXID": "SPDXRef-File--hashids-java-master-src-test-java-org-hashids-HashidsTest.java-2C93B8632CC7B6C5FF70274BD09B17A37BF039B4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c06af9cdc9cb8765d9635113bda0a7ac651cb2bfec8469a987ed8b90f3e0a89a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2c93b8632cc7b6c5ff70274bd09b17a37bf039b4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./hashids-java-master/target/classes/META-INF/maven/org.hashids/hashids/pom.properties",
+      "SPDXID": "SPDXRef-File--hashids-java-master-target-classes-META-INF-maven-org.hashids-hashids-pom.properties-FE2E9E8F07EAB7779351BBD6867C35014BC37730",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1465cf328d6781a5b55ccbe86a6146b01de58ea31a91ccf73549b5cf95066afd"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fe2e9e8f07eab7779351bbd6867c35014bc37730"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "org.hashids.hashids",
+      "SPDXID": "SPDXRef-Package-A0B41CCAA083FF99187F4B95BF05179263CFD1595E8C6B77FA594AAFE83DD4C6",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.0.3-SNAPSHOT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hashids/hashids@1.0.3-SNAPSHOT"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "junit.junit",
+      "SPDXID": "SPDXRef-Package-3778ECFC4F2ABF4952973BB0806E77BA0704BA969D8CCA12AE597E4A42AC5CF8",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.13.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.13.1"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.hamcrest.hamcrest-core",
+      "SPDXID": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "yomorun",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "51f0b95b7daa2d17fbcb481946dc4ba22c8a3bd8"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "8484cd1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/hashids-java/spdx.org/yomorun@8484cd1?tag_id=08b51b5d-de32-4dd7-8f8b-1b7d68c20c7f"
+        }
+      ],
+      "supplier": "Organization: hashids-java",
+      "hasFiles": [
+        "SPDXRef-File--hashids-java-master-target-classes-META-INF-maven-org.hashids-hashids-pom.properties-FE2E9E8F07EAB7779351BBD6867C35014BC37730",
+        "SPDXRef-File--hashids-java-master-src-main-java-org-hashids-Hashids.java-73C5CFC503B437F6348A9CB274B299A6607E0E5D",
+        "SPDXRef-File--hashids-java-master-target-bom.xml-72283FF78EC2EF3C85ACCBB7CCB2FA5A5AE532FA",
+        "SPDXRef-File--hashids-java-master-bin-README.md-B1DD60E67FF002B5E02371EAA1CA2295328ED524",
+        "SPDXRef-File--hashids-java-master-README.md-B1DD60E67FF002B5E02371EAA1CA2295328ED524",
+        "SPDXRef-File--hashids-java-master-target-bom.json-0F6DC189A6D4D3BA8BD586BBE98E2BE0B8EC4EBD",
+        "SPDXRef-File--hashids-java-master-bin-pom.xml-01BB8D18BB083F421A73F85D50FACF706D044C0F",
+        "SPDXRef-File--hashids-java-master-bin-.project-FADF7F4F7F20AB18E82B55697401EE2C4344223E",
+        "SPDXRef-File--hashids-java-master-bin-src-test-java-org-hashids-HashidsTest.class-8AC943CB1B8151EC0AD1FFA943D3CF6C89DAB0E4",
+        "SPDXRef-File--hashids-java-master-bin-.gitignore-1A62B162B0B98EB16E42B83BA21BDE259E04A4D3",
+        "SPDXRef-File--hashids-java-master-bin-.circleci-config.yml-F6EC671357CA5EC971CEF10A301B2F1E0ECD9B66",
+        "SPDXRef-File--hashids-java-master-.circleci-config.yml-F6EC671357CA5EC971CEF10A301B2F1E0ECD9B66",
+        "SPDXRef-File--hashids-java-master-pom.xml-3E94846B47387B1507DE8E29DD4C781E52F54635",
+        "SPDXRef-File--hashids-java-master-src-test-java-org-hashids-HashidsTest.java-2C93B8632CC7B6C5FF70274BD09B17A37BF039B4",
+        "SPDXRef-File--hashids-java-master-bin-LICENSE-8F583F5B0205BF9C4FD60DAF4E40EBB5A6417423",
+        "SPDXRef-File--hashids-java-master-LICENSE-8F583F5B0205BF9C4FD60DAF4E40EBB5A6417423",
+        "SPDXRef-File--hashids-java-master-.gitignore-1A62B162B0B98EB16E42B83BA21BDE259E04A4D3",
+        "SPDXRef-File--hashids-java-master-bin-src-main-java-org-hashids-Hashids.class-0A5E40BDD2BACAFBE8369B6EBC6614B59BBD115D",
+        "SPDXRef-File--hashids-java-master-target-classes-META-INF-maven-org.hashids-hashids-pom.xml-3E94846B47387B1507DE8E29DD4C781E52F54635",
+        "SPDXRef-File--hashids-java-master-bin-.settings-org.eclipse.core.resources.prefs-F55DB755B6F0FC57BBF923919FBE41367430DF63",
+        "SPDXRef-File--hashids-java-master-.settings-org.eclipse.core.resources.prefs-0D78A989C585AAC6E6244DEDCEF06DF92D4EA31B",
+        "SPDXRef-File--hashids-java-master-.settings-org.eclipse.jdt.core.prefs-197C186D62BEA33927CB4F9EBAAE01DE148B23C1",
+        "SPDXRef-File--hashids-java-master-.classpath-A2A6C87FC86A70D7E061A70D7162B5D258FD30ED",
+        "SPDXRef-File--hashids-java-master-.project-FADF7F4F7F20AB18E82B55697401EE2C4344223E"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "spdxElementId": "SPDXRef-Package-A0B41CCAA083FF99187F4B95BF05179263CFD1595E8C6B77FA594AAFE83DD4C6"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "spdxElementId": "SPDXRef-Package-3778ECFC4F2ABF4952973BB0806E77BA0704BA969D8CCA12AE597E4A42AC5CF8"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-A0B41CCAA083FF99187F4B95BF05179263CFD1595E8C6B77FA594AAFE83DD4C6",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-3778ECFC4F2ABF4952973BB0806E77BA0704BA969D8CCA12AE597E4A42AC5CF8",
+      "spdxElementId": "SPDXRef-Package-A0B41CCAA083FF99187F4B95BF05179263CFD1595E8C6B77FA594AAFE83DD4C6"
+    },
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "yomorun 8484cd1",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-4.1.5-835aefe5-7946-4e72-9a3d-5152a4b67fce/yomorun/8484cd1/8msyuLRuO0-u07neHgbZUw",
+  "creationInfo": {
+    "created": "2026-03-31T17:42:03Z",
+    "creators": [
+      "Organization: hashids-java",
+      "Tool: Microsoft.SBOMTool-4.1.5"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}

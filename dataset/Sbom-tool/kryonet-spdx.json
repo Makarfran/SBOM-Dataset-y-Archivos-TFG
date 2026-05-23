@@ -1,0 +1,1511 @@
+{
+  "files": [
+    {
+      "fileName": "./kryonet-master/pom.xml",
+      "SPDXID": "SPDXRef-File--kryonet-master-pom.xml-D62C9577AAEF2F4267D47DB9E0EA3954EC4A2E44",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1711763f850cd0944494f7f33778760fdf3d2f603ccd9613e235a93c51c2c2e5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d62c9577aaef2f4267d47db9e0ea3954ec4a2e44"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/.classpath",
+      "SPDXID": "SPDXRef-File--kryonet-master-.classpath-0D1E4E51AD23ECC9B8E78D981FD86C78F250AF29",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ece8a79a3c77b6348c4bda38ead20bd9effab83516b0b10fb5d3388059dec9d2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0d1e4e51ad23ecc9b8e78d981fd86c78f250af29"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/.gitignore",
+      "SPDXID": "SPDXRef-File--kryonet-master-.gitignore-C40CB42EE7A93E382EE6F219E3973960C1DD7BCE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dfa4daf243604c69d7053645df9c22fa17e5a5046b4bd5a1b5c515b4e779b49e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c40cb42ee7a93e382ee6f219e3973960c1dd7bce"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/.project",
+      "SPDXID": "SPDXRef-File--kryonet-master-.project-9099FB52456370FC7DB8D092879514398E914E8D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "57edf263e629c76010845888a9dc92f82ff2fe43e4c7e851fca0f2336de34e3c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9099fb52456370fc7db8d092879514398e914e8d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/project.yaml",
+      "SPDXID": "SPDXRef-File--kryonet-master-project.yaml-5F1DC96A98B9B7E437308BF819553E405D4A457B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3e57bb038270a642c6cf1ba9dbfd10badf44505a0fd085f2f534b3e585532a6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5f1dc96a98b9b7e437308bf819553e405d4a457b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/.settings/.project",
+      "SPDXID": "SPDXRef-File--kryonet-master-.settings-.project-33E5860004AC4AF0A6C89CFE873E30B95EC6EFAC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "60c5f06bbcb0670e40bf1b3921ed067a8be55e5fb82de09edb1cf51e0b538220"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "33e5860004ac4af0a6c89cfe873e30b95ec6efac"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/CONTRIBUTING.md",
+      "SPDXID": "SPDXRef-File--kryonet-master-CONTRIBUTING.md-5552CB03F1A2DA97883A0A2D3567CFA233BE8759",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a60be858077adf8a4bec592b20d5208dc521e16db37447d500115cb96d238c8b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5552cb03f1a2da97883a0a2d3567cfa233be8759"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/license.txt",
+      "SPDXID": "SPDXRef-File--kryonet-master-license.txt-F39ED95C157715006CBE58F0C31830D0EA9AAB88",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c2890cd1da9c2c11aa976534c6a2d99d4a3da821ad293a7e93f831273db67b04"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f39ed95c157715006cbe58f0c31830d0ea9aab88"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/examples/com/esotericsoftware/kryonet/examples/chat/ChatClient.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-chat-ChatClient.java-D5ECC6D40F75DCF1BE0A0332CA0404EC6E53FC31",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "86438f928403d8e27400ee9cb0c459abe342236748c093572d107c3b402de8d8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d5ecc6d40f75dcf1be0a0332ca0404ec6e53fc31"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/examples/com/esotericsoftware/kryonet/examples/position/Character.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-position-Character.java-51811040A9F8E7252D54F5088539096F0203B0DF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bd0ef75ca0678f610e0505f8c11c7a87ecc03f1158bdf2048bb4bf1a5d4fba21"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "51811040a9f8e7252d54f5088539096f0203b0df"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/Connection.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-Connection.java-9EE82A4E6F840550CB7E27D1CFF7E877F6ACBA11",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ca0feccd31ecbcdd18be272cb604e2333ee65b3727d4f1cc2ddc96ca4000fab8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9ee82a4e6f840550cb7e27d1cff7e877f6acba11"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/Server.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-Server.java-3DBA22AA1928B8416EB9610459F9198E2811E247",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "36f30f3031f0e0198e979128ebcdc1e715cf6c3871a5c19e6250d4e1caf8561f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3dba22aa1928b8416eb9610459f9198e2811e247"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/util/ObjectIntMap.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-util-ObjectIntMap.java-38562F6DD3F07628506118DC6CCB0093F3A66D24",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b84e46c6c3b11af82bf13baa77c982766cbb7ea2e573c42aa4d0d089cae3f263"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "38562f6dd3f07628506118dc6ccb0093f3a66d24"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/test/com/esotericsoftware/kryonet/KryoNetBufferUnderflowTest.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-KryoNetBufferUnderflowTest.java-DE5A0046C15C0EF9F15907EBB13C599C7705D569",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d2eb0e1b993c388c135514377a7e41cc6ce933dc1ab07236bb352d02d374fe2a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "de5a0046c15c0ef9f15907ebb13c599c7705d569"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/test/com/esotericsoftware/kryonet/UnregisteredClassTest.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-UnregisteredClassTest.java-3A2FDD97E884DBA728FED79DB908B8C6E9994D05",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d20940b1fc6816e69b30a90b093093bc3a5b6030cc36285d46cfc00cfceec85c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3a2fdd97e884dba728fed79db908b8c6e9994d05"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/.settings/org.eclipse.jdt.core.prefs",
+      "SPDXID": "SPDXRef-File--kryonet-master-.settings-org.eclipse.jdt.core.prefs-B3FDA535513FB0942BE3F788572E2FB8E7827EB9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f84d49d130ed564a384160f1327367f8c2e5f3ec300b494b606acb171448e8d7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b3fda535513fb0942be3f788572e2fb8e7827eb9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/examples/com/esotericsoftware/kryonet/examples/chatrmi/IChatFrame.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-chatrmi-IChatFrame.java-21FD78A0ABA0100CE281CAC8B86BFFA85EBC38D5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4ab548a63e3c94437e70e0a77bf53889d3b2657dbd6dcb4c4c9ae5f2963da37e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "21fd78a0aba0100ce281cac8b86bffa85ebc38d5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/lib/kryo-2.23.1-SNAPSHOT-all-debug.jar",
+      "SPDXID": "SPDXRef-File--kryonet-master-lib-kryo-2.23.1-SNAPSHOT-all-debug.jar-9AE91FE688F57B4705035D0733D55DBF1F0D63F2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ceec6d53e8266d2473239da7284cb491bf0632b731cbcc50c753031aa267b497"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9ae91fe688f57b4705035d0733d55dbf1f0d63f2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/KryoSerialization.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-KryoSerialization.java-D4675BAB2A9B759EC06FD0CF7140315647434D0F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c3cff1999315331a0bd1dab89e11d8df9a0eff1619e67b31e1e0bb9accd4143c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d4675bab2a9b759ec06fd0cf7140315647434d0f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/rmi/RemoteObject.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-rmi-RemoteObject.java-CA44688E7816A9FCA67401A7E805C92B2F3FC4DA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3605c53cdb36e86acb8a73d5fdd2a74971e3d75b26cc0bd569565cead2797075"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ca44688e7816a9fca67401a7e805c92b2f3fc4da"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/test/com/esotericsoftware/kryonet/DiscoverHostTest.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-DiscoverHostTest.java-BC0F3BDDC68C026A97149203564E13C4F71539E4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "49c16c7097814e18011b4f74e33f9c2c31e2054c2a49a5707c5bd375f8704ac2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bc0f3bddc68c026a97149203564e13c4f71539e4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/test/com/esotericsoftware/kryonet/PingTest.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-PingTest.java-466E26BD12676800D4885D5503B6EA2B35B481E4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "774e23f1b478c9caa44a88c38f2072f026be23a75fd0970d4371e91557ef6993"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "466e26bd12676800d4885d5503b6ea2b35b481e4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/README.md",
+      "SPDXID": "SPDXRef-File--kryonet-master-README.md-34AF1C5A81F8276A77339ACECF9DCA847053CD3B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4872929db1b6b945976b71e2792883b95ba3d5b92f9bb5fe27d79bc4d1dad1e4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "34af1c5a81f8276a77339acecf9dca847053cd3b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/examples/com/esotericsoftware/kryonet/examples/chatrmi/ChatRmiClient.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-chatrmi-ChatRmiClient.java-196E2F119BA8D8D77922B0C0BA3E0BBA109C2D8C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dc2b5ad4197792bb1c46ffeedf7c664e823ae7671576b33e65902e6ed941224b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "196e2f119ba8d8d77922b0c0ba3e0bba109c2d8c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/examples/com/esotericsoftware/kryonet/examples/position/PositionServer.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-position-PositionServer.java-344F5B87538D74C2507B33DDF5021B64D88BF6DD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2ce92f37a49fe02be9b4f587c71ee07aa8104462f4636d97b6b91d00ea32ff5a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "344f5b87538d74c2507b33ddf5021b64d88bf6dd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/JsonSerialization.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-JsonSerialization.java-FA29E4F1F30F1CCC2DBCD0446BB01C9CA2F69182",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4c6fca2906c5f17701899e30cac07e4cca400270b7493a3e61c43bbf86597060"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fa29e4f1f30f1ccc2dbcd0446bb01c9ca2f69182"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/UdpConnection.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-UdpConnection.java-41457CAF9A3043D6B0151E345047B74BBE83110D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "14c2cc22298a5b80add1f5b8433b69562805e9bb163c5f9f29274d64f59b31f6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "41457caf9a3043d6b0151e345047b74bbe83110d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/target/bom.xml",
+      "SPDXID": "SPDXRef-File--kryonet-master-target-bom.xml-BE94053B5F81CCCCC9033D9091D6FF5BB9530698",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3a7ba2ef858e0b2bbacfc8aeef843cfdad0e3fd7d6f6871f7bb05a2b92a6fed1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "be94053b5f81ccccc9033d9091d6ff5bb9530698"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/test/com/esotericsoftware/kryonet/MultipleThreadTest.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-MultipleThreadTest.java-BD81F12BB95FC487597201833427BDC7957A8468",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "665ff2edc6e99302ed8879e7dd8a881193f8b2a1169fd3c79a45b00d1ca3e9c7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bd81f12bb95fc487597201833427bdc7957a8468"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/test/com/esotericsoftware/kryonet/rmi/RmiTest.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-rmi-RmiTest.java-B061033B3766C87320327E836E033A6F2A028F83",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1a7e2484af9e665a87693e70f54d8f5abdba6f0d916ea85a6e658a0fb1a281d0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b061033b3766c87320327e836e033a6f2a028f83"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/build/junit-4.6.jar",
+      "SPDXID": "SPDXRef-File--kryonet-master-build-junit-4.6.jar-C64327F6D969DF6E63F31695283E3A755F528029",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0a3a4e58b83b44818040901f263aa746738c534c5b773c145b00b7378121d61a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c64327f6d969df6e63f31695283e3a755f528029"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/examples/com/esotericsoftware/kryonet/examples/chatrmi/IPlayer.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-chatrmi-IPlayer.java-4020A3B49462D4613F4DEBFCC8A10B0DACDBCD4C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1d45d4e4c70e131fba4783b2ceca92cbea382e690c887eb3a4dc9bbbf0b9c2a5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4020a3b49462d4613f4debfcc8a10b0dacdbcd4c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/Client.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-Client.java-4B859C6F641F462160A72F4E456B35E69D066B62",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "669ab2d0b6346d048ef0503bef8d1e34c2796d41061723ff438328497cded6cc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4b859c6f641f462160a72f4e456b35e69d066b62"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/Listener.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-Listener.java-D6D55F5D07502EAA509F7FDFA6397CFC5528BBF5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "329407d27d0df7b7b1ff2d54589db1e5e4d0f0e4c1d515371907f560907b9e4b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d6d55f5d07502eaa509f7fdfa6397cfc5528bbf5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/rmi/TimeoutException.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-rmi-TimeoutException.java-853BCD0B9DAE01FBA01E0A344EC729BE908EA8B8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d1b3597f0d2695ffd9364d4ecdb1e5d799522a091a3ae63c33761e6e0edcb95f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "853bcd0b9dae01fba01e0a344ec729be908ea8b8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/test/com/esotericsoftware/kryonet/InputStreamSenderTest.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-InputStreamSenderTest.java-EB5F4A358AFBB60693E19DD281986845BF304612",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ddda02e9bd17bd932285b729f3312ea77de1274ee43de59fe38109cb97658716"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "eb5f4a358afbb60693e19dd281986845bf304612"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/test/com/esotericsoftware/kryonet/ReconnectTest.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-ReconnectTest.java-15F7705741DDBB08FD9118034E729814A92AA916",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6012bdd4a6368ce4883df6325438ad08be3fee70902557f29a62e00cb9bc7512"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "15f7705741ddbb08fd9118034e729814a92aa916"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/examples/com/esotericsoftware/kryonet/examples/chat/Network.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-chat-Network.java-F15C6C8BD00BC18DA0783D38088B2E6DD76F36E9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "284cb6f12e5ab88af540d62d97161efffe3c53f9083fd73f14261f97fe08075d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f15c6c8bd00bc18da0783d38088b2e6dd76f36e9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/examples/com/esotericsoftware/kryonet/examples/chatrmi/ChatRmiServer.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-chatrmi-ChatRmiServer.java-D26451FEAE7FF6BE618D899D03041F51A2D65781",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e73e08f7532c18c5bf59d72a2de3e604ff188682de92776d4e38644bdacae3b3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d26451feae7ff6be618d899d03041f51a2d65781"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/examples/com/esotericsoftware/kryonet/examples/chat/ChatServer.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-chat-ChatServer.java-82DB12B7BED88C856B661FC94623EACF8C5183DE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2159bc5b64d08c138dd5b4019173852b5139accac424fb1fea873206938590f6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "82db12b7bed88c856b661fc94623eacf8c5183de"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/build/minlog-none-1.2.jar",
+      "SPDXID": "SPDXRef-File--kryonet-master-build-minlog-none-1.2.jar-D5D5C3279428F68781342A7893610025E75D861A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "64617dd3fe4208389ef40ca031ec9223957644ed1e133367c989d3e6fa0d47cb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d5d5c3279428f68781342a7893610025e75d861a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/examples/com/esotericsoftware/kryonet/examples/position/Network.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-position-Network.java-E8CC21DEC433CCEB0EF8129FDDC9E68C46E272A7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "17ce33c908b0a52d5be928badb6f8bef11b8986ddd2c6cf72c537e9778b7755b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e8cc21dec433cceb0ef8129fddc9e68c46e272a7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/examples/com/esotericsoftware/kryonet/examples/chatrmi/Network.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-chatrmi-Network.java-B7D63F94B8F8FA14C8657A1CC5B1E0047A44071D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "26ff2044eedc03c6cc1a6648b15a3c31f6358a5d155dadb03b66c0e18a263bfb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b7d63f94b8f8fa14c8657a1cc5b1e0047a44071d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/ClientDiscoveryHandler.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-ClientDiscoveryHandler.java-15486088344608ABFC8559F071981AC278EB1A18",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2616dfbec79d226292622ff44ff06b47126c6243ae8718acdcd6df6765f83fcd"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "15486088344608abfc8559f071981ac278eb1a18"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/Serialization.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-Serialization.java-BFA7C6C1D466EA6295F33919B8BE1205CC7499E1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "40bfa0cac4c2f988b363f67a9b2661506387223042ce955fb21cf194b32c58b8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bfa7c6c1d466ea6295f33919b8be1205cc7499e1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/util/InputStreamSender.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-util-InputStreamSender.java-29DF306E3D02A4ABACB5AB89D5461E869599C7CD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fc86317d41a6ff66689c28f310f1c3618b39faa4c8e343e7c10510b4a4ae41c2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "29df306e3d02a4abacb5ab89d5461e869599c7cd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/test/com/esotericsoftware/kryonet/JsonTest.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-JsonTest.java-9D1CF37B8EEA639D1AA8732415CB7350A9DE4920",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4adb3970764fed7a5dd1ecedf43e017c43d843b25c37fbc6b9f9eb739d4bf62d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9d1cf37b8eea639d1aa8732415cb7350a9de4920"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/EndPoint.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-EndPoint.java-4D3CDA48838CD3F8DB42206A88F197D05FDC4B64",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d52286a8c788b2d00e9c1b428c472669ef32b85acf8833186e1388d59e67bb63"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4d3cda48838cd3f8db42206a88f197d05fdc4b64"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/ServerDiscoveryHandler.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-ServerDiscoveryHandler.java-E1CF107F8B287AD64DFDF818E78755D6FE88FCFE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5d80382822e40e227c8e6ba193296d885882e5ff0b234c6eedf8d6b2cdfeeada"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e1cf107f8b287ad64dfdf818e78755d6fe88fcfe"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/util/TcpIdleSender.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-util-TcpIdleSender.java-F278C17F79F909DB914DEBE90C499E80B2D7E343",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8d3edb0637d0839495cc3f1bc40da6b6fd1e38e2e84ea4c12300a27fc61d2447"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f278c17f79f909db914debe90c499e80b2d7e343"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/test/com/esotericsoftware/kryonet/KryoNetTestCase.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-KryoNetTestCase.java-086D867F7565AA5756980EFCF122353AEC3EE453",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c72ff86b5686185e731a586ab996b0c0203c6ba6e2c502e92881f7eab6520f2c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "086d867f7565aa5756980efcf122353aec3ee453"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/test/com/esotericsoftware/kryonet/compress/DeflateTest.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-compress-DeflateTest.java-B99F66FCF175B1D62179275BCBCFBD432877C2CD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "49d9a846d8b2ae238f7c365c9828ac09515967a6ce7b39e926c8cab11d01ec4d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b99f66fcf175b1d62179275bcbcfbd432877c2cd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/examples/com/esotericsoftware/kryonet/examples/position/PositionClient.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-position-PositionClient.java-CE1F35B016585348F5096D4560CCA6738F4346E4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f7c13f07d4366c28136c0f9731ad94dd470ce4a8f542ed06df31f1e91dc2340d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ce1f35b016585348f5096d4560cca6738f4346e4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/FrameworkMessage.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-FrameworkMessage.java-8537D265B05A7CEFE4923F83FE4DC8972C5B86DB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "df533de7257772731c7037cbf2addce59ca1bf6cf1c3db65e5d329ba07dc0e40"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8537d265b05a7cefe4923f83fe4dc8972c5b86db"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/TcpConnection.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-TcpConnection.java-790EB2A48959A29533E772D9FE58E4411A5477DC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "506b1686cade050700a400192c2816b0df0dcf4b43714f589bb879981e96361f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "790eb2a48959a29533e772d9fe58e4411a5477dc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/target/bom.json",
+      "SPDXID": "SPDXRef-File--kryonet-master-target-bom.json-578681F22C627D7D6BEB95D79C0619E032055EBE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a5fde9258c53063be89483861e50991bd1e18739cc4dc6208a8eb4c15006d927"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "578681f22c627d7d6beb95d79c0619e032055ebe"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/test/com/esotericsoftware/kryonet/ReuseTest.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-ReuseTest.java-1126C9C818F2CB1DE43A24E9D863A05D9D118D9B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5872351360a2d28ff075d1e8862a79f4c538807e4e943bd607790a149ddd6bb1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1126c9c818f2cb1de43a24e9d863a05d9d118d9b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/test/com/esotericsoftware/kryonet/MultipleServerTest.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-MultipleServerTest.java-AD55484C9D0E5BBCB5ADF632EB2790A288128537",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7159e1c28ebe6e2a683f97325cbd8de181fe6ef3d7a68684f8cce2909724c74c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ad55484c9d0e5bbcb5adf632eb2790a288128537"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/test/com/esotericsoftware/kryonet/rmi/RmiSendObjectTest.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-rmi-RmiSendObjectTest.java-68713C22BB495370F012C07AF620D3F9B4DEF5FE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1f6021c809954d10818fcbb360f9868c45a18abb22153866ba47094428603c67"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "68713c22bb495370f012c07af620d3f9b4def5fe"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/lib/jsonbeans-0.5.jar",
+      "SPDXID": "SPDXRef-File--kryonet-master-lib-jsonbeans-0.5.jar-F0D28A63F2D3F54AFFE4C1948BD7DEF7C878102B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bb868d1aad49a6dbf49b4f361d7d97f71e66ea15a1857f5cec43f4ce7b500549"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f0d28a63f2d3f54affe4c1948bd7def7c878102b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/KryoNetException.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-KryoNetException.java-06DE7A75F81238C7137E1538A4220E1AD71D2812",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c085a4372729d9951c4c29dc36e7de37903d2995b8a24e84ef628a3acb1a915d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "06de7a75f81238c7137e1538a4220e1ad71d2812"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/src/com/esotericsoftware/kryonet/rmi/ObjectSpace.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-rmi-ObjectSpace.java-8A55248A89FCB01CB152EE4CDC5B9CDAAEE50D07",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9750c04800beb48a089acc5350864135e88b2ebe082e3d3f92617a6b9f1a6a09"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8a55248a89fcb01cb152ee4cdc5b9cdaaee50d07"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/test/com/esotericsoftware/kryonet/BufferTest.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-BufferTest.java-550A1F3F91AF30EBFB10E1A328055C4CFD55678C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "558f328217344be3fa1cf2b2121e3375b89a1e59bf486498f375bad5b6801f45"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "550a1f3f91af30ebfb10e1a328055c4cfd55678c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./kryonet-master/test/com/esotericsoftware/kryonet/PingPongTest.java",
+      "SPDXID": "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-PingPongTest.java-DDCFD6EB92F2FD86BEFCB0C48A29431F483AEF70",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e7dedb26dfadf48fadf3b6929c559b0a1236340c81fd4ec010ad91b68e2f5d0b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ddcfd6eb92f2fd86befcb0c48a29431f483aef70"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "org.hamcrest.hamcrest-core",
+      "SPDXID": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "com.esotericsoftware.jsonbeans",
+      "SPDXID": "SPDXRef-Package-DEDDF745F5938E9EAF5D2B8EA036F32DD99B9727E045C8BE68DC560FD1D3D53B",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "0.7",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.esotericsoftware/jsonbeans@0.7"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "com.esotericsoftware.kryonet",
+      "SPDXID": "SPDXRef-Package-7BDCB8F0571591D18D331FE171430846C6915CA76CC2ED9F68B1FF31FF771AA8",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "2.22.0-RC1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.esotericsoftware/kryonet@2.22.0-RC1"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "junit.junit",
+      "SPDXID": "SPDXRef-Package-FB8BF57D8EC8B164BC4B1571C7324A64809A5AB3A82040492710FEC977855FF7",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.11",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.11"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "com.esotericsoftware.minlog.minlog",
+      "SPDXID": "SPDXRef-Package-17E232488CEFB6EB7B6931939EA0B843B38B6DAC945983111E59FF8C28F90324",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.esotericsoftware.minlog/minlog@1.2"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "com.esotericsoftware.kryo.kryo",
+      "SPDXID": "SPDXRef-Package-4DC083E3DA9D8A54383EE49D1832FA5C0856C1572DD9A25CF8900D76FBA770DF",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "2.24.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.objenesis.objenesis",
+      "SPDXID": "SPDXRef-Package-2756AEA74DB53374A0A71777D9F70A52410934E8CEFCF43159CAF389BB2D95B8",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "2.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.objenesis/objenesis@2.1"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "kryonet",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "7c4b59e2b8bd1cfad996af6091295fc387755abd"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "8484cd1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/EsotericSoftware/spdx.org/kryonet@8484cd1?tag_id=916e513c-8a0d-44f5-9766-2fc84b1aa8ef"
+        }
+      ],
+      "supplier": "Organization: EsotericSoftware",
+      "hasFiles": [
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-rmi-ObjectSpace.java-8A55248A89FCB01CB152EE4CDC5B9CDAAEE50D07",
+        "SPDXRef-File--kryonet-master-lib-jsonbeans-0.5.jar-F0D28A63F2D3F54AFFE4C1948BD7DEF7C878102B",
+        "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-rmi-RmiSendObjectTest.java-68713C22BB495370F012C07AF620D3F9B4DEF5FE",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-KryoNetException.java-06DE7A75F81238C7137E1538A4220E1AD71D2812",
+        "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-ReuseTest.java-1126C9C818F2CB1DE43A24E9D863A05D9D118D9B",
+        "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-PingPongTest.java-DDCFD6EB92F2FD86BEFCB0C48A29431F483AEF70",
+        "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-BufferTest.java-550A1F3F91AF30EBFB10E1A328055C4CFD55678C",
+        "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-MultipleServerTest.java-AD55484C9D0E5BBCB5ADF632EB2790A288128537",
+        "SPDXRef-File--kryonet-master-target-bom.json-578681F22C627D7D6BEB95D79C0619E032055EBE",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-TcpConnection.java-790EB2A48959A29533E772D9FE58E4411A5477DC",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-FrameworkMessage.java-8537D265B05A7CEFE4923F83FE4DC8972C5B86DB",
+        "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-position-PositionClient.java-CE1F35B016585348F5096D4560CCA6738F4346E4",
+        "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-compress-DeflateTest.java-B99F66FCF175B1D62179275BCBCFBD432877C2CD",
+        "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-KryoNetTestCase.java-086D867F7565AA5756980EFCF122353AEC3EE453",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-util-TcpIdleSender.java-F278C17F79F909DB914DEBE90C499E80B2D7E343",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-ServerDiscoveryHandler.java-E1CF107F8B287AD64DFDF818E78755D6FE88FCFE",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-EndPoint.java-4D3CDA48838CD3F8DB42206A88F197D05FDC4B64",
+        "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-JsonTest.java-9D1CF37B8EEA639D1AA8732415CB7350A9DE4920",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-util-InputStreamSender.java-29DF306E3D02A4ABACB5AB89D5461E869599C7CD",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-Serialization.java-BFA7C6C1D466EA6295F33919B8BE1205CC7499E1",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-ClientDiscoveryHandler.java-15486088344608ABFC8559F071981AC278EB1A18",
+        "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-chatrmi-Network.java-B7D63F94B8F8FA14C8657A1CC5B1E0047A44071D",
+        "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-position-Network.java-E8CC21DEC433CCEB0EF8129FDDC9E68C46E272A7",
+        "SPDXRef-File--kryonet-master-build-minlog-none-1.2.jar-D5D5C3279428F68781342A7893610025E75D861A",
+        "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-chat-ChatServer.java-82DB12B7BED88C856B661FC94623EACF8C5183DE",
+        "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-chatrmi-ChatRmiServer.java-D26451FEAE7FF6BE618D899D03041F51A2D65781",
+        "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-chat-Network.java-F15C6C8BD00BC18DA0783D38088B2E6DD76F36E9",
+        "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-ReconnectTest.java-15F7705741DDBB08FD9118034E729814A92AA916",
+        "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-InputStreamSenderTest.java-EB5F4A358AFBB60693E19DD281986845BF304612",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-rmi-TimeoutException.java-853BCD0B9DAE01FBA01E0A344EC729BE908EA8B8",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-Listener.java-D6D55F5D07502EAA509F7FDFA6397CFC5528BBF5",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-Client.java-4B859C6F641F462160A72F4E456B35E69D066B62",
+        "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-chatrmi-IPlayer.java-4020A3B49462D4613F4DEBFCC8A10B0DACDBCD4C",
+        "SPDXRef-File--kryonet-master-build-junit-4.6.jar-C64327F6D969DF6E63F31695283E3A755F528029",
+        "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-rmi-RmiTest.java-B061033B3766C87320327E836E033A6F2A028F83",
+        "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-MultipleThreadTest.java-BD81F12BB95FC487597201833427BDC7957A8468",
+        "SPDXRef-File--kryonet-master-target-bom.xml-BE94053B5F81CCCCC9033D9091D6FF5BB9530698",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-UdpConnection.java-41457CAF9A3043D6B0151E345047B74BBE83110D",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-JsonSerialization.java-FA29E4F1F30F1CCC2DBCD0446BB01C9CA2F69182",
+        "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-position-PositionServer.java-344F5B87538D74C2507B33DDF5021B64D88BF6DD",
+        "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-chatrmi-ChatRmiClient.java-196E2F119BA8D8D77922B0C0BA3E0BBA109C2D8C",
+        "SPDXRef-File--kryonet-master-README.md-34AF1C5A81F8276A77339ACECF9DCA847053CD3B",
+        "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-PingTest.java-466E26BD12676800D4885D5503B6EA2B35B481E4",
+        "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-DiscoverHostTest.java-BC0F3BDDC68C026A97149203564E13C4F71539E4",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-rmi-RemoteObject.java-CA44688E7816A9FCA67401A7E805C92B2F3FC4DA",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-KryoSerialization.java-D4675BAB2A9B759EC06FD0CF7140315647434D0F",
+        "SPDXRef-File--kryonet-master-lib-kryo-2.23.1-SNAPSHOT-all-debug.jar-9AE91FE688F57B4705035D0733D55DBF1F0D63F2",
+        "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-chatrmi-IChatFrame.java-21FD78A0ABA0100CE281CAC8B86BFFA85EBC38D5",
+        "SPDXRef-File--kryonet-master-.settings-org.eclipse.jdt.core.prefs-B3FDA535513FB0942BE3F788572E2FB8E7827EB9",
+        "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-UnregisteredClassTest.java-3A2FDD97E884DBA728FED79DB908B8C6E9994D05",
+        "SPDXRef-File--kryonet-master-test-com-esotericsoftware-kryonet-KryoNetBufferUnderflowTest.java-DE5A0046C15C0EF9F15907EBB13C599C7705D569",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-util-ObjectIntMap.java-38562F6DD3F07628506118DC6CCB0093F3A66D24",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-Server.java-3DBA22AA1928B8416EB9610459F9198E2811E247",
+        "SPDXRef-File--kryonet-master-src-com-esotericsoftware-kryonet-Connection.java-9EE82A4E6F840550CB7E27D1CFF7E877F6ACBA11",
+        "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-position-Character.java-51811040A9F8E7252D54F5088539096F0203B0DF",
+        "SPDXRef-File--kryonet-master-examples-com-esotericsoftware-kryonet-examples-chat-ChatClient.java-D5ECC6D40F75DCF1BE0A0332CA0404EC6E53FC31",
+        "SPDXRef-File--kryonet-master-license.txt-F39ED95C157715006CBE58F0C31830D0EA9AAB88",
+        "SPDXRef-File--kryonet-master-CONTRIBUTING.md-5552CB03F1A2DA97883A0A2D3567CFA233BE8759",
+        "SPDXRef-File--kryonet-master-.settings-.project-33E5860004AC4AF0A6C89CFE873E30B95EC6EFAC",
+        "SPDXRef-File--kryonet-master-project.yaml-5F1DC96A98B9B7E437308BF819553E405D4A457B",
+        "SPDXRef-File--kryonet-master-.project-9099FB52456370FC7DB8D092879514398E914E8D",
+        "SPDXRef-File--kryonet-master-.gitignore-C40CB42EE7A93E382EE6F219E3973960C1DD7BCE",
+        "SPDXRef-File--kryonet-master-.classpath-0D1E4E51AD23ECC9B8E78D981FD86C78F250AF29",
+        "SPDXRef-File--kryonet-master-pom.xml-D62C9577AAEF2F4267D47DB9E0EA3954EC4A2E44"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-2756AEA74DB53374A0A71777D9F70A52410934E8CEFCF43159CAF389BB2D95B8",
+      "spdxElementId": "SPDXRef-Package-7BDCB8F0571591D18D331FE171430846C6915CA76CC2ED9F68B1FF31FF771AA8"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-2756AEA74DB53374A0A71777D9F70A52410934E8CEFCF43159CAF389BB2D95B8",
+      "spdxElementId": "SPDXRef-Package-4DC083E3DA9D8A54383EE49D1832FA5C0856C1572DD9A25CF8900D76FBA770DF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-17E232488CEFB6EB7B6931939EA0B843B38B6DAC945983111E59FF8C28F90324",
+      "spdxElementId": "SPDXRef-Package-7BDCB8F0571591D18D331FE171430846C6915CA76CC2ED9F68B1FF31FF771AA8"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-17E232488CEFB6EB7B6931939EA0B843B38B6DAC945983111E59FF8C28F90324",
+      "spdxElementId": "SPDXRef-Package-4DC083E3DA9D8A54383EE49D1832FA5C0856C1572DD9A25CF8900D76FBA770DF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-4DC083E3DA9D8A54383EE49D1832FA5C0856C1572DD9A25CF8900D76FBA770DF",
+      "spdxElementId": "SPDXRef-Package-7BDCB8F0571591D18D331FE171430846C6915CA76CC2ED9F68B1FF31FF771AA8"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-FB8BF57D8EC8B164BC4B1571C7324A64809A5AB3A82040492710FEC977855FF7",
+      "spdxElementId": "SPDXRef-Package-7BDCB8F0571591D18D331FE171430846C6915CA76CC2ED9F68B1FF31FF771AA8"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "spdxElementId": "SPDXRef-Package-7BDCB8F0571591D18D331FE171430846C6915CA76CC2ED9F68B1FF31FF771AA8"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "spdxElementId": "SPDXRef-Package-FB8BF57D8EC8B164BC4B1571C7324A64809A5AB3A82040492710FEC977855FF7"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-7BDCB8F0571591D18D331FE171430846C6915CA76CC2ED9F68B1FF31FF771AA8",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-DEDDF745F5938E9EAF5D2B8EA036F32DD99B9727E045C8BE68DC560FD1D3D53B",
+      "spdxElementId": "SPDXRef-Package-7BDCB8F0571591D18D331FE171430846C6915CA76CC2ED9F68B1FF31FF771AA8"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "kryonet 8484cd1",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-4.1.5-660ec604-7c68-40a2-821f-b40e351761b4/kryonet/8484cd1/s15mksrtvEuI_5cpaEzxXw",
+  "creationInfo": {
+    "created": "2026-03-31T17:57:37Z",
+    "creators": [
+      "Organization: EsotericSoftware",
+      "Tool: Microsoft.SBOMTool-4.1.5"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}

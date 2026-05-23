@@ -1,0 +1,3704 @@
+{
+  "files": [
+    {
+      "fileName": "./proxyee-master/.classpath",
+      "SPDXID": "SPDXRef-File--proxyee-master-.classpath-1D692427810163E6407FAC2F3A66A8952C160262",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eb25f76479ed2adc9b67dc32a4ea098b35becfc4a7a8d6d80460df03a771232b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1d692427810163e6407fac2f3a66a8952c160262"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/.gitignore",
+      "SPDXID": "SPDXRef-File--proxyee-master-.gitignore-A7EE61335ADEB63D9F8A1B0A686F22857668CCC6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cca1a9c5aa53ba01a32accbaf46ad861d1fd38476f0cc5b3be5de83c9720446d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a7ee61335adeb63d9f8a1b0a686f22857668ccc6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/pom.xml",
+      "SPDXID": "SPDXRef-File--proxyee-master-pom.xml-BA3089399D4BDBCA367C6924330D609D0DDC5F3B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d7777bd8d5533b0a0e66912cfc43619855f0bd7c370be18267b16763fc25e88b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ba3089399d4bdbca367c6924330d609d0ddc5f3b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/LICENSE",
+      "SPDXID": "SPDXRef-File--proxyee-master-LICENSE-98CDDB90E0D1C7D86DD5EFAD8DAEE6A3A3F0DA62",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "663e63c9473b6c6b33de14c65a8139c83e2de77dfcf710f9616c1220001907e9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "98cddb90e0d1c7d86dd5efad8daee6a3a3f0da62"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/idea.svg",
+      "SPDXID": "SPDXRef-File--proxyee-master-idea.svg-A9B89229A01A1F8E8A556F55B57400F6C631FC8F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bb95f8e2193c7d428dd5c5e24851919e7739b66c0a3afdc8feb19f72d71121b9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a9b89229a01a1f8e8a556f55b57400f6c631fc8f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/.github/FUNDING.yml",
+      "SPDXID": "SPDXRef-File--proxyee-master-.github-FUNDING.yml-7996ABDB29DD3F7E46285D5EA803532671587036",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "11f5082d83df143bccdfa6bc36c38125a2430ff23228b03f08a448c3f6f06bc2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7996abdb29dd3f7e46285d5ea803532671587036"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/.project",
+      "SPDXID": "SPDXRef-File--proxyee-master-.project-FE8E4B0B78E6C91E6287F50D00828D0E983F7C6F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "30963c35016b7f044482d365bfe99fe37f1e44f09fc895801cce22950e5ea13f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fe8e4b0b78e6c91e6287f50d00828d0e983f7c6f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/.donate/qr/wechatpay.jpg",
+      "SPDXID": "SPDXRef-File--proxyee-master-.donate-qr-wechatpay.jpg-82C7C11F62772FAE9A73F6E3A84B81B81F68935A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9ad8bb95ba6ae61d61795dd540c2dafe77d03dbfb824068d08e8e446c05a1288"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "82c7c11f62772fae9a73f6e3a84b81b81f68935a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/.vscode/settings.json",
+      "SPDXID": "SPDXRef-File--proxyee-master-.vscode-settings.json-11CFAD71F83C6299FACDD0EAB4FAD2FAAE2C72CD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8c032b0d1c8bd3034fd1687eba7c8dbd510620eb77fc44075eb5cb707f7ae67b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "11cfad71f83c6299facdd0eab4fad2faae2c72cd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/README_zh-CN.md",
+      "SPDXID": "SPDXRef-File--proxyee-master-README-zh-CN.md-5617E8CEEA8DDAAD891650F734769F8B6ED50DB2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d5fd7e1671b97caaf60a64ae9dff00ce32d97bdef29248a9a1063f39417b8275"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5617e8ceea8ddaad891650f734769f8b6ed50db2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/.github/workflows/translator.yml",
+      "SPDXID": "SPDXRef-File--proxyee-master-.github-workflows-translator.yml-EF41EA17CC3875DFB68CA77939C1377F4F24A8E3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "457e06a3a77de3ff928c1beb4001d3eccd9fd1adccb534d1dc8dd72ed8cd177c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ef41ea17cc3875dfb68ca77939c1377f4f24a8e3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/README.md",
+      "SPDXID": "SPDXRef-File--proxyee-master-README.md-01AE0B6D728056819C4E07DD20B9F5A29D21A802",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "93303d47626d728302e061c3ce564dc0ea42bcff118cc989defe83f55d8f5473"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "01ae0b6d728056819c4e07dd20b9f5a29d21a802"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/.github/workflows/release.yml",
+      "SPDXID": "SPDXRef-File--proxyee-master-.github-workflows-release.yml-D33719FFEE1492BB7749ACC0AB3AED5156C2431E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8a22fe958cd04bd63a6e5c33f5153de425606f9b6373db87c53184e4f07caee9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d33719ffee1492bb7749acc0ab3aed5156c2431e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/.donate/index.md",
+      "SPDXID": "SPDXRef-File--proxyee-master-.donate-index.md-4BD0515D2A4EBA28E578A80BDA53DAFE7F768511",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e4af245804717f1039d15666b2f2c7f5761d0e799ab849bf0c1819ec42d7e49f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4bd0515d2a4eba28e578a80bda53dafe7f768511"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/.settings/org.eclipse.core.resources.prefs",
+      "SPDXID": "SPDXRef-File--proxyee-master-.settings-org.eclipse.core.resources.prefs-4AE2CA0746375FA0578C2FF7F9F3EB930416C72F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "756a791a85070714c169a138f17efc5b2cf6460b21b5a3286ff36ddead2c250c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4ae2ca0746375fa0578c2ff7f9f3eb930416c72f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/.github/release-drafter.yml",
+      "SPDXID": "SPDXRef-File--proxyee-master-.github-release-drafter.yml-7C415565BF5E1E644F98CA10843497376ADFFE9B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "44420d243d97e22ff4667bc284c3b807680117d91620f1186c05277f0d16848c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7c415565bf5e1e644f98ca10843497376adffe9b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/config/IdleStateCheck.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-config-IdleStateCheck.java-4626DA6B91ABC742961DB06BAAE9B9E7F2C379FB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9fb7bcab99fd8c8d583b349745f21e1601d7dc7e27962a5f29930314ffbb0de9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4626da6b91abc742961db06baae9b9e7f2c379fb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/handler/HttpProxyClientHandler.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-handler-HttpProxyClientHandler.java-EFFDBECF4575090A1E8CCDEBE8554EC64CF665CC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9a988ead8aaa5b70cbe29269778515db394b6a09d0a0f1f15bd2d042f43b7e71"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "effdbecf4575090a1e8ccdebe8554ec64cf665cc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/intercept/common/CertDownIntercept.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-intercept-common-CertDownIntercept.java-BBDCB472B5894349E7A1871A10BCDE7C9FEFB644",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "93fe554a8400abf00ff9af36f18788bf419b7a03c00d184d189d318b25f68b06"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bbdcb472b5894349e7a1871a10bcde7c9fefb644"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/server/HttpProxyServerConfig.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-HttpProxyServerConfig.java-CCB4B8A892E1CC5A57C8553E8212105D3CEDADEB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "369217849f92793ad6cd0d1eea809b78e6048efd03ccbf19bac8d439f3e8872d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ccb4b8a892e1cc5a57c8553e8212105d3cedadeb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/server/auth/model/HttpToken.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-auth-model-HttpToken.java-C5D4EF704580CCE278191E258E690B0DA87C289B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "960e522a594c13e838970dd7cdd2da2e448e92eabb61c7a5d78266b372dc2dc1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c5d4ef704580cce278191e258e690b0da87c289b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/test/java/com/github/monkeywie/proxyee/AcceptHttpProxyServer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-AcceptHttpProxyServer.java-5140C9EF0993C828F46440296EC70EF50E7F08C9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4c15452c61d29f3ec672980ed8d7bdadb428e7cd813b16afbe3c30f79d898a11"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5140c9ef0993c828f46440296ec70ef50e7f08c9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/test/java/com/github/monkeywie/proxyee/InterceptHttpProxyServer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-InterceptHttpProxyServer.java-D42610CA61C5F9FE68BF318D2BFDD7BAC85B4F01",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c52e0d292475e189ed44f0380ae9dbe163b5840427d6e60ee96553d56210a39d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d42610ca61c5f9fe68bf318d2bfdd7bac85b4f01"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/ca_private.der",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-ca-private.der-3BBAF8B243C92B2989FB88208AB5D5F04B480B44",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "548ee3c407d5ecddabc9665ff058855de55de524255cc0e7de13ec3616db2a67"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3bbaf8b243c92b2989fb88208ab5d5f04b480b44"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/crt/spi/CertGeneratorInfo.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-crt-spi-CertGeneratorInfo.class-468B44ACFC4A07F0BBA0D261F811C562B925E895",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fa07a9ec9ee2a384d7b42fae759ba259650987c8d4f38fbb3a93a5c49a4a4364"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "468b44acfc4a07f0bba0d261f811c562b925e895"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/intercept/HttpProxyIntercept.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-intercept-HttpProxyIntercept.class-357EC73C17512B44AB5EC701E1B9FCE7213B2442",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7e1d08a252a50e47e3b92f9f0bc453c12486c564fc4a05ab808f966f4330e471"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "357ec73c17512b44ab5ec701e1b9fce7213b2442"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/proxy/ProxyHandleFactory.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-proxy-ProxyHandleFactory.class-A54D55E7F1957FF8D8CAFE270B89C31DBAA5ADDD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "47e1d78081e5cdfb1aa560501ffaa9b8ab9d58f509d755954b51e60ac4c7ae88"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a54d55e7f1957ff8d8cafe270b89c31dbaa5addd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/server/accept/DomainHttpProxyMitmMatcher.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-accept-DomainHttpProxyMitmMatcher.class-6A3218B487017255B56EA2D6273B75C95A12AFA7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d1e641f6a298318666dde3081b0d084aa95929cd9c65d877dad85585e66deec3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6a3218b487017255b56ea2d6273b75c95a12afa7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/server/context/HttpContext.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-context-HttpContext.class-686FBA99BBCC3C99EC8E0A5AE3FD49F05567EFC7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fe1da817ce22cf5bcf34662637a9de1430454a820c41ad35942864358dd49953"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "686fba99bbcc3c99ec8e0a5ae3fd49f05567efc7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/META-INF/services/com.github.monkeywie.proxyee.crt.spi.CertGenerator",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-META-INF-services-com.github.monkeywie.proxyee.crt.spi.CertGenerator-5BFCBC59D3FD38E68D04166AD01484DC3E125585",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b2a11a5d585056bb5375a113aad6401588782918410dc4f4ccfd728809230082"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5bfcbc59d3fd38e68d04166ad01484dc3e125585"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/AuthHttpProxyServer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-AuthHttpProxyServer.class-CA463E39AE7BE38C3948460D692CA5F6505AE08F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a10090dcf08831705c6e371d52a5cc181e9784b72a6bcd0f19c7811f2fd0a318"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ca463e39ae7be38c3948460d692ca5f6505ae08f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptFullHttpProxyServer$1$3.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullHttpProxyServer-1-3.class-7B9886A10A51D465260D94D7C996B2E3139D8105",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a4bfc5f22695460699810704696adec3f591a717d00a7c2b8b0d7eea96ccbda4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7b9886a10a51d465260d94d7c996b2e3139d8105"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptFullResponseProxyServer$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullResponseProxyServer-1.class-1726A3837C52BB79DF61753060E779FE3A786A4C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6e19415c9c47f8eaf8384047fa5c3db7f6afa4638d2bd806821efd67eed455e6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1726a3837c52bb79df61753060e779fe3a786a4c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptRedirectHttpProxyServer$2.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptRedirectHttpProxyServer-2.class-680893AD8C9E9406596417FD8D33F10014D474AA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "16a093285578eb71070a0237a02961f357464a33c93e49d117d882fc01f39d3b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "680893ad8c9e9406596417fd8d33f10014d474aa"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/NormalHttpProxyServer$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-NormalHttpProxyServer-1.class-1A138F0B3CC47E7020674D5FDCD73F99889B0F61",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7e85795a62082b3eaccf93c1fa692ad7ee807046ce0ad2d2ba51676623720a9b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1a138f0b3cc47e7020674d5fdcd73f99889b0f61"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/.donate/qr/alipay.jpg",
+      "SPDXID": "SPDXRef-File--proxyee-master-.donate-qr-alipay.jpg-EFA039C790B4AF2673B0EB9BDCB18AA4439FBB36",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a0c84a3c046ab544aa878f553c040f60c46ca7788cc0a515ec023498a5df0ef0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "efa039c790b4af2673b0eb9bdcb18aa4439fbb36"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/.settings/org.eclipse.jdt.core.prefs",
+      "SPDXID": "SPDXRef-File--proxyee-master-.settings-org.eclipse.jdt.core.prefs-1FEE5951158E3AE4E75B60242F994ED49791A2DA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "70f6f310c85ad09bf0ac18af451043ed1a011a5b9af65ccafd862f64cad26d9c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1fee5951158e3ae4e75b60242f994ed49791a2da"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/crt/spi/CertGenerator.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-crt-spi-CertGenerator.java-1EF9F60C7D4BCC4FEC750D0423044F9C6B1EC467",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fad9f8d07de3e432dc53e0e3244894a519d3f2313262812cc6c4e85b96b8803f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1ef9f60c7d4bcc4fec750d0423044f9c6b1ec467"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/intercept/HttpProxyInterceptInitializer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-intercept-HttpProxyInterceptInitializer.java-0DB43BE8FFE505FD7E226B914E73FE048BF9DDAA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cec879cc4167f397d848f086379f5effcf8c8b2d15a788b7fb8f0ee241807d5a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0db43be8ffe505fd7e226b914e73fe048bf9ddaa"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/proxy/ProxyType.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-proxy-ProxyType.java-66B63397C78828158CD57982BA31132054590ACA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "11dfcd6346824679062502388ee92688206b249947048e177ff24c85a461dcfb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "66b63397c78828158cd57982ba31132054590aca"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/server/auth/HttpAuthContext.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-auth-HttpAuthContext.java-A79887C52C9BE69823230FEC96CD2FC994839137",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "12072c204a5b9ab8664e32b45ea6dd07af748a566bf2a526ff04040a97a898c4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a79887c52c9be69823230fec96cd2fc994839137"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/resources/ca.crt",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-resources-ca.crt-15158A8D233317157F945999EB5CCF5A453D9AB6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "486e2d95af31e4e98c0a8c1200bf8db472aea17e2236a5666150646ad7459c38"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "15158a8d233317157f945999eb5ccf5a453d9ab6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/test/java/com/github/monkeywie/proxyee/InterceptFullHttpProxyServer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-InterceptFullHttpProxyServer.java-8C8652DDB0020B87C01BC1674A8C61861064DCEC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4decfa06bde65376cc87da722cdcc8b04a4ee59f5af417b00cb96dfb21f9a523"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8c8652ddb0020b87c01bc1674a8c61861064dcec"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/bom.json",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-bom.json-297438F28E4E687AFB7D9AE6A29E01327D6BF12A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c7c98968750377d0fbab352fffc33cdffd5b407623ea4d1a26f155fe3e39dd02"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "297438f28e4e687afb7d9ae6a29e01327d6bf12a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/crt/CertUtilsLoader.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-crt-CertUtilsLoader.class-9F9ABF72B677CEC94357993B52DCFDED56C40452",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "77f8bb3a7d74a9610f434c9cb170d15a1fb2a63c543db60de7211b63f5808f68"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9f9abf72b677cec94357993b52dcfded56c40452"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/handler/HttpProxyServerHandler.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-handler-HttpProxyServerHandler.class-53094C85729A3F2CD42AA25BD14D2A8D05EF664E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5dbd10d292f43f08284bebb01274bcb99312916fc256f946cfc007547d2c89b8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "53094c85729a3f2cd42aa25bd14d2a8d05ef664e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/intercept/common/FullRequestIntercept.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-intercept-common-FullRequestIntercept.class-087E5706F8401584CF9595342AB9835854BE0D73",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ba3642aeaf6d2fe082de933d912b87bffefca1b46fbcc8083567e2d3e66b23d7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "087e5706f8401584cf9595342ab9835854be0d73"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/server/HttpProxyServerConfig$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-HttpProxyServerConfig-1.class-A64B058A227B490B1CAAB10D97F5ED79770A8394",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2698843372798cbb8513c4aede8d35a9dea0afb22ca99ce509f99675cae1cb2a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a64b058a227b490b1caab10d97f5ed79770a8394"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/server/auth/HttpProxyAuthenticationProvider.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-auth-HttpProxyAuthenticationProvider.class-21F109C76CD807CEA8ABD2B1A38AB1EBCA5B6B01",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a36a959d183b6a5ca6f2ad27736bdd5e4381f9144b272c2e2e7bd9884830fc7c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "21f109c76cd807cea8abd2b1a38ab1ebca5b6b01"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/META-INF/MANIFEST.MF",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-META-INF-MANIFEST.MF-AEE7392CE45AA838B710A88E5B90A78167BB5725",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "35c723247c4560ac0a8131f59d5f8c53a41aaaf8b7c24f63389ba3116ab8b95b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "aee7392ce45aa838b710a88e5b90a78167bb5725"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/AuthHttpProxyServer$2$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-AuthHttpProxyServer-2-1.class-C6B21DE1B8522C64C949D90CCF28710FDAF5713B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7f277c0f74624676d11584d90b03424645aaf75dedaef5a3385e2b6e14b5a370"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c6b21de1b8522c64c949d90ccf28710fdaf5713b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptForwardHttpProxyServer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptForwardHttpProxyServer.class-E1BB2E67C3920872615C0415C353CC527B306511",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "94f51ffae4ab32f94fc825693c95ce090cf0ded9be19e4e1d1605998861559d6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e1bb2e67c3920872615c0415c353cc527b306511"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptFullRequestProxyServer$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullRequestProxyServer-1.class-484EB6A7C3BE52D1E25D236D3FBF928F2EC9DB8D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a0d388fc56d37ef6ee1cfb4c10684e6b51940a6dff3cdc8a4f7581abbeae4ea6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "484eb6a7c3be52d1e25d236d3fbf928f2ec9db8d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptHttpProxyServer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptHttpProxyServer.class-E089C31FACED481B42BCA4046A9E5E22BC10DDCF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6bba5b40ea13e350a909e73b983ac7719ae34b9b2612c64e29aa76de6b7065ee"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e089c31faced481b42bca4046a9e5e22bc10ddcf"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/MimtMatchHttpProxyServer$1$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-MimtMatchHttpProxyServer-1-1.class-4F25148DAA090AC74A1E64892609FF6C490ABE23",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7d9cc841b8fa6f408c80db5ed50ef50712d8d0d8c5e28a687b653106a5a6e561"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4f25148daa090ac74a1e64892609ff6c490abe23"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/.github/workflows/deploy.yml",
+      "SPDXID": "SPDXRef-File--proxyee-master-.github-workflows-deploy.yml-FAD26FCDFA97D85166E13A05F5535D7D75B98675",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ed7cdbadb988c0238748734d1d57279c7ef5acc5aaa070bcdd797ff0a60fbb94"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fad26fcdfa97d85166e13a05f5535d7d75b98675"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/crt/CertPool.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-crt-CertPool.java-8E02C65ACA0097008F818B9D0FC9B2A6BBFFFA4B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c538f368a5fd760d556e12b43756a4c0ac521091fed4d544f44df727c8eaa6a7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8e02c65aca0097008f818b9d0fc9b2a6bbfffa4b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/handler/HttpProxyInitializer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-handler-HttpProxyInitializer.java-94DD7EC7DB9B79767AE6D82A79415439DE0121A4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dd67ff10306229e965d560a082fe9432e25cc3c2488a08cb247445b1c511672a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "94dd7ec7db9b79767ae6d82a79415439de0121a4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/intercept/common/FullRequestIntercept.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-intercept-common-FullRequestIntercept.java-210B2DD687F7FC924B161B45DFDC443BD6863BA3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b0db4dc0cdab9b25d4db2fac0af4c16cc5c033c165d09a693f1cab69684bd27c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "210b2dd687f7fc924b161b45dfdc443bd6863ba3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/server/accept/DomainHttpProxyMitmMatcher.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-accept-DomainHttpProxyMitmMatcher.java-9ABFB49A2ED07FCA660655C37AC11B63EC3842CA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f8a52825ec20a0dee1a0e421a566bb351702d89a6a9301f4f8558cb738e58b73"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9abfb49a2ed07fca660655c37ac11b63ec3842ca"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/server/context/HttpContext.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-context-HttpContext.java-0879EC34C62B5200F0AE7235C4CD91F82F776B35",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "23190101906aaa4a1ce8f6ac27c75ba210cde42f220f6926b0c2e402c7dcf9fd"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0879ec34c62b5200f0ae7235c4cd91f82f776b35"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/test/java/com/github/monkeywie/proxyee/AsyncStartHttpProxyServer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-AsyncStartHttpProxyServer.java-8BDF39C8151F98F0E6DE5191B12362F2A99339EB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ec3cc590557705d2de6f5ac554ba8fead4b05c953f32a3c1692341a1d3c407b9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8bdf39c8151f98f0e6de5191b12362f2a99339eb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/test/java/com/github/monkeywie/proxyee/InterceptRedirectHttpProxyServer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-InterceptRedirectHttpProxyServer.java-7A666E77463D9B1BCBF860D8188454AA9DD97753",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "62dddb5492fdc6786a6e4ccf50b6c5991b199100dc509a0b2407dc0002e84171"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7a666e77463d9b1bcbf860d8188454aa9dd97753"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/HttpProxyServerApp.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-HttpProxyServerApp.class-2AA444183A4CBA0972479363F0DC7471C4DDE530",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0b366d1d0d89dc77628daea4aa6d69058d37ca7cfc69b6fa94aca90c5a8db4d1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2aa444183a4cba0972479363f0dc7471c4dde530"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/exception/HttpProxyExceptionHandle.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-exception-HttpProxyExceptionHandle.class-90641149A627D236168B2E82236BFB60A737ED56",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8303714fb1218ea5ad1e6916859eb118485659938c62637c462f460d3fe8b10a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "90641149a627d236168b2e82236bfb60a737ed56"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/intercept/HttpProxyInterceptInitializer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-intercept-HttpProxyInterceptInitializer.class-7E2171F6F435D1964A41DAD3CBA390BDF347D754",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "02c4299c781436744d8bf1ae45bab5a4fa55d93dae14dfd1ee48ec74805f940b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7e2171f6f435d1964a41dad3cba390bdf347d754"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/proxy/ProxyType.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-proxy-ProxyType.class-FB5898CA9A6604BDB6C20E761A89C6B592C46C5F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "252388bb3e646ba96b00b900f9fdab4efc9174e682485687a2bb7aaf17083270"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fb5898ca9a6604bdb6c20e761a89c6b592c46c5f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/server/accept/HttpProxyAcceptHandler.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-accept-HttpProxyAcceptHandler.class-B7FA45EAA0F888C527F1305BA61E08D6D2B66CF3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cb21746e94abe5b35de11456e2ba1154655a020fc0940d04328a7765e0181b65"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b7fa45eaa0f888c527f1305ba61e08d6d2b66cf3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/util/ByteUtil.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-util-ByteUtil.class-BDCF47DBA7FBC9B8AD61FF0587BDAFA9C9F488F6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "22c92381b97233a4a7a73c5927f8ca320400c2250a77d42f258d3515611c065c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bdcf47dba7fbc9b8ad61ff0587bdafa9c9f488f6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/AcceptHttpProxyServer$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-AcceptHttpProxyServer-1.class-7A4A20091198F8A0889C5682803FC8BADFF3DFA6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "31620e85ba0ac4b5d6ab41abdae4febcc3a4dc5d0d85adb4e08bb59dff68685c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7a4a20091198f8a0889c5682803fc8badff3dfa6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/HandelSslHttpProxyServer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-HandelSslHttpProxyServer.class-DFEB6E8C4BBA6C3CE8C0B1E0B3A6516D8A67982E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7c7118eb1efea9ee59d450fabefc912e3ffba51237bce1ec5b358b7d96f6b7e6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dfeb6e8c4bba6c3ce8c0b1e0b3a6516d8a67982e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptFullHttpProxyServer$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullHttpProxyServer-1.class-794FEB00C9A94F7BCA2C3D12B4D0D0FECC0264E3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0f764ca00652c0617ef8b52f17aa863fbd5e6555f9cf31f5f3af38188543920f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "794feb00c9a94f7bca2c3d12b4d0d0fecc0264e3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptFullResponseProxyServer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullResponseProxyServer.class-6929CF481BC23EBB2DB4C1FF2C878552E5C32ABA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "946a1695e81ec22ce50bad67245bd2e7e18bbe63046aeb4db9b745c03512bebe"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6929cf481bc23ebb2db4c1ff2c878552e5c32aba"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptRedirectHttpProxyServer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptRedirectHttpProxyServer.class-8640C18615F805249B3CBC2045F825CB1D531DF5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9616293a83abebb29312daab967ae42da6b9d809f5243976d9e712f693b29a60"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8640c18615f805249b3cbc2045f825cb1d531df5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/NormalHttpProxyServer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-NormalHttpProxyServer.class-A9F0743A2FC55039D429B0EDA8716D213B3F3C6E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "12b8ac35e836540b7d010e8c113ab31e0d2617d6275588c86301ff0002d43e78"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a9f0743a2fc55039d429b0eda8716d213b3f3c6e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/HttpProxyServerApp.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-HttpProxyServerApp.java-9264B5EB841C986A46E6E5328FAEF3CBEFC011EF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "91d3e9648d072c8565a05be74f83e865fbd1b10a333fb45eaf0d2c43897ac2bc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9264b5eb841c986a46e6e5328faef3cbefc011ef"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/exception/HttpProxyExceptionHandle.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-exception-HttpProxyExceptionHandle.java-04983274B2E9C59CEDF8EA514F5290CD49D2D76B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2256090b62d9b1bd303f5a2258d820789ebbf4547c7fc4d2a7e629af23bf6eb1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "04983274b2e9c59cedf8ea514f5290cd49d2d76b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/intercept/HttpTunnelIntercept.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-intercept-HttpTunnelIntercept.java-CF9B5997D4432C7BA27536A7EB04E117E1599F98",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eea0e6da34befdfd7467bd2cb97a8d4ffdd148696a7a1c806a43caa7c1f97b5f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cf9b5997d4432c7ba27536a7eb04e117e1599f98"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/server/HttpProxyServer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-HttpProxyServer.java-8D586E9FCCDAEAE4C9925B160124AC3B577F6710",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0a547b2c3dc8cf4c511560699454d994b41318d167b09c049e8bc38167eaa552"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8d586e9fccdaeae4c9925b160124ac3b577f6710"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/server/auth/model/BasicHttpToken.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-auth-model-BasicHttpToken.java-A9B04A651F06A8233EF6E33B92D992AA77655DE6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f364b0affb7818b8e73e780fa784150a82ed765dbbfe5fbf423324738e9974f7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a9b04a651f06a8233ef6e33b92d992aa77655de6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/resources/META-INF/services/com.github.monkeywie.proxyee.crt.spi.CertGenerator",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-resources-META-INF-services-com.github.monkeywie.proxyee.crt.spi.CertGenerator-5BFCBC59D3FD38E68D04166AD01484DC3E125585",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b2a11a5d585056bb5375a113aad6401588782918410dc4f4ccfd728809230082"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5bfcbc59d3fd38e68d04166ad01484dc3e125585"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/test/java/com/github/monkeywie/proxyee/InterceptFullResponseProxyServer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-InterceptFullResponseProxyServer.java-D9B730752581EF79B9B2EAFF533AA28F74852B00",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "527337ce616392133f7c5874c713fdecc2416b16aa02eec3f0222ef6720aa031"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d9b730752581ef79b9b2eaff533aa28f74852b00"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/ca.crt",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-ca.crt-15158A8D233317157F945999EB5CCF5A453D9AB6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "486e2d95af31e4e98c0a8c1200bf8db472aea17e2236a5666150646ad7459c38"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "15158a8d233317157f945999eb5ccf5a453d9ab6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/crt/spi/CertGenerator.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-crt-spi-CertGenerator.class-E6F2CF6E3FB81616080AFC8BAA8B60DBA8C65729",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3a58eb15bdb7449a34aecc053b5b441b3499e07935a5e7da3a631a6f8d2250af"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e6f2cf6e3fb81616080afc8baa8b60dba8c65729"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/handler/TunnelProxyInitializer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-handler-TunnelProxyInitializer.class-73911A71C2529E9FE404D070E29BF98D587DD830",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c3bc201be5aa7238081eb66089115672aeed64bf79be0ad849660d7840995c1a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "73911a71c2529e9fe404d070e29bf98d587dd830"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/proxy/ProxyConfig.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-proxy-ProxyConfig.class-33DD548B3A55BEED0CF72F33141200C308584A28",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "16c6ccebd7fccc5df31e5e00d80d9aa4dedb73faa49a1c4b6461bbe97240b309"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "33dd548b3a55beed0cf72f33141200c308584a28"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/server/HttpProxyServerConfig.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-HttpProxyServerConfig.class-110A1CED50474665987C5653E038A2181813D70A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aa59d76ff069558a09ba0e7f1e0fd4bf4cff4408bb49c1ab16c099ddade888ed"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "110a1ced50474665987c5653e038a2181813d70a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/server/auth/model/HttpToken.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-auth-model-HttpToken.class-FB34B94375F1818F30C9A903CA214D46EDFC7646",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8c0b06ad1b1cc825f9e595a0d98186e232f3fa90f2ab9b20a9903ffa743c96eb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fb34b94375f1818f30c9a903ca214d46edfc7646"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/META-INF/maven/com.github.monkeywie/proxyee/pom.xml",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-META-INF-maven-com.github.monkeywie-proxyee-pom.xml-BA3089399D4BDBCA367C6924330D609D0DDC5F3B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d7777bd8d5533b0a0e66912cfc43619855f0bd7c370be18267b16763fc25e88b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ba3089399d4bdbca367c6924330d609d0ddc5f3b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/AuthHttpProxyServer$2.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-AuthHttpProxyServer-2.class-5540244790E211F7A1B9E25C682CE07864A1F451",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "836630eedc2be88bf53e8d02658d6c53ef1ead2a8ffa9546ac5f5dd05332ce77"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5540244790e211f7a1b9e25c682ce07864a1f451"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptFullHttpProxyServer$1$2.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullHttpProxyServer-1-2.class-4717368AF050BDB46A85A1EBA701CCC70387B160",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6a76aa4cdba97ad63daa082ff89ae276f1035f4b619688908c7647e4ef6adac6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4717368af050bdb46a85a1eba701ccc70387b160"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptFullResponseProxyServer$1$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullResponseProxyServer-1-1.class-AFD86077DC0831A00E48350A3F978F64C3C39C5E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d6fb5a9f8d6c98b0d0ef267dfc6b0d8c909da08485fc5eeeb6ec964c1165e19e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "afd86077dc0831a00e48350a3f978f64c3c39c5e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptRedirectHttpProxyServer$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptRedirectHttpProxyServer-1.class-F4F44582187AFBB314052836AAF8BF5D32266FEF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7d6af2b2c3bea0450fe38b6bdfb9c890365aa6301fed3a10f85a5b68c2e80132"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f4f44582187afbb314052836aaf8bf5d32266fef"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/MimtMatchHttpProxyServer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-MimtMatchHttpProxyServer.class-6E9CD089C74D2FD37FDEA9E8495A4782744CF7CE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "99c43da8eac52d9d13b945d2635d2cec897f272d3bb5fd4e50b5a89cd677a6dd"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6e9cd089c74d2fd37fdea9e8495a4782744cf7ce"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/crt/CertUtil.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-crt-CertUtil.java-AE8183373B188CAEE2798B98F338DA3182C7A087",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "216751c98604a8c0663635adbfb1c55b3e3890f48a5b5d32c3a83cf2957c4e8a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ae8183373b188caee2798b98f338da3182c7a087"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/handler/HttpProxyServerHandler.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-handler-HttpProxyServerHandler.java-1D85C6B5E7E2CE0AE9BC401B086FE0234FDD1CDF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f093975ecddb7459f900784f80ba9854ed05125ffbec472e088ce4364af5f2a1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1d85c6b5e7e2ce0ae9bc401b086fe0234fdd1cdf"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/intercept/common/FullResponseIntercept.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-intercept-common-FullResponseIntercept.java-97800FFDFF8DBBE778935E8D2CB3FB7007095D42",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8eb7dbc25c4484ee50b2c377a1b17e9482ea98c7309c433c56b78358573fbe17"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "97800ffdff8dbbe778935e8d2cb3fb7007095d42"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/server/accept/HttpProxyAcceptHandler.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-accept-HttpProxyAcceptHandler.java-12638B17D6873FC4E476B5F0E691395F8DCC57C1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fae212a56d6810c3b8af5765201a4ff59c8d30c4a4a9cc8229ce9e97efd0f006"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "12638b17d6873fc4e476b5f0e691395f8dcc57c1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/util/ByteUtil.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-util-ByteUtil.java-0954AA95ED10B6378DDC0241E60049517CC97ED7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3ee7b189e873af60917112db0ce7e00dd15d53e31c6d676c35dd77fa2c96f389"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0954aa95ed10b6378ddc0241e60049517cc97ed7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/test/java/com/github/monkeywie/proxyee/AuthHttpProxyServer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-AuthHttpProxyServer.java-670E55D4C361A73DC4CCA7AF530CF77B2268C599",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1f3118c0f20e357613688f37ca2d5cf2ccca818f1d9aef43cb8b6282780452c5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "670e55d4c361a73dc4cca7af530cf77b2268c599"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/test/java/com/github/monkeywie/proxyee/LoopbackHttpProxyServer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-LoopbackHttpProxyServer.java-0CEA96C97CCD569A0E559A47A556000B44E5F41B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9127a3628df4048815a8fcbeac2cb6c16c7ee256a23f2ead7a5cc9c356dad912"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0cea96c97ccd569a0e559a47a556000b44e5f41b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/config/IdleStateCheck.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-config-IdleStateCheck.class-474397C6F1F3EB09F1530140BFD3F4665BFC23C5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c588b94c7593ea6e10e86763fd5d384757aea68706bdfe7e54023e17956cf21f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "474397c6f1f3eb09f1530140bfd3f4665bfc23c5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/handler/HttpProxyClientHandler.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-handler-HttpProxyClientHandler.class-1166974F690236FF83FE7D1B62DAD462C6E11064",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "426249e486d837b9864a3cc29b2f6c9b5117efb3c85bb6fdc2f430ab7fbfead2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1166974f690236ff83fe7d1b62dad462c6e11064"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/intercept/HttpProxyInterceptPipeline.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-intercept-HttpProxyInterceptPipeline.class-16816C2C1874F94A8867C88754663BD8565721E3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cdf557951d37395d695c701069bcb4b3bf8b9a9df448f04f17ca16dfef9391cc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "16816c2c1874f94a8867c88754663bd8565721e3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/server/HttpProxyCACertFactory.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-HttpProxyCACertFactory.class-7C7412A4980E2B331A6185CBEC6BBAFDBD458313",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0aa13cd62c4ec3f736f725e9369101b6f3f56457802fb4e5033b02af75548753"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7c7412a4980e2b331a6185cbec6bbafdbd458313"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/server/accept/HttpProxyMitmMatcher.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-accept-HttpProxyMitmMatcher.class-AD8C62712B76B5CB0D48A9A0D9209951C5B6A3D5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "34ecec3e09c6fa3bcc5067530df204a1e494f6cb4ac543fe68a68e1508da6902"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ad8c62712b76b5cb0d48a9a0d9209951c5b6a3d5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/util/HttpUtil.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-util-HttpUtil.class-26EF3ED640C5F31494FC5740B842A48654848045",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eb3a3ebcd40bb29a0d81378b16a3d66e5d7d3ec0c1945ca08d30ab0999f848fc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "26ef3ed640c5f31494fc5740b842a48654848045"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/AcceptHttpProxyServer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-AcceptHttpProxyServer.class-0D2E612A5B4550DE1BD0109AA1C64084433358EC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "da6cf4bb9cc3a73581b5986fc9726e3125312c791a9ed89d8a049bcf4a316290"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0d2e612a5b4550de1bd0109aa1c64084433358ec"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptForwardHttpProxyServer$1$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptForwardHttpProxyServer-1-1.class-3CB22516EB73065907E4530D1B159B320A9E0663",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1be05c93f8c5eb121e6b9e582a174827b94ac536667050737628f741dbd44427"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3cb22516eb73065907e4530d1b159b320a9e0663"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/crt/CertUtilsLoader.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-crt-CertUtilsLoader.java-61346F0884D83D8403C00AF9901B35AE41E7DD60",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6f15b4c3c231072e129857928b349aee594048f0ab631d9b67295071a4ed4d36"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "61346f0884d83d8403c00af9901b35ae41e7dd60"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/handler/TunnelProxyInitializer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-handler-TunnelProxyInitializer.java-CD65FC3CCE9A2F09F92B6A2EBF90EB6AB09977AF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "555a7783c218922c6b3a6a4a18e0fc6b52cf05c5ceffbe962e36ac16c84a73aa"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cd65fc3cce9a2f09f92b6a2ebf90eb6ab09977af"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/proxy/ProxyConfig.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-proxy-ProxyConfig.java-36EB50CB151CF050970CB8B42B3B4F5F430F97E9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a3135de6487a1f594021569074fdbaeca5e1ba96d87d1a365a85c1b2983065c8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "36eb50cb151cf050970cb8b42b3b4f5f430f97e9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/crt/service/bc/BouncyCastleCertGenerator.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-crt-service-bc-BouncyCastleCertGenerator.java-93549B5D753B8A43665E27425DD594B3B9892898",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "20b8edb4de5d615d5ffd4247e6c8270e80c875030e88d4500e90626edab2cb9e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "93549b5d753b8a43665e27425dd594b3b9892898"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/intercept/HttpProxyIntercept.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-intercept-HttpProxyIntercept.java-4B7256806625251EED0BEE4210C04C45E7B513D7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "388eb6f11ff6a49e71591455f367e8969942c409cfafdd61e2ab3a2f8a45898e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4b7256806625251eed0bee4210c04c45e7b513d7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/proxy/ProxyHandleFactory.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-proxy-ProxyHandleFactory.java-CDA90548233497D2E4BCFD43A1214CAA710999E7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "080136d6ac922ef7b2c5ca1dd9761cc7cd8b1db9aa368142b1da628b5d097032"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cda90548233497d2e4bcfd43a1214caa710999e7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/server/auth/BasicHttpProxyAuthenticationProvider.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-auth-BasicHttpProxyAuthenticationProvider.java-C4667FC01E73344B5F6312B908C86D8CCFC32B51",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "494d5ca38402f16f9b61fd127a6ba43ef79d84def601d8d0996db457356242c1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c4667fc01e73344b5f6312b908c86d8ccfc32b51"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/util/ProtoUtil.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-util-ProtoUtil.java-307766F9ACD41A6E310D81D47FFB1C073CBCF158",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "00a80fa478d06333e37ad96653e08b5d3fd9ec84f77f516b9b992da3bf59c7cc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "307766f9acd41a6e310d81d47ffb1c073cbcf158"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/crt/spi/CertGeneratorInfo.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-crt-spi-CertGeneratorInfo.java-D3B16D01742518E12FBED22D75E58105444C16EF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "31d48c3e15e519a5601ff6d51d37cac8b7dcf2debb23c5a0f92f24209695c914"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d3b16d01742518e12fbed22d75e58105444c16ef"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/intercept/HttpProxyInterceptPipeline.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-intercept-HttpProxyInterceptPipeline.java-E34E18DD53109E6671AF744431723C3359619B70",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "55b2c4eabfdd1625ae54a5b4308f1e25b53eb7aa6a29cf05645487556ff7a2fa"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e34e18dd53109e6671af744431723c3359619b70"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/server/HttpProxyCACertFactory.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-HttpProxyCACertFactory.java-AE11A5B0419AFBB5999F1DD89F1036612A6A1C2A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9ba4d8ec269349962a68cb0d1ddd864bceb705fe42fe5820afc2004cfbd9c951"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ae11a5b0419afbb5999f1dd89f1036612a6a1c2a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/server/accept/HttpProxyMitmMatcher.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-accept-HttpProxyMitmMatcher.java-B1589613E6C7941FB689A48CA4E6954EB6B108D4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4f40363a50ce18b2f08367919376e7a839673473d03cf925ae0303dbc4125d76"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b1589613e6c7941fb689a48ca4e6954eb6b108d4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptFullHttpProxyServer$2.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullHttpProxyServer-2.class-66FCB27CCFFC516AE30FD3D6C5551C7FDCBA2230",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ce7f724222bc80282e822e96396d41fcc339a0e9817af45d841e4593deabdae5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "66fcb27ccffc516ae30fd3d6c5551c7fdcba2230"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/server/auth/HttpProxyAuthenticationProvider.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-auth-HttpProxyAuthenticationProvider.java-CAAE088B4FA61B8CE75646D539B92B20E2CA1370",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3ef27dd6c3b18f798f4d86df91e8b8619038452f3a29beae3f9476f2c6067570"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "caae088b4fa61b8ce75646d539b92b20e2ca1370"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/test/java/com/github/monkeywie/proxyee/InterceptForwardHttpProxyServer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-InterceptForwardHttpProxyServer.java-11584C72D571A4E14C48133997E2904A03106277",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "43e4cbc480a207326d42096e51b6a198e322eae5b7054ed3396088586c05ad1a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "11584c72d571a4e14c48133997e2904a03106277"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/resources/ca_private.der",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-resources-ca-private.der-3BBAF8B243C92B2989FB88208AB5D5F04B480B44",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "548ee3c407d5ecddabc9665ff058855de55de524255cc0e7de13ec3616db2a67"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3bbaf8b243c92b2989fb88208ab5d5f04b480b44"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/main/java/com/github/monkeywie/proxyee/util/HttpUtil.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-util-HttpUtil.java-605BC115CB008862DD4ED7923E60836EEA12F86D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "234f780a65841859b8c4c99bdf2fb2422eb90fddfb4d3e98aecff4aff7b85364"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "605bc115cb008862dd4ed7923e60836eea12f86d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptHttpProxyServer$1$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptHttpProxyServer-1-1.class-13567917FA01DFF3946B5B7C0847AA67D386EE2F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "59adaa1c3d7d6d1c1345531cb2cec3b9ba842d307960b5b7ddb36df14553b94b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "13567917fa01dff3946b5b7c0847aa67d386ee2f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/test/java/com/github/monkeywie/proxyee/NormalHttpProxyServer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-NormalHttpProxyServer.java-D4CEAE588FF288B0DBED0D8B2E8525ACD650F4D3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "320daecf68dae0a938ba8a4fdc823c8bab9b0b9699eb794f9290f95317bf97f7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d4ceae588ff288b0dbed0d8b2e8525acd650f4d3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/test/java/com/github/monkeywie/proxyee/HandelSslHttpProxyServer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-HandelSslHttpProxyServer.java-BFB7050E7C0DCDDF4109EA23A8BCD13AAE468FF0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3f9aeb3d267f09372637c21fff37f97b89d4cd260eae6086c79a70fb951e7ee8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bfb7050e7c0dcddf4109ea23a8bcd13aae468ff0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/LoopbackHttpProxyServer$LoopbackAddressResolverGroup$LoopbackNameResolver.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-LoopbackHttpProxyServer-LoopbackAddressResolverGroup-LoopbackNameResolver.class-5D3A74A97017B022D661B0AB4088F15B7C813762",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9b09beac2d3e9ecc35350155486499c5495c596720a8fc1f907784c192f3d54f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5d3a74a97017b022d661b0ab4088f15b7c813762"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/crt/CertUtil.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-crt-CertUtil.class-A17D7B54D77F790C672DE68E351FB719D815385E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "45cf3bb60da01edb92cb612c369c8727f9c0bead40f54c1d1c6793e242edf649"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a17d7b54d77f790c672de68e351fb719d815385e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/test/java/com/github/monkeywie/proxyee/InterceptFullRequestProxyServer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-InterceptFullRequestProxyServer.java-98031C5E7507C13BB9D4FF73042CC8092EAF885C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0fe736fa45a17fdd8fa9edaf1fac2fed1d7212b956437330e65b8577ff43992b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "98031c5e7507c13bb9d4ff73042cc8092eaf885c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/src/test/java/com/github/monkeywie/proxyee/MimtMatchHttpProxyServer.java",
+      "SPDXID": "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-MimtMatchHttpProxyServer.java-173A6E99D52B516E9F08BAD1BA5F63934DFA5CE3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d79eccc0c2e1a657148b81d5f830f12a19cb4219f88b9ab8d6fd511b02af4ad5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "173a6e99d52b516e9f08bad1ba5f63934dfa5ce3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/bom.xml",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-bom.xml-367E0261A55C6454CBE44651FF219B5C30A1E823",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "240a835c1837f264b4a2fff41ed607f22a4ffa4d3f6b84da9b6b78c425838a7e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "367e0261a55c6454cbe44651ff219b5c30a1e823"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/handler/HttpProxyServerHandler$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-handler-HttpProxyServerHandler-1.class-AA9A14604167BFC39A9E31AD57E76EC7AEAF7CDC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4d3303d3dead4211b4b425ec2ef3075eadbd940e68e366e50ab74887df5a46fe"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "aa9a14604167bfc39a9e31ad57e76ec7aeaf7cdc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/crt/CertPool.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-crt-CertPool.class-67A2AEAE3EB3D502207392B0CDB785960BE769E2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "12efcbc90264a0d757a90f62ae82d03cf2f694d3be499c4737ce372773d16216"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "67a2aeae3eb3d502207392b0cdb785960be769e2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/crt/service/bc/BouncyCastleCertGenerator.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-crt-service-bc-BouncyCastleCertGenerator.class-8ECBCA88733223DDE6DE2592D948993FA2CEB294",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a0dea4223f31f8701a88cb9caccf86bd3d72fc0d142f2fbd954f637a84eb12da"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8ecbca88733223dde6de2592d948993fa2ceb294"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/handler/HttpProxyInitializer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-handler-HttpProxyInitializer.class-D4E87C4B08668849C2B884CDB2DD9E3B9F3F5E8A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c0486e0177327f75eca9c9d1e1820573f282ec77ff8a7a53e2778141ed6824bc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d4e87c4b08668849c2b884cdb2dd9e3b9f3f5e8a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/intercept/common/CertDownIntercept.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-intercept-common-CertDownIntercept.class-DE462D248ABD14A3BC552B878CE39C0F426B94A9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "92e9d8b724ed5a894bfd63b23962e93e3fdd24dc336cc9df9908d7184aa2c6bb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "de462d248abd14a3bc552b878ce39c0f426b94a9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/intercept/HttpTunnelIntercept.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-intercept-HttpTunnelIntercept.class-C983643D0A955084B9B6FDBE642580A34F42D8C2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8e9f3a926c458da82aa37d17a4fc577e9b7408917310eb676813b6e957ad6158"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c983643d0a955084b9b6fdbe642580a34f42d8c2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/handler/TunnelProxyInitializer$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-handler-TunnelProxyInitializer-1.class-F6051990745C2EE2ABA3BC4294315C7910101949",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "96f55d054343b61191b18e91a5d1dbee46edbfc07d5f6f76d877c00fb2ef8155"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f6051990745c2ee2aba3bc4294315c7910101949"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/server/HttpProxyServer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-HttpProxyServer.class-94CDA6A07FF79E56F0CA34314DD287891FE504C1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a93877cb800c650105e24e28b76318db6d459e6b6955fe3d57b505221a8cd949"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "94cda6a07ff79e56f0ca34314dd287891fe504c1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/server/HttpProxyServer$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-HttpProxyServer-1.class-A6EF16FDC9DA28E1B0FC3D1D41E85B695358D63B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "522d93ce55a50502d8746f6e6331b80b6b804b27db07039cc0009d1e97440ea1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a6ef16fdc9da28e1b0fc3d1d41e85b695358d63b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/server/auth/HttpAuthContext.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-auth-HttpAuthContext.class-542469FA0C0127AAFF93E61EAE8F950FA6FB6A67",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1a65f5bc0c7ff04ec98ce62684e7fe4cec6f3ce654dbbd2f3f06c605beabf186"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "542469fa0c0127aaff93e61eae8f950fa6fb6a67"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/intercept/common/FullResponseIntercept.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-intercept-common-FullResponseIntercept.class-0F772C64C9337FC695D0734CC13CCCC141A69C49",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "78789f3c3974725ddf161ce652049b1584217d780218c1039e32a5571ef61d16"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0f772c64c9337fc695d0734cc13cccc141a69c49"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/server/auth/BasicHttpProxyAuthenticationProvider.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-auth-BasicHttpProxyAuthenticationProvider.class-2A1557943E265AE7CD22B9C72F3250A791E3D7D6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "af7add411310de5de9aea4e517358cb7f81094ca77e54e509a5e04642267fd4a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2a1557943e265ae7cd22b9c72f3250a791e3d7d6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/util/ProtoUtil.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-util-ProtoUtil.class-4CB91D63F59450F769C0451A5131E0AEDBB59FFB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c9336fa82faff4d6396b465e20d2d35195dff71960cec7b8c609b2582d4eae10"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4cb91d63f59450f769c0451a5131e0aedbb59ffb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/util/ProtoUtil$RequestProto.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-util-ProtoUtil-RequestProto.class-D498A5FB36D1E9B3B8E48E88C44DE3339193F444",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "82929857011862b3b8d4998b15c6bbbf7e478e2dbc0c678426a65463983ecafa"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d498a5fb36d1e9b3b8e48e88c44de3339193f444"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/server/HttpProxyServerConfig$Builder.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-HttpProxyServerConfig-Builder.class-8B8868C3B1CEDFE844CA7D7BFBE2F38DF2AA4AF0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "315b7db65cdcdcb4dcc5733d2b945ff65a61fe5dff3cd7a1a023cb59a044e3c5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8b8868c3b1cedfe844ca7d7bfbe2f38df2aa4af0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/AuthHttpProxyServer$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-AuthHttpProxyServer-1.class-6FD3A3B858ED7CD55A45A66C39CFCABCE5FBC901",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f9b89877cefced73ef051b14ce08e0c12c98527254149b99878f3e416c0a4ae4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6fd3a3b858ed7cd55a45a66c39cfcabce5fbc901"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/AsyncStartHttpProxyServer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-AsyncStartHttpProxyServer.class-1D395DCB531D55995AE30117CC17777D150849BB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1663528896750056ccabc13e0c8757b911dd89ddec600ff779fdb3aaa9a9532b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1d395dcb531d55995ae30117cc17777d150849bb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/com/github/monkeywie/proxyee/server/auth/model/BasicHttpToken.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-auth-model-BasicHttpToken.class-F5BEAF94B7752F69BFE2F1FB77E2BDDBD70B42CB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "343bff8345502b0bd120d1435943082b5ed07183d2c61b229ddbb1a43387d72d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f5beaf94b7752f69bfe2f1fb77e2bddbd70b42cb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptForwardHttpProxyServer$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptForwardHttpProxyServer-1.class-25A3A8D8D08578ADF2354F29ABF98C3ED5EBFFE7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "545f14c662c9a54414d41799f2c36347b8d8137b7297d16b1353dc84721d04f3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "25a3a8d8d08578adf2354f29abf98c3ed5ebffe7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptForwardHttpProxyServer$2.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptForwardHttpProxyServer-2.class-73A16F6826B0A3E0B1F0846A92B4943B2D6A8F02",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "719a2eba96c9562a76991aaf628fc5f936e336fd713af0bda8c832e2d4f0cb86"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "73a16f6826b0a3e0b1f0846a92b4943b2d6a8f02"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/classes/META-INF/maven/com.github.monkeywie/proxyee/pom.properties",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-classes-META-INF-maven-com.github.monkeywie-proxyee-pom.properties-9D7928F29D869046BD84671CBF8E0598185FB878",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8ac8ccee489d91bd596587584cbdc2a3149e9345f9b0b9b8c2dcbeac94e1107f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9d7928f29d869046bd84671cbf8e0598185fb878"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptFullHttpProxyServer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullHttpProxyServer.class-04A9DCD6B611C93699E95359DA595A43B937CBD9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0156cc1a7df54b8e7ccfb1ac18f6c4d4b05aa5ccc917a3dbcd9370a235d05e84"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "04a9dcd6b611c93699e95359da595a43b937cbd9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/AuthHttpProxyServer$2$2.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-AuthHttpProxyServer-2-2.class-1BB1666C86081DC1D0B567D74232271959DF5982",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "70bdcb400621261974831429cf82c83316a1821f858f2451cbf1f6c415e476ec"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1bb1666c86081dc1d0b567d74232271959df5982"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptFullRequestProxyServer$1$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullRequestProxyServer-1-1.class-89493F5A611F3AB10FF6A7D1A34642D75BFE4AB7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b243647ed07cd3769fe8d898527fd9446ac34acf855700c3e356cb0bcddd8c62"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "89493f5a611f3ab10ff6a7d1a34642d75bfe4ab7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptHttpProxyServer$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptHttpProxyServer-1.class-93ABBB5F506B469B5B89400C9DFD0612862F6D14",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "763d27305ece56f229d1fbd64adbddcd0b3e14c20bc48e901905b591e5c425b5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "93abbb5f506b469b5b89400c9dfd0612862f6d14"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptFullHttpProxyServer$1$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullHttpProxyServer-1-1.class-A038CFB456020F01E14A0EFA027E29241D009267",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3e8ab5ca378a89678a31f81970deaff8d554123cf40d9902891a3595e633215e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a038cfb456020f01e14a0efa027e29241d009267"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptHttpProxyServer$2.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptHttpProxyServer-2.class-1B0CC34F295E93E8880E6E6230A99330EF2110F1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4d7b5ec9ead1fc159babf12b308916d7998f697a5961ca802ec095096d3e4179"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1b0cc34f295e93e8880e6e6230a99330ef2110f1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/LoopbackHttpProxyServer$LoopbackAddressResolverGroup.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-LoopbackHttpProxyServer-LoopbackAddressResolverGroup.class-8F8D02EDC1365B8F790A2486717EBA06E6F80882",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6a870d573f532f29f66f8ba5449cda08685119d59702df3a2540abed58a8c2c5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8f8d02edc1365b8f790a2486717eba06e6f80882"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/LoopbackHttpProxyServer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-LoopbackHttpProxyServer.class-E90B5EB1B6C913E31F8AFEF24C3DB0779516E358",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5f95bd10b065e374940f4ae50aeb9337827e353064e396fb87afdc3690f95eae"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e90b5eb1b6c913e31f8afef24c3db0779516e358"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptFullRequestProxyServer.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullRequestProxyServer.class-84CF850C936E70271ED4E1E6CF821828F654D455",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "618e78fcb5d58cd57eca616fcd6b4a273b12846cb26935f4d082cd2a84d66d85"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "84cf850c936e70271ed4e1e6cf821828f654d455"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/InterceptRedirectHttpProxyServer$1$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptRedirectHttpProxyServer-1-1.class-605FE0F8E990B96261716BBF67190E8BD4640992",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fb12314522537380a9c5122acbcef3fe871b2595b00a78b9be5f0939a52feeda"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "605fe0f8e990b96261716bbf67190e8bd4640992"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./proxyee-master/target/test-classes/com/github/monkeywie/proxyee/MimtMatchHttpProxyServer$1.class",
+      "SPDXID": "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-MimtMatchHttpProxyServer-1.class-6F9A9A6EADECEB4650FA27AD97DBDCE9B52D4235",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ba39a5b922c03f33c6cec3de3dee9e2bf81b62cce1073876d33181dfdd69d73e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6f9a9a6eadeceb4650fa27ad97dbdce9b52d4235"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "io.netty.netty-handler-proxy",
+      "SPDXID": "SPDXRef-Package-08EBACFAC79335D83FFA9E878F51FB7FBE0FF629C2195A7574158CFD0DADB080",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.94.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-handler-proxy@4.1.94.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.netty.netty-common",
+      "SPDXID": "SPDXRef-Package-6F2A159271ABEEC80823CA560E6ABD037F6B695FB84D8B66B78C16301AD36E99",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.94.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-common@4.1.94.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.netty.netty-resolver",
+      "SPDXID": "SPDXRef-Package-1BBBD33191E80E0061A86203AEB6E3F99D44F98659DE048D9728AEADD3C1B8AB",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.94.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-resolver@4.1.94.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.netty.netty-transport-native-unix-common",
+      "SPDXID": "SPDXRef-Package-2B9B89DC87864ED369DF172E66CB815B01D569C4CAEC368ED538AA10E5B96803",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.94.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.94.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.netty.netty-buffer",
+      "SPDXID": "SPDXRef-Package-4884D8D82C1BCCF46D255B7D608D7502C7D6AC5FA6E904F6C5CF66CEBD76B9EC",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.94.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-buffer@4.1.94.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "com.github.monkeywie.proxyee",
+      "SPDXID": "SPDXRef-Package-18DECB66ED420F408FC631B12A79165495F6EF49FED6AAD0D175C7D6172F17AF",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.7.7",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.monkeywie/proxyee@1.7.7"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.netty.netty-codec",
+      "SPDXID": "SPDXRef-Package-1BCD76F77F33A37F33A081637497331F9C07FEB5056CB59193B7AA57223FA4D4",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.94.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec@4.1.94.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.bouncycastle.bcprov-jdk15on",
+      "SPDXID": "SPDXRef-Package-C380F972A8C9B2F1EF14F45707A3B62FA80B68858972F203E51BA25C1383A1FA",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.60",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.60"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.netty.netty-codec-socks",
+      "SPDXID": "SPDXRef-Package-43E83C1532FFD6227C07F8F5EB1287F1036C29C8CA2E2B6C0D3F8EDD10A6FBAD",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.94.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec-socks@4.1.94.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.netty.netty-codec-http",
+      "SPDXID": "SPDXRef-Package-B60EDEC60ED55B8EADAA6335BAD3EED644ECA77807528BF330486E5070E2C17D",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.94.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec-http@4.1.94.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.bouncycastle.bcpkix-jdk15on",
+      "SPDXID": "SPDXRef-Package-83831E27306259165B6878FE4432344F382004B87B203DB5E65F1FECEA0CA823",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.60",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.60"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.netty.netty-transport",
+      "SPDXID": "SPDXRef-Package-1C6BCB898CE9E77CF51664BB6E43AA1F34F83E6943E3A106ABCB81A9BB41C2D6",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.94.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport@4.1.94.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.netty.netty-handler",
+      "SPDXID": "SPDXRef-Package-D02A8F9DA03CCCC84E8A9B06984C5C654A1886F3819BB5350EAB78327C56EE1D",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.94.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-handler@4.1.94.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "proxyee",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "ae35bc1f6f7c8c37d88b9ba867ac236feea3f73c"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "8484cd1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/monkeyWie/spdx.org/proxyee@8484cd1?tag_id=7dd9240b-c12d-499e-b852-1445dc40a80e"
+        }
+      ],
+      "supplier": "Organization: monkeyWie",
+      "hasFiles": [
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-MimtMatchHttpProxyServer-1.class-6F9A9A6EADECEB4650FA27AD97DBDCE9B52D4235",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptRedirectHttpProxyServer-1-1.class-605FE0F8E990B96261716BBF67190E8BD4640992",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-LoopbackHttpProxyServer.class-E90B5EB1B6C913E31F8AFEF24C3DB0779516E358",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-intercept-common-FullResponseIntercept.class-0F772C64C9337FC695D0734CC13CCCC141A69C49",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-auth-HttpAuthContext.class-542469FA0C0127AAFF93E61EAE8F950FA6FB6A67",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-HttpProxyServer-1.class-A6EF16FDC9DA28E1B0FC3D1D41E85B695358D63B",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-intercept-common-CertDownIntercept.class-DE462D248ABD14A3BC552B878CE39C0F426B94A9",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-handler-HttpProxyInitializer.class-D4E87C4B08668849C2B884CDB2DD9E3B9F3F5E8A",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-crt-service-bc-BouncyCastleCertGenerator.class-8ECBCA88733223DDE6DE2592D948993FA2CEB294",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-crt-CertPool.class-67A2AEAE3EB3D502207392B0CDB785960BE769E2",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-crt-CertUtil.class-A17D7B54D77F790C672DE68E351FB719D815385E",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-LoopbackHttpProxyServer-LoopbackAddressResolverGroup-LoopbackNameResolver.class-5D3A74A97017B022D661B0AB4088F15B7C813762",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullRequestProxyServer.class-84CF850C936E70271ED4E1E6CF821828F654D455",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-LoopbackHttpProxyServer-LoopbackAddressResolverGroup.class-8F8D02EDC1365B8F790A2486717EBA06E6F80882",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptHttpProxyServer-2.class-1B0CC34F295E93E8880E6E6230A99330EF2110F1",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullHttpProxyServer-1-1.class-A038CFB456020F01E14A0EFA027E29241D009267",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptHttpProxyServer-1.class-93ABBB5F506B469B5B89400C9DFD0612862F6D14",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullRequestProxyServer-1-1.class-89493F5A611F3AB10FF6A7D1A34642D75BFE4AB7",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-AuthHttpProxyServer-2-2.class-1BB1666C86081DC1D0B567D74232271959DF5982",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullHttpProxyServer.class-04A9DCD6B611C93699E95359DA595A43B937CBD9",
+        "SPDXRef-File--proxyee-master-target-classes-META-INF-maven-com.github.monkeywie-proxyee-pom.properties-9D7928F29D869046BD84671CBF8E0598185FB878",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptForwardHttpProxyServer-2.class-73A16F6826B0A3E0B1F0846A92B4943B2D6A8F02",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptForwardHttpProxyServer-1.class-25A3A8D8D08578ADF2354F29ABF98C3ED5EBFFE7",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-auth-model-BasicHttpToken.class-F5BEAF94B7752F69BFE2F1FB77E2BDDBD70B42CB",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-AsyncStartHttpProxyServer.class-1D395DCB531D55995AE30117CC17777D150849BB",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-AuthHttpProxyServer-1.class-6FD3A3B858ED7CD55A45A66C39CFCABCE5FBC901",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-HttpProxyServerConfig-Builder.class-8B8868C3B1CEDFE844CA7D7BFBE2F38DF2AA4AF0",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-util-ProtoUtil-RequestProto.class-D498A5FB36D1E9B3B8E48E88C44DE3339193F444",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-util-ProtoUtil.class-4CB91D63F59450F769C0451A5131E0AEDBB59FFB",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-auth-BasicHttpProxyAuthenticationProvider.class-2A1557943E265AE7CD22B9C72F3250A791E3D7D6",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-HttpProxyServer.class-94CDA6A07FF79E56F0CA34314DD287891FE504C1",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-handler-TunnelProxyInitializer-1.class-F6051990745C2EE2ABA3BC4294315C7910101949",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-intercept-HttpTunnelIntercept.class-C983643D0A955084B9B6FDBE642580A34F42D8C2",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-handler-HttpProxyServerHandler-1.class-AA9A14604167BFC39A9E31AD57E76EC7AEAF7CDC",
+        "SPDXRef-File--proxyee-master-target-bom.xml-367E0261A55C6454CBE44651FF219B5C30A1E823",
+        "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-MimtMatchHttpProxyServer.java-173A6E99D52B516E9F08BAD1BA5F63934DFA5CE3",
+        "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-InterceptFullRequestProxyServer.java-98031C5E7507C13BB9D4FF73042CC8092EAF885C",
+        "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-HandelSslHttpProxyServer.java-BFB7050E7C0DCDDF4109EA23A8BCD13AAE468FF0",
+        "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-NormalHttpProxyServer.java-D4CEAE588FF288B0DBED0D8B2E8525ACD650F4D3",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptHttpProxyServer-1-1.class-13567917FA01DFF3946B5B7C0847AA67D386EE2F",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-util-HttpUtil.java-605BC115CB008862DD4ED7923E60836EEA12F86D",
+        "SPDXRef-File--proxyee-master-src-main-resources-ca-private.der-3BBAF8B243C92B2989FB88208AB5D5F04B480B44",
+        "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-InterceptForwardHttpProxyServer.java-11584C72D571A4E14C48133997E2904A03106277",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-auth-HttpProxyAuthenticationProvider.java-CAAE088B4FA61B8CE75646D539B92B20E2CA1370",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullHttpProxyServer-2.class-66FCB27CCFFC516AE30FD3D6C5551C7FDCBA2230",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-accept-HttpProxyMitmMatcher.java-B1589613E6C7941FB689A48CA4E6954EB6B108D4",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-HttpProxyCACertFactory.java-AE11A5B0419AFBB5999F1DD89F1036612A6A1C2A",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-intercept-HttpProxyInterceptPipeline.java-E34E18DD53109E6671AF744431723C3359619B70",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-crt-spi-CertGeneratorInfo.java-D3B16D01742518E12FBED22D75E58105444C16EF",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-util-ProtoUtil.java-307766F9ACD41A6E310D81D47FFB1C073CBCF158",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-auth-BasicHttpProxyAuthenticationProvider.java-C4667FC01E73344B5F6312B908C86D8CCFC32B51",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-proxy-ProxyHandleFactory.java-CDA90548233497D2E4BCFD43A1214CAA710999E7",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-intercept-HttpProxyIntercept.java-4B7256806625251EED0BEE4210C04C45E7B513D7",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-crt-service-bc-BouncyCastleCertGenerator.java-93549B5D753B8A43665E27425DD594B3B9892898",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-proxy-ProxyConfig.java-36EB50CB151CF050970CB8B42B3B4F5F430F97E9",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-handler-TunnelProxyInitializer.java-CD65FC3CCE9A2F09F92B6A2EBF90EB6AB09977AF",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-crt-CertUtilsLoader.java-61346F0884D83D8403C00AF9901B35AE41E7DD60",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptForwardHttpProxyServer-1-1.class-3CB22516EB73065907E4530D1B159B320A9E0663",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-AcceptHttpProxyServer.class-0D2E612A5B4550DE1BD0109AA1C64084433358EC",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-util-HttpUtil.class-26EF3ED640C5F31494FC5740B842A48654848045",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-accept-HttpProxyMitmMatcher.class-AD8C62712B76B5CB0D48A9A0D9209951C5B6A3D5",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-HttpProxyCACertFactory.class-7C7412A4980E2B331A6185CBEC6BBAFDBD458313",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-intercept-HttpProxyInterceptPipeline.class-16816C2C1874F94A8867C88754663BD8565721E3",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-handler-HttpProxyClientHandler.class-1166974F690236FF83FE7D1B62DAD462C6E11064",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-config-IdleStateCheck.class-474397C6F1F3EB09F1530140BFD3F4665BFC23C5",
+        "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-LoopbackHttpProxyServer.java-0CEA96C97CCD569A0E559A47A556000B44E5F41B",
+        "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-AuthHttpProxyServer.java-670E55D4C361A73DC4CCA7AF530CF77B2268C599",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-util-ByteUtil.java-0954AA95ED10B6378DDC0241E60049517CC97ED7",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-accept-HttpProxyAcceptHandler.java-12638B17D6873FC4E476B5F0E691395F8DCC57C1",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-intercept-common-FullResponseIntercept.java-97800FFDFF8DBBE778935E8D2CB3FB7007095D42",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-handler-HttpProxyServerHandler.java-1D85C6B5E7E2CE0AE9BC401B086FE0234FDD1CDF",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-crt-CertUtil.java-AE8183373B188CAEE2798B98F338DA3182C7A087",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-MimtMatchHttpProxyServer.class-6E9CD089C74D2FD37FDEA9E8495A4782744CF7CE",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptRedirectHttpProxyServer-1.class-F4F44582187AFBB314052836AAF8BF5D32266FEF",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullResponseProxyServer-1-1.class-AFD86077DC0831A00E48350A3F978F64C3C39C5E",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullHttpProxyServer-1-2.class-4717368AF050BDB46A85A1EBA701CCC70387B160",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-AuthHttpProxyServer-2.class-5540244790E211F7A1B9E25C682CE07864A1F451",
+        "SPDXRef-File--proxyee-master-target-classes-META-INF-maven-com.github.monkeywie-proxyee-pom.xml-BA3089399D4BDBCA367C6924330D609D0DDC5F3B",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-auth-model-HttpToken.class-FB34B94375F1818F30C9A903CA214D46EDFC7646",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-HttpProxyServerConfig.class-110A1CED50474665987C5653E038A2181813D70A",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-proxy-ProxyConfig.class-33DD548B3A55BEED0CF72F33141200C308584A28",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-handler-TunnelProxyInitializer.class-73911A71C2529E9FE404D070E29BF98D587DD830",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-crt-spi-CertGenerator.class-E6F2CF6E3FB81616080AFC8BAA8B60DBA8C65729",
+        "SPDXRef-File--proxyee-master-target-classes-ca.crt-15158A8D233317157F945999EB5CCF5A453D9AB6",
+        "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-InterceptFullResponseProxyServer.java-D9B730752581EF79B9B2EAFF533AA28F74852B00",
+        "SPDXRef-File--proxyee-master-src-main-resources-META-INF-services-com.github.monkeywie.proxyee.crt.spi.CertGenerator-5BFCBC59D3FD38E68D04166AD01484DC3E125585",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-auth-model-BasicHttpToken.java-A9B04A651F06A8233EF6E33B92D992AA77655DE6",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-HttpProxyServer.java-8D586E9FCCDAEAE4C9925B160124AC3B577F6710",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-intercept-HttpTunnelIntercept.java-CF9B5997D4432C7BA27536A7EB04E117E1599F98",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-exception-HttpProxyExceptionHandle.java-04983274B2E9C59CEDF8EA514F5290CD49D2D76B",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-HttpProxyServerApp.java-9264B5EB841C986A46E6E5328FAEF3CBEFC011EF",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-NormalHttpProxyServer.class-A9F0743A2FC55039D429B0EDA8716D213B3F3C6E",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptRedirectHttpProxyServer.class-8640C18615F805249B3CBC2045F825CB1D531DF5",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullResponseProxyServer.class-6929CF481BC23EBB2DB4C1FF2C878552E5C32ABA",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullHttpProxyServer-1.class-794FEB00C9A94F7BCA2C3D12B4D0D0FECC0264E3",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-HandelSslHttpProxyServer.class-DFEB6E8C4BBA6C3CE8C0B1E0B3A6516D8A67982E",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-AcceptHttpProxyServer-1.class-7A4A20091198F8A0889C5682803FC8BADFF3DFA6",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-util-ByteUtil.class-BDCF47DBA7FBC9B8AD61FF0587BDAFA9C9F488F6",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-accept-HttpProxyAcceptHandler.class-B7FA45EAA0F888C527F1305BA61E08D6D2B66CF3",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-proxy-ProxyType.class-FB5898CA9A6604BDB6C20E761A89C6B592C46C5F",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-intercept-HttpProxyInterceptInitializer.class-7E2171F6F435D1964A41DAD3CBA390BDF347D754",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-exception-HttpProxyExceptionHandle.class-90641149A627D236168B2E82236BFB60A737ED56",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-HttpProxyServerApp.class-2AA444183A4CBA0972479363F0DC7471C4DDE530",
+        "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-InterceptRedirectHttpProxyServer.java-7A666E77463D9B1BCBF860D8188454AA9DD97753",
+        "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-AsyncStartHttpProxyServer.java-8BDF39C8151F98F0E6DE5191B12362F2A99339EB",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-context-HttpContext.java-0879EC34C62B5200F0AE7235C4CD91F82F776B35",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-accept-DomainHttpProxyMitmMatcher.java-9ABFB49A2ED07FCA660655C37AC11B63EC3842CA",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-intercept-common-FullRequestIntercept.java-210B2DD687F7FC924B161B45DFDC443BD6863BA3",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-handler-HttpProxyInitializer.java-94DD7EC7DB9B79767AE6D82A79415439DE0121A4",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-crt-CertPool.java-8E02C65ACA0097008F818B9D0FC9B2A6BBFFFA4B",
+        "SPDXRef-File--proxyee-master-.github-workflows-deploy.yml-FAD26FCDFA97D85166E13A05F5535D7D75B98675",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-MimtMatchHttpProxyServer-1-1.class-4F25148DAA090AC74A1E64892609FF6C490ABE23",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptHttpProxyServer.class-E089C31FACED481B42BCA4046A9E5E22BC10DDCF",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullRequestProxyServer-1.class-484EB6A7C3BE52D1E25D236D3FBF928F2EC9DB8D",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptForwardHttpProxyServer.class-E1BB2E67C3920872615C0415C353CC527B306511",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-AuthHttpProxyServer-2-1.class-C6B21DE1B8522C64C949D90CCF28710FDAF5713B",
+        "SPDXRef-File--proxyee-master-target-classes-META-INF-MANIFEST.MF-AEE7392CE45AA838B710A88E5B90A78167BB5725",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-auth-HttpProxyAuthenticationProvider.class-21F109C76CD807CEA8ABD2B1A38AB1EBCA5B6B01",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-HttpProxyServerConfig-1.class-A64B058A227B490B1CAAB10D97F5ED79770A8394",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-intercept-common-FullRequestIntercept.class-087E5706F8401584CF9595342AB9835854BE0D73",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-handler-HttpProxyServerHandler.class-53094C85729A3F2CD42AA25BD14D2A8D05EF664E",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-crt-CertUtilsLoader.class-9F9ABF72B677CEC94357993B52DCFDED56C40452",
+        "SPDXRef-File--proxyee-master-target-bom.json-297438F28E4E687AFB7D9AE6A29E01327D6BF12A",
+        "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-InterceptFullHttpProxyServer.java-8C8652DDB0020B87C01BC1674A8C61861064DCEC",
+        "SPDXRef-File--proxyee-master-src-main-resources-ca.crt-15158A8D233317157F945999EB5CCF5A453D9AB6",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-auth-HttpAuthContext.java-A79887C52C9BE69823230FEC96CD2FC994839137",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-proxy-ProxyType.java-66B63397C78828158CD57982BA31132054590ACA",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-intercept-HttpProxyInterceptInitializer.java-0DB43BE8FFE505FD7E226B914E73FE048BF9DDAA",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-crt-spi-CertGenerator.java-1EF9F60C7D4BCC4FEC750D0423044F9C6B1EC467",
+        "SPDXRef-File--proxyee-master-.settings-org.eclipse.jdt.core.prefs-1FEE5951158E3AE4E75B60242F994ED49791A2DA",
+        "SPDXRef-File--proxyee-master-.donate-qr-alipay.jpg-EFA039C790B4AF2673B0EB9BDCB18AA4439FBB36",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-NormalHttpProxyServer-1.class-1A138F0B3CC47E7020674D5FDCD73F99889B0F61",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptRedirectHttpProxyServer-2.class-680893AD8C9E9406596417FD8D33F10014D474AA",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullResponseProxyServer-1.class-1726A3837C52BB79DF61753060E779FE3A786A4C",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-InterceptFullHttpProxyServer-1-3.class-7B9886A10A51D465260D94D7C996B2E3139D8105",
+        "SPDXRef-File--proxyee-master-target-test-classes-com-github-monkeywie-proxyee-AuthHttpProxyServer.class-CA463E39AE7BE38C3948460D692CA5F6505AE08F",
+        "SPDXRef-File--proxyee-master-target-classes-META-INF-services-com.github.monkeywie.proxyee.crt.spi.CertGenerator-5BFCBC59D3FD38E68D04166AD01484DC3E125585",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-context-HttpContext.class-686FBA99BBCC3C99EC8E0A5AE3FD49F05567EFC7",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-server-accept-DomainHttpProxyMitmMatcher.class-6A3218B487017255B56EA2D6273B75C95A12AFA7",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-proxy-ProxyHandleFactory.class-A54D55E7F1957FF8D8CAFE270B89C31DBAA5ADDD",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-intercept-HttpProxyIntercept.class-357EC73C17512B44AB5EC701E1B9FCE7213B2442",
+        "SPDXRef-File--proxyee-master-target-classes-com-github-monkeywie-proxyee-crt-spi-CertGeneratorInfo.class-468B44ACFC4A07F0BBA0D261F811C562B925E895",
+        "SPDXRef-File--proxyee-master-target-classes-ca-private.der-3BBAF8B243C92B2989FB88208AB5D5F04B480B44",
+        "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-InterceptHttpProxyServer.java-D42610CA61C5F9FE68BF318D2BFDD7BAC85B4F01",
+        "SPDXRef-File--proxyee-master-src-test-java-com-github-monkeywie-proxyee-AcceptHttpProxyServer.java-5140C9EF0993C828F46440296EC70EF50E7F08C9",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-auth-model-HttpToken.java-C5D4EF704580CCE278191E258E690B0DA87C289B",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-server-HttpProxyServerConfig.java-CCB4B8A892E1CC5A57C8553E8212105D3CEDADEB",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-intercept-common-CertDownIntercept.java-BBDCB472B5894349E7A1871A10BCDE7C9FEFB644",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-handler-HttpProxyClientHandler.java-EFFDBECF4575090A1E8CCDEBE8554EC64CF665CC",
+        "SPDXRef-File--proxyee-master-src-main-java-com-github-monkeywie-proxyee-config-IdleStateCheck.java-4626DA6B91ABC742961DB06BAAE9B9E7F2C379FB",
+        "SPDXRef-File--proxyee-master-.github-release-drafter.yml-7C415565BF5E1E644F98CA10843497376ADFFE9B",
+        "SPDXRef-File--proxyee-master-.settings-org.eclipse.core.resources.prefs-4AE2CA0746375FA0578C2FF7F9F3EB930416C72F",
+        "SPDXRef-File--proxyee-master-.donate-index.md-4BD0515D2A4EBA28E578A80BDA53DAFE7F768511",
+        "SPDXRef-File--proxyee-master-.github-workflows-release.yml-D33719FFEE1492BB7749ACC0AB3AED5156C2431E",
+        "SPDXRef-File--proxyee-master-README.md-01AE0B6D728056819C4E07DD20B9F5A29D21A802",
+        "SPDXRef-File--proxyee-master-.github-workflows-translator.yml-EF41EA17CC3875DFB68CA77939C1377F4F24A8E3",
+        "SPDXRef-File--proxyee-master-README-zh-CN.md-5617E8CEEA8DDAAD891650F734769F8B6ED50DB2",
+        "SPDXRef-File--proxyee-master-.vscode-settings.json-11CFAD71F83C6299FACDD0EAB4FAD2FAAE2C72CD",
+        "SPDXRef-File--proxyee-master-.donate-qr-wechatpay.jpg-82C7C11F62772FAE9A73F6E3A84B81B81F68935A",
+        "SPDXRef-File--proxyee-master-.project-FE8E4B0B78E6C91E6287F50D00828D0E983F7C6F",
+        "SPDXRef-File--proxyee-master-.github-FUNDING.yml-7996ABDB29DD3F7E46285D5EA803532671587036",
+        "SPDXRef-File--proxyee-master-idea.svg-A9B89229A01A1F8E8A556F55B57400F6C631FC8F",
+        "SPDXRef-File--proxyee-master-LICENSE-98CDDB90E0D1C7D86DD5EFAD8DAEE6A3A3F0DA62",
+        "SPDXRef-File--proxyee-master-pom.xml-BA3089399D4BDBCA367C6924330D609D0DDC5F3B",
+        "SPDXRef-File--proxyee-master-.gitignore-A7EE61335ADEB63D9F8A1B0A686F22857668CCC6",
+        "SPDXRef-File--proxyee-master-.classpath-1D692427810163E6407FAC2F3A66A8952C160262"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-D02A8F9DA03CCCC84E8A9B06984C5C654A1886F3819BB5350EAB78327C56EE1D",
+      "spdxElementId": "SPDXRef-Package-18DECB66ED420F408FC631B12A79165495F6EF49FED6AAD0D175C7D6172F17AF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-83831E27306259165B6878FE4432344F382004B87B203DB5E65F1FECEA0CA823",
+      "spdxElementId": "SPDXRef-Package-18DECB66ED420F408FC631B12A79165495F6EF49FED6AAD0D175C7D6172F17AF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-18DECB66ED420F408FC631B12A79165495F6EF49FED6AAD0D175C7D6172F17AF",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-4884D8D82C1BCCF46D255B7D608D7502C7D6AC5FA6E904F6C5CF66CEBD76B9EC",
+      "spdxElementId": "SPDXRef-Package-18DECB66ED420F408FC631B12A79165495F6EF49FED6AAD0D175C7D6172F17AF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-1C6BCB898CE9E77CF51664BB6E43AA1F34F83E6943E3A106ABCB81A9BB41C2D6",
+      "spdxElementId": "SPDXRef-Package-18DECB66ED420F408FC631B12A79165495F6EF49FED6AAD0D175C7D6172F17AF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-1C6BCB898CE9E77CF51664BB6E43AA1F34F83E6943E3A106ABCB81A9BB41C2D6",
+      "spdxElementId": "SPDXRef-Package-1BCD76F77F33A37F33A081637497331F9C07FEB5056CB59193B7AA57223FA4D4"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C380F972A8C9B2F1EF14F45707A3B62FA80B68858972F203E51BA25C1383A1FA",
+      "spdxElementId": "SPDXRef-Package-18DECB66ED420F408FC631B12A79165495F6EF49FED6AAD0D175C7D6172F17AF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C380F972A8C9B2F1EF14F45707A3B62FA80B68858972F203E51BA25C1383A1FA",
+      "spdxElementId": "SPDXRef-Package-83831E27306259165B6878FE4432344F382004B87B203DB5E65F1FECEA0CA823"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-2B9B89DC87864ED369DF172E66CB815B01D569C4CAEC368ED538AA10E5B96803",
+      "spdxElementId": "SPDXRef-Package-18DECB66ED420F408FC631B12A79165495F6EF49FED6AAD0D175C7D6172F17AF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-2B9B89DC87864ED369DF172E66CB815B01D569C4CAEC368ED538AA10E5B96803",
+      "spdxElementId": "SPDXRef-Package-D02A8F9DA03CCCC84E8A9B06984C5C654A1886F3819BB5350EAB78327C56EE1D"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-1BBBD33191E80E0061A86203AEB6E3F99D44F98659DE048D9728AEADD3C1B8AB",
+      "spdxElementId": "SPDXRef-Package-18DECB66ED420F408FC631B12A79165495F6EF49FED6AAD0D175C7D6172F17AF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-1BBBD33191E80E0061A86203AEB6E3F99D44F98659DE048D9728AEADD3C1B8AB",
+      "spdxElementId": "SPDXRef-Package-D02A8F9DA03CCCC84E8A9B06984C5C654A1886F3819BB5350EAB78327C56EE1D"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-B60EDEC60ED55B8EADAA6335BAD3EED644ECA77807528BF330486E5070E2C17D",
+      "spdxElementId": "SPDXRef-Package-18DECB66ED420F408FC631B12A79165495F6EF49FED6AAD0D175C7D6172F17AF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-43E83C1532FFD6227C07F8F5EB1287F1036C29C8CA2E2B6C0D3F8EDD10A6FBAD",
+      "spdxElementId": "SPDXRef-Package-18DECB66ED420F408FC631B12A79165495F6EF49FED6AAD0D175C7D6172F17AF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-43E83C1532FFD6227C07F8F5EB1287F1036C29C8CA2E2B6C0D3F8EDD10A6FBAD",
+      "spdxElementId": "SPDXRef-Package-08EBACFAC79335D83FFA9E878F51FB7FBE0FF629C2195A7574158CFD0DADB080"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-1BCD76F77F33A37F33A081637497331F9C07FEB5056CB59193B7AA57223FA4D4",
+      "spdxElementId": "SPDXRef-Package-18DECB66ED420F408FC631B12A79165495F6EF49FED6AAD0D175C7D6172F17AF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-6F2A159271ABEEC80823CA560E6ABD037F6B695FB84D8B66B78C16301AD36E99",
+      "spdxElementId": "SPDXRef-Package-18DECB66ED420F408FC631B12A79165495F6EF49FED6AAD0D175C7D6172F17AF"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-6F2A159271ABEEC80823CA560E6ABD037F6B695FB84D8B66B78C16301AD36E99",
+      "spdxElementId": "SPDXRef-Package-4884D8D82C1BCCF46D255B7D608D7502C7D6AC5FA6E904F6C5CF66CEBD76B9EC"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-08EBACFAC79335D83FFA9E878F51FB7FBE0FF629C2195A7574158CFD0DADB080",
+      "spdxElementId": "SPDXRef-Package-18DECB66ED420F408FC631B12A79165495F6EF49FED6AAD0D175C7D6172F17AF"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "proxyee 8484cd1",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-4.1.5-3aaa5e82-d388-4f96-915c-8ac8319f7efb/proxyee/8484cd1/wH-JCWRKG02vdogXhHQ_iw",
+  "creationInfo": {
+    "created": "2026-03-31T18:05:15Z",
+    "creators": [
+      "Organization: monkeyWie",
+      "Tool: Microsoft.SBOMTool-4.1.5"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}

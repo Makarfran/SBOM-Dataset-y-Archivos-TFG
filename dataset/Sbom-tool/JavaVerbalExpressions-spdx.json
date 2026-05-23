@@ -1,0 +1,549 @@
+{
+  "files": [
+    {
+      "fileName": "./JavaVerbalExpressions-master/.gitignore",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-.gitignore-25EBF3FCB6FDCACEFD6D2A90B659716A3417105E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cfb05e22c774b1666fec502e14929c4c6db6034afacfb804c5af28629ceb278f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "25ebf3fcb6fdcacefd6d2a90b659716a3417105e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.project",
+      "SPDXID": "SPDXRef-File--.project-5820EA00549C6A8BAC871B19BE3DBBF0F66C9A8E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cf776b49e097a83670b6029fe7955b1d71a090cdc223653e739e0eba28d09d1b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5820ea00549c6a8bac871b19be3dbbf0f66c9a8e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/.travis/settings.xml",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-.travis-settings.xml-050B188B9AAB6B42E2907452AC539126275E8B99",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aa5f1a30a2f8ec5c1649b62492e0286142209bc855cd199fe9a988d04b4717c5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "050b188b9aab6b42e2907452ac539126275e8b99"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/.travis/deploy.sh",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-.travis-deploy.sh-81C7B8C20E76C71290D1482F7402F9474D232C8A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0a0cc4998b5ccc1a8779c79675687436a35cae160aee8f160500f0aacf799ae1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "81c7b8c20e76c71290d1482f7402f9474d232c8a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/src/test/java/ru/lanwen/verbalregex/matchers/EqualToRegexMatcher.java",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-src-test-java-ru-lanwen-verbalregex-matchers-EqualToRegexMatcher.java-84EF29F5143A8C891A8352743962E2A668C343A7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "00c4e61b88dcb7fa7310052aac26916961d43784e77662320d6d9496b6a6ab84"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "84ef29f5143a8c891a8352743962e2a668c343a7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/src/test/java/ru/lanwen/verbalregex/matchers/TestMatchMatcher.java",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-src-test-java-ru-lanwen-verbalregex-matchers-TestMatchMatcher.java-E28F806207AEC70000C31F1482D7AECDF851AA1A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "912bf93febd26644c83017343c99052822a973b552bd5d5439ecbfe4c56560f9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e28f806207aec70000c31f1482d7aecdf851aa1a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/.travis.yml",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-.travis.yml-90CB19C219C70128DF03BD92BCA689514E9F895B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fbd86df9831581dfbc6344b7ac5e29fef5a4354c5c82b32be5a05ad6c5f82b61"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "90cb19c219c70128df03bd92bca689514e9f895b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/pom.xml",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-pom.xml-7DA3014DBB30FC117FC9B592CE799CFD17976469",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "64f988963044d9386a02f351402e082794bbb29a04c809cc73413d5e88dfd3c6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7da3014dbb30fc117fc9b592ce799cfd17976469"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/.github/dependabot.yml",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-.github-dependabot.yml-F051E3887866FFF064AB3104DF283D53F66F6C60",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8bf47349a594a85477ea75f05f057b8c88bfb5875adbf49a9c11baea879c11b3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f051e3887866fff064ab3104df283d53f66f6c60"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/src/test/java/ru/lanwen/verbalregex/UsageLibTest.java",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-src-test-java-ru-lanwen-verbalregex-UsageLibTest.java-5B22B3E10DAE63209BC6D54A04C11AAF556110C8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "65ee269686caf004977fa2d8538d1c1c0a2ed7493dbf7798714a55a626c0f24a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5b22b3e10dae63209bc6d54a04c11aaf556110c8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/LICENSE",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-LICENSE-44EE77598BB9EFA904BD74DF819BD491D52A66CB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0b003eff81d70627c50ba2d83c82c8e3ceac61092bd99bbb9fe2c47a66c7684a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "44ee77598bb9efa904bd74df819bd491d52a66cb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/src/test/java/ru/lanwen/verbalregex/NegativeCasesTest.java",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-src-test-java-ru-lanwen-verbalregex-NegativeCasesTest.java-5DEE1F6DFF8B92387499ACC911B5394F657DFB56",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "031eeb5c6dac89c4db9a652d600843e69b77f0c085569886cb82498a29c6c9dc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5dee1f6dff8b92387499acc911b5394f657dfb56"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/bnd.bnd",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-bnd.bnd-92B7DEB17FC365D5E3E8FBE9C56856A304854FF1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "55b9b4fec01ef85ad504378e54cba0ee8fb1968a33cab7ac1b890a2ca4217361"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "92b7deb17fc365d5e3e8fbe9c56856a304854ff1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/src/test/java/ru/lanwen/verbalregex/BasicFunctionalityUnitTest.java",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-src-test-java-ru-lanwen-verbalregex-BasicFunctionalityUnitTest.java-A345E73E8F77B0A2C5072BDBED70DE538F72CD25",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bf323706ee821d41e09fabd7608053078309d55592b2e35ea7dff13f2d4c81f5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a345e73e8f77b0a2c5072bdbed70de538f72cd25"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/README.md",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-README.md-3EB4C48990CE783B402DD56DCB004556C66A8D58",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "35119caba9ba72280a6b2c50132362c336c290dfa84475f4ddcf3f2079418f45"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3eb4c48990ce783b402dd56dcb004556c66a8d58"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/src/test/java/ru/lanwen/verbalregex/RealWorldUnitTest.java",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-src-test-java-ru-lanwen-verbalregex-RealWorldUnitTest.java-D775690A6AE61CFE24ED56AF8713BD05841D7943",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4354a546fc7aea637b3b56b8e133b87d846f6e7a3308c4f5c1138885c9cc25b7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d775690a6ae61cfe24ed56af8713bd05841d7943"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/src/test/java/ru/lanwen/verbalregex/PredefinedCharClassesTest.java",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-src-test-java-ru-lanwen-verbalregex-PredefinedCharClassesTest.java-BBE11FADB550CE50811AFCBF6DE0A37FB2464552",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ec44127f612d7a5be9977c7caeb935fbf47c7f9e4debc81041e82cce286bb3f7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bbe11fadb550ce50811afcbf6de0a37fb2464552"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/src/main/java/ru/lanwen/verbalregex/VerbalExpression.java",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-src-main-java-ru-lanwen-verbalregex-VerbalExpression.java-4DC72B8A98BB4AA066D1CCE64F7375BA8098E313",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ae650101903f47ddb88541c34cf70db84333df49e1693a254ffad7415be08bd1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4dc72b8a98bb4aa066d1cce64f7375ba8098e313"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/src/test/java/ru/lanwen/verbalregex/matchers/TestsExactMatcher.java",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-src-test-java-ru-lanwen-verbalregex-matchers-TestsExactMatcher.java-DCC68FEE46C0D39DE90607534EDB7649790E7834",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1b3e04c98c082216e1d1416567e7b978a356c94241c8c25d2791990f6cc95aa5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dcc68fee46c0d39de90607534edb7649790e7834"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/target/bom.json",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-target-bom.json-39CA5192B408DEA5B6C91A2F8939F10714D7AF02",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2bc128d5d3189315cbf67e5dde28bdfa01d72fae9af39b4e447e545bfe7b483f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "39ca5192b408dea5b6c91a2f8939f10714d7af02"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./JavaVerbalExpressions-master/target/bom.xml",
+      "SPDXID": "SPDXRef-File--JavaVerbalExpressions-master-target-bom.xml-7FA63E11EE35869E24BAA57F0CA0A1528C5B7476",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6c2ecde363b709677402e30a2c1e75fa8dd46ec8858dde5241d2bd13448a7abe"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7fa63e11ee35869e24baa57f0ca0a1528c5b7476"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "ru.lanwen.verbalregex.java-verbal-expressions",
+      "SPDXID": "SPDXRef-Package-5FEBD62338A8789EEB6BF173DD300686E33257C6E148081682425C75C7D002D7",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.5-SNAPSHOT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/ru.lanwen.verbalregex/java-verbal-expressions@1.5-SNAPSHOT"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.hamcrest.hamcrest-core",
+      "SPDXID": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "junit.junit",
+      "SPDXID": "SPDXRef-Package-9C704D3D40B427BFB9072318ECEB54326E0530F7BB342308C719BB17A0664CC9",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.13.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.13.2"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "VerbalExpressions",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "00466fe9de00bc7e22fdf160461cb628a4f41c8e"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "8484cd1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/JavaVerbalExpressions/spdx.org/VerbalExpressions@8484cd1?tag_id=c0460a24-36d8-4391-89e9-2b81fd8edbfc"
+        }
+      ],
+      "supplier": "Organization: JavaVerbalExpressions",
+      "hasFiles": [
+        "SPDXRef-File--JavaVerbalExpressions-master-target-bom.xml-7FA63E11EE35869E24BAA57F0CA0A1528C5B7476",
+        "SPDXRef-File--JavaVerbalExpressions-master-src-test-java-ru-lanwen-verbalregex-RealWorldUnitTest.java-D775690A6AE61CFE24ED56AF8713BD05841D7943",
+        "SPDXRef-File--JavaVerbalExpressions-master-README.md-3EB4C48990CE783B402DD56DCB004556C66A8D58",
+        "SPDXRef-File--JavaVerbalExpressions-master-src-test-java-ru-lanwen-verbalregex-UsageLibTest.java-5B22B3E10DAE63209BC6D54A04C11AAF556110C8",
+        "SPDXRef-File--JavaVerbalExpressions-master-.github-dependabot.yml-F051E3887866FFF064AB3104DF283D53F66F6C60",
+        "SPDXRef-File--JavaVerbalExpressions-master-pom.xml-7DA3014DBB30FC117FC9B592CE799CFD17976469",
+        "SPDXRef-File--JavaVerbalExpressions-master-target-bom.json-39CA5192B408DEA5B6C91A2F8939F10714D7AF02",
+        "SPDXRef-File--JavaVerbalExpressions-master-src-test-java-ru-lanwen-verbalregex-matchers-TestsExactMatcher.java-DCC68FEE46C0D39DE90607534EDB7649790E7834",
+        "SPDXRef-File--JavaVerbalExpressions-master-src-main-java-ru-lanwen-verbalregex-VerbalExpression.java-4DC72B8A98BB4AA066D1CCE64F7375BA8098E313",
+        "SPDXRef-File--JavaVerbalExpressions-master-src-test-java-ru-lanwen-verbalregex-BasicFunctionalityUnitTest.java-A345E73E8F77B0A2C5072BDBED70DE538F72CD25",
+        "SPDXRef-File--JavaVerbalExpressions-master-bnd.bnd-92B7DEB17FC365D5E3E8FBE9C56856A304854FF1",
+        "SPDXRef-File--JavaVerbalExpressions-master-src-test-java-ru-lanwen-verbalregex-matchers-TestMatchMatcher.java-E28F806207AEC70000C31F1482D7AECDF851AA1A",
+        "SPDXRef-File--JavaVerbalExpressions-master-.travis-settings.xml-050B188B9AAB6B42E2907452AC539126275E8B99",
+        "SPDXRef-File--JavaVerbalExpressions-master-.gitignore-25EBF3FCB6FDCACEFD6D2A90B659716A3417105E",
+        "SPDXRef-File--JavaVerbalExpressions-master-.travis.yml-90CB19C219C70128DF03BD92BCA689514E9F895B",
+        "SPDXRef-File--JavaVerbalExpressions-master-src-test-java-ru-lanwen-verbalregex-PredefinedCharClassesTest.java-BBE11FADB550CE50811AFCBF6DE0A37FB2464552",
+        "SPDXRef-File--JavaVerbalExpressions-master-src-test-java-ru-lanwen-verbalregex-NegativeCasesTest.java-5DEE1F6DFF8B92387499ACC911B5394F657DFB56",
+        "SPDXRef-File--JavaVerbalExpressions-master-LICENSE-44EE77598BB9EFA904BD74DF819BD491D52A66CB",
+        "SPDXRef-File--JavaVerbalExpressions-master-src-test-java-ru-lanwen-verbalregex-matchers-EqualToRegexMatcher.java-84EF29F5143A8C891A8352743962E2A668C343A7",
+        "SPDXRef-File--JavaVerbalExpressions-master-.travis-deploy.sh-81C7B8C20E76C71290D1482F7402F9474D232C8A",
+        "SPDXRef-File--.project-5820EA00549C6A8BAC871B19BE3DBBF0F66C9A8E"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "spdxElementId": "SPDXRef-Package-5FEBD62338A8789EEB6BF173DD300686E33257C6E148081682425C75C7D002D7"
+    },
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "spdxElementId": "SPDXRef-Package-9C704D3D40B427BFB9072318ECEB54326E0530F7BB342308C719BB17A0664CC9"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-9C704D3D40B427BFB9072318ECEB54326E0530F7BB342308C719BB17A0664CC9",
+      "spdxElementId": "SPDXRef-Package-5FEBD62338A8789EEB6BF173DD300686E33257C6E148081682425C75C7D002D7"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-5FEBD62338A8789EEB6BF173DD300686E33257C6E148081682425C75C7D002D7",
+      "spdxElementId": "SPDXRef-RootPackage"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "VerbalExpressions 8484cd1",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-4.1.5-fd068d50-08b7-420f-bbba-de642bac1160/VerbalExpressions/8484cd1/DD8Ssvi48Uq6soabQ2-YEA",
+  "creationInfo": {
+    "created": "2026-03-31T17:45:23Z",
+    "creators": [
+      "Organization: JavaVerbalExpressions",
+      "Tool: Microsoft.SBOMTool-4.1.5"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}

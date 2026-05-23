@@ -1,0 +1,1702 @@
+{
+  "files": [
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/.gitignore",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-.gitignore-46BBFFF7BE25DC50AD01CFA58981EF4EE0D9315E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a41f3c1434c79ffcacbac873c39a742cec08e2814d0ad02dfd62ed90574bfcc3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "46bbfff7be25dc50ad01cfa58981ef4ee0d9315e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/.project",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-.project-95E4C2CAF97F5931161BEA06443B1A8F3B141F8C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "950e3c0076382e9b5df16c43dc8493e16d627a476d91c14240c903f7086b0d99"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "95e4c2caf97f5931161bea06443b1a8f3b141f8c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/pom.xml",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-pom.xml-FC7202A15AE3CC23EC0EDA2B6AA6199455F2A591",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4a6e5aa961789d0c82a55fc15a2c7f1c8a15a9531a7d0eb421d049d40410ae43"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fc7202a15ae3cc23ec0eda2b6aa6199455f2a591"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/README.md",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-README.md-7735D4D76C967472C46FC5B5FDE038B96F91A802",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e12e3d53f65af3adab6c0b32db87825313861c3bd8a71b7ee23e1305fd9eccd9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7735d4d76c967472c46fc5b5fde038b96f91a802"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/annotation/OnError.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-OnError.java-94DDC44EFE15A11B2A6E9552FCFDEBF89A76D2F1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a9b01501c9c9bf5fdf56d21cddf200e25b9f73966c7915e2beec7f0c3f1c5f20"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "94ddc44efe15a11b2a6e9552fcfdebf89a76d2f1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/exception/DeploymentException.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-exception-DeploymentException.java-74294DF9AD974F5C854D517F9130BD8956D6ABBA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0e994085091a7241c9333cb63fe18db4fb6ccde11df4c96db8a156b1806d5e48"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "74294df9ad974f5c854d517f9130bd8956d6abba"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/standard/WebsocketServer.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-standard-WebsocketServer.java-DD1087D85FFCF116E02DE3E668DF0FF9A8508AF4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6fb56e32e39d402bd8e5df8e71c29ede737fef9d7628c52210f72889fe208fc5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dd1087d85ffcf116e02de3e668df0ff9a8508af4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/support/PathVariableMapMethodArgumentResolver.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-PathVariableMapMethodArgumentResolver.java-E6689EDBEB2086D45FA26645E36E589618432467",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e2716841f0c4dd9f46bb00b3f6af6f36c3161f3db3f8f7f8a6119935105819a0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e6689edbeb2086d45fa26645e36e589618432467"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/util/SslUtils.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-util-SslUtils.java-18DFD3953B975625D971F10BE73E8A389EFAE99C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2089211f113652918925b3949d35723025e98918491f6f5f7da635fdfbf3a59d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "18dfd3953b975625d971f10be73e8a389efae99c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/.settings/org.eclipse.jdt.core.prefs",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-.settings-org.eclipse.jdt.core.prefs-FF5DAECFE92CE3A1EFD129A448B4B3CBD763C796",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ef21fd59573d8520ce3ef407b9702e18ae33a3c254bf7a18fa4929782dd92f6a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ff5daecfe92ce3a1efd129a448b4b3cbd763c796"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/annotation/OnMessage.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-OnMessage.java-DF0859C67EB5EF9E85983ACE2848A7B68F9DD55D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2567c6e7a805a1c3d29c7ffdf2979bb4a95b8866ba9de576c6cbab99f50177b9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "df0859c67eb5ef9e85983ace2848a7b68f9dd55d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/pojo/PojoMethodMapping.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-pojo-PojoMethodMapping.java-81ADF2770FE4D01FF2D4DBCF08BBF76681DEEB6E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8e4c44fcb2b6eedd74aa9fa19e61e539ae4fe2dcae9f0d8adead04002a54e985"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "81adf2770fe4d01ff2d4dbcf08bbf76681deeb6e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/support/AntPathMatcherWrapper.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-AntPathMatcherWrapper.java-05D942832AA2827063CB6A4B12758318B89E5F39",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f14b61a691520df057e7b882342569d2d866b846f5e87b6ac629e182fb70f7d4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "05d942832aa2827063cb6a4b12758318b89e5f39"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/support/RequestParamMapMethodArgumentResolver.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-RequestParamMapMethodArgumentResolver.java-29D37D105BFCD09C4AAC0D39FF545AC9E32826DD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e04842526fddd24a6ec2122b8c5212b3690235ec66464e2e22302d7e0654ad6a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "29d37d105bfcd09c4aac0d39ff545ac9e32826dd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/target/bom.json",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-target-bom.json-37AA14C1BAC53322D580515E648761DDACA4EA40",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f30477cef9d1770361f3013c230d55bd4ec0843782e5bc6b3f506428e211f23a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "37aa14c1bac53322d580515e648761ddaca4ea40"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/.classpath",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-.classpath-0A93A3C2AE20F389E43507436CE18F7AD3436B84",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eae51c4bf3efbfbcc6863ba1daf67cf2a3eb40e4a4a7ffff26d80eebb63e5ccf"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0a93a3c2ae20f389e43507436ce18f7ad3436b84"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/annotation/BeforeHandshake.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-BeforeHandshake.java-8BD1FD06B4615BEBCAB0BC63C7781E04DC2C0C4B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8426adbcfc7b6f2a9b87649734fd750814fa6a2c43e168fedc027fe5df4e367c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8bd1fd06b4615bebcab0bc63c7781e04dc2c0c4b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/annotation/OnOpen.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-OnOpen.java-28482DCC6EFE91D31864D3B20EE8A88DB442EFA1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a08df3730474fe561c65f8ad5eb59f193c8b4cb39c909f32effdecba0a58863c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "28482dcc6efe91d31864d3b20ee8a88db442efa1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/pojo/Session.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-pojo-Session.java-09ADC3109F56FDB3C47C12351F4099791AA29A18",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8acc1329e3b8530ed4fc89eaf884e96151dee086d0b9d4ce1a401d8c5659aeb0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "09adc3109f56fdb3c47c12351f4099791aa29a18"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/support/ByteMethodArgumentResolver.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-ByteMethodArgumentResolver.java-BB39CF2E74FD5B4A164CBD38AFE98A07C4035869",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "64bd79abdb1fe129ea116a24599c99e3218550522a3aa5502bae677a2ea3baec"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bb39cf2e74fd5b4a164cbd38afe98a07c4035869"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/LICENSE",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-LICENSE-7DF059597099BB7DCF25D2A9AEDFAF4465F72D8D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7df059597099bb7dcf25d2a9aedfaf4465f72d8d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/annotation/OnBinary.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-OnBinary.java-48015332E0555A4503D0216A9EB74159795988A8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "58bbef29c92d03440bf31ceb3bfbddbb8897d359f9e4818e992f7d7e4e6c22c3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "48015332e0555a4503d0216a9eb74159795988a8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/annotation/ServerEndpoint.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-ServerEndpoint.java-BF9BFBB67CE8ACDE9E18E5DD32673176C3897A96",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9e7b9fe2d0795b36562a1610b0b1b478bee5f87f48876ce209325ce0fc6b818c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bf9bfbb67ce8acde9e18e5dd32673176c3897a96"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/standard/ServerEndpointConfig.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-standard-ServerEndpointConfig.java-57661BD3B9ED58A69AAEE1DD18839180CC52D959",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "60ee0ad6de8ba6f4a9ff0e7218176568a50fc687cc7351c2c8792177ba4e599b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "57661bd3b9ed58a69aaee1dd18839180cc52d959"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/support/HttpHeadersMethodArgumentResolver.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-HttpHeadersMethodArgumentResolver.java-3E86A40C8877F092CCA2910D44C479C302C58FA2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fa6a90b3aab48db35156aabecfb4c2fb70d3cd546e467fe01ba866be34664d29"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3e86a40c8877f092cca2910d44c479c302c58fa2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/support/ThrowableMethodArgumentResolver.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-ThrowableMethodArgumentResolver.java-512F337C8B1F6C07A615137453437CBADEA708CE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8f83d879e03db32d2bd0af2ed665cd4c93890ae6f643c854379734a438e3f795"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "512f337c8b1f6c07a615137453437cbadea708ce"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/README_zh.md",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-README-zh.md-C70E177FECC87C5512799E20BEC8F8A6E5AADCEC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aefbaa1bd700d27c225728398713ca929a4e4f02d3da4d7c75d748597a7625d5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c70e177fecc87c5512799e20bec8f8a6e5aadcec"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/annotation/OnEvent.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-OnEvent.java-68B8BCC4D184A58D45D55DB0165F72956C9E66D8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "82a5f8192ef7650413d3316557acdfca62cb8bf415bb64b201ab1ca7544283dd"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "68b8bcc4d184a58d45d55db0165f72956c9e66d8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/pojo/PojoEndpointServer.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-pojo-PojoEndpointServer.java-B82F68C916AB3A645E5FE9CD4D9689FCD6CC0DA8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "42710d790c9d79e1dd9cf46a2836a49c472667b83fc534c7f47f93115f763c6f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b82f68c916ab3a645e5fe9cd4d9689fcd6cc0da8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/standard/WebSocketServerHandler.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-standard-WebSocketServerHandler.java-79A38383E2FB61ADB9C2A4C6F4EF1D91E35560E5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "54505b6bfef8315645b6c7ba6927ca0bff6a7e9ac0a51039e79344c12158e667"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "79a38383e2fb61adb9c2a4c6f4ef1d91e35560e5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/support/PathVariableMethodArgumentResolver.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-PathVariableMethodArgumentResolver.java-91FD318EEEDB4653FCBAB4D44F8B5720B99B057D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1972fea600bc00af77434357ab4aae5116a83eedc5e10dfc87d1f3cdefaa132f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "91fd318eeedb4653fcbab4d44f8b5720b99b057d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/resources/META-INF/spring.factories",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-resources-META-INF-spring.factories-509074527B4F635B8671BF7CEAE396B88B3FE611",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0ff396f4b891fc7c0a7996b3f433f4f8a19f3280a1c0ab0c6697198ec2cb5a82"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "509074527b4f635b8671bf7ceae396b88b3fe611"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/annotation/EnableWebSocket.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-EnableWebSocket.java-E3E3D7492A5DD418B0DC1995A39621FE849FB326",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "239bcf21ace21c50569e682a781c05e54c27df0eb6d48f3ab4599c38c5933e84"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e3e3d7492a5dd418b0dc1995a39621fe849fb326"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/annotation/PathVariable.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-PathVariable.java-DDCF7D4768AD81EFFC205894564A438F5850897D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fbab8bf01c28f15b9925155840c41efe63928e89c42688c92e10e35d2d23a97d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ddcf7d4768ad81effc205894564a438f5850897d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/standard/EndpointClassPathScanner.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-standard-EndpointClassPathScanner.java-5BF6EA1205CBC5D1653FBDECFC4C746120D04DA5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "74bd6642c56435e2c8973f812328437bc4a8840344190ed200bad7562b2289c9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5bf6ea1205cbc5d1653fbdecfc4c746120d04da5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/support/DefaultPathMatcher.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-DefaultPathMatcher.java-C0D755560EC32A0140C472FCF703E8370904F685",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "da196b039a328cf79286b525fda6115ae30ae8379d492274ec472a4ef6ebf65b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c0d755560ec32a0140c472fcf703e8370904f685"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/support/SessionMethodArgumentResolver.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-SessionMethodArgumentResolver.java-65C79CFD5B6C691DB23169156377ABA15FB20FA2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1b2ed5aea9257ab0086988f9952b306f68370c421d16ad3bd136d5bf28d5042e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "65c79cfd5b6c691db23169156377aba15fb20fa2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/target/classes/META-INF/MANIFEST.MF",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-target-classes-META-INF-MANIFEST.MF-AEE7392CE45AA838B710A88E5B90A78167BB5725",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "35c723247c4560ac0a8131f59d5f8c53a41aaaf8b7c24f63389ba3116ab8b95b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "aee7392ce45aa838b710a88e5b90a78167bb5725"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/annotation/OnClose.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-OnClose.java-1F0F14C89B6AA13E96D864DF31CE102354FE5A32",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "62df925cbe0545328ecc7e89d4f95d99c2ea7c806db36f249cfdcbc486a299eb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1f0f14c89b6aa13e96d864df31ce102354fe5a32"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/autoconfigure/NettyWebSocketAutoConfigure.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-autoconfigure-NettyWebSocketAutoConfigure.java-8010656BC99DD6A520CA4598024BB792EC4DD33A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8cdb7bcf93bc98e93121b6813905646de5ce9bde25297fe6765ae124f3001a97"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8010656bc99dd6a520ca4598024bb792ec4dd33a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/annotation/NettyWebSocketSelector.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-NettyWebSocketSelector.java-EDA20A4ABB6485F2CEC618C250BCC788631EC562",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "313b7d71708f45064c90b41bae6a8f8a0aef405162dcf3941c378999112d76a4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "eda20a4abb6485f2cec618c250bcc788631ec562"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/annotation/RequestParam.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-RequestParam.java-BB773D388CE9CF5BD87A927E5C3287B2EBE91F88",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "60a32d84a92d0d412bcef43be8b6305b60c16ff15d2fd4cda362c09fa17a9e00"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bb773d388ce9cf5bd87a927e5c3287b2ebe91f88"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/standard/HttpServerHandler.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-standard-HttpServerHandler.java-C38730D7487CEB21132DD5AC7EC4D1DAD9A19CCD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a6a95d1a9b78dd6d4ea1edff083678e5288196fc4071b96b9064a9ba333715ff"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c38730d7487ceb21132dd5ac7ec4d1dad9a19ccd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/support/EventMethodArgumentResolver.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-EventMethodArgumentResolver.java-3E00CA659D8AD38C998B238D78B061C0E8F1B7CB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a96506290ee8b8d004cf8fb81de782305c0704ae309542439f7fb2d70325dc97"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3e00ca659d8ad38c998b238d78b061c0e8f1b7cb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/support/RequestParamMethodArgumentResolver.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-RequestParamMethodArgumentResolver.java-6EC980CA6FC89FA5651BA3DFF728614150B5CBB4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e8cbbdd7491f34ea7b235e97be8fbfd69c449958b2626a2bee89b08652e52d10"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6ec980ca6fc89fa5651ba3dff728614150b5cbb4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/target/bom.xml",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-target-bom.xml-8B361A4BDECDA15411CDE76EAA9D304D3547E36F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c4f80bcfb2bc0063e2eff28f6dd3d78b5259df07e0acd701c69cd057f54b7e37"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8b361a4bdecda15411cde76eaa9d304d3547e36f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/target/classes/META-INF/maven/org.yeauty/netty-websocket-spring-boot-starter/pom.properties",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-target-classes-META-INF-maven-org.yeauty-netty-websocket-spring-boot-starter-pom.properties-FE6458D06E3B35C41A19351B4066A62B6EE356E8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "65b5a85e3241cc681c234b7e33690803c477ae52fcdcc66f718443fbb82b70ac"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fe6458d06e3b35c41a19351b4066a62b6ee356e8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/support/TextMethodArgumentResolver.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-TextMethodArgumentResolver.java-F360CF84B442586D62B3E52F26FF51D5B19403FD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0591d58fc4debdb143bd9b9f9b4aa707dcec745299d5a6d2a8314fa07d38c940"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f360cf84b442586d62b3e52f26ff51d5b19403fd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/standard/ServerEndpointExporter.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-standard-ServerEndpointExporter.java-B7C53F72B167DAC73DE7EB0343E0DEB76FAB8C19",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1ee146b9da8ee05f615cb7ccbc3433c3e24a30687f3e073c3932b7b9e9f8350e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b7c53f72b167dac73de7eb0343e0deb76fab8c19"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/target/classes/META-INF/spring.factories",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-target-classes-META-INF-spring.factories-509074527B4F635B8671BF7CEAE396B88B3FE611",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0ff396f4b891fc7c0a7996b3f433f4f8a19f3280a1c0ab0c6697198ec2cb5a82"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "509074527b4f635b8671bf7ceae396b88b3fe611"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/support/MethodArgumentResolver.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-MethodArgumentResolver.java-7EC7E43A75810A79610004E5B3AC136C8DD52FB7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "93ccd47133a4c46da20de8dc4d1663d0698b41771d10c2581e8ff12c2cd67e11"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7ec7e43a75810a79610004e5b3ac136c8dd52fb7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/src/main/java/org/yeauty/support/WsPathMatcher.java",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-WsPathMatcher.java-003B08982926F63EEF402C3DD26496130E288A63",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "74adae665c4a5284538c5cc0ec193e80495a334e01205db51e7aee46e749ae41"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "003b08982926f63eef402c3dd26496130e288a63"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./netty-websocket-spring-boot-starter-master/target/classes/META-INF/maven/org.yeauty/netty-websocket-spring-boot-starter/pom.xml",
+      "SPDXID": "SPDXRef-File--netty-websocket-spring-boot-starter-master-target-classes-META-INF-maven-org.yeauty-netty-websocket-spring-boot-starter-pom.xml-FC7202A15AE3CC23EC0EDA2B6AA6199455F2A591",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4a6e5aa961789d0c82a55fc15a2c7f1c8a15a9531a7d0eb421d049d40410ae43"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fc7202a15ae3cc23ec0eda2b6aa6199455f2a591"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "io.netty.netty-resolver",
+      "SPDXID": "SPDXRef-Package-E1F209E5FB4768FC83D499DCB45EE2C86CC466A44A22B8AFC913E05EC0B86C84",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.118.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-resolver@4.1.118.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.netty.netty-codec",
+      "SPDXID": "SPDXRef-Package-D78F6C6F53CE78175FE2086CCDEFC1ACFF68D631BFD52BDCF02921D30616F4E4",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.118.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec@4.1.118.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.springframework.boot.spring-boot",
+      "SPDXID": "SPDXRef-Package-9C146D218E0418B4DB652935B4B355EEEB08D2492266AA1D93793992A418732F",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "3.3.5",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot@3.3.5"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.netty.netty-buffer",
+      "SPDXID": "SPDXRef-Package-CCED4567F24204041006C736A8BA8043F11F021C72B9BD37984B01F254361191",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.118.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-buffer@4.1.118.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.springframework.spring-expression",
+      "SPDXID": "SPDXRef-Package-0B32A036F17182B72F851E06D036E829A663C1011DD42508F125F79C18F584C6",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "6.1.14",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-expression@6.1.14"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.springframework.spring-aop",
+      "SPDXID": "SPDXRef-Package-CD37F1C16B55A31F348E582499337FD1490E7AB10EAE56ECB0FCD8ADF0208A2F",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "6.1.14",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-aop@6.1.14"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.yeauty.netty-websocket-spring-boot-starter",
+      "SPDXID": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "0.13.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.yeauty/netty-websocket-spring-boot-starter@0.13.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.springframework.spring-context",
+      "SPDXID": "SPDXRef-Package-70177A484167C19CB2A6B6406C45474B2DDFD89DB142AC2514CD5A8096C8F62A",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "6.1.14",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-context@6.1.14"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.springframework.boot.spring-boot-autoconfigure",
+      "SPDXID": "SPDXRef-Package-C1B25D10F892E4DE6064650CF29B66BACED08439D8CADE56C4CD277EE7EED2DE",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "3.3.5",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.3.5"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.netty.netty-transport",
+      "SPDXID": "SPDXRef-Package-18D72EA28405F35EF049CE5735090EA1EDF337BB474CD7CC1A92BF9AA501C7AF",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.118.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport@4.1.118.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.netty.netty-common",
+      "SPDXID": "SPDXRef-Package-2EBECC9546001B22CEAF1F513BAA5288F07E37DA285381FC1D461948FC70D01E",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.118.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-common@4.1.118.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.springframework.spring-jcl",
+      "SPDXID": "SPDXRef-Package-4C57D0258D02429638D2091DB71B936B5B9F957E31CF4B28DB94069790E75D4B",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "6.1.14",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-jcl@6.1.14"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.netty.netty-transport-native-unix-common",
+      "SPDXID": "SPDXRef-Package-D8CD5790727A0179C32A06BA6C363960D42BAADB7F6A208D3D99B47C8FADFB3D",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.118.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.118.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.springframework.spring-beans",
+      "SPDXID": "SPDXRef-Package-8327ECC6C3F35F78078B0ADE15C7168437841C222C567335CD1CB60174D9D530",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "6.1.14",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-beans@6.1.14"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.micrometer.micrometer-observation",
+      "SPDXID": "SPDXRef-Package-55D1A508621B51E0F01DF42FCDD8C30865554F1DC1044C66E00447FD10A217A1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.12.11",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.micrometer/micrometer-observation@1.12.11"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.springframework.spring-core",
+      "SPDXID": "SPDXRef-Package-A604BAF8A891BEC781441C1CC7A66F81EB7FFF170A0EE87ED6433C64D482C4BA",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "6.1.14",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-core@6.1.14"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.netty.netty-codec-http",
+      "SPDXID": "SPDXRef-Package-AD0AD5FB6AC3448C9AA52961E7295D585A6CB9ABBE54B8EE47B1958744D85DC0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.118.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec-http@4.1.118.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.micrometer.micrometer-commons",
+      "SPDXID": "SPDXRef-Package-73902B2FF5F8B22FE51313399348CEB12F0C850CF1E384B0ADF5C36EB9CB53BC",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.12.11",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.micrometer/micrometer-commons@1.12.11"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "io.netty.netty-handler",
+      "SPDXID": "SPDXRef-Package-79DD8ABC921070D6D08F45426742C9A231DA6DFF268BED85EE4C9C666DA2B1FA",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "4.1.118.Final",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-handler@4.1.118.Final"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "netty-websocket-spring-boot-starter",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "ad6207f68682dda719068606dbde534c501b709a"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "8484cd1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/YeautyYe/spdx.org/netty-websocket-spring-boot-starter@8484cd1?tag_id=841d5728-14f2-45da-b8e6-b2ad33d4763f"
+        }
+      ],
+      "supplier": "Organization: YeautyYe",
+      "hasFiles": [
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-target-classes-META-INF-maven-org.yeauty-netty-websocket-spring-boot-starter-pom.xml-FC7202A15AE3CC23EC0EDA2B6AA6199455F2A591",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-target-classes-META-INF-spring.factories-509074527B4F635B8671BF7CEAE396B88B3FE611",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-MethodArgumentResolver.java-7EC7E43A75810A79610004E5B3AC136C8DD52FB7",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-standard-ServerEndpointExporter.java-B7C53F72B167DAC73DE7EB0343E0DEB76FAB8C19",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-TextMethodArgumentResolver.java-F360CF84B442586D62B3E52F26FF51D5B19403FD",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-EventMethodArgumentResolver.java-3E00CA659D8AD38C998B238D78B061C0E8F1B7CB",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-standard-HttpServerHandler.java-C38730D7487CEB21132DD5AC7EC4D1DAD9A19CCD",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-RequestParam.java-BB773D388CE9CF5BD87A927E5C3287B2EBE91F88",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-NettyWebSocketSelector.java-EDA20A4ABB6485F2CEC618C250BCC788631EC562",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-autoconfigure-NettyWebSocketAutoConfigure.java-8010656BC99DD6A520CA4598024BB792EC4DD33A",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-OnClose.java-1F0F14C89B6AA13E96D864DF31CE102354FE5A32",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-resources-META-INF-spring.factories-509074527B4F635B8671BF7CEAE396B88B3FE611",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-PathVariableMethodArgumentResolver.java-91FD318EEEDB4653FCBAB4D44F8B5720B99B057D",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-standard-WebSocketServerHandler.java-79A38383E2FB61ADB9C2A4C6F4EF1D91E35560E5",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-pojo-PojoEndpointServer.java-B82F68C916AB3A645E5FE9CD4D9689FCD6CC0DA8",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-OnEvent.java-68B8BCC4D184A58D45D55DB0165F72956C9E66D8",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-README-zh.md-C70E177FECC87C5512799E20BEC8F8A6E5AADCEC",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-ByteMethodArgumentResolver.java-BB39CF2E74FD5B4A164CBD38AFE98A07C4035869",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-pojo-Session.java-09ADC3109F56FDB3C47C12351F4099791AA29A18",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-OnOpen.java-28482DCC6EFE91D31864D3B20EE8A88DB442EFA1",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-BeforeHandshake.java-8BD1FD06B4615BEBCAB0BC63C7781E04DC2C0C4B",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-.classpath-0A93A3C2AE20F389E43507436CE18F7AD3436B84",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-pom.xml-FC7202A15AE3CC23EC0EDA2B6AA6199455F2A591",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-WsPathMatcher.java-003B08982926F63EEF402C3DD26496130E288A63",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-target-classes-META-INF-maven-org.yeauty-netty-websocket-spring-boot-starter-pom.properties-FE6458D06E3B35C41A19351B4066A62B6EE356E8",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-util-SslUtils.java-18DFD3953B975625D971F10BE73E8A389EFAE99C",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-PathVariableMapMethodArgumentResolver.java-E6689EDBEB2086D45FA26645E36E589618432467",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-standard-WebsocketServer.java-DD1087D85FFCF116E02DE3E668DF0FF9A8508AF4",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-exception-DeploymentException.java-74294DF9AD974F5C854D517F9130BD8956D6ABBA",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-OnError.java-94DDC44EFE15A11B2A6E9552FCFDEBF89A76D2F1",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-README.md-7735D4D76C967472C46FC5B5FDE038B96F91A802",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-.gitignore-46BBFFF7BE25DC50AD01CFA58981EF4EE0D9315E",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-target-bom.xml-8B361A4BDECDA15411CDE76EAA9D304D3547E36F",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-RequestParamMethodArgumentResolver.java-6EC980CA6FC89FA5651BA3DFF728614150B5CBB4",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-target-classes-META-INF-MANIFEST.MF-AEE7392CE45AA838B710A88E5B90A78167BB5725",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-SessionMethodArgumentResolver.java-65C79CFD5B6C691DB23169156377ABA15FB20FA2",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-DefaultPathMatcher.java-C0D755560EC32A0140C472FCF703E8370904F685",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-standard-EndpointClassPathScanner.java-5BF6EA1205CBC5D1653FBDECFC4C746120D04DA5",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-PathVariable.java-DDCF7D4768AD81EFFC205894564A438F5850897D",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-EnableWebSocket.java-E3E3D7492A5DD418B0DC1995A39621FE849FB326",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-ThrowableMethodArgumentResolver.java-512F337C8B1F6C07A615137453437CBADEA708CE",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-HttpHeadersMethodArgumentResolver.java-3E86A40C8877F092CCA2910D44C479C302C58FA2",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-standard-ServerEndpointConfig.java-57661BD3B9ED58A69AAEE1DD18839180CC52D959",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-ServerEndpoint.java-BF9BFBB67CE8ACDE9E18E5DD32673176C3897A96",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-OnBinary.java-48015332E0555A4503D0216A9EB74159795988A8",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-LICENSE-7DF059597099BB7DCF25D2A9AEDFAF4465F72D8D",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-target-bom.json-37AA14C1BAC53322D580515E648761DDACA4EA40",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-RequestParamMapMethodArgumentResolver.java-29D37D105BFCD09C4AAC0D39FF545AC9E32826DD",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-support-AntPathMatcherWrapper.java-05D942832AA2827063CB6A4B12758318B89E5F39",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-pojo-PojoMethodMapping.java-81ADF2770FE4D01FF2D4DBCF08BBF76681DEEB6E",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-src-main-java-org-yeauty-annotation-OnMessage.java-DF0859C67EB5EF9E85983ACE2848A7B68F9DD55D",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-.settings-org.eclipse.jdt.core.prefs-FF5DAECFE92CE3A1EFD129A448B4B3CBD763C796",
+        "SPDXRef-File--netty-websocket-spring-boot-starter-master-.project-95E4C2CAF97F5931161BEA06443B1A8F3B141F8C"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-D8CD5790727A0179C32A06BA6C363960D42BAADB7F6A208D3D99B47C8FADFB3D",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-D8CD5790727A0179C32A06BA6C363960D42BAADB7F6A208D3D99B47C8FADFB3D",
+      "spdxElementId": "SPDXRef-Package-79DD8ABC921070D6D08F45426742C9A231DA6DFF268BED85EE4C9C666DA2B1FA"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-4C57D0258D02429638D2091DB71B936B5B9F957E31CF4B28DB94069790E75D4B",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-4C57D0258D02429638D2091DB71B936B5B9F957E31CF4B28DB94069790E75D4B",
+      "spdxElementId": "SPDXRef-Package-C1B25D10F892E4DE6064650CF29B66BACED08439D8CADE56C4CD277EE7EED2DE"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-4C57D0258D02429638D2091DB71B936B5B9F957E31CF4B28DB94069790E75D4B",
+      "spdxElementId": "SPDXRef-Package-9C146D218E0418B4DB652935B4B355EEEB08D2492266AA1D93793992A418732F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-4C57D0258D02429638D2091DB71B936B5B9F957E31CF4B28DB94069790E75D4B",
+      "spdxElementId": "SPDXRef-Package-A604BAF8A891BEC781441C1CC7A66F81EB7FFF170A0EE87ED6433C64D482C4BA"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-2EBECC9546001B22CEAF1F513BAA5288F07E37DA285381FC1D461948FC70D01E",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-2EBECC9546001B22CEAF1F513BAA5288F07E37DA285381FC1D461948FC70D01E",
+      "spdxElementId": "SPDXRef-Package-AD0AD5FB6AC3448C9AA52961E7295D585A6CB9ABBE54B8EE47B1958744D85DC0"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-18D72EA28405F35EF049CE5735090EA1EDF337BB474CD7CC1A92BF9AA501C7AF",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-18D72EA28405F35EF049CE5735090EA1EDF337BB474CD7CC1A92BF9AA501C7AF",
+      "spdxElementId": "SPDXRef-Package-AD0AD5FB6AC3448C9AA52961E7295D585A6CB9ABBE54B8EE47B1958744D85DC0"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-73902B2FF5F8B22FE51313399348CEB12F0C850CF1E384B0ADF5C36EB9CB53BC",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-73902B2FF5F8B22FE51313399348CEB12F0C850CF1E384B0ADF5C36EB9CB53BC",
+      "spdxElementId": "SPDXRef-Package-C1B25D10F892E4DE6064650CF29B66BACED08439D8CADE56C4CD277EE7EED2DE"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-73902B2FF5F8B22FE51313399348CEB12F0C850CF1E384B0ADF5C36EB9CB53BC",
+      "spdxElementId": "SPDXRef-Package-9C146D218E0418B4DB652935B4B355EEEB08D2492266AA1D93793992A418732F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-73902B2FF5F8B22FE51313399348CEB12F0C850CF1E384B0ADF5C36EB9CB53BC",
+      "spdxElementId": "SPDXRef-Package-70177A484167C19CB2A6B6406C45474B2DDFD89DB142AC2514CD5A8096C8F62A"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-73902B2FF5F8B22FE51313399348CEB12F0C850CF1E384B0ADF5C36EB9CB53BC",
+      "spdxElementId": "SPDXRef-Package-55D1A508621B51E0F01DF42FCDD8C30865554F1DC1044C66E00447FD10A217A1"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-AD0AD5FB6AC3448C9AA52961E7295D585A6CB9ABBE54B8EE47B1958744D85DC0",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C1B25D10F892E4DE6064650CF29B66BACED08439D8CADE56C4CD277EE7EED2DE",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-70177A484167C19CB2A6B6406C45474B2DDFD89DB142AC2514CD5A8096C8F62A",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-70177A484167C19CB2A6B6406C45474B2DDFD89DB142AC2514CD5A8096C8F62A",
+      "spdxElementId": "SPDXRef-Package-C1B25D10F892E4DE6064650CF29B66BACED08439D8CADE56C4CD277EE7EED2DE"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-70177A484167C19CB2A6B6406C45474B2DDFD89DB142AC2514CD5A8096C8F62A",
+      "spdxElementId": "SPDXRef-Package-9C146D218E0418B4DB652935B4B355EEEB08D2492266AA1D93793992A418732F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-A604BAF8A891BEC781441C1CC7A66F81EB7FFF170A0EE87ED6433C64D482C4BA",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-A604BAF8A891BEC781441C1CC7A66F81EB7FFF170A0EE87ED6433C64D482C4BA",
+      "spdxElementId": "SPDXRef-Package-C1B25D10F892E4DE6064650CF29B66BACED08439D8CADE56C4CD277EE7EED2DE"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-A604BAF8A891BEC781441C1CC7A66F81EB7FFF170A0EE87ED6433C64D482C4BA",
+      "spdxElementId": "SPDXRef-Package-9C146D218E0418B4DB652935B4B355EEEB08D2492266AA1D93793992A418732F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-55D1A508621B51E0F01DF42FCDD8C30865554F1DC1044C66E00447FD10A217A1",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-55D1A508621B51E0F01DF42FCDD8C30865554F1DC1044C66E00447FD10A217A1",
+      "spdxElementId": "SPDXRef-Package-C1B25D10F892E4DE6064650CF29B66BACED08439D8CADE56C4CD277EE7EED2DE"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-55D1A508621B51E0F01DF42FCDD8C30865554F1DC1044C66E00447FD10A217A1",
+      "spdxElementId": "SPDXRef-Package-9C146D218E0418B4DB652935B4B355EEEB08D2492266AA1D93793992A418732F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-55D1A508621B51E0F01DF42FCDD8C30865554F1DC1044C66E00447FD10A217A1",
+      "spdxElementId": "SPDXRef-Package-70177A484167C19CB2A6B6406C45474B2DDFD89DB142AC2514CD5A8096C8F62A"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-CD37F1C16B55A31F348E582499337FD1490E7AB10EAE56ECB0FCD8ADF0208A2F",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-CD37F1C16B55A31F348E582499337FD1490E7AB10EAE56ECB0FCD8ADF0208A2F",
+      "spdxElementId": "SPDXRef-Package-C1B25D10F892E4DE6064650CF29B66BACED08439D8CADE56C4CD277EE7EED2DE"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-CD37F1C16B55A31F348E582499337FD1490E7AB10EAE56ECB0FCD8ADF0208A2F",
+      "spdxElementId": "SPDXRef-Package-9C146D218E0418B4DB652935B4B355EEEB08D2492266AA1D93793992A418732F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-CD37F1C16B55A31F348E582499337FD1490E7AB10EAE56ECB0FCD8ADF0208A2F",
+      "spdxElementId": "SPDXRef-Package-70177A484167C19CB2A6B6406C45474B2DDFD89DB142AC2514CD5A8096C8F62A"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-0B32A036F17182B72F851E06D036E829A663C1011DD42508F125F79C18F584C6",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-0B32A036F17182B72F851E06D036E829A663C1011DD42508F125F79C18F584C6",
+      "spdxElementId": "SPDXRef-Package-C1B25D10F892E4DE6064650CF29B66BACED08439D8CADE56C4CD277EE7EED2DE"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-0B32A036F17182B72F851E06D036E829A663C1011DD42508F125F79C18F584C6",
+      "spdxElementId": "SPDXRef-Package-9C146D218E0418B4DB652935B4B355EEEB08D2492266AA1D93793992A418732F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-0B32A036F17182B72F851E06D036E829A663C1011DD42508F125F79C18F584C6",
+      "spdxElementId": "SPDXRef-Package-70177A484167C19CB2A6B6406C45474B2DDFD89DB142AC2514CD5A8096C8F62A"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-CCED4567F24204041006C736A8BA8043F11F021C72B9BD37984B01F254361191",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-CCED4567F24204041006C736A8BA8043F11F021C72B9BD37984B01F254361191",
+      "spdxElementId": "SPDXRef-Package-AD0AD5FB6AC3448C9AA52961E7295D585A6CB9ABBE54B8EE47B1958744D85DC0"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-79DD8ABC921070D6D08F45426742C9A231DA6DFF268BED85EE4C9C666DA2B1FA",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-8327ECC6C3F35F78078B0ADE15C7168437841C222C567335CD1CB60174D9D530",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-8327ECC6C3F35F78078B0ADE15C7168437841C222C567335CD1CB60174D9D530",
+      "spdxElementId": "SPDXRef-Package-C1B25D10F892E4DE6064650CF29B66BACED08439D8CADE56C4CD277EE7EED2DE"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-8327ECC6C3F35F78078B0ADE15C7168437841C222C567335CD1CB60174D9D530",
+      "spdxElementId": "SPDXRef-Package-9C146D218E0418B4DB652935B4B355EEEB08D2492266AA1D93793992A418732F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-8327ECC6C3F35F78078B0ADE15C7168437841C222C567335CD1CB60174D9D530",
+      "spdxElementId": "SPDXRef-Package-70177A484167C19CB2A6B6406C45474B2DDFD89DB142AC2514CD5A8096C8F62A"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-9C146D218E0418B4DB652935B4B355EEEB08D2492266AA1D93793992A418732F",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-9C146D218E0418B4DB652935B4B355EEEB08D2492266AA1D93793992A418732F",
+      "spdxElementId": "SPDXRef-Package-C1B25D10F892E4DE6064650CF29B66BACED08439D8CADE56C4CD277EE7EED2DE"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-D78F6C6F53CE78175FE2086CCDEFC1ACFF68D631BFD52BDCF02921D30616F4E4",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-D78F6C6F53CE78175FE2086CCDEFC1ACFF68D631BFD52BDCF02921D30616F4E4",
+      "spdxElementId": "SPDXRef-Package-AD0AD5FB6AC3448C9AA52961E7295D585A6CB9ABBE54B8EE47B1958744D85DC0"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-E1F209E5FB4768FC83D499DCB45EE2C86CC466A44A22B8AFC913E05EC0B86C84",
+      "spdxElementId": "SPDXRef-Package-E9B57C83D3AF2E7A8D891E59E6C7ED09238CDDA708E35A7AD6622D7C93339107"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-E1F209E5FB4768FC83D499DCB45EE2C86CC466A44A22B8AFC913E05EC0B86C84",
+      "spdxElementId": "SPDXRef-Package-79DD8ABC921070D6D08F45426742C9A231DA6DFF268BED85EE4C9C666DA2B1FA"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "netty-websocket-spring-boot-starter 8484cd1",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-4.1.5-40fa0982-7259-469d-8b89-b3ea346eeb64/netty-websocket-spring-boot-starter/8484cd1/EV-LhTNkBUuJv3_PZP9xog",
+  "creationInfo": {
+    "created": "2026-03-31T18:02:06Z",
+    "creators": [
+      "Organization: YeautyYe",
+      "Tool: Microsoft.SBOMTool-4.1.5"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}

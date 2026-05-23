@@ -1,0 +1,1983 @@
+{
+  "files": [
+    {
+      "fileName": "./ik-analyzer-solr-master/CONTRIBUTING.md",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-CONTRIBUTING.md-ADC83B19E793491B1C6EA0FD8B46CD9F32E592FC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/.classpath",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-.classpath-1D692427810163E6407FAC2F3A66A8952C160262",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eb25f76479ed2adc9b67dc32a4ea098b35becfc4a7a8d6d80460df03a771232b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1d692427810163e6407fac2f3a66a8952c160262"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/README.md",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-README.md-895B96937251A6F6091DE25294FE75659C2B373B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2218a3762da069143ff9565ce53551353f305ca6ed88b031e14c3dd4d49cdb40"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "895b96937251a6f6091de25294fe75659c2b373b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/img/conf2.png",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-img-conf2.png-C622B7FDFDAB6B11C19A3E67A052013DD0FB2D70",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "863416db5363752fd8955f9ae873ca7f888b7f47b497a5155bdedd21dd2befb8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c622b7fdfdab6b11c19a3e67a052013dd0fb2d70"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/core/CJKSegmenter.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-CJKSegmenter.java-A5CFCF5D50042683AD2A286A1CD3B9918A9F926E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5d6db1b19946c688bab24ea1a4164bde875e0031801d0e62af9f49960060df09"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a5cfcf5d50042683ad2a286a1cd3b9918a9f926e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/.gitignore",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-.gitignore-B1A7CE15F2FF2F7158B6CB6E8064C48472C7A740",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "82b6789076e09f856ede82b8c452ec9f128966ab3574eddef9dac5e7c968c935"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b1a7ce15f2ff2f7158b6cb6e8064c48472c7a740"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/.project",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-.project-46B05C355A4AFB9360AC28759AE75C9D4814E3AA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e379dfa1b4870dbfff32b597bf9c4e89c6626a2e8adb90b72ab45a09e2c4a847"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "46b05c355a4afb9360ac28759ae75c9d4814e3aa"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/pom.xml",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-pom.xml-9CE62AE5082A57E5646674C3B9674D244A68C787",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9915ab03581a8e045c1701519847d3dc0a685185119a78ce7539eaa84e082c71"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9ce62ae5082a57e5646674c3b9674d244a68c787"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/LICENSE",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-LICENSE-3E74E8DFC60BE9C67F4B7C1623441F8513477F2F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "838955a113ed0a32daae1547457fcd1dc625520afe5135a90e501436eb27073b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3e74e8dfc60be9c67f4b7c1623441f8513477f2f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/img/cloud-analyzer.png",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-img-cloud-analyzer.png-A3E4F715D0FE0F5F51CE940A81B6F1D45B80672E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dde26e623093c433c7fbb9bd5f168ffd78c533bc97120c26178b82142a53f3a3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a3e4f715d0fe0f5f51ce940a81b6f1d45b80672e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/cfg/DefaultConfig.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-cfg-DefaultConfig.java-AA214F60B2A74D699428B0961492B766832E5BF8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "66519dd0fa7e321307a7e7edf5559401432ec187b29a473229fc1d49b567ffc3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "aa214f60b2a74d699428b0961492b766832e5bf8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/core/LetterSegmenter.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-LetterSegmenter.java-B5C62C85EF6815B4AF961CFD86F73322BA9F7BE9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fd0bf91f9cd5aef05dabdd0562a095c1e9c351514262dbb42617fc25220543eb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b5c62c85ef6815b4af961cfd86f73322ba9f7be9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/lucene/IKTokenizer.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-lucene-IKTokenizer.java-D38DE5CA6FEC254EE859EDCB130CEF0767B545C9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3fb25c0e319e708e00937f54d75bded5c68bf66bcd600b7626d49499dee0393e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d38de5ca6fec254ee859edcb130cef0767b545c9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/README-CLOUD.md",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-README-CLOUD.md-D71302B76B54636BC6DB98E616B39055C6C7F0E9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a3c50c5e22023ba23e07120f673b0487a085d09c92a1fd56998de938bbfa2c68"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d71302b76b54636bc6db98e616b39055c6c7f0e9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/img/conf.png",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-img-conf.png-A10877BDA8991DAD2A3318CA452D97A3D636471C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "22d3f1b97eab7b108c01edaa6aba88cf02f007b068f8181f72ec45f5438ae11a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a10877bda8991dad2a3318ca452d97a3d636471c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/core/CharacterUtil.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-CharacterUtil.java-39DC859A736D5EFC389A7D8BBACB7C9BE91569F0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "88cc8ee279fa7b7b1602bc00d31a341addac4ae8e1c8f7dbd01ee40065149669"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "39dc859a736d5efc389a7d8bbacb7c9be91569f0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/core/LexemePath.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-LexemePath.java-E6D4FFF3F4ED7FAC5EA11F8726B4A23C25BC9216",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "098642c32f190bd62392b946d57621feabf0cbfa7a6b2fdef05968146ab99f30"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e6d4fff3f4ed7fac5ea11f8726b4a23c25bc9216"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/lucene/UpdateThread.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-lucene-UpdateThread.java-0CAFFA43CF5B1FA20AEEE5C9DFF91843F9B620B7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cb60dfd78b43b6e2383e0589a0dad00d3eb3dd5e32245cb900cd8494f088666a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0caffa43cf5b1fa20aeee5c9dff91843f9b620b7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/.travis.yml",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-.travis.yml-4C80316CBC6BAD777D44BCF4EB44C3BF272E10D8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "579b589730a85234a6d16c820c6dbba86df347d662e470c02ab243f821de76c3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4c80316cbc6bad777d44bcf4eb44c3bf272e10d8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/.settings/org.eclipse.jdt.core.prefs",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-.settings-org.eclipse.jdt.core.prefs-1FEE5951158E3AE4E75B60242F994ED49791A2DA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "70f6f310c85ad09bf0ac18af451043ed1a011a5b9af65ccafd862f64cad26d9c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1fee5951158e3ae4e75b60242f994ed49791a2da"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/img/jetbrains.svg",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-img-jetbrains.svg-448118FDA8FC309A124AE66808392E643AE1C505",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "32a3c030a9460569708831a41aede026b3fb41fc92c43778424a63926dee77a9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "448118fda8fc309a124ae66808392e643ae1c505"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/core/IKSegmenter.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-IKSegmenter.java-525A10FCCE300CB452C35BB1825716246D1DAEBB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4883b2c0857bbee344c466fdaa0b9edb8e19477c4dcc0781185a71b469941957"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "525a10fcce300cb452c35bb1825716246d1daebb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/dic/Hit.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-dic-Hit.java-7D10D0590A38CBF782F997C084C15D7216132B37",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a5f0e948c96cf37169e5f00ddae594687074966b07f28c3b0f3ba293d35cc646"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7d10d0590a38cbf782f997c084c15d7216132b37"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/resources/ext.dic",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-resources-ext.dic-DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/.github/ISSUE_TEMPLATE/bug_report.md",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-.github-ISSUE-TEMPLATE-bug-report.md-83D211C67C12E8C1F6E9F796CFD0CECBF5160E15",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0c8d64f29fb4536513653bf8c97da30f3340e2041b91c8952db1515d6b23a7b3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "83d211c67c12e8c1f6e9f796cfd0cecbf5160e15"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/img/dic.png",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-img-dic.png-DD991C2BE42DE030F81A145B1D26193D03EA9675",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1ec05affac01721a6b64e905d9d2a5c4a6b7eda65c61f1e568dd3e5b343c885e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dd991c2be42de030f81a145b1d26193d03ea9675"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/core/CN_QuantifierSegmenter.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-CN-QuantifierSegmenter.java-0E9FCF929CBE7CB4C719469E3503804F842228A1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d32fe4940876a453708a7c1406018b8a3f99b2efc71ace6ad97668d272106d5c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0e9fcf929cbe7cb4c719469e3503804f842228a1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/dic/Dictionary.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-dic-Dictionary.java-2943E3476CD975CA2220396DD4990BA815D82C50",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3f01092643aca54b21aab706c8dbdb269c929e3c92db0e1ea9fb3deb9ff59409"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2943e3476cd975ca2220396dd4990ba815d82c50"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/query/SWMCQueryBuilder.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-query-SWMCQueryBuilder.java-5ACB2F69321D76DBD4C95B746636B404DF146F0D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1ee8b0bd9745bcb0d54c488315050a520e5ab08bdd2e0bd0edb4096affe738a6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5acb2f69321d76dbd4c95b746636b404df146f0d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/resources/dict/quantifier.dic",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-resources-dict-quantifier.dic-A3E56845D7012A49558E4D862FD2D81B29A79999",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fd6f6644a44e5ffb255d24ef5ad1ed8c8dc90ae07a399e1274ccbcd9314cd1f9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a3e56845d7012a49558e4d862fd2d81b29a79999"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/.settings/org.eclipse.core.resources.prefs",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-.settings-org.eclipse.core.resources.prefs-FA7AB34B43A089DB28DC48B46BD5139E26506AAF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3fb195c0e04b24efe65a04334fa60c7aed863dd6e368339e777375a730bbf14a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fa7ab34b43a089db28dc48b46bd5139e26506aaf"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/img/dic2.png",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-img-dic2.png-A6DBCEE23D18C7E67FCB11C24505B65D428838C5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "06f0f87c66ec000c056a77a66df1a13af9506097c5249d4d34c17d5506050807"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a6dbcee23d18c7e67fcb11c24505b65d428838c5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/core/IKArbitrator.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-IKArbitrator.java-9A5AB57CB2D9B9D73B7FFD35801536A725941F8E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "56bdfb54ed47b60103cf8f116033d4f3dcfe6a1a884d5e6644e2cc6e47bc48f1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9a5ab57cb2d9b9d73b7ffd35801536a725941f8e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/dic/DictSegment.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-dic-DictSegment.java-2C594EE680F2FC1DC2C052311BE96B4EBC0E74E4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fdfb60cd2e871b0999921590411302f6688694ea9759d38032fb943c8d77a798"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2c594ee680f2fc1dc2c052311be96b4ebc0e74e4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/resources/dynamicdic.txt",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-resources-dynamicdic.txt-DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/core/QuickSortSet.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-QuickSortSet.java-54E7207BCA65A9A56E141B345498262DEDEF6269",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d8d8bee0e747c70c7ed5b05cb36bf05d37f3d54a51ac6310f29fd5e611214904"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "54e7207bca65a9a56e141b345498262dedef6269"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/query/IKQueryExpressionParser.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-query-IKQueryExpressionParser.java-DEA6C96291C0D499F76A878E685EEBABF184CB9A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "31cdddac90470369abc006a7a6a5fe0a7aeac2e5cd2abac739b9c61c6cc02ddb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dea6c96291c0d499f76a878e685eebabf184cb9a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/img/analyzer.png",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-img-analyzer.png-336DAB333F2BCA3FF5038E8E218E5B52E819B40E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e97255c12b2868ff087fda6bf6b7d539f202a4fd55f2540078fe816b7e6123e7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "336dab333f2bca3ff5038e8e218e5b52e819b40e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/cfg/Configuration.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-cfg-Configuration.java-2B9CA1B36731BF7BEC3B066825275C0A0C6A8C28",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "40ef76bf78ba278210198fd3e773dcbaeb41eb982b767fd83a1dcfd15658037b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2b9ca1b36731bf7bec3b066825275c0a0c6a8c28"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/core/ISegmenter.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-ISegmenter.java-BAEE2FF06F34AFF62D03F613BF4DC91FE92221D6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4ce009665fee6331af188f5272989c005ef307cab0f61b45f5e266fb24a88945"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "baee2ff06f34aff62d03f613bf4dc91fe92221d6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/resources/IKAnalyzer.cfg.xml",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-resources-IKAnalyzer.cfg.xml-1C550120AFAF2FA889F43C5E0B479CE561851B4E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "42e566a1e1fdd3098ad2f4a11d932c92e198081d3828a214b146e03b6a2a4b14"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1c550120afaf2fa889f43c5e0b479ce561851b4e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/ext.dic",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-ext.dic-DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/META-INF/maven/com.github.magese/ik-analyzer/pom.properties",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-META-INF-maven-com.github.magese-ik-analyzer-pom.properties-AFF340FA047782BA5194D3831B57EC29ABD8F0F2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "beaf719785252a6eb68a8eaf5a638f402739de67d6889a23f6fe957ac0f30256"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "aff340fa047782ba5194d3831b57ec29abd8f0f2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/core/IKArbitrator.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-IKArbitrator.class-1249A72D90CED2EA7BCCC7F5E990977F5DBDA44E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2da1e29cbbc58c370b76f5498e53922166d5e0477f2d8ab8615bcce474bab724"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1249a72d90ced2ea7bccc7f5e990977f5dbda44e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/dic/Dictionary.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-dic-Dictionary.class-1A85502C8AA699703EBFB9CBC636C4AAF17D72CD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "33c2c4acb231eae301ca65d672af30a841e72eca6520b5c80acc29274fc3a58a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1a85502c8aa699703ebfb9cbc636c4aaf17d72cd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/lucene/UpdateThread.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-lucene-UpdateThread.class-177215D2C7D17EFDBB5B72B4DB16841D308F8295",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a03ebfad9ca76f1d9d9bbb934d974f9331300450f285c4a77c43c5f871fe5e84"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "177215d2c7d17efdbb5b72b4db16841d308f8295"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/img/cloud-analyzer2.png",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-img-cloud-analyzer2.png-F0A2579AFAAC084A00B95EB99DAF29F0016AE9A1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "01aad95f02887d69dc0fb7a63f06e94eda974f6dcaba6d6f1efaf21ed4e87f5d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f0a2579afaac084a00b95eb99daf29f0016ae9a1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/core/AnalyzeContext.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-AnalyzeContext.java-88A3D528588FDDEF662E57658BD5EE00811CF643",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4a2fbf84ffd7d19590e1fd5f12195e8d803a20df18a9b780d479f01a4d65a1ef"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "88a3d528588fddef662e57658bd5ee00811cf643"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/core/Lexeme.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-Lexeme.java-0140A775864F5A70406BABFCB125B92077DFC2CE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4d6e9e914d32c3c0150ffda36096eb1eb3bed53085ccea508140b8ac4a13312d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0140a775864f5a70406babfcb125b92077dfc2ce"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/lucene/IKTokenizerFactory.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-lucene-IKTokenizerFactory.java-B53BB3D99D64C507B501E23FFCB7BF2F1A5BB221",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4bfba9aa6c138c9d46888dd3805e66e94b98d9139913326576c016301e7ceb22"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b53bb3d99d64c507b501e23ffcb7bf2f1a5bb221"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/resources/stopword.dic",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-resources-stopword.dic-DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/ik.conf",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-ik.conf-E00BEF7E55FA3EA816161D007A5BE363A1A83E7B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2a36df58563dd9a9446267b62bb812d2cf0beb330a2e629bef5e997b06792839"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e00bef7e55fa3ea816161d007a5be363a1a83e7b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/META-INF/maven/com.github.magese/ik-analyzer/pom.xml",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-META-INF-maven-com.github.magese-ik-analyzer-pom.xml-9CE62AE5082A57E5646674C3B9674D244A68C787",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9915ab03581a8e045c1701519847d3dc0a685185119a78ce7539eaa84e082c71"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9ce62ae5082a57e5646674c3b9674d244a68c787"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/core/IKSegmenter.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-IKSegmenter.class-4FDE940C97C7A6A35DA1AE35230B7D5D9513907A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "de826a2a01c683fe2aaf8c2e255d0d889cc774d843c5086114e8ccf8ca12e43e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4fde940c97c7a6a35da1ae35230b7d5d9513907a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/dic/DictSegment.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-dic-DictSegment.class-DFA391241269AF9699A08C35441B138E6B0851A0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cecbca88a8d738d0923dd24f4ee467fbdca28d99dc4917938a571a4c70f6737f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dfa391241269af9699a08c35441b138e6b0851a0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/query/IKQueryExpressionParser$Element.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-query-IKQueryExpressionParser-Element.class-EF1BE9066BF745A981BF1B20D09F8EB87789C910",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "16ff4dcaf0b9417d5f621204132012d0956d25064df35dbca5bef668804bf0ec"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ef1be9066bf745a981bf1b20d09f8eb87789c910"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/java/org/wltea/analyzer/lucene/IKAnalyzer.java",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-lucene-IKAnalyzer.java-CEEA20553EBF799C24231E1EF15C00AE8791538D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "204d27a01748403d3afb4a085e886dfb4c6b52fa4c0b9ff32a45ce786a4f1c84"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ceea20553ebf799c24231e1ef15c00ae8791538d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/resources/ik.conf",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-resources-ik.conf-E00BEF7E55FA3EA816161D007A5BE363A1A83E7B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2a36df58563dd9a9446267b62bb812d2cf0beb330a2e629bef5e997b06792839"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e00bef7e55fa3ea816161d007a5be363a1a83e7b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/dynamicdic.txt",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-dynamicdic.txt-DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/META-INF/MANIFEST.MF",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-META-INF-MANIFEST.MF-AEE7392CE45AA838B710A88E5B90A78167BB5725",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "35c723247c4560ac0a8131f59d5f8c53a41aaaf8b7c24f63389ba3116ab8b95b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "aee7392ce45aa838b710a88e5b90a78167bb5725"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/core/CN_QuantifierSegmenter.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-CN-QuantifierSegmenter.class-51D3B619C5BEF4D429523A009B301F276294892A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dca7aebc6adb849affdbb8a580e0ab1d466fa71b96da59cd38407d73d4e5cdec"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "51d3b619c5bef4d429523a009b301f276294892a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/core/QuickSortSet.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-QuickSortSet.class-A2A678E8F3DEDE4575DA45D241B9799573584BBC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6ec732e18d5ae83f38a3c2d50109fb8a8e12dbc1c0b601a393622a6cb279cb58"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a2a678e8f3dede4575da45d241b9799573584bbc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/lucene/UpdateThread$UpdateJob.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-lucene-UpdateThread-UpdateJob.class-B796E9B966C0226637F7C982C9B8AA82D99B1203",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3e29e1b4977dc0af2766b39244874184c5d54dffb7ce26bdb4cd3cfe60360ca6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b796e9b966c0226637f7c982c9b8aa82d99b1203"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/dict/main2012.dic",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-dict-main2012.dic-26AB27F1CCF32609ADCE253E9A2F43F770BA7B72",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3b746e391fbdd2ccbb76e7130c35001c6d584cec45ddb1e234f3de887bdc0eaa"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "26ab27f1ccf32609adce253e9a2f43f770ba7b72"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/core/AnalyzeContext.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-AnalyzeContext.class-709AE64A1597B2D471DF13E01EC91E60D4AF628C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dc40e216d632f10a9b7a883fc2acd5fae3e3f54aff0eaf336400ae48fde01ff6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "709ae64a1597b2d471df13e01ec91e60d4af628c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/core/Lexeme.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-Lexeme.class-03542D7EB0C18312AF5D2928C9805B92673E877B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9abc97a9ce31d9807015ade0126d2ff0fd75cd707a9d8fbe92642b47550bebf0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "03542d7eb0c18312af5d2928c9805b92673e877b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/lucene/IKTokenizer.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-lucene-IKTokenizer.class-AD1584F4A05E3B03E43FFFD27D2950F1FE7BBA11",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "532e10bd8b30c853faecbcbffd9b71754a681a504edfa9a001828de1aa339f5a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ad1584f4a05e3b03e43fffd27d2950f1fe7bba11"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/bom.json",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-bom.json-1B2A689BD6E27F4C4EBB9163C892948B5B658BAE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eb03d902337790ec6063df83cd7d4f8c96deee9e8e3911be2d0ed9f42146ab5a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1b2a689bd6e27f4c4ebb9163c892948b5b658bae"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/resources/dict/main2012.dic",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-resources-dict-main2012.dic-26AB27F1CCF32609ADCE253E9A2F43F770BA7B72",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3b746e391fbdd2ccbb76e7130c35001c6d584cec45ddb1e234f3de887bdc0eaa"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "26ab27f1ccf32609adce253e9a2f43f770ba7b72"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/IKAnalyzer.cfg.xml",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-IKAnalyzer.cfg.xml-1C550120AFAF2FA889F43C5E0B479CE561851B4E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "42e566a1e1fdd3098ad2f4a11d932c92e198081d3828a214b146e03b6a2a4b14"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1c550120afaf2fa889f43c5e0b479ce561851b4e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/bom.xml",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-bom.xml-13DF99D8AA06F9408F8F719FC4A1BF8C6F05E64F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cfe44137735071fe4a678831a36291d060ca5248955bfb4b6b1316f773e57134"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "13df99d8aa06f9408f8f719fc4a1bf8c6f05e64f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/dict/quantifier.dic",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-dict-quantifier.dic-A3E56845D7012A49558E4D862FD2D81B29A79999",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fd6f6644a44e5ffb255d24ef5ad1ed8c8dc90ae07a399e1274ccbcd9314cd1f9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a3e56845d7012a49558e4d862fd2d81b29a79999"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/cfg/Configuration.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-cfg-Configuration.class-6CD664807D4F096F77313CA4740ECF413A91B064",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ed3a89eba51131cec4782e78ab26cfe7c95fc62f99114b3a3ec12729e031c138"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6cd664807d4f096f77313ca4740ecf413a91b064"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/core/ISegmenter.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-ISegmenter.class-F4DC3E6460ABC5D1DEECB756204D4D5D18422396",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1678f4473a2e34b635ed717c4870d629171fc9f04d95f37b95d8f3cbd0064d54"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f4dc3e6460abc5d1deecb756204d4d5d18422396"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/core/CJKSegmenter.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-CJKSegmenter.class-88E721A79CD389460B9BB22F10B3CB855013F7A6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "63a12ab3a58f938f28b6f2a4fe752eb3d4545c99f8973dba2a52dde0df7d08f0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "88e721a79cd389460b9bb22f10b3cb855013f7a6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/dic/Hit.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-dic-Hit.class-1285BC9ED59978B328B1281F0FE1A7B1FDDB2307",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fd4bb05d1bbc6e0b292e884725929bde188de8d7de21dedd856f00909b80ea28"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1285bc9ed59978b328b1281f0fe1a7b1fddb2307"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/core/QuickSortSet$Cell.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-QuickSortSet-Cell.class-5152C0CEAFA891814A5C9FEF0C62AE32B32766B7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "66160befb59101696d2aae12d1a5775b883c1a23e0c0d24069df1bbd78a9a021"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5152c0ceafa891814a5c9fef0c62ae32b32766b7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/lucene/UpdateThread$Builder.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-lucene-UpdateThread-Builder.class-B54B201547AFBED202F56937382DF33516032744",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e30ad3d1eb57f899d09e7428df62af2a2297162689cdbe0cdd92cbfd1debb90b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b54b201547afbed202f56937382df33516032744"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/query/IKQueryExpressionParser.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-query-IKQueryExpressionParser.class-36481AED143F3A667D334F087DEB02357F61C86A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "32a37265ce38d4524b4559b52991bc22768f54b0bc2a043e08a3c45edce7f318"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "36481aed143f3a667d334f087deb02357f61c86a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/src/main/resources/dict/main_dic_2020.dic",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-src-main-resources-dict-main-dic-2020.dic-83F4B58C059FA1E84CEB79B54929DBB2F19541F3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "41401636d3426de2281ada5c55166745dba79dee7c025e2384aba75bb71ea128"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "83f4b58c059fa1e84ceb79b54929dbb2f19541f3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/stopword.dic",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-stopword.dic-DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/cfg/DefaultConfig.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-cfg-DefaultConfig.class-F6FBD3840CBCB92CF823ECEFBB5A54964CEEF631",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ce3fa60bbf98020fa16407a73383a7094ce326e25592c233a10cff4108213021"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f6fbd3840cbcb92cf823ecefbb5a54964ceef631"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/core/LetterSegmenter.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-LetterSegmenter.class-0C7CD5B330CF672D80DD99B78BA4A556D9F42800",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2a1e9cd50ecdf375c56e53eff6354888d17b821a0e71e50ae105265ccc39366d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0c7cd5b330cf672d80dd99b78ba4a556d9f42800"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/dict/main_dic_2020.dic",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-dict-main-dic-2020.dic-83F4B58C059FA1E84CEB79B54929DBB2F19541F3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "41401636d3426de2281ada5c55166745dba79dee7c025e2384aba75bb71ea128"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "83f4b58c059fa1e84ceb79b54929dbb2f19541f3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/lucene/IKAnalyzer.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-lucene-IKAnalyzer.class-D9AB1E9E640F2DB16E73608457001B1897A5B3E2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "428373321724ed3ae29a37aeecd312a6fb5628325959de373536e80269962499"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d9ab1e9e640f2db16e73608457001b1897a5b3e2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/core/CharacterUtil.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-CharacterUtil.class-ABE0B4EC9BE8790A454C8A536EE314E2E0DEFA64",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5e0bc81cf399cbfeaac62258efa5d1f08be2da8827d85443cf4beb3452bbc687"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "abe0b4ec9be8790a454c8a536ee314e2e0defa64"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/query/SWMCQueryBuilder.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-query-SWMCQueryBuilder.class-895A53F4EA3F638FB979F5F66E9AB970A69CD8E4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e5021c0944c06e6b826ac887a52736853a26563cfec872fa1711bc7a35b715c3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "895a53f4ea3f638fb979f5f66e9ab970a69cd8e4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/core/LexemePath.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-LexemePath.class-CF3A103F20EEF6B6B24DBEB03C4CD4B6E787A30A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9b02ef0b198fb673907a06c2242d5ad5d138586cb74d40eddb7a63253fa65633"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cf3a103f20eef6b6b24dbeb03c4cd4b6e787a30a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ik-analyzer-solr-master/target/classes/org/wltea/analyzer/lucene/IKTokenizerFactory.class",
+      "SPDXID": "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-lucene-IKTokenizerFactory.class-35B921C79FFB6129C4CFFBB2029F1A44A9DA4F56",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "733ce834fc27f32496befa02dc62bc4ff105307d59669f2b9a943b8dccd4da99"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "35b921c79ffb6129c4cffbb2029f1a44a9da4f56"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "com.github.magese.ik-analyzer",
+      "SPDXID": "SPDXRef-Package-963D9ADEBA669B86697924491DADE08A3370AAE2A7F68CD2A83AF0D4AC658542",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "8.5.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.magese/ik-analyzer@8.5.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.apache.lucene.lucene-queryparser",
+      "SPDXID": "SPDXRef-Package-7654E3F3C198780A631EA5E8E15D56DEC45063236F40CCF1350D3F5A42B970B8",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "8.5.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-queryparser@8.5.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.apache.lucene.lucene-sandbox",
+      "SPDXID": "SPDXRef-Package-FA31C63B293E554BB1576C122738793EB715E4D6478E62800A56431541DCFBFC",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "8.5.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-sandbox@8.5.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.apache.lucene.lucene-core",
+      "SPDXID": "SPDXRef-Package-3488708664B749B98E3D80F25D59C6D2D92F051F33130892EF99FFB702CAD6FA",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "8.5.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-core@8.5.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.apache.lucene.lucene-analyzers-common",
+      "SPDXID": "SPDXRef-Package-E64BF90F67CA79C49A76F47E53EB948757496635E55C80873B78E4A92BEB9C92",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "8.5.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.5.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.apache.lucene.lucene-queries",
+      "SPDXID": "SPDXRef-Package-358EE469E18A18DE25C25FEB5E4830D0BCBDF000395768C52FD619D29E4D6D61",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "8.5.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-queries@8.5.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "magese",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "8573439c7a89e3d5f662a6a8ccc0ae2e7732408c"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "8484cd1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/ikr-analyzer-solr/spdx.org/magese@8484cd1?tag_id=23ee17c6-e28a-4ab2-b9d1-89f7178f6e96"
+        }
+      ],
+      "supplier": "Organization: ikr-analyzer-solr",
+      "hasFiles": [
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-lucene-IKTokenizerFactory.class-35B921C79FFB6129C4CFFBB2029F1A44A9DA4F56",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-lucene-UpdateThread-Builder.class-B54B201547AFBED202F56937382DF33516032744",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-QuickSortSet-Cell.class-5152C0CEAFA891814A5C9FEF0C62AE32B32766B7",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-dic-Hit.class-1285BC9ED59978B328B1281F0FE1A7B1FDDB2307",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-CJKSegmenter.class-88E721A79CD389460B9BB22F10B3CB855013F7A6",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-ISegmenter.class-F4DC3E6460ABC5D1DEECB756204D4D5D18422396",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-cfg-Configuration.class-6CD664807D4F096F77313CA4740ECF413A91B064",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-dict-quantifier.dic-A3E56845D7012A49558E4D862FD2D81B29A79999",
+        "SPDXRef-File--ik-analyzer-solr-master-target-bom.xml-13DF99D8AA06F9408F8F719FC4A1BF8C6F05E64F",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-IKAnalyzer.cfg.xml-1C550120AFAF2FA889F43C5E0B479CE561851B4E",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-resources-dict-main2012.dic-26AB27F1CCF32609ADCE253E9A2F43F770BA7B72",
+        "SPDXRef-File--ik-analyzer-solr-master-target-bom.json-1B2A689BD6E27F4C4EBB9163C892948B5B658BAE",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-lucene-IKTokenizer.class-AD1584F4A05E3B03E43FFFD27D2950F1FE7BBA11",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-Lexeme.class-03542D7EB0C18312AF5D2928C9805B92673E877B",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-AnalyzeContext.class-709AE64A1597B2D471DF13E01EC91E60D4AF628C",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-dict-main2012.dic-26AB27F1CCF32609ADCE253E9A2F43F770BA7B72",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-lucene-UpdateThread-UpdateJob.class-B796E9B966C0226637F7C982C9B8AA82D99B1203",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-QuickSortSet.class-A2A678E8F3DEDE4575DA45D241B9799573584BBC",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-CN-QuantifierSegmenter.class-51D3B619C5BEF4D429523A009B301F276294892A",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-META-INF-MANIFEST.MF-AEE7392CE45AA838B710A88E5B90A78167BB5725",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-dynamicdic.txt-DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-resources-ik.conf-E00BEF7E55FA3EA816161D007A5BE363A1A83E7B",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-lucene-IKAnalyzer.java-CEEA20553EBF799C24231E1EF15C00AE8791538D",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-query-IKQueryExpressionParser-Element.class-EF1BE9066BF745A981BF1B20D09F8EB87789C910",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-dic-DictSegment.class-DFA391241269AF9699A08C35441B138E6B0851A0",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-IKSegmenter.class-4FDE940C97C7A6A35DA1AE35230B7D5D9513907A",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-META-INF-maven-com.github.magese-ik-analyzer-pom.xml-9CE62AE5082A57E5646674C3B9674D244A68C787",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-ik.conf-E00BEF7E55FA3EA816161D007A5BE363A1A83E7B",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-resources-stopword.dic-DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-lucene-IKTokenizerFactory.java-B53BB3D99D64C507B501E23FFCB7BF2F1A5BB221",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-Lexeme.java-0140A775864F5A70406BABFCB125B92077DFC2CE",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-AnalyzeContext.java-88A3D528588FDDEF662E57658BD5EE00811CF643",
+        "SPDXRef-File--ik-analyzer-solr-master-img-cloud-analyzer2.png-F0A2579AFAAC084A00B95EB99DAF29F0016AE9A1",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-lucene-UpdateThread.class-177215D2C7D17EFDBB5B72B4DB16841D308F8295",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-dic-Dictionary.class-1A85502C8AA699703EBFB9CBC636C4AAF17D72CD",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-IKArbitrator.class-1249A72D90CED2EA7BCCC7F5E990977F5DBDA44E",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-META-INF-maven-com.github.magese-ik-analyzer-pom.properties-AFF340FA047782BA5194D3831B57EC29ABD8F0F2",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-ext.dic-DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-resources-IKAnalyzer.cfg.xml-1C550120AFAF2FA889F43C5E0B479CE561851B4E",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-ISegmenter.java-BAEE2FF06F34AFF62D03F613BF4DC91FE92221D6",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-cfg-Configuration.java-2B9CA1B36731BF7BEC3B066825275C0A0C6A8C28",
+        "SPDXRef-File--ik-analyzer-solr-master-img-analyzer.png-336DAB333F2BCA3FF5038E8E218E5B52E819B40E",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-query-IKQueryExpressionParser.java-DEA6C96291C0D499F76A878E685EEBABF184CB9A",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-QuickSortSet.java-54E7207BCA65A9A56E141B345498262DEDEF6269",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-resources-dynamicdic.txt-DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-dic-DictSegment.java-2C594EE680F2FC1DC2C052311BE96B4EBC0E74E4",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-IKArbitrator.java-9A5AB57CB2D9B9D73B7FFD35801536A725941F8E",
+        "SPDXRef-File--ik-analyzer-solr-master-img-dic2.png-A6DBCEE23D18C7E67FCB11C24505B65D428838C5",
+        "SPDXRef-File--ik-analyzer-solr-master-.settings-org.eclipse.core.resources.prefs-FA7AB34B43A089DB28DC48B46BD5139E26506AAF",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-resources-dict-quantifier.dic-A3E56845D7012A49558E4D862FD2D81B29A79999",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-query-SWMCQueryBuilder.java-5ACB2F69321D76DBD4C95B746636B404DF146F0D",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-dic-Dictionary.java-2943E3476CD975CA2220396DD4990BA815D82C50",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-CN-QuantifierSegmenter.java-0E9FCF929CBE7CB4C719469E3503804F842228A1",
+        "SPDXRef-File--ik-analyzer-solr-master-img-dic.png-DD991C2BE42DE030F81A145B1D26193D03EA9675",
+        "SPDXRef-File--ik-analyzer-solr-master-.github-ISSUE-TEMPLATE-bug-report.md-83D211C67C12E8C1F6E9F796CFD0CECBF5160E15",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-LexemePath.class-CF3A103F20EEF6B6B24DBEB03C4CD4B6E787A30A",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-query-SWMCQueryBuilder.class-895A53F4EA3F638FB979F5F66E9AB970A69CD8E4",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-CharacterUtil.class-ABE0B4EC9BE8790A454C8A536EE314E2E0DEFA64",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-lucene-IKAnalyzer.class-D9AB1E9E640F2DB16E73608457001B1897A5B3E2",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-dict-main-dic-2020.dic-83F4B58C059FA1E84CEB79B54929DBB2F19541F3",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-core-LetterSegmenter.class-0C7CD5B330CF672D80DD99B78BA4A556D9F42800",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-cfg-DefaultConfig.class-F6FBD3840CBCB92CF823ECEFBB5A54964CEEF631",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-stopword.dic-DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-resources-dict-main-dic-2020.dic-83F4B58C059FA1E84CEB79B54929DBB2F19541F3",
+        "SPDXRef-File--ik-analyzer-solr-master-target-classes-org-wltea-analyzer-query-IKQueryExpressionParser.class-36481AED143F3A667D334F087DEB02357F61C86A",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-resources-ext.dic-DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-dic-Hit.java-7D10D0590A38CBF782F997C084C15D7216132B37",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-IKSegmenter.java-525A10FCCE300CB452C35BB1825716246D1DAEBB",
+        "SPDXRef-File--ik-analyzer-solr-master-img-jetbrains.svg-448118FDA8FC309A124AE66808392E643AE1C505",
+        "SPDXRef-File--ik-analyzer-solr-master-.settings-org.eclipse.jdt.core.prefs-1FEE5951158E3AE4E75B60242F994ED49791A2DA",
+        "SPDXRef-File--ik-analyzer-solr-master-.travis.yml-4C80316CBC6BAD777D44BCF4EB44C3BF272E10D8",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-lucene-UpdateThread.java-0CAFFA43CF5B1FA20AEEE5C9DFF91843F9B620B7",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-LexemePath.java-E6D4FFF3F4ED7FAC5EA11F8726B4A23C25BC9216",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-CharacterUtil.java-39DC859A736D5EFC389A7D8BBACB7C9BE91569F0",
+        "SPDXRef-File--ik-analyzer-solr-master-img-conf.png-A10877BDA8991DAD2A3318CA452D97A3D636471C",
+        "SPDXRef-File--ik-analyzer-solr-master-README-CLOUD.md-D71302B76B54636BC6DB98E616B39055C6C7F0E9",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-lucene-IKTokenizer.java-D38DE5CA6FEC254EE859EDCB130CEF0767B545C9",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-LetterSegmenter.java-B5C62C85EF6815B4AF961CFD86F73322BA9F7BE9",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-cfg-DefaultConfig.java-AA214F60B2A74D699428B0961492B766832E5BF8",
+        "SPDXRef-File--ik-analyzer-solr-master-img-cloud-analyzer.png-A3E4F715D0FE0F5F51CE940A81B6F1D45B80672E",
+        "SPDXRef-File--ik-analyzer-solr-master-LICENSE-3E74E8DFC60BE9C67F4B7C1623441F8513477F2F",
+        "SPDXRef-File--ik-analyzer-solr-master-pom.xml-9CE62AE5082A57E5646674C3B9674D244A68C787",
+        "SPDXRef-File--ik-analyzer-solr-master-.project-46B05C355A4AFB9360AC28759AE75C9D4814E3AA",
+        "SPDXRef-File--ik-analyzer-solr-master-.gitignore-B1A7CE15F2FF2F7158B6CB6E8064C48472C7A740",
+        "SPDXRef-File--ik-analyzer-solr-master-src-main-java-org-wltea-analyzer-core-CJKSegmenter.java-A5CFCF5D50042683AD2A286A1CD3B9918A9F926E",
+        "SPDXRef-File--ik-analyzer-solr-master-img-conf2.png-C622B7FDFDAB6B11C19A3E67A052013DD0FB2D70",
+        "SPDXRef-File--ik-analyzer-solr-master-README.md-895B96937251A6F6091DE25294FE75659C2B373B",
+        "SPDXRef-File--ik-analyzer-solr-master-.classpath-1D692427810163E6407FAC2F3A66A8952C160262",
+        "SPDXRef-File--ik-analyzer-solr-master-CONTRIBUTING.md-ADC83B19E793491B1C6EA0FD8B46CD9F32E592FC"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-358EE469E18A18DE25C25FEB5E4830D0BCBDF000395768C52FD619D29E4D6D61",
+      "spdxElementId": "SPDXRef-Package-963D9ADEBA669B86697924491DADE08A3370AAE2A7F68CD2A83AF0D4AC658542"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-358EE469E18A18DE25C25FEB5E4830D0BCBDF000395768C52FD619D29E4D6D61",
+      "spdxElementId": "SPDXRef-Package-7654E3F3C198780A631EA5E8E15D56DEC45063236F40CCF1350D3F5A42B970B8"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-7654E3F3C198780A631EA5E8E15D56DEC45063236F40CCF1350D3F5A42B970B8",
+      "spdxElementId": "SPDXRef-Package-963D9ADEBA669B86697924491DADE08A3370AAE2A7F68CD2A83AF0D4AC658542"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-FA31C63B293E554BB1576C122738793EB715E4D6478E62800A56431541DCFBFC",
+      "spdxElementId": "SPDXRef-Package-963D9ADEBA669B86697924491DADE08A3370AAE2A7F68CD2A83AF0D4AC658542"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-FA31C63B293E554BB1576C122738793EB715E4D6478E62800A56431541DCFBFC",
+      "spdxElementId": "SPDXRef-Package-7654E3F3C198780A631EA5E8E15D56DEC45063236F40CCF1350D3F5A42B970B8"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-3488708664B749B98E3D80F25D59C6D2D92F051F33130892EF99FFB702CAD6FA",
+      "spdxElementId": "SPDXRef-Package-963D9ADEBA669B86697924491DADE08A3370AAE2A7F68CD2A83AF0D4AC658542"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-E64BF90F67CA79C49A76F47E53EB948757496635E55C80873B78E4A92BEB9C92",
+      "spdxElementId": "SPDXRef-Package-963D9ADEBA669B86697924491DADE08A3370AAE2A7F68CD2A83AF0D4AC658542"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-963D9ADEBA669B86697924491DADE08A3370AAE2A7F68CD2A83AF0D4AC658542",
+      "spdxElementId": "SPDXRef-RootPackage"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "magese 8484cd1",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-4.1.5-73b94bbc-823e-4124-b69b-ec8bf03ab840/magese/8484cd1/vbWoo9SugEaO8FcY5LbsGA",
+  "creationInfo": {
+    "created": "2026-03-31T17:42:47Z",
+    "creators": [
+      "Organization: ikr-analyzer-solr",
+      "Tool: Microsoft.SBOMTool-4.1.5"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}

@@ -1,0 +1,2353 @@
+{
+  "files": [
+    {
+      "fileName": "./progressbar-main/.project",
+      "SPDXID": "SPDXRef-File--progressbar-main-.project-A14C5CEA2BE97BCDCC7CE71307CC723A849E8C33",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a786cd2f454046b841a05ec44bf6d653f3098c2116537482ec437920c459a160"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a14c5cea2be97bcdcc7ce71307cc723a849e8c33"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/Makefile",
+      "SPDXID": "SPDXRef-File--progressbar-main-Makefile-F67E314350998049F182B5B8635E1DB0A53E8D47",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fd83c6ff1c0f6c4326ee91b0167986c94995b4b83634613e9246380748f55bc8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f67e314350998049f182b5b8635e1db0a53e8d47"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/.classpath",
+      "SPDXID": "SPDXRef-File--progressbar-main-.classpath-1AC3602DF5FB16D398A8CFCB066CC0716B9F27DE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0ed0b80b3e87f2fb04a413cc9a48e0b2592f3065dce6c0ba345f69c89e3dbf87"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1ac3602df5fb16d398a8cfcb066cc0716b9f27de"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/.gitignore",
+      "SPDXID": "SPDXRef-File--progressbar-main-.gitignore-F0412D067484DFED7C22C521E3A23C401CF31FCF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e8f9bf747153998decfb816a382781ad9a99a9183d153994a8a939e30666653b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f0412d067484dfed7c22c521e3a23c401cf31fcf"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/CHANGELOG.md",
+      "SPDXID": "SPDXRef-File--progressbar-main-CHANGELOG.md-644E0180FB33CA1AA3A6B5DF9272CC2F65C85DD1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cd4927bbb84fb082bc183775ddbfba49464c0e4f4304ae58f11764c87f6f70ae"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "644e0180fb33ca1aa3a6b5df9272cc2f65c85dd1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/LICENSE",
+      "SPDXID": "SPDXRef-File--progressbar-main-LICENSE-B989A2EE390AE9C7A877CC70F486DD96BE3184AE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f526c589f5a26c35847b4dd219d3cf0c24277611e2ce0e9bd41261c5bf1d8a6b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b989a2ee390ae9c7a877cc70f486dd96be3184ae"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/pom.xml",
+      "SPDXID": "SPDXRef-File--progressbar-main-pom.xml-F358B5DCA98CB272294AAF42E84A98B93351E07C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2a03d2c640df41b41602440a808bd4b0c4b322db68f39f5014b991903e7ef432"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f358b5dca98cb272294aaf42e84a98b93351e07c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/.settings/org.eclipse.core.resources.prefs",
+      "SPDXID": "SPDXRef-File--progressbar-main-.settings-org.eclipse.core.resources.prefs-0D78A989C585AAC6E6244DEDCEF06DF92D4EA31B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f17d1ebad1247faf05cf16a36c3d981b55b90ba0f363071df19eb5f7c99fe8ed"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0d78a989c585aac6e6244dedcef06df92d4ea31b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/docs/loggers.md",
+      "SPDXID": "SPDXRef-File--progressbar-main-docs-loggers.md-2B272C2F89D8372A203B80148E20EE07A7672FF1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "023d5009559ff6097c4df06e373528bb732920218c5df9eaa695a3cd09ca3dfa"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2b272c2f89d8372a203b80148e20ee07a7672ff1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/ProgressBarConsumer.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ProgressBarConsumer.java-F36F617C4A2BC8D781C1D7822FA98FCA92B68FC9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f0239edb68a9935d35ccc2e4e74ae69df536be3f762f402ca10cbf9f146eda6e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f36f617c4a2bc8d781c1d7822fa98fca92b68fc9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/Util.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-Util.java-6035869CAC015E5164898ED2005F6057F409DC85",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "480b4f0aded82d133cf72ba5fd25c9d924735ff9873df8c747d34fcf70e50423"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6035869cac015e5164898ed2005f6057f409dc85"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java9/module-info.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java9-module-info.java-C4FA96342A3F021B61967BB6E5D60C04317F2D8E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1aa5ab77cadcf98bf4550eb7c7699eb992ea929dd3aefa94debf658020584eeb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c4fa96342a3f021b61967bb6e5d60c04317f2d8e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/.github/dependabot.yml",
+      "SPDXID": "SPDXRef-File--progressbar-main-.github-dependabot.yml-2F28B61B54CD4B9B1BB92E7A3D1BF87FE6BA8090",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b9e53453dcb45c1bc77ed34a5b9ee738890a5d3fe09d1826294d9126af52687e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2f28b61b54cd4b9b1bb92e7a3d1bf87fe6ba8090"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/docs/kotlin.md",
+      "SPDXID": "SPDXRef-File--progressbar-main-docs-kotlin.md-CB68D7B4EEA064B18D33E89F186606B6A2CF9239",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c1f88359a29c058bbb778c7d2e7efc8c6a4fcd2f783278a6b9e8d65c97a80f97"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cb68d7b4eea064b18d33e89f186606b6a2cf9239"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/ProgressBarBuilder.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ProgressBarBuilder.java-86BED1AC8F9B39722491ABE32316AAE7FFEDB224",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d2ee4b4c10f0d720c6532362ce4003062a8a898cac87561745cc265c953b8649"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "86bed1ac8f9b39722491abe32316aae7ffedb224"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/TerminalUtils.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-TerminalUtils.java-ECFB1372E4B58A0E4E63B235A73B8F84A6DF0195",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1478e6bed79eb5282f79638a5b02a68991e5336dd6a21a128731f66d41b960f9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ecfb1372e4b58a0e4e63b235a73b8f84a6df0195"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/wrapped/ProgressBarWrappedWriter.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-wrapped-ProgressBarWrappedWriter.java-9AF2AFDBFBA759439870511427A34CF93408D568",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f1db8625085ec44a9259b1eef7baef605162bbdad55ce3c8b4f582d9d34c3c20"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9af2afdbfba759439870511427a34cf93408d568"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/mkdocs.yml",
+      "SPDXID": "SPDXRef-File--progressbar-main-mkdocs.yml-2A19D425A9D7B0BF583945265B6A510760A30DA3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "442180d814c033ccf5b90bb3b43d581095129a281a31159fc0eec9d2d0bc4ae3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2a19d425a9d7b0bf583945265b6a510760a30da3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/docs/declarative-usage.md",
+      "SPDXID": "SPDXRef-File--progressbar-main-docs-declarative-usage.md-A2C84D202A242E08459032FE5DBF79C5DC021097",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "80635705e6f497dddb4f90987725e51b27acf802ad2680c9701b6a62e82d1364"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a2c84d202a242e08459032fe5dbf79c5dc021097"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/DelegatingProgressBarConsumer.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-DelegatingProgressBarConsumer.java-D11804D60E96BEF636254CA154202ABB7AFE0701",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7613b76aa924684d260481c8f3cd270e70116fcf3b997818ac2e1928561f738d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d11804d60e96bef636254ca154202abb7afe0701"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/ProgressState.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ProgressState.java-A9F54A561D1B9E734B4C375FDC2512BC52BD7A04",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5ad8b8196cf39c55906a5ce58b2a1dccc19278d56a6f6642117f012eeb5a98be"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a9f54a561d1b9e734b4c375fdc2512bc52bd7a04"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/wrapped/ProgressBarWrappedOutputStream.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-wrapped-ProgressBarWrappedOutputStream.java-20C2EEBD2C2656BDDDC6AB5D4CF3C0BA796CD694",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cf28f01dc2205f6d23ce16b524e1422d9969fcb578aeed68df700dcf25e541c9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "20c2eebd2c2656bdddc6ab5d4cf3c0ba796cd694"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/README.md",
+      "SPDXID": "SPDXRef-File--progressbar-main-README.md-95364686526AB2EEF0E01AC5D46229A33A5400C4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6ad392e14382db35a386e3242d59acd679981ab3ec266b5d2946abee6bf3c75d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "95364686526ab2eef0e01ac5d46229a33a5400c4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/docs/index.md",
+      "SPDXID": "SPDXRef-File--progressbar-main-docs-index.md-34E9132106F9D0ED47FD4A404B85502968233620",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "40e8a897b9c862cc3666a0250c6bb23b2474e357d7bd75327ebd4cefffdfa1e2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "34e9132106f9d0ed47fd4a404b85502968233620"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/ProgressBar.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ProgressBar.java-745040BFD71E8E869962693063976B89DB4C3A1B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d7bf143975ae7d7721395e86c41be722f5e9a4032fc0d955633ad24dc3fa6295"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "745040bfd71e8e869962693063976b89db4c3a1b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/StringDisplayUtils.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-StringDisplayUtils.java-1812D85EB0414D0C50F48C82775210C977E5425B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "00c0ec302384add935ea2f5d29a4e9211d2164b1861f9e6cc757fa25381bf947"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1812d85eb0414d0c50f48c82775210c977e5425b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/wrapped/ProgressBarWrappedSpliterator.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-wrapped-ProgressBarWrappedSpliterator.java-687E32D55C0EA83008567538C64F0F621838CEF6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "422942f816086cd3d72222054fc11a43150548d33ff910eef630f940c3ab7a29"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "687e32d55c0ea83008567538c64f0f621838cef6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/test/java/me/tongfei/progressbar/Issue50Test.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-Issue50Test.java-E3811D8809C5FD2E45EC4CC31E913CF6A31B46F3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fe4f64b38a7b68e3db9cd07d1113a31acc0486e7866a4b2451684d5508a2b54c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e3811d8809c5fd2e45ec4cc31e913cf6a31b46f3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/.settings/org.eclipse.jdt.core.prefs",
+      "SPDXID": "SPDXRef-File--progressbar-main-.settings-org.eclipse.jdt.core.prefs-3B567DAE5438D51EE859A258DF18C608472D5925",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7bb8e025b8840469f77ed77c557f7a275f5b42bb43a7287e666753fb249e7527"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3b567dae5438d51ee859a258df18c608472d5925"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/docs/styles.md",
+      "SPDXID": "SPDXRef-File--progressbar-main-docs-styles.md-14205DABA8CE708EF9C0791F26B17511DC6B63FB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "220049b5a6a6657993dd2152a1b22fcf314d69c87ab03b0783d2a01486bae5e8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "14205daba8ce708ef9c0791f26b17511dc6b63fb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/ProgressBarRenderer.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ProgressBarRenderer.java-5FAFDA8F2FFA98DBFF130091E1DC021736B016DC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "04c8a803da5a33cb4a03ae9cf1ce12975010f5efc6898439c9c1c993af3f9d42"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5fafda8f2ffa98dbff130091e1dc021736b016dc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/wrapped/ProgressBarWrappedInputStream.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-wrapped-ProgressBarWrappedInputStream.java-0F700676A0EB259416519042C85AEA4B86698060",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1b644d5dfcdeb2865431ad492902b85da1faf9e3b30d22cb3743397beda8936b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0f700676a0eb259416519042c85aea4b86698060"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/docs/builder.md",
+      "SPDXID": "SPDXRef-File--progressbar-main-docs-builder.md-B43C5E3DFEB2597D65AB5DAB9720A9207AB2E4BD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d06cfe9163d059c6afb843a6ca5bc02c357e932dd786015305f57790daddad08"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b43c5e3dfeb2597d65ab5dab9720a9207ab2e4bd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/ConsoleProgressBarConsumer.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ConsoleProgressBarConsumer.java-928A55406F9E9B722670DE7142243737E19379D7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ecb734c4995bcbf8ecfa0a619619a4cc30972f22af5f1d5db30257dcb2cb1b29"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "928a55406f9e9b722670de7142243737e19379d7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/ProgressBarStyle.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ProgressBarStyle.java-2996AAE3A2B748E34CA36E5BA21B03AC3BE250DF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "74c91dcd00425cfd68b93b97a855533e2903a93b00ccb192280383a3c77472c1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2996aae3a2b748e34ca36e5ba21b03ac3be250df"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/docs/changelog.md",
+      "SPDXID": "SPDXRef-File--progressbar-main-docs-changelog.md-0786A0FD7C77FC9B06934D411834B6595E053126",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5b1ace6cbf670b5d35b515086985890d889090026e075bb900834cea4945afba"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0786a0fd7c77fc9b06934d411834b6595e053126"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/DefaultProgressBarRenderer.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-DefaultProgressBarRenderer.java-AE5348671E99C2A71E4C976AE99F79A53AEB838D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b73384af26c42a9d42dbebe178f72e07ea9e22817d7a43855dafa2aa90032f50"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ae5348671e99c2a71e4c976ae99f79a53aeb838d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/ProgressBarStyleBuilder.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ProgressBarStyleBuilder.java-6B22CEFFB6DB2C41417062A9181A431DA7C691D7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cc17c9370d3908caad2a3dc837b44fe96aca0add9819132770be3147dfa778f5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6b22ceffb6db2c41417062a9181a431da7c691d7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/docs/imperative-usage.md",
+      "SPDXID": "SPDXRef-File--progressbar-main-docs-imperative-usage.md-B48C9ACD22AB2A245C6670EC15E3BA59935BBA5B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b0f3ccf06411f0ef137132c3dd204e2d4640527e928b583b77a7fcf22f45af92"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b48c9acd22ab2a245c6670ec15e3ba59935bba5b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/InteractiveConsoleProgressBarConsumer.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-InteractiveConsoleProgressBarConsumer.java-B11CFE1C2DD53A8D677A938505F6EE0D7F270004",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6997f43af805533a891679c59658e06d6ab839804c1255114849903da084682a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b11cfe1c2dd53a8d677a938505f6ee0d7f270004"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/ProgressUpdateAction.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ProgressUpdateAction.java-F73C31A0B79667C622E2A3B8120B059C532E9B22",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "506520914de98b881a5ebb958e40457e00f1618d0c72bed9438bbaea74d44429"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f73c31a0b79667c622e2a3b8120b059c532e9b22"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/wrapped/ProgressBarWrappedReader.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-wrapped-ProgressBarWrappedReader.java-73320735CE93B482BC1FAFF7AB5DB8AAC7AA8BDD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2f5879b3397aa9f543681709a7dadd925f0950731e1011055d24abb3577af840"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "73320735ce93b482bc1faff7ab5db8aac7aa8bdd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/test/java/me/tongfei/progressbar/SpeedDisplayTest.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-SpeedDisplayTest.java-C4AC85E879B1FD06CCBD4C650523460D1ACA4F73",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "92cabcb8aa32f16d5317c8a3afd33e9b6e88b137f1d34d69944cd38428590513"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c4ac85e879b1fd06ccbd4c650523460d1aca4f73"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/InteractiveConsoleProgressBarConsumer.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-InteractiveConsoleProgressBarConsumer.class-D4CB788A1F9A950DB8A53B22D4EFAD51D6073773",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1597b5c6506e19c63d2e1ee593153cb1073d4a76bf4ea90256716cecc15aab0f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d4cb788a1f9a950db8a53b22d4efad51d6073773"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/ProgressUpdateAction.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ProgressUpdateAction.class-C6DA3FE8015D334FB037A68E0ED979DE85D78E87",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fc260078499ab24c539c0399e4d8a0e1979442b5c6182b50ad333cf702fb893b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c6da3fe8015d334fb037a68e0ed979de85d78e87"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/wrapped/ProgressBarWrappedReader.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-wrapped-ProgressBarWrappedReader.class-027C44401370AD219A339E1C8E009F308A9A6AD0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c4abf8d17822878686f7391dd67ee390003cd36bba061dccdbce8948f2b2b2fc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "027c44401370ad219a339e1c8e009f308a9a6ad0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/test-classes/me/tongfei/progressbar/Issue13Test.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-Issue13Test.class-4770A63A5DAB5220BA81806BD5A570FA62BC58BC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3c3c5c0b3e3458a64f1f96bc7c5d862fec62dd5b9049bd5fc9eb3f9375de2685"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4770a63a5dab5220ba81806bd5a570fa62bc58bc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/test-classes/me/tongfei/progressbar/RangeTest.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-RangeTest.class-A34A92B6B23DC792F06CD68604B2430CDB88B498",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8ebc40f7cb5f58b070ecdb91aaab0363c0ce6b63334d8ce5f1271e1c49530bd0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a34a92b6b23dc792f06cd68604b2430cdb88b498"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/test/java/me/tongfei/progressbar/Issue40Test.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-Issue40Test.java-6151D20CAC7963963EDB89E70372C87103C270AF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6b76cbe705089ecfcf80b60f118984f233c28a5571f0542cae567ba926211ebe"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6151d20cac7963963edb89e70372c87103c270af"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/test/java/me/tongfei/progressbar/Slf4jTest.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-Slf4jTest.java-1FABC12DBBB14C655C756F1D5B0E0B4DEEE67BBD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6d4aa0b6024b4513cfc60886510ea2a500966aae95f7de33b466115fc60b616a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1fabc12dbbb14c655c756f1d5b0e0b4deee67bbd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/DelegatingProgressBarConsumer.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-DelegatingProgressBarConsumer.class-74138181C7F849E7D674D0425EB983DF7A55955A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bd360b11da1e1d3fc3074c331b6251de3386d9244ebf97442314461759fb598a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "74138181c7f849e7d674d0425eb983df7a55955a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/ProgressState.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ProgressState.class-A31F9557FE885011B70FD05CB20890D6DAFAFA20",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8ea9c89a26db1883c6ed8225d19373a8401770073c7306955684ae6e0fab42dc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a31f9557fe885011b70fd05cb20890d6dafafa20"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/wrapped/ProgressBarWrappedOutputStream.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-wrapped-ProgressBarWrappedOutputStream.class-284C04C3393349A1B991329C7287AB50C5222F18",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "35082653db2e07dbd1f035bf891c07591dc7d04ee2d10228163a343f649b54c7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "284c04c3393349a1b991329c7287ab50c5222f18"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/test-classes/me/tongfei/progressbar/Issue117Test.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-Issue117Test.class-B6E005F713A0554C1F2B0CF99E9953ED989537B5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1de40175b6843b63ceb8b3eb639f463d96fc77a74c034489fe76edad7e6dd58c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b6e005f713a0554c1f2b0cf99e9953ed989537b5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/test-classes/me/tongfei/progressbar/ProgressBarTest.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-ProgressBarTest.class-CD016909C6C024B8E541788B7ACC50FFE15D7C83",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "efe6428669a46610e226283c81d2a19928794376bfdeddffd14c1c78bfb2bc08"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cd016909c6c024b8e541788b7acc50ffe15d7c83"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/test/java/me/tongfei/progressbar/CustomProgressBarTest.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-CustomProgressBarTest.java-B29822DBABE7B4A0CBF74F7876DCCE5C49A17EE8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2deaf64c088fd7d5ee1f7f21b6e744fd0b66319fb7ecbd9c19b507f33ff1eeac"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b29822dbabe7b4a0cbf74f7876dcce5c49a17ee8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/test/java/me/tongfei/progressbar/MultiProgressBarTest.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-MultiProgressBarTest.java-55FCAC14C6B37D58F2532711D3F8DE2CEA5BDB19",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9cfe6ec905b1bd62212d9e2b663c23d8c8f342755c1c423854d78a6c58f43093"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "55fcac14c6b37d58f2532711d3f8de2cea5bdb19"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/bom.json",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-bom.json-0584F41415D2B303719B5789FC513AFE787FA0DD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ae4f76bb7c826f66e2eef47c815d4f707829a6f71568cf934e7bcab6c3644639"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0584f41415d2b303719b5789fc513afe787fa0dd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/ProgressBarConsumer.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ProgressBarConsumer.class-4B3DC33E590DC92679F610B1FD57AB2DD4EDBC83",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "deed3e68fac104328371c4e22bc65350e526fd2541341165e9f8ab579d818fa7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4b3dc33e590dc92679f610b1fd57ab2dd4edbc83"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/Util.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-Util.class-8C30B7309D1CA531FAEFF55E0D6FABCD289A69D2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "48da011a05edd114bf53d8532015d2b2a65ac61538a2cbb05fa9719b4b38fbb7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8c30b7309d1ca531faeff55e0d6fabcd289a69d2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/META-INF/maven/me.tongfei/progressbar/pom.properties",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-META-INF-maven-me.tongfei-progressbar-pom.properties-F158038F3BF001F6EF5825E0F3B7A10EDEF60865",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e9f579994072d0a53f6311feb553f323682fd29dd23a79fe9dfad294b97afdb3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f158038f3bf001f6ef5825e0f3b7a10edef60865"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/test-classes/me/tongfei/progressbar/Issue84Test.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-Issue84Test.class-2C0ABE2A6C6C148E476DC0777174729C6DDAA3B9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "571d3fae8c393ca40abe62fcefe9ddcda28923bb18cb4650ed4d320ce2cdf8f9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2c0abe2a6c6c148e476dc0777174729c6ddaa3b9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/test-classes/me/tongfei/progressbar/StreamSetupExtension.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-StreamSetupExtension.class-9B2FD82E1A200EAB53A25CF5CCA52C70C4805E1C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eb32bb26a5f35c6b679701db7edd943e58f4ef400f9b9b8b34cb8bbda8d643c5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9b2fd82e1a200eab53a25cf5cca52c70c4805e1c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/wrapped/ProgressBarWrappedIterable.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-wrapped-ProgressBarWrappedIterable.java-1FB15308CB49C536E599CD03F75CCBC9C3ADC69B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c1976730c07530e3f67cc322ec2cfc51ae4e3dece3775cdcaa7626c23a55b16a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1fb15308cb49c536e599cd03f75ccbc9c3adc69b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/test/java/me/tongfei/progressbar/EastAsianDisplayTest.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-EastAsianDisplayTest.java-37933D6C94A86E2B721DDE00CF8C5F9FB5BFF8D4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a51a39718e42941164e0fa9628009cbcc1cb4823f78f123a37317239f1f882a3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "37933d6c94a86e2b721dde00cf8c5f9fb5bff8d4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/test/java/me/tongfei/progressbar/PauseResumeTest.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-PauseResumeTest.java-8C6CBF9D391F076819D6886C2D1589B5082EBF43",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "38f31f303673db587b6bc17b5427440e2146cd7e6df1aa951a6399b17eb277fc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8c6cbf9d391f076819d6886c2d1589b5082ebf43"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/bom.xml",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-bom.xml-21AFD1FBA2EA8BB422388EC9D4B3D0178B93B7B0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b6b8f991f2f2b1fbe1c40fb3c3b90c5bc8ab5b156875b09c712da10a0634891c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "21afd1fba2ea8bb422388ec9d4b3d0178b93b7b0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/ProgressBarRenderer.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ProgressBarRenderer.class-DDA1163F7C93EC74EA7372F9139673ACEFD92CDB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2ac9295f39c38a741f938d3d4b94c7dd2f5db19fc492c39cb957bc79f6750484"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dda1163f7c93ec74ea7372f9139673acefd92cdb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/wrapped/ProgressBarWrappedInputStream.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-wrapped-ProgressBarWrappedInputStream.class-A1B9C11E052078681B1D1BD43411AE5E36FAE56D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2628da6c4b4d955afcd0f9d77f3877798360cb100c5dfbad2b5bb5d86a522aa6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a1b9c11e052078681b1d1bd43411ae5e36fae56d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/META-INF/maven/me.tongfei/progressbar/pom.xml",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-META-INF-maven-me.tongfei-progressbar-pom.xml-F358B5DCA98CB272294AAF42E84A98B93351E07C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2a03d2c640df41b41602440a808bd4b0c4b322db68f39f5014b991903e7ef432"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f358b5dca98cb272294aaf42e84a98b93351e07c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/test-classes/me/tongfei/progressbar/MockProgressBarBuilder.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-MockProgressBarBuilder.class-831CDEBEBBBB9DA03628BD3EF73CCE6A6860199A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8ef2c0b0775b901f081e82e4f1d02d7339576e031a16e5d9d38f9cf34159e356"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "831cdebebbbb9da03628bd3ef73cce6a6860199a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/test-classes/me/tongfei/progressbar/WrappedIterableTest.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-WrappedIterableTest.class-A61B1E51F44E0182FD2947DAF53B26EB40FDC9DB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5b196c5ccb121447b623654721f2cae88e8abf42dc45deb487fe39284a80ceee"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a61b1e51f44e0182fd2947daf53b26eb40fdc9db"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/main/java/me/tongfei/progressbar/wrapped/ProgressBarWrappedIterator.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-wrapped-ProgressBarWrappedIterator.java-A3502F65430779B4454F1D0892DB094ACD2D4DFF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2089b0877457ad82f13c2e224bdeaed823358bb92adfb5e5656457bc835e51f2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a3502f65430779b4454f1d0892db094acd2d4dff"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/test/java/me/tongfei/progressbar/Issue117Test.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-Issue117Test.java-3700B2F5524DC6130E924290F89FD9E7404B7B02",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "778ff0d9b32bbcebe7577bf8808494d865bfe09bf71c41a646116d555601bc10"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3700b2f5524dc6130e924290f89fd9e7404b7b02"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/test/java/me/tongfei/progressbar/ProgressBarTest.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-ProgressBarTest.java-2DB88D2D4491109D396DE21F710235CD504E4DB9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fbe0dabb4e431d3a8447199f83e96855bcd807ba4f27efa095d169e76b598d51"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2db88d2d4491109d396de21f710235cd504e4db9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/ConsoleProgressBarConsumer.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ConsoleProgressBarConsumer.class-EBD240E6E03E7394B3D3FAC77BCAA43B5AFEFF1C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "86895476aae5dbce63bbb76e6e6e2761e916eecf9e545a1acdf54ddf58ef3a96"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ebd240e6e03e7394b3d3fac77bcaa43b5afeff1c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/ProgressBarStyle.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ProgressBarStyle.class-04E7958C2F24976F90647245C5E4DAE708FD0D96",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f70737800bfbd74fb9e13858d0cf776e308527e1edcb716598bb56d69872c42b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "04e7958c2f24976f90647245c5e4dae708fd0d96"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/test/java/me/tongfei/progressbar/Issue13Test.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-Issue13Test.java-751B161DAB3EC3F49BF123259F079C3BF67417D5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "45fe4a61ee21d0e29b42d3f93ef91f1b8b3ca0420a5e33bd0989a101a8e29b3b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "751b161dab3ec3f49bf123259f079c3bf67417d5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/test/java/me/tongfei/progressbar/RangeTest.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-RangeTest.java-E458ED94ACDC2B10D6166F3CE01F22BC5E881459",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1e3353ce6fb707844b02eccc248d450cedc9f81e4d655afc29d12dd84288861f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e458ed94acdc2b10d6166f3ce01f22bc5e881459"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/DefaultProgressBarRenderer.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-DefaultProgressBarRenderer.class-1F599889BA16334D994A9192F8ACB44E03918D2C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "577432809972f8e29a4436e37c820bee6bf2491ab4d85e5c88bf3eeba18cb7a7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1f599889ba16334d994a9192f8acb44e03918d2c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/ProgressBarStyleBuilder.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ProgressBarStyleBuilder.class-9B91C043FB3483F7F68C05AE27B65488BAF2B898",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bd194dd1c67c9e0b54d75d91a15da6acea4e8c1d8292ed133018b32f097f1c3b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9b91c043fb3483f7f68c05ae27b65488baf2b898"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/wrapped/ProgressBarWrappedIterator.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-wrapped-ProgressBarWrappedIterator.class-3D22D49C9B4091EF5863964060701462023F7E60",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6a9f701d94d6996c031298b57041bd4c61c0e4ccd74b041fd03350008b58af7d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3d22d49c9b4091ef5863964060701462023f7e60"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/test/java/me/tongfei/progressbar/Issue84Test.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-Issue84Test.java-E8F965B18988C83DEB72A2F97D685A459FB9CC8A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c7f1df8f6f9ae1ef69688039c76f384342fa88144d594c1deb3eeacda650d079"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e8f965b18988c83deb72a2f97d685a459fb9cc8a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/test/java/me/tongfei/progressbar/StreamSetupExtension.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-StreamSetupExtension.java-67C7D6602EF9C424972B34AB120BCC0D95B6B5AA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "900dc6dbba8e2c22a0767756ef4ee36dd44759853fcb020555e145012b07749c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "67c7d6602ef9c424972b34ab120bcc0d95b6b5aa"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/ProgressBar.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ProgressBar.class-A316A6FBE49AEE59758EA8125BB3171921DBB3F9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "14efee1ca033077f68059af8a62105f1331f3a6788db0b36bf786e1eb2e15f54"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a316a6fbe49aee59758ea8125bb3171921dbb3f9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/test-classes/me/tongfei/progressbar/EastAsianDisplayTest.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-EastAsianDisplayTest.class-E9554F77116ECC919EEB241B032437A68E89AE5E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4efb9a6fec9ac73cc9c28eb075258dda923795184e1d8b1f6c1f742bbb0e4f5a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e9554f77116ecc919eeb241b032437a68e89ae5e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/test/java/me/tongfei/progressbar/MockProgressBarBuilder.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-MockProgressBarBuilder.java-E7CEE6142002F9C64AC49AD7926ECAAD4AF268FF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4f7cefcbd281fc93da41bce38f56340717cbb86b80fefdc337bb29c363ceff00"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e7cee6142002f9c64ac49ad7926ecaad4af268ff"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/StringDisplayUtils.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-StringDisplayUtils.class-F7B7ADF05D56A52471D55D4D35112F862A9911B6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "758bc557043bb714a0292e2639c2bebe2c7003ebc2c13abe4f6309c677d4b0d2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f7b7adf05d56a52471d55d4d35112f862a9911b6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/test-classes/me/tongfei/progressbar/PauseResumeTest.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-PauseResumeTest.class-8D2433B0726811DD04EA568BFB14B271983C0F13",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1085513a6749784c731d11b300b14896d49884bedc0e1245add4306757594ec7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8d2433b0726811dd04ea568bfb14b271983c0f13"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/wrapped/ProgressBarWrappedIterable.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-wrapped-ProgressBarWrappedIterable.class-0484F97DD65B40CDF5AFCF198A570DC9333DD333",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bcf183d0451a5ff9b63c27f53539d61208b546a61210261ca79c9fa64254a94f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0484f97dd65b40cdf5afcf198a570dc9333dd333"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/src/test/java/me/tongfei/progressbar/WrappedIterableTest.java",
+      "SPDXID": "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-WrappedIterableTest.java-0348CF02C97AC927C56344E68AB17B6823152D3E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "90892eb77ef08e62e40b34ed7c180706f5c6771293c686b5fd91d40fcaef9a83"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0348cf02c97ac927c56344e68ab17b6823152d3e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/wrapped/ProgressBarWrappedSpliterator.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-wrapped-ProgressBarWrappedSpliterator.class-0DB911C4A801291FF2863CF4AA5CD2A18C707DB0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2be3ad65a6bbd627b9ecf7be31dbfe3406a5240d76ccf88b85dea696db65af42"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0db911c4a801291ff2863cf4aa5cd2a18c707db0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/test-classes/me/tongfei/progressbar/CustomProgressBarTest.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-CustomProgressBarTest.class-D2AF90E1F4F245DA3404F4300729CC1401289936",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7359213a184386d37788a85d036ea24627ce894be151828a05702800869120d8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d2af90e1f4f245da3404f4300729cc1401289936"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/ProgressBarBuilder.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ProgressBarBuilder.class-DAD47A8AA666CF92FB84E9F37F72EC1B8582B993",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8feb20c60ab288db6d20a55984f368e0e001979b11603805dcb2046338df3772"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dad47a8aa666cf92fb84e9f37f72ec1b8582b993"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/test-classes/me/tongfei/progressbar/Issue40Test.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-Issue40Test.class-A83C18BC619ECB7274ACC66858ECBF6E31DCA35E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "536cc31684eaaf6b23ab9be7c673869d497a7c9c40264833c1642e482a0308b3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a83c18bc619ecb7274acc66858ecbf6e31dca35e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/test-classes/me/tongfei/progressbar/MultiProgressBarTest.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-MultiProgressBarTest.class-CFFD8C3D409A025B70A97CBAEE198EA2DE68831D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5698fc89676f91f260a1b7252b2508d54768c3d20804225a9e91f43af6ad8416"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cffd8c3d409a025b70a97cbaee198ea2de68831d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/TerminalUtils.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-TerminalUtils.class-77B1F5038C6C70DFCF310E93ADD96AB23221F69F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e52fa6148a997a72430eec51c2fc96da7700f91304bf04b1b2478ef3dd691fff"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "77b1f5038c6c70dfcf310e93add96ab23221f69f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/test-classes/me/tongfei/progressbar/Slf4jTest.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-Slf4jTest.class-EA3B4408A404019E96488743C7FB5AC1E20502C2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0ea7098c7db1901a292e749cc0db2d5120c21da9dc3153d4325e8ba0b6e71020"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ea3b4408a404019e96488743c7fb5ac1e20502c2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/classes/me/tongfei/progressbar/wrapped/ProgressBarWrappedWriter.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-wrapped-ProgressBarWrappedWriter.class-89A251440C0B95D7B8B507C33A384F9DCDC29613",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0ff4e0405261929fe5903307fb677851a215c10359572a143a7e02adf449687c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "89a251440c0b95d7b8b507c33a384f9dcdc29613"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/test-classes/me/tongfei/progressbar/Issue50Test.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-Issue50Test.class-85B2A15FBB26D3AF6AF57FB5628FFA76E94A9B8E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ec46d0e3fe58763e72b2ad31b37ab354d2309ac78401ac097cdfb4fbb48f0800"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "85b2a15fbb26d3af6af57fb5628ffa76e94a9b8e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./progressbar-main/target/test-classes/me/tongfei/progressbar/SpeedDisplayTest.class",
+      "SPDXID": "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-SpeedDisplayTest.class-D0ABC171522A94CD09048694F3A5135C9F889A89",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4a65cfeacb550de8627817e2db379a48624fa8b3a7637cd60a323b4845d66f49"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d0abc171522a94cd09048694f3a5135c9f889a89"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "org.junit.jupiter.junit-jupiter-api",
+      "SPDXID": "SPDXRef-Package-0263B8F6A16DEBF76F8BE3B8DFD469738A0076A56D83E856A24D44ABEA9F426F",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "5.9.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.2"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.jline.jline-terminal",
+      "SPDXID": "SPDXRef-Package-303145E343FAD932B048B778F0EFCF3C58D507C12ED684CF0409AB55359A91C3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "3.29.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jline/jline-terminal@3.29.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "me.tongfei.progressbar",
+      "SPDXID": "SPDXRef-Package-2D03AA0DBADF2B08D5FABC9710A6843DAAE2299DD90AAABCE8E7545A97442256",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "0.10.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/me.tongfei/progressbar@0.10.2"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.slf4j.slf4j-api",
+      "SPDXID": "SPDXRef-Package-29B8487B1DE24BE76A71A743708C2ED4DC69CB32049EF260DE0A68E8A28DB98A",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "2.0.5",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@2.0.5"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.apiguardian.apiguardian-api",
+      "SPDXID": "SPDXRef-Package-C397F046FB3580801E7808DC5653D386A486A5D9075DEEE6BEEC867DA93AED2E",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.1.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.junit.jupiter.junit-jupiter-engine",
+      "SPDXID": "SPDXRef-Package-9C44C48D3C0E71F88983E49FDD86FE68306CDCFF01B2D71E0B46FF2DA1F10A06",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "5.9.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.9.2"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.jline.jline-native",
+      "SPDXID": "SPDXRef-Package-281FF1B1174E3F8F9CFCD58C181C8DC35B561802B5AB0E6C4F60CC62AF7AD14D",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "3.29.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jline/jline-native@3.29.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.junit.platform.junit-platform-engine",
+      "SPDXID": "SPDXRef-Package-C0F491BC59BBD50D30BAD04CA42E315AEE32E6618C4EBE7F1A40EE49B655855E",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.9.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.platform/junit-platform-engine@1.9.2"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.junit.platform.junit-platform-commons",
+      "SPDXID": "SPDXRef-Package-6EFB72A1FBBB381C968E67B496F4F4E29B0652875ACD90011EB25D9F191DC81E",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.9.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.platform/junit-platform-commons@1.9.2"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.opentest4j.opentest4j",
+      "SPDXID": "SPDXRef-Package-2B8DC97169D40646AAD86B8F0402EF471C3DE1F226CF79A6B148F36AF31C667F",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.opentest4j/opentest4j@1.2.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "org.slf4j.slf4j-simple",
+      "SPDXID": "SPDXRef-Package-BCBFC732D58302E796AFD2B07DD96FFA45B8CC1FA7D116CE1D4181F756699A50",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "2.0.5",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-simple@2.0.5"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "progressbar",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "701a222d9ffb87803e3a83241e9c8c7deef4d742"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "8484cd1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/ctongfei/spdx.org/progressbar@8484cd1?tag_id=62163a4a-c840-4efe-b884-9b888c487246"
+        }
+      ],
+      "supplier": "Organization: ctongfei",
+      "hasFiles": [
+        "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-Issue50Test.class-85B2A15FBB26D3AF6AF57FB5628FFA76E94A9B8E",
+        "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-Slf4jTest.class-EA3B4408A404019E96488743C7FB5AC1E20502C2",
+        "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-SpeedDisplayTest.class-D0ABC171522A94CD09048694F3A5135C9F889A89",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-wrapped-ProgressBarWrappedWriter.class-89A251440C0B95D7B8B507C33A384F9DCDC29613",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-TerminalUtils.class-77B1F5038C6C70DFCF310E93ADD96AB23221F69F",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-wrapped-ProgressBarWrappedIterable.class-0484F97DD65B40CDF5AFCF198A570DC9333DD333",
+        "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-PauseResumeTest.class-8D2433B0726811DD04EA568BFB14B271983C0F13",
+        "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-MultiProgressBarTest.class-CFFD8C3D409A025B70A97CBAEE198EA2DE68831D",
+        "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-Issue40Test.class-A83C18BC619ECB7274ACC66858ECBF6E31DCA35E",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ProgressBarBuilder.class-DAD47A8AA666CF92FB84E9F37F72EC1B8582B993",
+        "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-CustomProgressBarTest.class-D2AF90E1F4F245DA3404F4300729CC1401289936",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-wrapped-ProgressBarWrappedSpliterator.class-0DB911C4A801291FF2863CF4AA5CD2A18C707DB0",
+        "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-WrappedIterableTest.java-0348CF02C97AC927C56344E68AB17B6823152D3E",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-StringDisplayUtils.class-F7B7ADF05D56A52471D55D4D35112F862A9911B6",
+        "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-MockProgressBarBuilder.java-E7CEE6142002F9C64AC49AD7926ECAAD4AF268FF",
+        "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-EastAsianDisplayTest.class-E9554F77116ECC919EEB241B032437A68E89AE5E",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ProgressBar.class-A316A6FBE49AEE59758EA8125BB3171921DBB3F9",
+        "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-StreamSetupExtension.java-67C7D6602EF9C424972B34AB120BCC0D95B6B5AA",
+        "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-Issue84Test.java-E8F965B18988C83DEB72A2F97D685A459FB9CC8A",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-wrapped-ProgressBarWrappedIterator.class-3D22D49C9B4091EF5863964060701462023F7E60",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ProgressBarStyleBuilder.class-9B91C043FB3483F7F68C05AE27B65488BAF2B898",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-DefaultProgressBarRenderer.class-1F599889BA16334D994A9192F8ACB44E03918D2C",
+        "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-RangeTest.java-E458ED94ACDC2B10D6166F3CE01F22BC5E881459",
+        "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-Issue13Test.java-751B161DAB3EC3F49BF123259F079C3BF67417D5",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ProgressBarStyle.class-04E7958C2F24976F90647245C5E4DAE708FD0D96",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ConsoleProgressBarConsumer.class-EBD240E6E03E7394B3D3FAC77BCAA43B5AFEFF1C",
+        "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-ProgressBarTest.java-2DB88D2D4491109D396DE21F710235CD504E4DB9",
+        "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-Issue117Test.java-3700B2F5524DC6130E924290F89FD9E7404B7B02",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-wrapped-ProgressBarWrappedIterator.java-A3502F65430779B4454F1D0892DB094ACD2D4DFF",
+        "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-WrappedIterableTest.class-A61B1E51F44E0182FD2947DAF53B26EB40FDC9DB",
+        "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-MockProgressBarBuilder.class-831CDEBEBBBB9DA03628BD3EF73CCE6A6860199A",
+        "SPDXRef-File--progressbar-main-target-classes-META-INF-maven-me.tongfei-progressbar-pom.xml-F358B5DCA98CB272294AAF42E84A98B93351E07C",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-wrapped-ProgressBarWrappedInputStream.class-A1B9C11E052078681B1D1BD43411AE5E36FAE56D",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ProgressBarRenderer.class-DDA1163F7C93EC74EA7372F9139673ACEFD92CDB",
+        "SPDXRef-File--progressbar-main-target-bom.xml-21AFD1FBA2EA8BB422388EC9D4B3D0178B93B7B0",
+        "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-PauseResumeTest.java-8C6CBF9D391F076819D6886C2D1589B5082EBF43",
+        "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-EastAsianDisplayTest.java-37933D6C94A86E2B721DDE00CF8C5F9FB5BFF8D4",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-wrapped-ProgressBarWrappedIterable.java-1FB15308CB49C536E599CD03F75CCBC9C3ADC69B",
+        "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-StreamSetupExtension.class-9B2FD82E1A200EAB53A25CF5CCA52C70C4805E1C",
+        "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-Issue84Test.class-2C0ABE2A6C6C148E476DC0777174729C6DDAA3B9",
+        "SPDXRef-File--progressbar-main-target-classes-META-INF-maven-me.tongfei-progressbar-pom.properties-F158038F3BF001F6EF5825E0F3B7A10EDEF60865",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-Util.class-8C30B7309D1CA531FAEFF55E0D6FABCD289A69D2",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ProgressBarConsumer.class-4B3DC33E590DC92679F610B1FD57AB2DD4EDBC83",
+        "SPDXRef-File--progressbar-main-target-bom.json-0584F41415D2B303719B5789FC513AFE787FA0DD",
+        "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-MultiProgressBarTest.java-55FCAC14C6B37D58F2532711D3F8DE2CEA5BDB19",
+        "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-CustomProgressBarTest.java-B29822DBABE7B4A0CBF74F7876DCCE5C49A17EE8",
+        "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-ProgressBarTest.class-CD016909C6C024B8E541788B7ACC50FFE15D7C83",
+        "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-Issue117Test.class-B6E005F713A0554C1F2B0CF99E9953ED989537B5",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-wrapped-ProgressBarWrappedOutputStream.class-284C04C3393349A1B991329C7287AB50C5222F18",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ProgressState.class-A31F9557FE885011B70FD05CB20890D6DAFAFA20",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-DelegatingProgressBarConsumer.class-74138181C7F849E7D674D0425EB983DF7A55955A",
+        "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-Slf4jTest.java-1FABC12DBBB14C655C756F1D5B0E0B4DEEE67BBD",
+        "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-Issue40Test.java-6151D20CAC7963963EDB89E70372C87103C270AF",
+        "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-RangeTest.class-A34A92B6B23DC792F06CD68604B2430CDB88B498",
+        "SPDXRef-File--progressbar-main-target-test-classes-me-tongfei-progressbar-Issue13Test.class-4770A63A5DAB5220BA81806BD5A570FA62BC58BC",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-wrapped-ProgressBarWrappedReader.class-027C44401370AD219A339E1C8E009F308A9A6AD0",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-ProgressUpdateAction.class-C6DA3FE8015D334FB037A68E0ED979DE85D78E87",
+        "SPDXRef-File--progressbar-main-target-classes-me-tongfei-progressbar-InteractiveConsoleProgressBarConsumer.class-D4CB788A1F9A950DB8A53B22D4EFAD51D6073773",
+        "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-SpeedDisplayTest.java-C4AC85E879B1FD06CCBD4C650523460D1ACA4F73",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-wrapped-ProgressBarWrappedReader.java-73320735CE93B482BC1FAFF7AB5DB8AAC7AA8BDD",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ProgressUpdateAction.java-F73C31A0B79667C622E2A3B8120B059C532E9B22",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-InteractiveConsoleProgressBarConsumer.java-B11CFE1C2DD53A8D677A938505F6EE0D7F270004",
+        "SPDXRef-File--progressbar-main-docs-imperative-usage.md-B48C9ACD22AB2A245C6670EC15E3BA59935BBA5B",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ProgressBarStyleBuilder.java-6B22CEFFB6DB2C41417062A9181A431DA7C691D7",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-DefaultProgressBarRenderer.java-AE5348671E99C2A71E4C976AE99F79A53AEB838D",
+        "SPDXRef-File--progressbar-main-docs-changelog.md-0786A0FD7C77FC9B06934D411834B6595E053126",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ProgressBarStyle.java-2996AAE3A2B748E34CA36E5BA21B03AC3BE250DF",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ConsoleProgressBarConsumer.java-928A55406F9E9B722670DE7142243737E19379D7",
+        "SPDXRef-File--progressbar-main-docs-builder.md-B43C5E3DFEB2597D65AB5DAB9720A9207AB2E4BD",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-wrapped-ProgressBarWrappedInputStream.java-0F700676A0EB259416519042C85AEA4B86698060",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ProgressBarRenderer.java-5FAFDA8F2FFA98DBFF130091E1DC021736B016DC",
+        "SPDXRef-File--progressbar-main-docs-styles.md-14205DABA8CE708EF9C0791F26B17511DC6B63FB",
+        "SPDXRef-File--progressbar-main-.settings-org.eclipse.jdt.core.prefs-3B567DAE5438D51EE859A258DF18C608472D5925",
+        "SPDXRef-File--progressbar-main-src-test-java-me-tongfei-progressbar-Issue50Test.java-E3811D8809C5FD2E45EC4CC31E913CF6A31B46F3",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-wrapped-ProgressBarWrappedSpliterator.java-687E32D55C0EA83008567538C64F0F621838CEF6",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-StringDisplayUtils.java-1812D85EB0414D0C50F48C82775210C977E5425B",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ProgressBar.java-745040BFD71E8E869962693063976B89DB4C3A1B",
+        "SPDXRef-File--progressbar-main-docs-index.md-34E9132106F9D0ED47FD4A404B85502968233620",
+        "SPDXRef-File--progressbar-main-README.md-95364686526AB2EEF0E01AC5D46229A33A5400C4",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-wrapped-ProgressBarWrappedOutputStream.java-20C2EEBD2C2656BDDDC6AB5D4CF3C0BA796CD694",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ProgressState.java-A9F54A561D1B9E734B4C375FDC2512BC52BD7A04",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-DelegatingProgressBarConsumer.java-D11804D60E96BEF636254CA154202ABB7AFE0701",
+        "SPDXRef-File--progressbar-main-docs-declarative-usage.md-A2C84D202A242E08459032FE5DBF79C5DC021097",
+        "SPDXRef-File--progressbar-main-mkdocs.yml-2A19D425A9D7B0BF583945265B6A510760A30DA3",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-wrapped-ProgressBarWrappedWriter.java-9AF2AFDBFBA759439870511427A34CF93408D568",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-TerminalUtils.java-ECFB1372E4B58A0E4E63B235A73B8F84A6DF0195",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ProgressBarBuilder.java-86BED1AC8F9B39722491ABE32316AAE7FFEDB224",
+        "SPDXRef-File--progressbar-main-docs-kotlin.md-CB68D7B4EEA064B18D33E89F186606B6A2CF9239",
+        "SPDXRef-File--progressbar-main-.github-dependabot.yml-2F28B61B54CD4B9B1BB92E7A3D1BF87FE6BA8090",
+        "SPDXRef-File--progressbar-main-src-main-java9-module-info.java-C4FA96342A3F021B61967BB6E5D60C04317F2D8E",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-Util.java-6035869CAC015E5164898ED2005F6057F409DC85",
+        "SPDXRef-File--progressbar-main-src-main-java-me-tongfei-progressbar-ProgressBarConsumer.java-F36F617C4A2BC8D781C1D7822FA98FCA92B68FC9",
+        "SPDXRef-File--progressbar-main-docs-loggers.md-2B272C2F89D8372A203B80148E20EE07A7672FF1",
+        "SPDXRef-File--progressbar-main-.settings-org.eclipse.core.resources.prefs-0D78A989C585AAC6E6244DEDCEF06DF92D4EA31B",
+        "SPDXRef-File--progressbar-main-pom.xml-F358B5DCA98CB272294AAF42E84A98B93351E07C",
+        "SPDXRef-File--progressbar-main-LICENSE-B989A2EE390AE9C7A877CC70F486DD96BE3184AE",
+        "SPDXRef-File--progressbar-main-CHANGELOG.md-644E0180FB33CA1AA3A6B5DF9272CC2F65C85DD1",
+        "SPDXRef-File--progressbar-main-.gitignore-F0412D067484DFED7C22C521E3A23C401CF31FCF",
+        "SPDXRef-File--progressbar-main-.classpath-1AC3602DF5FB16D398A8CFCB066CC0716B9F27DE",
+        "SPDXRef-File--progressbar-main-Makefile-F67E314350998049F182B5B8635E1DB0A53E8D47",
+        "SPDXRef-File--progressbar-main-.project-A14C5CEA2BE97BCDCC7CE71307CC723A849E8C33"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C0F491BC59BBD50D30BAD04CA42E315AEE32E6618C4EBE7F1A40EE49B655855E",
+      "spdxElementId": "SPDXRef-Package-2D03AA0DBADF2B08D5FABC9710A6843DAAE2299DD90AAABCE8E7545A97442256"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C0F491BC59BBD50D30BAD04CA42E315AEE32E6618C4EBE7F1A40EE49B655855E",
+      "spdxElementId": "SPDXRef-Package-9C44C48D3C0E71F88983E49FDD86FE68306CDCFF01B2D71E0B46FF2DA1F10A06"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-29B8487B1DE24BE76A71A743708C2ED4DC69CB32049EF260DE0A68E8A28DB98A",
+      "spdxElementId": "SPDXRef-Package-2D03AA0DBADF2B08D5FABC9710A6843DAAE2299DD90AAABCE8E7545A97442256"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-303145E343FAD932B048B778F0EFCF3C58D507C12ED684CF0409AB55359A91C3",
+      "spdxElementId": "SPDXRef-Package-2D03AA0DBADF2B08D5FABC9710A6843DAAE2299DD90AAABCE8E7545A97442256"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-BCBFC732D58302E796AFD2B07DD96FFA45B8CC1FA7D116CE1D4181F756699A50",
+      "spdxElementId": "SPDXRef-Package-2D03AA0DBADF2B08D5FABC9710A6843DAAE2299DD90AAABCE8E7545A97442256"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-281FF1B1174E3F8F9CFCD58C181C8DC35B561802B5AB0E6C4F60CC62AF7AD14D",
+      "spdxElementId": "SPDXRef-Package-2D03AA0DBADF2B08D5FABC9710A6843DAAE2299DD90AAABCE8E7545A97442256"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-281FF1B1174E3F8F9CFCD58C181C8DC35B561802B5AB0E6C4F60CC62AF7AD14D",
+      "spdxElementId": "SPDXRef-Package-303145E343FAD932B048B778F0EFCF3C58D507C12ED684CF0409AB55359A91C3"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-2B8DC97169D40646AAD86B8F0402EF471C3DE1F226CF79A6B148F36AF31C667F",
+      "spdxElementId": "SPDXRef-Package-2D03AA0DBADF2B08D5FABC9710A6843DAAE2299DD90AAABCE8E7545A97442256"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-2B8DC97169D40646AAD86B8F0402EF471C3DE1F226CF79A6B148F36AF31C667F",
+      "spdxElementId": "SPDXRef-Package-0263B8F6A16DEBF76F8BE3B8DFD469738A0076A56D83E856A24D44ABEA9F426F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-9C44C48D3C0E71F88983E49FDD86FE68306CDCFF01B2D71E0B46FF2DA1F10A06",
+      "spdxElementId": "SPDXRef-Package-2D03AA0DBADF2B08D5FABC9710A6843DAAE2299DD90AAABCE8E7545A97442256"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C397F046FB3580801E7808DC5653D386A486A5D9075DEEE6BEEC867DA93AED2E",
+      "spdxElementId": "SPDXRef-Package-2D03AA0DBADF2B08D5FABC9710A6843DAAE2299DD90AAABCE8E7545A97442256"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C397F046FB3580801E7808DC5653D386A486A5D9075DEEE6BEEC867DA93AED2E",
+      "spdxElementId": "SPDXRef-Package-0263B8F6A16DEBF76F8BE3B8DFD469738A0076A56D83E856A24D44ABEA9F426F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-6EFB72A1FBBB381C968E67B496F4F4E29B0652875ACD90011EB25D9F191DC81E",
+      "spdxElementId": "SPDXRef-Package-2D03AA0DBADF2B08D5FABC9710A6843DAAE2299DD90AAABCE8E7545A97442256"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-6EFB72A1FBBB381C968E67B496F4F4E29B0652875ACD90011EB25D9F191DC81E",
+      "spdxElementId": "SPDXRef-Package-0263B8F6A16DEBF76F8BE3B8DFD469738A0076A56D83E856A24D44ABEA9F426F"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-2D03AA0DBADF2B08D5FABC9710A6843DAAE2299DD90AAABCE8E7545A97442256",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-0263B8F6A16DEBF76F8BE3B8DFD469738A0076A56D83E856A24D44ABEA9F426F",
+      "spdxElementId": "SPDXRef-Package-2D03AA0DBADF2B08D5FABC9710A6843DAAE2299DD90AAABCE8E7545A97442256"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "progressbar 8484cd1",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-4.1.5-98268612-0541-4c34-8fc3-0e8e9666ed85/progressbar/8484cd1/uuXq3bhYXkaLNdPxhhhtvQ",
+  "creationInfo": {
+    "created": "2026-03-31T18:04:18Z",
+    "creators": [
+      "Organization: ctongfei",
+      "Tool: Microsoft.SBOMTool-4.1.5"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}
