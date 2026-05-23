@@ -3,10 +3,9 @@ Este repositorio contiene el conjunto de SBOMs de proyectos Java-Maven y scripts
 
 ---
 
-## Repository Structure
+## Estructura de repositorio
 
 ```text
 datasets/        SBOMs generados ordenados en carpetas por software de generación
 scripts/         Scripts de codigo Python.
-docs/            Documentación adicional
 ```
