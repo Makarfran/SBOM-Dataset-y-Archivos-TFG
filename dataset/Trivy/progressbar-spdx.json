@@ -1,0 +1,178 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "https://github.com/ctongfei/progressbar",
+  "documentNamespace": "http://trivy.dev/repository/github.com/ctongfei/progressbar-d35a9e8a-4c51-413c-918f-8ee6c98b748f",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.69.3"
+    ],
+    "created": "2026-04-19T16:43:02Z"
+  },
+  "packages": [
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-157bf9114c968510",
+      "downloadLocation": "git+https://github.com/ctongfei/progressbar",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:02Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:02Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "me.tongfei:progressbar",
+      "SPDXID": "SPDXRef-Package-446e202837c24ad4",
+      "versionInfo": "0.10.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/ctongfei/progressbar",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/me.tongfei/progressbar@0.10.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:02Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: me.tongfei:progressbar:0.10.2::bb5565d7"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:02Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.jline:jline-native",
+      "SPDXID": "SPDXRef-Package-254e99eb49c3b36f",
+      "versionInfo": "3.29.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/ctongfei/progressbar",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jline/jline-native@3.29.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:02Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.jline:jline-native:3.29.0::a3b9c6a7"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:02Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.jline:jline-terminal",
+      "SPDXID": "SPDXRef-Package-f8be79586e460ac0",
+      "versionInfo": "3.29.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/ctongfei/progressbar",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jline/jline-terminal@3.29.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:02Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.jline:jline-terminal:3.29.0::c8b9ac6e"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:02Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/ctongfei/progressbar",
+      "SPDXID": "SPDXRef-Repository-610cafdd40e94392",
+      "downloadLocation": "git+https://github.com/ctongfei/progressbar",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:02Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-157bf9114c968510",
+      "relatedSpdxElement": "SPDXRef-Package-446e202837c24ad4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-610cafdd40e94392",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-446e202837c24ad4",
+      "relatedSpdxElement": "SPDXRef-Package-f8be79586e460ac0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f8be79586e460ac0",
+      "relatedSpdxElement": "SPDXRef-Package-254e99eb49c3b36f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-610cafdd40e94392",
+      "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

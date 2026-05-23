@@ -1,0 +1,356 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "https://github.com/kilim/kilim",
+  "documentNamespace": "http://trivy.dev/repository/github.com/kilim/kilim-bd5ce013-e09d-4a7d-98d8-1a43209f72fb",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.69.3"
+    ],
+    "created": "2026-04-19T16:27:47Z"
+  },
+  "packages": [
+    {
+      "name": "demos/poms/pom.xml",
+      "SPDXID": "SPDXRef-Application-7e74f49306483239",
+      "downloadLocation": "git+https://github.com/kilim/kilim",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-157bf9114c968510",
+      "downloadLocation": "git+https://github.com/kilim/kilim",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.db4j:kilim",
+      "SPDXID": "SPDXRef-Package-442660ce967304c6",
+      "versionInfo": "2.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/kilim/kilim",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: demos/poms/pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.db4j/kilim@2.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.db4j:kilim:2.0.2::cb20519e"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.db4j:kilim",
+      "SPDXID": "SPDXRef-Package-db9ac322df3da6e6",
+      "versionInfo": "2.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/kilim/kilim",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.db4j/kilim@2.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.db4j:kilim:2.0.2::92c5ba61"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.db4j:kilim-demo",
+      "SPDXID": "SPDXRef-Package-7ee22041e39382a4",
+      "versionInfo": "0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/kilim/kilim",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: demos/poms/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.db4j/kilim-demo@0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.db4j:kilim-demo:0.1::fdadf96c"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.ow2.asm:asm",
+      "SPDXID": "SPDXRef-Package-d2d7e23156147b80",
+      "versionInfo": "7.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/kilim/kilim",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: demos/poms/pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.ow2.asm/asm@7.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.ow2.asm:asm:7.1::d1e61deb"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.ow2.asm:asm",
+      "SPDXID": "SPDXRef-Package-fedfe1b0341a2248",
+      "versionInfo": "7.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/kilim/kilim",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.ow2.asm/asm@7.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.ow2.asm:asm:7.1::577ba879"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.ow2.asm:asm-tree",
+      "SPDXID": "SPDXRef-Package-674d64a7019698bf",
+      "versionInfo": "7.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/kilim/kilim",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.ow2.asm/asm-tree@7.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.ow2.asm:asm-tree:7.1::516b00ed"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.ow2.asm:asm-tree",
+      "SPDXID": "SPDXRef-Package-fdf018e651d0ebd8",
+      "versionInfo": "7.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/kilim/kilim",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: demos/poms/pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.ow2.asm/asm-tree@7.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.ow2.asm:asm-tree:7.1::b1719122"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/kilim/kilim",
+      "SPDXID": "SPDXRef-Repository-48049736e7f4d1cd",
+      "downloadLocation": "git+https://github.com/kilim/kilim",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:27:47Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-157bf9114c968510",
+      "relatedSpdxElement": "SPDXRef-Package-db9ac322df3da6e6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-7e74f49306483239",
+      "relatedSpdxElement": "SPDXRef-Package-7ee22041e39382a4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-48049736e7f4d1cd",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-442660ce967304c6",
+      "relatedSpdxElement": "SPDXRef-Package-fdf018e651d0ebd8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-674d64a7019698bf",
+      "relatedSpdxElement": "SPDXRef-Package-fedfe1b0341a2248",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7ee22041e39382a4",
+      "relatedSpdxElement": "SPDXRef-Package-442660ce967304c6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-db9ac322df3da6e6",
+      "relatedSpdxElement": "SPDXRef-Package-674d64a7019698bf",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fdf018e651d0ebd8",
+      "relatedSpdxElement": "SPDXRef-Package-d2d7e23156147b80",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-48049736e7f4d1cd",
+      "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-48049736e7f4d1cd",
+      "relatedSpdxElement": "SPDXRef-Application-7e74f49306483239",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

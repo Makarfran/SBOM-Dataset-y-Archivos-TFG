@@ -1,0 +1,831 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "https://github.com/perwendel/spark",
+  "documentNamespace": "http://trivy.dev/repository/github.com/perwendel/spark-84cd71d9-47c7-42ec-b04f-b6a6aa825bb0",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.69.3"
+    ],
+    "created": "2026-04-19T16:54:21Z"
+  },
+  "packages": [
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-157bf9114c968510",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.sparkjava:spark-core",
+      "SPDXID": "SPDXRef-Package-ae00bec2f6b86446",
+      "versionInfo": "2.9.4-SNAPSHOT",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.sparkjava/spark-core@2.9.4-SNAPSHOT"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.sparkjava:spark-core:2.9.4-SNAPSHOT::32252c49"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "javax.servlet:javax.servlet-api",
+      "SPDXID": "SPDXRef-Package-24538b672bf91a29",
+      "versionInfo": "3.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: javax.servlet:javax.servlet-api:3.1.0::8b8980dc"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.eclipse.jetty.websocket:websocket-api",
+      "SPDXID": "SPDXRef-Package-608ea3aaa0337a33",
+      "versionInfo": "9.4.48.v20220622",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0 AND EPL-1.0",
+      "licenseDeclared": "Apache-2.0 AND EPL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.eclipse.jetty.websocket:websocket-api:9.4.48.v20220622::96229a36"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.eclipse.jetty.websocket:websocket-client",
+      "SPDXID": "SPDXRef-Package-600e22cf22f933b3",
+      "versionInfo": "9.4.48.v20220622",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0 AND EPL-1.0",
+      "licenseDeclared": "Apache-2.0 AND EPL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.48.v20220622"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.eclipse.jetty.websocket:websocket-client:9.4.48.v20220622::6f1f05af"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.eclipse.jetty.websocket:websocket-common",
+      "SPDXID": "SPDXRef-Package-8577546620caadad",
+      "versionInfo": "9.4.48.v20220622",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0 AND EPL-1.0",
+      "licenseDeclared": "Apache-2.0 AND EPL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.eclipse.jetty.websocket:websocket-common:9.4.48.v20220622::c0a9c82e"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.eclipse.jetty.websocket:websocket-server",
+      "SPDXID": "SPDXRef-Package-ea56e37459fee8c8",
+      "versionInfo": "9.4.48.v20220622",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0 AND EPL-1.0",
+      "licenseDeclared": "Apache-2.0 AND EPL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.48.v20220622"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.eclipse.jetty.websocket:websocket-server:9.4.48.v20220622::2f7e8874"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.eclipse.jetty.websocket:websocket-servlet",
+      "SPDXID": "SPDXRef-Package-502637ba51670f84",
+      "versionInfo": "9.4.48.v20220622",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0 AND EPL-1.0",
+      "licenseDeclared": "Apache-2.0 AND EPL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.48.v20220622"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.eclipse.jetty.websocket:websocket-servlet:9.4.48.v20220622::1938260e"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.eclipse.jetty:jetty-client",
+      "SPDXID": "SPDXRef-Package-f842ec50d5c090ea",
+      "versionInfo": "9.4.48.v20220622",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0 AND EPL-1.0",
+      "licenseDeclared": "Apache-2.0 AND EPL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.48.v20220622"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.eclipse.jetty:jetty-client:9.4.48.v20220622::5a7ad1c3"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.eclipse.jetty:jetty-http",
+      "SPDXID": "SPDXRef-Package-75acfd0231b7c0c8",
+      "versionInfo": "9.4.48.v20220622",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0 AND EPL-1.0",
+      "licenseDeclared": "Apache-2.0 AND EPL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.eclipse.jetty:jetty-http:9.4.48.v20220622::3e6e0f55"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.eclipse.jetty:jetty-io",
+      "SPDXID": "SPDXRef-Package-e18cb6bb002eaa3a",
+      "versionInfo": "9.4.48.v20220622",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0 AND EPL-1.0",
+      "licenseDeclared": "Apache-2.0 AND EPL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.eclipse.jetty:jetty-io:9.4.48.v20220622::e01d7c97"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.eclipse.jetty:jetty-security",
+      "SPDXID": "SPDXRef-Package-d2e315e6f9e519b3",
+      "versionInfo": "9.4.48.v20220622",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0 AND EPL-1.0",
+      "licenseDeclared": "Apache-2.0 AND EPL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.48.v20220622"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.eclipse.jetty:jetty-security:9.4.48.v20220622::57d4ba42"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.eclipse.jetty:jetty-server",
+      "SPDXID": "SPDXRef-Package-fc11ebc9b533f2fa",
+      "versionInfo": "9.4.48.v20220622",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0 AND EPL-1.0",
+      "licenseDeclared": "Apache-2.0 AND EPL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.eclipse.jetty:jetty-server:9.4.48.v20220622::87af2b28"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.eclipse.jetty:jetty-servlet",
+      "SPDXID": "SPDXRef-Package-1dd883c4f360113a",
+      "versionInfo": "9.4.48.v20220622",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0 AND EPL-1.0",
+      "licenseDeclared": "Apache-2.0 AND EPL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.48.v20220622"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.eclipse.jetty:jetty-servlet:9.4.48.v20220622::99e59a9a"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.eclipse.jetty:jetty-util",
+      "SPDXID": "SPDXRef-Package-9b8e5df152370469",
+      "versionInfo": "9.4.48.v20220622",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0 AND EPL-1.0",
+      "licenseDeclared": "Apache-2.0 AND EPL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.eclipse.jetty:jetty-util:9.4.48.v20220622::c4ebc880"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.eclipse.jetty:jetty-util-ajax",
+      "SPDXID": "SPDXRef-Package-45e97ae7188ad2b2",
+      "versionInfo": "9.4.48.v20220622",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0 AND EPL-1.0",
+      "licenseDeclared": "Apache-2.0 AND EPL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.48.v20220622"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.eclipse.jetty:jetty-util-ajax:9.4.48.v20220622::3211fa40"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.eclipse.jetty:jetty-webapp",
+      "SPDXID": "SPDXRef-Package-c01c0dd6c2d89f47",
+      "versionInfo": "9.4.48.v20220622",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0 AND EPL-1.0",
+      "licenseDeclared": "Apache-2.0 AND EPL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.48.v20220622"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.eclipse.jetty:jetty-webapp:9.4.48.v20220622::a126a45e"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.eclipse.jetty:jetty-xml",
+      "SPDXID": "SPDXRef-Package-1f2c6b83fa8e8fce",
+      "versionInfo": "9.4.48.v20220622",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0 AND EPL-1.0",
+      "licenseDeclared": "Apache-2.0 AND EPL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.48.v20220622"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.eclipse.jetty:jetty-xml:9.4.48.v20220622::159da145"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.slf4j:slf4j-api",
+      "SPDXID": "SPDXRef-Package-4cc358cc65b14d40",
+      "versionInfo": "1.7.25",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@1.7.25"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.slf4j:slf4j-api:1.7.25::e17f3642"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/perwendel/spark",
+      "SPDXID": "SPDXRef-Repository-f3e0b2e16af22a7c",
+      "downloadLocation": "git+https://github.com/perwendel/spark",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:54:21Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-157bf9114c968510",
+      "relatedSpdxElement": "SPDXRef-Package-ae00bec2f6b86446",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-f3e0b2e16af22a7c",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1dd883c4f360113a",
+      "relatedSpdxElement": "SPDXRef-Package-45e97ae7188ad2b2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1dd883c4f360113a",
+      "relatedSpdxElement": "SPDXRef-Package-d2e315e6f9e519b3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1f2c6b83fa8e8fce",
+      "relatedSpdxElement": "SPDXRef-Package-9b8e5df152370469",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-45e97ae7188ad2b2",
+      "relatedSpdxElement": "SPDXRef-Package-9b8e5df152370469",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-502637ba51670f84",
+      "relatedSpdxElement": "SPDXRef-Package-24538b672bf91a29",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-502637ba51670f84",
+      "relatedSpdxElement": "SPDXRef-Package-608ea3aaa0337a33",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-600e22cf22f933b3",
+      "relatedSpdxElement": "SPDXRef-Package-8577546620caadad",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-600e22cf22f933b3",
+      "relatedSpdxElement": "SPDXRef-Package-9b8e5df152370469",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-600e22cf22f933b3",
+      "relatedSpdxElement": "SPDXRef-Package-e18cb6bb002eaa3a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-600e22cf22f933b3",
+      "relatedSpdxElement": "SPDXRef-Package-f842ec50d5c090ea",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-75acfd0231b7c0c8",
+      "relatedSpdxElement": "SPDXRef-Package-9b8e5df152370469",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-75acfd0231b7c0c8",
+      "relatedSpdxElement": "SPDXRef-Package-e18cb6bb002eaa3a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8577546620caadad",
+      "relatedSpdxElement": "SPDXRef-Package-608ea3aaa0337a33",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8577546620caadad",
+      "relatedSpdxElement": "SPDXRef-Package-9b8e5df152370469",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8577546620caadad",
+      "relatedSpdxElement": "SPDXRef-Package-e18cb6bb002eaa3a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ae00bec2f6b86446",
+      "relatedSpdxElement": "SPDXRef-Package-4cc358cc65b14d40",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ae00bec2f6b86446",
+      "relatedSpdxElement": "SPDXRef-Package-502637ba51670f84",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ae00bec2f6b86446",
+      "relatedSpdxElement": "SPDXRef-Package-c01c0dd6c2d89f47",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ae00bec2f6b86446",
+      "relatedSpdxElement": "SPDXRef-Package-ea56e37459fee8c8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ae00bec2f6b86446",
+      "relatedSpdxElement": "SPDXRef-Package-fc11ebc9b533f2fa",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c01c0dd6c2d89f47",
+      "relatedSpdxElement": "SPDXRef-Package-1dd883c4f360113a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c01c0dd6c2d89f47",
+      "relatedSpdxElement": "SPDXRef-Package-1f2c6b83fa8e8fce",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d2e315e6f9e519b3",
+      "relatedSpdxElement": "SPDXRef-Package-fc11ebc9b533f2fa",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e18cb6bb002eaa3a",
+      "relatedSpdxElement": "SPDXRef-Package-9b8e5df152370469",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ea56e37459fee8c8",
+      "relatedSpdxElement": "SPDXRef-Package-1dd883c4f360113a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ea56e37459fee8c8",
+      "relatedSpdxElement": "SPDXRef-Package-502637ba51670f84",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ea56e37459fee8c8",
+      "relatedSpdxElement": "SPDXRef-Package-600e22cf22f933b3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ea56e37459fee8c8",
+      "relatedSpdxElement": "SPDXRef-Package-75acfd0231b7c0c8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ea56e37459fee8c8",
+      "relatedSpdxElement": "SPDXRef-Package-8577546620caadad",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f842ec50d5c090ea",
+      "relatedSpdxElement": "SPDXRef-Package-75acfd0231b7c0c8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f842ec50d5c090ea",
+      "relatedSpdxElement": "SPDXRef-Package-e18cb6bb002eaa3a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fc11ebc9b533f2fa",
+      "relatedSpdxElement": "SPDXRef-Package-24538b672bf91a29",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fc11ebc9b533f2fa",
+      "relatedSpdxElement": "SPDXRef-Package-75acfd0231b7c0c8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fc11ebc9b533f2fa",
+      "relatedSpdxElement": "SPDXRef-Package-e18cb6bb002eaa3a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-f3e0b2e16af22a7c",
+      "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

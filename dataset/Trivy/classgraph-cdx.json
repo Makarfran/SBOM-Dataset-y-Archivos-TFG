@@ -1,0 +1,95 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:c2f11afa-2231-4dfd-b002-ae7dfe9351f4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-24T16:53:22+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "5f1ffd71-4301-46dc-a495-8655c4fb828a",
+      "type": "application",
+      "name": "https://github.com/classgraph/classgraph",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "ce5e2e3c-a349-44e6-804f-02d566c21f34",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.github.classgraph/classgraph@4.8.184",
+      "type": "library",
+      "group": "io.github.classgraph",
+      "name": "classgraph",
+      "version": "4.8.184",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.github.classgraph/classgraph@4.8.184",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.github.classgraph:classgraph:4.8.184::37126e01"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "5f1ffd71-4301-46dc-a495-8655c4fb828a",
+      "dependsOn": [
+        "ce5e2e3c-a349-44e6-804f-02d566c21f34"
+      ]
+    },
+    {
+      "ref": "ce5e2e3c-a349-44e6-804f-02d566c21f34",
+      "dependsOn": [
+        "pkg:maven/io.github.classgraph/classgraph@4.8.184"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.github.classgraph/classgraph@4.8.184",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

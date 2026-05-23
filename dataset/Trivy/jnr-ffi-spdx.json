@@ -1,0 +1,441 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "https://github.com/jnr/jnr-ffi",
+  "documentNamespace": "http://trivy.dev/repository/github.com/jnr/jnr-ffi-749a486a-2e77-4f5a-9377-8947bbad9043",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.69.3"
+    ],
+    "created": "2026-04-19T16:11:45Z"
+  },
+  "packages": [
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-157bf9114c968510",
+      "downloadLocation": "git+https://github.com/jnr/jnr-ffi",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.github.jnr:jffi",
+      "SPDXID": "SPDXRef-Package-367b5be4d27b7311",
+      "versionInfo": "1.3.15",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/jnr/jnr-ffi",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0 AND LGPL-3.0-only",
+      "licenseDeclared": "Apache-2.0 AND LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.jnr/jffi@1.3.15"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.github.jnr:jffi:1.3.15::8d11f54e"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.github.jnr:jnr-a64asm",
+      "SPDXID": "SPDXRef-Package-17f0d665834428d2",
+      "versionInfo": "1.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/jnr/jnr-ffi",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.jnr/jnr-a64asm@1.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.github.jnr:jnr-a64asm:1.0.0::53f5076f"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.github.jnr:jnr-ffi",
+      "SPDXID": "SPDXRef-Package-96881ebebf9945da",
+      "versionInfo": "2.2.20-SNAPSHOT",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/jnr/jnr-ffi",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.jnr/jnr-ffi@2.2.20-SNAPSHOT"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.github.jnr:jnr-ffi:2.2.20-SNAPSHOT::ef263d06"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.github.jnr:jnr-x86asm",
+      "SPDXID": "SPDXRef-Package-3b33cafe5187ccad",
+      "versionInfo": "1.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/jnr/jnr-ffi",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.jnr/jnr-x86asm@1.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.github.jnr:jnr-x86asm:1.0.2::8d74ebf8"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.ow2.asm:asm",
+      "SPDXID": "SPDXRef-Package-161f16643054171",
+      "versionInfo": "9.7.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/jnr/jnr-ffi",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.ow2.asm/asm@9.7.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.ow2.asm:asm:9.7.1::c20e19a4"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.ow2.asm:asm-analysis",
+      "SPDXID": "SPDXRef-Package-7fe7350be51ddd44",
+      "versionInfo": "9.7.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/jnr/jnr-ffi",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.ow2.asm/asm-analysis@9.7.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.ow2.asm:asm-analysis:9.7.1::c66dd0a5"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.ow2.asm:asm-commons",
+      "SPDXID": "SPDXRef-Package-b62e232ff56cc94a",
+      "versionInfo": "9.7.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/jnr/jnr-ffi",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.ow2.asm/asm-commons@9.7.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.ow2.asm:asm-commons:9.7.1::95666c7e"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.ow2.asm:asm-tree",
+      "SPDXID": "SPDXRef-Package-16aabb51db1cbb85",
+      "versionInfo": "9.7.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/jnr/jnr-ffi",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.ow2.asm/asm-tree@9.7.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.ow2.asm:asm-tree:9.7.1::c800ce78"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.ow2.asm:asm-util",
+      "SPDXID": "SPDXRef-Package-fa9a4c44db3637e1",
+      "versionInfo": "9.7.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/jnr/jnr-ffi",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.ow2.asm/asm-util@9.7.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.ow2.asm:asm-util:9.7.1::1b68570f"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/jnr/jnr-ffi",
+      "SPDXID": "SPDXRef-Repository-16972927b6548bf",
+      "downloadLocation": "git+https://github.com/jnr/jnr-ffi",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:11:45Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-157bf9114c968510",
+      "relatedSpdxElement": "SPDXRef-Package-96881ebebf9945da",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-16972927b6548bf",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-16aabb51db1cbb85",
+      "relatedSpdxElement": "SPDXRef-Package-161f16643054171",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7fe7350be51ddd44",
+      "relatedSpdxElement": "SPDXRef-Package-16aabb51db1cbb85",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-96881ebebf9945da",
+      "relatedSpdxElement": "SPDXRef-Package-161f16643054171",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-96881ebebf9945da",
+      "relatedSpdxElement": "SPDXRef-Package-16aabb51db1cbb85",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-96881ebebf9945da",
+      "relatedSpdxElement": "SPDXRef-Package-17f0d665834428d2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-96881ebebf9945da",
+      "relatedSpdxElement": "SPDXRef-Package-367b5be4d27b7311",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-96881ebebf9945da",
+      "relatedSpdxElement": "SPDXRef-Package-3b33cafe5187ccad",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-96881ebebf9945da",
+      "relatedSpdxElement": "SPDXRef-Package-7fe7350be51ddd44",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-96881ebebf9945da",
+      "relatedSpdxElement": "SPDXRef-Package-b62e232ff56cc94a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-96881ebebf9945da",
+      "relatedSpdxElement": "SPDXRef-Package-fa9a4c44db3637e1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b62e232ff56cc94a",
+      "relatedSpdxElement": "SPDXRef-Package-161f16643054171",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b62e232ff56cc94a",
+      "relatedSpdxElement": "SPDXRef-Package-16aabb51db1cbb85",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fa9a4c44db3637e1",
+      "relatedSpdxElement": "SPDXRef-Package-161f16643054171",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fa9a4c44db3637e1",
+      "relatedSpdxElement": "SPDXRef-Package-16aabb51db1cbb85",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fa9a4c44db3637e1",
+      "relatedSpdxElement": "SPDXRef-Package-7fe7350be51ddd44",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-16972927b6548bf",
+      "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

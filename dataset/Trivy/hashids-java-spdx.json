@@ -1,0 +1,102 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "https://github.com/yomorun/hashids-java",
+  "documentNamespace": "http://trivy.dev/repository/github.com/yomorun/hashids-java-512fa33e-b222-4933-a0d7-043cfaf3bbdd",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.69.3"
+    ],
+    "created": "2026-04-19T16:07:00Z"
+  },
+  "packages": [
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-157bf9114c968510",
+      "downloadLocation": "git+https://github.com/yomorun/hashids-java",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:07:00Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:07:00Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.hashids:hashids",
+      "SPDXID": "SPDXRef-Package-f630c09a0455aadd",
+      "versionInfo": "1.0.3-SNAPSHOT",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/yomorun/hashids-java",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hashids/hashids@1.0.3-SNAPSHOT"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:07:00Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.hashids:hashids:1.0.3-SNAPSHOT::abc0369e"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:07:00Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/yomorun/hashids-java",
+      "SPDXID": "SPDXRef-Repository-fbc6837de4f69c63",
+      "downloadLocation": "git+https://github.com/yomorun/hashids-java",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:07:00Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-157bf9114c968510",
+      "relatedSpdxElement": "SPDXRef-Package-f630c09a0455aadd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-fbc6837de4f69c63",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-fbc6837de4f69c63",
+      "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

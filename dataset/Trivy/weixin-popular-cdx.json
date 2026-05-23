@@ -1,0 +1,393 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:2500ca99-1b8b-4e18-a8d7-deaf46223e40",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-24T18:04:11+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "84c5b5d7-f061-4494-89b1-c546e222b88e",
+      "type": "application",
+      "name": "https://github.com/liyiorg/weixin-popular",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "3a3a891e-9a92-475c-8dd5-cfde513af2c8",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.alibaba/fastjson@1.2.47",
+      "type": "library",
+      "group": "com.alibaba",
+      "name": "fastjson",
+      "version": "1.2.47",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.alibaba/fastjson@1.2.47",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.alibaba:fastjson:1.2.47::c6cabbfd"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.github.liyiorg/weixin-popular@2.8.32",
+      "type": "library",
+      "group": "com.github.liyiorg",
+      "name": "weixin-popular",
+      "version": "2.8.32",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.liyiorg/weixin-popular@2.8.32",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.github.liyiorg:weixin-popular:2.8.32::67d3517e"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.sun.xml.bind/jaxb-impl@2.1.12",
+      "type": "library",
+      "group": "com.sun.xml.bind",
+      "name": "jaxb-impl",
+      "version": "2.1.12",
+      "purl": "pkg:maven/com.sun.xml.bind/jaxb-impl@2.1.12",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.sun.xml.bind:jaxb-impl:2.1.12::218f3945"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.vdurmont/emoji-java@4.0.0",
+      "type": "library",
+      "group": "com.vdurmont",
+      "name": "emoji-java",
+      "version": "4.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.vdurmont/emoji-java@4.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.vdurmont:emoji-java:4.0.0::c352dbda"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/commons-codec/commons-codec@1.6",
+      "type": "library",
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-codec/commons-codec@1.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "commons-codec:commons-codec:1.6::f2c5924c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/commons-logging/commons-logging@1.1.3",
+      "type": "library",
+      "group": "commons-logging",
+      "name": "commons-logging",
+      "version": "1.1.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-logging/commons-logging@1.1.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "commons-logging:commons-logging:1.1.3::3963a7c7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.httpcomponents/httpclient@4.3.6",
+      "type": "library",
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "version": "4.3.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.3.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.apache.httpcomponents:httpclient:4.3.6::7aff1abd"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.httpcomponents/httpcore@4.3.3",
+      "type": "library",
+      "group": "org.apache.httpcomponents",
+      "name": "httpcore",
+      "version": "4.3.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.3.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.apache.httpcomponents:httpcore:4.3.3::4d165ca4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.httpcomponents/httpmime@4.3.6",
+      "type": "library",
+      "group": "org.apache.httpcomponents",
+      "name": "httpmime",
+      "version": "4.3.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.httpcomponents/httpmime@4.3.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.apache.httpcomponents:httpmime:4.3.6::96147860"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.json/json@20170516",
+      "type": "library",
+      "group": "org.json",
+      "name": "json",
+      "version": "20170516",
+      "licenses": [
+        {
+          "license": {
+            "id": "JSON"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.json/json@20170516",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.json:json:20170516::4820ef61"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.19",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.19",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.19",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.slf4j:slf4j-api:1.7.19::d22b323c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "3a3a891e-9a92-475c-8dd5-cfde513af2c8",
+      "dependsOn": [
+        "pkg:maven/com.github.liyiorg/weixin-popular@2.8.32"
+      ]
+    },
+    {
+      "ref": "84c5b5d7-f061-4494-89b1-c546e222b88e",
+      "dependsOn": [
+        "3a3a891e-9a92-475c-8dd5-cfde513af2c8"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.alibaba/fastjson@1.2.47",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.github.liyiorg/weixin-popular@2.8.32",
+      "dependsOn": [
+        "pkg:maven/com.alibaba/fastjson@1.2.47",
+        "pkg:maven/com.sun.xml.bind/jaxb-impl@2.1.12",
+        "pkg:maven/com.vdurmont/emoji-java@4.0.0",
+        "pkg:maven/org.apache.httpcomponents/httpclient@4.3.6",
+        "pkg:maven/org.apache.httpcomponents/httpmime@4.3.6",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.19"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.sun.xml.bind/jaxb-impl@2.1.12",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.vdurmont/emoji-java@4.0.0",
+      "dependsOn": [
+        "pkg:maven/org.json/json@20170516"
+      ]
+    },
+    {
+      "ref": "pkg:maven/commons-codec/commons-codec@1.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-logging/commons-logging@1.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents/httpclient@4.3.6",
+      "dependsOn": [
+        "pkg:maven/commons-codec/commons-codec@1.6",
+        "pkg:maven/commons-logging/commons-logging@1.1.3",
+        "pkg:maven/org.apache.httpcomponents/httpcore@4.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents/httpcore@4.3.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents/httpmime@4.3.6",
+      "dependsOn": [
+        "pkg:maven/org.apache.httpcomponents/httpclient@4.3.6"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.json/json@20170516",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.19",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

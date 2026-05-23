@@ -1,0 +1,157 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:b94afdee-a19f-4108-9333-482b20e9b7c9",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-30T15:38:49+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "f9c48ef1-005b-494a-bebe-9f44a9830379",
+      "type": "application",
+      "name": "https://github.com/ctongfei/progressbar",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "7d2a0cea-3221-41ee-8113-fc218df20351",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/me.tongfei/progressbar@0.10.2",
+      "type": "library",
+      "group": "me.tongfei",
+      "name": "progressbar",
+      "version": "0.10.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/me.tongfei/progressbar@0.10.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "me.tongfei:progressbar:0.10.2::3906cee8"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jline/jline-native@3.29.0",
+      "type": "library",
+      "group": "org.jline",
+      "name": "jline-native",
+      "version": "3.29.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jline/jline-native@3.29.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.jline:jline-native:3.29.0::887d76fe"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jline/jline-terminal@3.29.0",
+      "type": "library",
+      "group": "org.jline",
+      "name": "jline-terminal",
+      "version": "3.29.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jline/jline-terminal@3.29.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.jline:jline-terminal:3.29.0::bc8f20aa"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "7d2a0cea-3221-41ee-8113-fc218df20351",
+      "dependsOn": [
+        "pkg:maven/me.tongfei/progressbar@0.10.2"
+      ]
+    },
+    {
+      "ref": "f9c48ef1-005b-494a-bebe-9f44a9830379",
+      "dependsOn": [
+        "7d2a0cea-3221-41ee-8113-fc218df20351"
+      ]
+    },
+    {
+      "ref": "pkg:maven/me.tongfei/progressbar@0.10.2",
+      "dependsOn": [
+        "pkg:maven/org.jline/jline-terminal@3.29.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jline/jline-native@3.29.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jline/jline-terminal@3.29.0",
+      "dependsOn": [
+        "pkg:maven/org.jline/jline-native@3.29.0"
+      ]
+    }
+  ],
+  "vulnerabilities": []
+}

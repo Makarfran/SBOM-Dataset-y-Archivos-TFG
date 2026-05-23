@@ -1,0 +1,459 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:3a08e456-4d6a-49e3-b3da-34af806548d9",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-24T17:39:33+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "1ad46d45-e7de-477a-95a5-9d87b5099216",
+      "type": "application",
+      "name": "https://github.com/sofastack/sofa-bolt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "214d8a9e-644f-4827-9c2f-1713d07d54c7",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.alipay.sofa.common/sofa-common-tools@1.4.0",
+      "type": "library",
+      "group": "com.alipay.sofa.common",
+      "name": "sofa-common-tools",
+      "version": "1.4.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.alipay.sofa.common/sofa-common-tools@1.4.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.alipay.sofa.common:sofa-common-tools:1.4.0::82b56c0a"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.alipay.sofa/bolt@1.6.12",
+      "type": "library",
+      "group": "com.alipay.sofa",
+      "name": "bolt",
+      "version": "1.6.12",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.alipay.sofa/bolt@1.6.12",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.alipay.sofa:bolt:1.6.12::1dcbf8af"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.alipay.sofa/hessian@3.5.5",
+      "type": "library",
+      "group": "com.alipay.sofa",
+      "name": "hessian",
+      "version": "3.5.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.alipay.sofa/hessian@3.5.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.alipay.sofa:hessian:3.5.5::2a43efdb"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+      "type": "library",
+      "group": "com.google.code.findbugs",
+      "name": "jsr305",
+      "version": "3.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.google.code.findbugs:jsr305:3.0.2::dd5f0206"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.2.0",
+      "type": "library",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.google.errorprone:error_prone_annotations:2.2.0::c77062a8"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.guava/failureaccess@1.0",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "failureaccess",
+      "version": "1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/failureaccess@1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.google.guava:failureaccess:1.0::30261044"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.guava/guava@27.0-jre",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "27.0-jre",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava@27.0-jre",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.google.guava:guava:27.0-jre::9ae1b1d0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava::1501066b"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.j2objc/j2objc-annotations@1.1",
+      "type": "library",
+      "group": "com.google.j2objc",
+      "name": "j2objc-annotations",
+      "version": "1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.j2objc/j2objc-annotations@1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.google.j2objc:j2objc-annotations:1.1::e1619b0e"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-all@4.1.42.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-all",
+      "version": "4.1.42.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-all@4.1.42.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-all:4.1.42.Final::d66b316d"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.checkerframework/checker-qual@2.5.2",
+      "type": "library",
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "2.5.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.checkerframework/checker-qual@2.5.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.checkerframework:checker-qual:2.5.2::a1db4d76"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.17",
+      "type": "library",
+      "group": "org.codehaus.mojo",
+      "name": "animal-sniffer-annotations",
+      "version": "1.17",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.17",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.codehaus.mojo:animal-sniffer-annotations:1.17::821a34d2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.21",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.21",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.21",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.slf4j:slf4j-api:1.7.21::90058d43"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "1ad46d45-e7de-477a-95a5-9d87b5099216",
+      "dependsOn": [
+        "214d8a9e-644f-4827-9c2f-1713d07d54c7"
+      ]
+    },
+    {
+      "ref": "214d8a9e-644f-4827-9c2f-1713d07d54c7",
+      "dependsOn": [
+        "pkg:maven/com.alipay.sofa/bolt@1.6.12"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.alipay.sofa.common/sofa-common-tools@1.4.0",
+      "dependsOn": [
+        "pkg:maven/com.google.guava/guava@27.0-jre",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.21"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.alipay.sofa/bolt@1.6.12",
+      "dependsOn": [
+        "pkg:maven/com.alipay.sofa.common/sofa-common-tools@1.4.0",
+        "pkg:maven/com.alipay.sofa/hessian@3.5.5",
+        "pkg:maven/io.netty/netty-all@4.1.42.Final",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.21"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.alipay.sofa/hessian@3.5.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/failureaccess@1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/guava@27.0-jre",
+      "dependsOn": [
+        "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.2.0",
+        "pkg:maven/com.google.guava/failureaccess@1.0",
+        "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava",
+        "pkg:maven/com.google.j2objc/j2objc-annotations@1.1",
+        "pkg:maven/org.checkerframework/checker-qual@2.5.2",
+        "pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.17"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.j2objc/j2objc-annotations@1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-all@4.1.42.Final",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.checkerframework/checker-qual@2.5.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.17",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.21",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

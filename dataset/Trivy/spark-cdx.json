@@ -1,0 +1,711 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:db485b72-150d-4ede-a69a-7906c3690735",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-24T17:50:14+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "c631fa3d-7c4e-4a1c-91c9-a7ad82cf6c63",
+      "type": "application",
+      "name": "https://github.com/perwendel/spark",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "22ec951b-4a61-482f-bb1d-e1bd1ec47abb",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.sparkjava/spark-core@2.9.4-SNAPSHOT",
+      "type": "library",
+      "group": "com.sparkjava",
+      "name": "spark-core",
+      "version": "2.9.4-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.sparkjava/spark-core@2.9.4-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.sparkjava:spark-core:2.9.4-SNAPSHOT::c13cef9d"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0",
+      "type": "library",
+      "group": "javax.servlet",
+      "name": "javax.servlet-api",
+      "version": "3.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "CDDL + GPLv2 with classpath exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "javax.servlet:javax.servlet-api:3.1.0::abdd3506"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty.websocket",
+      "name": "websocket-api",
+      "version": "9.4.48.v20220622",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.eclipse.jetty.websocket:websocket-api:9.4.48.v20220622::26e73bb6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty.websocket",
+      "name": "websocket-client",
+      "version": "9.4.48.v20220622",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.48.v20220622",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.eclipse.jetty.websocket:websocket-client:9.4.48.v20220622::efde2d57"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty.websocket",
+      "name": "websocket-common",
+      "version": "9.4.48.v20220622",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.eclipse.jetty.websocket:websocket-common:9.4.48.v20220622::82e66299"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty.websocket",
+      "name": "websocket-server",
+      "version": "9.4.48.v20220622",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.48.v20220622",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.eclipse.jetty.websocket:websocket-server:9.4.48.v20220622::d7bec0ac"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty.websocket",
+      "name": "websocket-servlet",
+      "version": "9.4.48.v20220622",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.48.v20220622",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.eclipse.jetty.websocket:websocket-servlet:9.4.48.v20220622::872b90a3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-client",
+      "version": "9.4.48.v20220622",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.48.v20220622",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.eclipse.jetty:jetty-client:9.4.48.v20220622::20d142ab"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-http",
+      "version": "9.4.48.v20220622",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.eclipse.jetty:jetty-http:9.4.48.v20220622::e2aaae43"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-io",
+      "version": "9.4.48.v20220622",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.eclipse.jetty:jetty-io:9.4.48.v20220622::85854b03"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-security",
+      "version": "9.4.48.v20220622",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.48.v20220622",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.eclipse.jetty:jetty-security:9.4.48.v20220622::c1bc787c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-server",
+      "version": "9.4.48.v20220622",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.eclipse.jetty:jetty-server:9.4.48.v20220622::e95e82af"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-servlet",
+      "version": "9.4.48.v20220622",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.48.v20220622",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.eclipse.jetty:jetty-servlet:9.4.48.v20220622::7a42ed34"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-util-ajax",
+      "version": "9.4.48.v20220622",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.48.v20220622",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.eclipse.jetty:jetty-util-ajax:9.4.48.v20220622::da1784c7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-util",
+      "version": "9.4.48.v20220622",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.eclipse.jetty:jetty-util:9.4.48.v20220622::451e7588"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-webapp",
+      "version": "9.4.48.v20220622",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.48.v20220622",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.eclipse.jetty:jetty-webapp:9.4.48.v20220622::e7981ebc"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-xml",
+      "version": "9.4.48.v20220622",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.48.v20220622",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.eclipse.jetty:jetty-xml:9.4.48.v20220622::c1ea8098"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.25",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.25",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.25",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.slf4j:slf4j-api:1.7.25::10b5dd76"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "22ec951b-4a61-482f-bb1d-e1bd1ec47abb",
+      "dependsOn": [
+        "pkg:maven/com.sparkjava/spark-core@2.9.4-SNAPSHOT"
+      ]
+    },
+    {
+      "ref": "c631fa3d-7c4e-4a1c-91c9-a7ad82cf6c63",
+      "dependsOn": [
+        "22ec951b-4a61-482f-bb1d-e1bd1ec47abb"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.sparkjava/spark-core@2.9.4-SNAPSHOT",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.48.v20220622",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.25"
+      ]
+    },
+    {
+      "ref": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.48.v20220622",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty/jetty-client@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.48.v20220622",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.48.v20220622",
+      "dependsOn": [
+        "pkg:maven/javax.servlet/javax.servlet-api@3.1.0",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.48.v20220622",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.48.v20220622",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622",
+      "dependsOn": [
+        "pkg:maven/javax.servlet/javax.servlet-api@3.1.0",
+        "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.48.v20220622",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty/jetty-security@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.48.v20220622",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.48.v20220622",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.48.v20220622",
+        "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.48.v20220622",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.25",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

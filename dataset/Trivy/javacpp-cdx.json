@@ -1,0 +1,207 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:76515e92-baac-4027-bf60-0a2bedc7488f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-24T16:57:56+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "fadb4f3d-55ae-43e6-9779-84136013d1ba",
+      "type": "application",
+      "name": "https://github.com/bytedeco/javacpp",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "0b142d7d-7ca7-42fd-aba5-da37c2328f84",
+      "type": "application",
+      "name": "platform/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "26f921f3-b813-4db2-9c08-5fd258b2c702",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "5e4c1b3e-6660-490f-9287-b7df97fd2d45",
+      "type": "library",
+      "group": "org.bytedeco",
+      "name": "javacpp",
+      "version": "1.5.14-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU General Public License (GPL) version 2, or any later version"
+          }
+        },
+        {
+          "license": {
+            "name": "GPL-2.0-only WITH classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.bytedeco/javacpp@1.5.14-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.bytedeco:javacpp:1.5.14-SNAPSHOT::2eda774a"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7c3319fa-b336-4811-bae7-474a1a99cc19",
+      "type": "library",
+      "group": "org.bytedeco",
+      "name": "javacpp",
+      "version": "1.5.14-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU General Public License (GPL) version 2, or any later version"
+          }
+        },
+        {
+          "license": {
+            "name": "GPL-2.0-only WITH classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.bytedeco/javacpp@1.5.14-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.bytedeco:javacpp:1.5.14-SNAPSHOT::3bab2ef9"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.bytedeco/javacpp-platform@1.5.14-SNAPSHOT",
+      "type": "library",
+      "group": "org.bytedeco",
+      "name": "javacpp-platform",
+      "version": "1.5.14-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU General Public License (GPL) version 2, or any later version"
+          }
+        },
+        {
+          "license": {
+            "name": "GPL-2.0-only WITH classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.bytedeco/javacpp-platform@1.5.14-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.bytedeco:javacpp-platform:1.5.14-SNAPSHOT::77161496"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "0b142d7d-7ca7-42fd-aba5-da37c2328f84",
+      "dependsOn": [
+        "pkg:maven/org.bytedeco/javacpp-platform@1.5.14-SNAPSHOT"
+      ]
+    },
+    {
+      "ref": "26f921f3-b813-4db2-9c08-5fd258b2c702",
+      "dependsOn": [
+        "7c3319fa-b336-4811-bae7-474a1a99cc19"
+      ]
+    },
+    {
+      "ref": "5e4c1b3e-6660-490f-9287-b7df97fd2d45",
+      "dependsOn": []
+    },
+    {
+      "ref": "7c3319fa-b336-4811-bae7-474a1a99cc19",
+      "dependsOn": []
+    },
+    {
+      "ref": "fadb4f3d-55ae-43e6-9779-84136013d1ba",
+      "dependsOn": [
+        "0b142d7d-7ca7-42fd-aba5-da37c2328f84",
+        "26f921f3-b813-4db2-9c08-5fd258b2c702"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.bytedeco/javacpp-platform@1.5.14-SNAPSHOT",
+      "dependsOn": [
+        "5e4c1b3e-6660-490f-9287-b7df97fd2d45"
+      ]
+    }
+  ],
+  "vulnerabilities": []
+}

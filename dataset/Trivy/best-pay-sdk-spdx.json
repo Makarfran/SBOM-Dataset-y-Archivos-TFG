@@ -1,0 +1,1224 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "https://github.com/Pay-Group/best-pay-sdk",
+  "documentNamespace": "http://trivy.dev/repository/github.com/Pay-Group/best-pay-sdk-f92c4a60-5315-4f34-86bc-f8c3207d2ce0",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.69.3"
+    ],
+    "created": "2026-04-19T15:35:28Z"
+  },
+  "packages": [
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-157bf9114c968510",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback:logback-classic",
+      "SPDXID": "SPDXRef-Package-b2736879dbf500a9",
+      "versionInfo": "1.1.7",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "EPL-1.0 AND LGPL-2.1-only",
+      "licenseDeclared": "EPL-1.0 AND LGPL-2.1-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/ch.qos.logback/logback-classic@1.1.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: ch.qos.logback:logback-classic:1.1.7::813648e1"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback:logback-core",
+      "SPDXID": "SPDXRef-Package-e8bbe5d6cf2daecb",
+      "versionInfo": "1.1.7",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "EPL-1.0 AND LGPL-2.1-only",
+      "licenseDeclared": "EPL-1.0 AND LGPL-2.1-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/ch.qos.logback/logback-core@1.1.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: ch.qos.logback:logback-core:1.1.7::d96a70f2"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "cn.springboot:best-pay-sdk",
+      "SPDXID": "SPDXRef-Package-2311d7a817f9f29e",
+      "versionInfo": "1.3.7",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/cn.springboot/best-pay-sdk@1.3.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: cn.springboot:best-pay-sdk:1.3.7::839e3afc"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-annotations",
+      "SPDXID": "SPDXRef-Package-b80cdaad9707bbe8",
+      "versionInfo": "2.9.10",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.10"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-annotations:2.9.10::9b8a8262"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-core",
+      "SPDXID": "SPDXRef-Package-8f1c04df5308a89f",
+      "versionInfo": "2.9.10",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.10"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-core:2.9.10::256aa5eb"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-databind",
+      "SPDXID": "SPDXRef-Package-60aea92d6d5060b8",
+      "versionInfo": "2.9.10.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-databind:2.9.10.1::b4671cac"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.google.code.gson:gson",
+      "SPDXID": "SPDXRef-Package-e9f036a5f6ce7f63",
+      "versionInfo": "2.8.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.gson/gson@2.8.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.google.code.gson:gson:2.8.2::8fa16980"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.okhttp3:logging-interceptor",
+      "SPDXID": "SPDXRef-Package-166df580bfefa888",
+      "versionInfo": "3.12.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/logging-interceptor@3.12.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.squareup.okhttp3:logging-interceptor:3.12.0::c5cd59e1"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.okhttp3:okhttp",
+      "SPDXID": "SPDXRef-Package-f17801ed4ab7f66a",
+      "versionInfo": "3.12.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/okhttp@3.12.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.squareup.okhttp3:okhttp:3.12.0::b298788a"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.okio:okio",
+      "SPDXID": "SPDXRef-Package-18432c3407c880e8",
+      "versionInfo": "1.15.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okio/okio@1.15.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.squareup.okio:okio:1.15.0::a62fdff4"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.retrofit2:converter-gson",
+      "SPDXID": "SPDXRef-Package-d3db79a1f161eb83",
+      "versionInfo": "2.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.retrofit2/converter-gson@2.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.squareup.retrofit2:converter-gson:2.5.0::5e701ef5"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.retrofit2:converter-simplexml",
+      "SPDXID": "SPDXRef-Package-33c76d46914ffbee",
+      "versionInfo": "2.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.retrofit2/converter-simplexml@2.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.squareup.retrofit2:converter-simplexml:2.5.0::e1b52906"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.retrofit2:retrofit",
+      "SPDXID": "SPDXRef-Package-3fc3d700aa054af",
+      "versionInfo": "2.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.retrofit2/retrofit@2.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.squareup.retrofit2:retrofit:2.5.0::1b883299"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "commons-codec:commons-codec",
+      "SPDXID": "SPDXRef-Package-d3b2ca8b1223e0f4",
+      "versionInfo": "1.11",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-codec/commons-codec@1.11"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: commons-codec:commons-codec:1.11::da2abe20"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "commons-logging:commons-logging",
+      "SPDXID": "SPDXRef-Package-513109d5fad2b186",
+      "versionInfo": "1.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-logging/commons-logging@1.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: commons-logging:commons-logging:1.2::dcd9000e"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "joda-time:joda-time",
+      "SPDXID": "SPDXRef-Package-8e3bc70cc99323e",
+      "versionInfo": "2.9.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/joda-time/joda-time@2.9.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: joda-time:joda-time:2.9.4::c4f11023"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "junit:junit",
+      "SPDXID": "SPDXRef-Package-f149e2ae38b5bf9f",
+      "versionInfo": "4.13.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "EPL-1.0",
+      "licenseDeclared": "EPL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.13.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: junit:junit:4.13.1::680a222e"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.commons:commons-lang3",
+      "SPDXID": "SPDXRef-Package-74971e1852cddf7e",
+      "versionInfo": "3.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-lang3@3.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.commons:commons-lang3:3.5::871bc6d6"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.httpcomponents:httpclient",
+      "SPDXID": "SPDXRef-Package-2958ea7583ec730d",
+      "versionInfo": "4.5.13",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.13"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.httpcomponents:httpclient:4.5.13::ba380500"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.httpcomponents:httpcore",
+      "SPDXID": "SPDXRef-Package-309e8fa1ca0fb415",
+      "versionInfo": "4.4.13",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.httpcomponents:httpcore:4.4.13::637f0e96"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.tomcat.embed:tomcat-embed-core",
+      "SPDXID": "SPDXRef-Package-d3b6b3435f24422f",
+      "versionInfo": "8.5.50",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@8.5.50"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.tomcat.embed:tomcat-embed-core:8.5.50::a727fff5"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.tomcat:tomcat-annotations-api",
+      "SPDXID": "SPDXRef-Package-f5c743e64153b6e0",
+      "versionInfo": "8.5.50",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@8.5.50"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.tomcat:tomcat-annotations-api:8.5.50::4eccb5ec"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bouncycastle:bcprov-jdk15on",
+      "SPDXID": "SPDXRef-Package-a206ccdbceba8ad1",
+      "versionInfo": "1.59",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.59"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bouncycastle:bcprov-jdk15on:1.59::207f3bf4"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.hamcrest:hamcrest-core",
+      "SPDXID": "SPDXRef-Package-f0dd2e965ed311a6",
+      "versionInfo": "1.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.hamcrest:hamcrest-core:1.3::e67e19dd"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.projectlombok:lombok",
+      "SPDXID": "SPDXRef-Package-4685d2aab3403068",
+      "versionInfo": "1.18.24",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.projectlombok/lombok@1.18.24"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.projectlombok:lombok:1.18.24::11e0f3bd"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.simpleframework:simple-xml",
+      "SPDXID": "SPDXRef-Package-bab80affd5f9a838",
+      "versionInfo": "2.7.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.simpleframework/simple-xml@2.7.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.simpleframework:simple-xml:2.7.1::8b6d247f"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.slf4j:slf4j-api",
+      "SPDXID": "SPDXRef-Package-58855d85100164f4",
+      "versionInfo": "1.7.20",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@1.7.20"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.slf4j:slf4j-api:1.7.20::96679b64"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "stax:stax",
+      "SPDXID": "SPDXRef-Package-da7f1aaa5785319",
+      "versionInfo": "1.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/stax/stax@1.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: stax:stax:1.2.0::cdec07c1"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "stax:stax-api",
+      "SPDXID": "SPDXRef-Package-dcab83f02d655338",
+      "versionInfo": "1.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/stax/stax-api@1.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: stax:stax-api:1.0.1::beee6974"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "xpp3:xpp3",
+      "SPDXID": "SPDXRef-Package-1dca2682d7c20246",
+      "versionInfo": "1.1.3.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/xpp3/xpp3@1.1.3.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: xpp3:xpp3:1.1.3.3::68cf6b0b"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/Pay-Group/best-pay-sdk",
+      "SPDXID": "SPDXRef-Repository-8630a4f26f3b70b5",
+      "downloadLocation": "git+https://github.com/Pay-Group/best-pay-sdk",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T15:35:28Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-157bf9114c968510",
+      "relatedSpdxElement": "SPDXRef-Package-2311d7a817f9f29e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-8630a4f26f3b70b5",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-166df580bfefa888",
+      "relatedSpdxElement": "SPDXRef-Package-f17801ed4ab7f66a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2311d7a817f9f29e",
+      "relatedSpdxElement": "SPDXRef-Package-166df580bfefa888",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2311d7a817f9f29e",
+      "relatedSpdxElement": "SPDXRef-Package-2958ea7583ec730d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2311d7a817f9f29e",
+      "relatedSpdxElement": "SPDXRef-Package-33c76d46914ffbee",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2311d7a817f9f29e",
+      "relatedSpdxElement": "SPDXRef-Package-3fc3d700aa054af",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2311d7a817f9f29e",
+      "relatedSpdxElement": "SPDXRef-Package-4685d2aab3403068",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2311d7a817f9f29e",
+      "relatedSpdxElement": "SPDXRef-Package-60aea92d6d5060b8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2311d7a817f9f29e",
+      "relatedSpdxElement": "SPDXRef-Package-74971e1852cddf7e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2311d7a817f9f29e",
+      "relatedSpdxElement": "SPDXRef-Package-8e3bc70cc99323e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2311d7a817f9f29e",
+      "relatedSpdxElement": "SPDXRef-Package-a206ccdbceba8ad1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2311d7a817f9f29e",
+      "relatedSpdxElement": "SPDXRef-Package-b2736879dbf500a9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2311d7a817f9f29e",
+      "relatedSpdxElement": "SPDXRef-Package-d3b6b3435f24422f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2311d7a817f9f29e",
+      "relatedSpdxElement": "SPDXRef-Package-d3db79a1f161eb83",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2311d7a817f9f29e",
+      "relatedSpdxElement": "SPDXRef-Package-f149e2ae38b5bf9f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2958ea7583ec730d",
+      "relatedSpdxElement": "SPDXRef-Package-309e8fa1ca0fb415",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2958ea7583ec730d",
+      "relatedSpdxElement": "SPDXRef-Package-513109d5fad2b186",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2958ea7583ec730d",
+      "relatedSpdxElement": "SPDXRef-Package-d3b2ca8b1223e0f4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-33c76d46914ffbee",
+      "relatedSpdxElement": "SPDXRef-Package-3fc3d700aa054af",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-33c76d46914ffbee",
+      "relatedSpdxElement": "SPDXRef-Package-bab80affd5f9a838",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3fc3d700aa054af",
+      "relatedSpdxElement": "SPDXRef-Package-f17801ed4ab7f66a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-60aea92d6d5060b8",
+      "relatedSpdxElement": "SPDXRef-Package-8f1c04df5308a89f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-60aea92d6d5060b8",
+      "relatedSpdxElement": "SPDXRef-Package-b80cdaad9707bbe8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b2736879dbf500a9",
+      "relatedSpdxElement": "SPDXRef-Package-58855d85100164f4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b2736879dbf500a9",
+      "relatedSpdxElement": "SPDXRef-Package-e8bbe5d6cf2daecb",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bab80affd5f9a838",
+      "relatedSpdxElement": "SPDXRef-Package-1dca2682d7c20246",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bab80affd5f9a838",
+      "relatedSpdxElement": "SPDXRef-Package-da7f1aaa5785319",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bab80affd5f9a838",
+      "relatedSpdxElement": "SPDXRef-Package-dcab83f02d655338",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d3b6b3435f24422f",
+      "relatedSpdxElement": "SPDXRef-Package-f5c743e64153b6e0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d3db79a1f161eb83",
+      "relatedSpdxElement": "SPDXRef-Package-3fc3d700aa054af",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d3db79a1f161eb83",
+      "relatedSpdxElement": "SPDXRef-Package-e9f036a5f6ce7f63",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-da7f1aaa5785319",
+      "relatedSpdxElement": "SPDXRef-Package-dcab83f02d655338",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f149e2ae38b5bf9f",
+      "relatedSpdxElement": "SPDXRef-Package-f0dd2e965ed311a6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f17801ed4ab7f66a",
+      "relatedSpdxElement": "SPDXRef-Package-18432c3407c880e8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-8630a4f26f3b70b5",
+      "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:a18f90ee-45a8-4239-bfed-d6fdb023dca1",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-04-02T09:45:14+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "4b32874c-6b83-4b29-9559-8f3ed6c477d0",
+      "type": "application",
+      "name": "https://github.com/amaembo/streamex",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "9e396fdb-3dee-406f-869b-2600f673620f",
+      "type": "application",
+      "name": "benchmark/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e4b5f62c-a578-40fd-a23c-6d7ec94ce21f",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/net.sf.jopt-simple/jopt-simple@4.6",
+      "type": "library",
+      "group": "net.sf.jopt-simple",
+      "name": "jopt-simple",
+      "version": "4.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.sf.jopt-simple/jopt-simple@4.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "net.sf.jopt-simple:jopt-simple:4.6::516c6d02"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/one.util/streamex-benchmark@0.8.3",
+      "type": "library",
+      "group": "one.util",
+      "name": "streamex-benchmark",
+      "version": "0.8.3",
+      "purl": "pkg:maven/one.util/streamex-benchmark@0.8.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "one.util:streamex-benchmark:0.8.3::3161d761"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/one.util/streamex@0.8.3",
+      "type": "library",
+      "group": "one.util",
+      "name": "streamex",
+      "version": "0.8.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/one.util/streamex@0.8.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "one.util:streamex:0.8.3::60974b92"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/one.util/streamex@0.9.0-SNAPSHOT",
+      "type": "library",
+      "group": "one.util",
+      "name": "streamex",
+      "version": "0.9.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/one.util/streamex@0.9.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "one.util:streamex:0.9.0-SNAPSHOT::fd1b38a5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.commons/commons-math3@3.2",
+      "type": "library",
+      "group": "org.apache.commons",
+      "name": "commons-math3",
+      "version": "3.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-math3@3.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.apache.commons:commons-math3:3.2::aaf84680"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.openjdk.jmh/jmh-core@1.21",
+      "type": "library",
+      "group": "org.openjdk.jmh",
+      "name": "jmh-core",
+      "version": "1.21",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only WITH classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.openjdk.jmh/jmh-core@1.21",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.openjdk.jmh:jmh-core:1.21::14317433"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.openjdk.jmh/jmh-generator-annprocess@1.21",
+      "type": "library",
+      "group": "org.openjdk.jmh",
+      "name": "jmh-generator-annprocess",
+      "version": "1.21",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only WITH classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.openjdk.jmh/jmh-generator-annprocess@1.21",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.openjdk.jmh:jmh-generator-annprocess:1.21::f9e1cbf5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "4b32874c-6b83-4b29-9559-8f3ed6c477d0",
+      "dependsOn": [
+        "9e396fdb-3dee-406f-869b-2600f673620f",
+        "e4b5f62c-a578-40fd-a23c-6d7ec94ce21f"
+      ]
+    },
+    {
+      "ref": "9e396fdb-3dee-406f-869b-2600f673620f",
+      "dependsOn": [
+        "pkg:maven/one.util/streamex-benchmark@0.8.3"
+      ]
+    },
+    {
+      "ref": "e4b5f62c-a578-40fd-a23c-6d7ec94ce21f",
+      "dependsOn": [
+        "pkg:maven/one.util/streamex@0.9.0-SNAPSHOT"
+      ]
+    },
+    {
+      "ref": "pkg:maven/net.sf.jopt-simple/jopt-simple@4.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/one.util/streamex-benchmark@0.8.3",
+      "dependsOn": [
+        "pkg:maven/one.util/streamex@0.8.3",
+        "pkg:maven/org.openjdk.jmh/jmh-core@1.21",
+        "pkg:maven/org.openjdk.jmh/jmh-generator-annprocess@1.21"
+      ]
+    },
+    {
+      "ref": "pkg:maven/one.util/streamex@0.8.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/one.util/streamex@0.9.0-SNAPSHOT",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-math3@3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.openjdk.jmh/jmh-core@1.21",
+      "dependsOn": [
+        "pkg:maven/net.sf.jopt-simple/jopt-simple@4.6",
+        "pkg:maven/org.apache.commons/commons-math3@3.2"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.openjdk.jmh/jmh-generator-annprocess@1.21",
+      "dependsOn": [
+        "pkg:maven/org.openjdk.jmh/jmh-core@1.21"
+      ]
+    }
+  ],
+  "vulnerabilities": []
+}

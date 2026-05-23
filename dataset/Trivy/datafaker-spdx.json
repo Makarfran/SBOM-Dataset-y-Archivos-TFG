@@ -1,0 +1,216 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "https://github.com/datafaker-net/datafaker/",
+  "documentNamespace": "http://trivy.dev/repository/github.com/datafaker-net/datafaker/-90636442-81ca-4938-994e-425ab7b7092e",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.69.3"
+    ],
+    "created": "2026-04-19T16:02:52Z"
+  },
+  "packages": [
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-157bf9114c968510",
+      "downloadLocation": "git+https://github.com/datafaker-net/datafaker/",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:02:52Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:02:52Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.github.curious-odd-man:rgxgen",
+      "SPDXID": "SPDXRef-Package-cb1bc5e19c73c385",
+      "versionInfo": "3.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/datafaker-net/datafaker/",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.curious-odd-man/rgxgen@3.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:02:52Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.github.curious-odd-man:rgxgen:3.1::a4d31ce4"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:02:52Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.googlecode.libphonenumber:libphonenumber",
+      "SPDXID": "SPDXRef-Package-b4224930c3f440c4",
+      "versionInfo": "9.0.28",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/datafaker-net/datafaker/",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.googlecode.libphonenumber/libphonenumber@9.0.28"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:02:52Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.googlecode.libphonenumber:libphonenumber:9.0.28::103d374a"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:02:52Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "net.datafaker:datafaker",
+      "SPDXID": "SPDXRef-Package-158a69fe7a0c5e76",
+      "versionInfo": "2.6.0-SNAPSHOT",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/datafaker-net/datafaker/",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.datafaker/datafaker@2.6.0-SNAPSHOT"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:02:52Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: net.datafaker:datafaker:2.6.0-SNAPSHOT::da88210c"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:02:52Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.yaml:snakeyaml",
+      "SPDXID": "SPDXRef-Package-2f8cc73b1b29bd99",
+      "versionInfo": "2.6",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/datafaker-net/datafaker/",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.yaml/snakeyaml@2.6"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:02:52Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.yaml:snakeyaml:2.6::f35f7988"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:02:52Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/datafaker-net/datafaker/",
+      "SPDXID": "SPDXRef-Repository-c1c96e6241104c0a",
+      "downloadLocation": "git+https://github.com/datafaker-net/datafaker/",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:02:52Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-157bf9114c968510",
+      "relatedSpdxElement": "SPDXRef-Package-158a69fe7a0c5e76",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-c1c96e6241104c0a",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-158a69fe7a0c5e76",
+      "relatedSpdxElement": "SPDXRef-Package-2f8cc73b1b29bd99",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-158a69fe7a0c5e76",
+      "relatedSpdxElement": "SPDXRef-Package-b4224930c3f440c4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-158a69fe7a0c5e76",
+      "relatedSpdxElement": "SPDXRef-Package-cb1bc5e19c73c385",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-c1c96e6241104c0a",
+      "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

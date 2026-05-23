@@ -1,0 +1,693 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "https://github.com/monkeyWie/proxyee",
+  "documentNamespace": "http://trivy.dev/repository/github.com/monkeyWie/proxyee-91eeaa51-d46c-4f40-af3c-bc7f1b3c2f22",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.69.3"
+    ],
+    "created": "2026-04-19T16:43:34Z"
+  },
+  "packages": [
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-157bf9114c968510",
+      "downloadLocation": "git+https://github.com/monkeyWie/proxyee",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.github.monkeywie:proxyee",
+      "SPDXID": "SPDXRef-Package-60ea964a541b3755",
+      "versionInfo": "1.7.7",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/monkeyWie/proxyee",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.monkeywie/proxyee@1.7.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.github.monkeywie:proxyee:1.7.7::f05f6436"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-buffer",
+      "SPDXID": "SPDXRef-Package-c424fc7104d75a6e",
+      "versionInfo": "4.1.94.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/monkeyWie/proxyee",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-buffer@4.1.94.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-buffer:4.1.94.Final::9dc6337c"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-codec",
+      "SPDXID": "SPDXRef-Package-50f8fa6fab60f784",
+      "versionInfo": "4.1.94.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/monkeyWie/proxyee",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec@4.1.94.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-codec:4.1.94.Final::4a937178"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-codec-http",
+      "SPDXID": "SPDXRef-Package-d1375d2bf67c11a1",
+      "versionInfo": "4.1.94.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/monkeyWie/proxyee",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec-http@4.1.94.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-codec-http:4.1.94.Final::6a7bbab6"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-codec-socks",
+      "SPDXID": "SPDXRef-Package-6305c3f45e75d4ab",
+      "versionInfo": "4.1.94.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/monkeyWie/proxyee",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec-socks@4.1.94.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-codec-socks:4.1.94.Final::9c10f093"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-common",
+      "SPDXID": "SPDXRef-Package-a85c428ca9ea774",
+      "versionInfo": "4.1.94.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/monkeyWie/proxyee",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-common@4.1.94.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-common:4.1.94.Final::c99e558c"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-handler",
+      "SPDXID": "SPDXRef-Package-f7c82f6eb52e908a",
+      "versionInfo": "4.1.94.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/monkeyWie/proxyee",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-handler@4.1.94.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-handler:4.1.94.Final::8cc0261f"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-handler-proxy",
+      "SPDXID": "SPDXRef-Package-be138bb0f2369d6a",
+      "versionInfo": "4.1.94.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/monkeyWie/proxyee",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-handler-proxy@4.1.94.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-handler-proxy:4.1.94.Final::fb043439"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-resolver",
+      "SPDXID": "SPDXRef-Package-9035f8281b432034",
+      "versionInfo": "4.1.94.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/monkeyWie/proxyee",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-resolver@4.1.94.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-resolver:4.1.94.Final::48d8a75e"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-transport",
+      "SPDXID": "SPDXRef-Package-b5e1e59b97fda44b",
+      "versionInfo": "4.1.94.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/monkeyWie/proxyee",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport@4.1.94.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-transport:4.1.94.Final::a2eaf48a"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-transport-native-unix-common",
+      "SPDXID": "SPDXRef-Package-3ee9229b087bf832",
+      "versionInfo": "4.1.94.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/monkeyWie/proxyee",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.94.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-transport-native-unix-common:4.1.94.Final::e09b18d4"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bouncycastle:bcpkix-jdk15on",
+      "SPDXID": "SPDXRef-Package-d7d357e09bd2c9df",
+      "versionInfo": "1.60",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/monkeyWie/proxyee",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.60"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bouncycastle:bcpkix-jdk15on:1.60::1eca171e"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bouncycastle:bcprov-jdk15on",
+      "SPDXID": "SPDXRef-Package-9859caffe67f07e8",
+      "versionInfo": "1.60",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/monkeyWie/proxyee",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.60"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bouncycastle:bcprov-jdk15on:1.60::4f92240b"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/monkeyWie/proxyee",
+      "SPDXID": "SPDXRef-Repository-ad3737673f6d2fbf",
+      "downloadLocation": "git+https://github.com/monkeyWie/proxyee",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:43:34Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-157bf9114c968510",
+      "relatedSpdxElement": "SPDXRef-Package-60ea964a541b3755",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-ad3737673f6d2fbf",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3ee9229b087bf832",
+      "relatedSpdxElement": "SPDXRef-Package-a85c428ca9ea774",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3ee9229b087bf832",
+      "relatedSpdxElement": "SPDXRef-Package-b5e1e59b97fda44b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3ee9229b087bf832",
+      "relatedSpdxElement": "SPDXRef-Package-c424fc7104d75a6e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-50f8fa6fab60f784",
+      "relatedSpdxElement": "SPDXRef-Package-a85c428ca9ea774",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-50f8fa6fab60f784",
+      "relatedSpdxElement": "SPDXRef-Package-b5e1e59b97fda44b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-50f8fa6fab60f784",
+      "relatedSpdxElement": "SPDXRef-Package-c424fc7104d75a6e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-60ea964a541b3755",
+      "relatedSpdxElement": "SPDXRef-Package-50f8fa6fab60f784",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-60ea964a541b3755",
+      "relatedSpdxElement": "SPDXRef-Package-be138bb0f2369d6a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-60ea964a541b3755",
+      "relatedSpdxElement": "SPDXRef-Package-c424fc7104d75a6e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-60ea964a541b3755",
+      "relatedSpdxElement": "SPDXRef-Package-d1375d2bf67c11a1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-60ea964a541b3755",
+      "relatedSpdxElement": "SPDXRef-Package-d7d357e09bd2c9df",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-60ea964a541b3755",
+      "relatedSpdxElement": "SPDXRef-Package-f7c82f6eb52e908a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6305c3f45e75d4ab",
+      "relatedSpdxElement": "SPDXRef-Package-50f8fa6fab60f784",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6305c3f45e75d4ab",
+      "relatedSpdxElement": "SPDXRef-Package-a85c428ca9ea774",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6305c3f45e75d4ab",
+      "relatedSpdxElement": "SPDXRef-Package-b5e1e59b97fda44b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6305c3f45e75d4ab",
+      "relatedSpdxElement": "SPDXRef-Package-c424fc7104d75a6e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9035f8281b432034",
+      "relatedSpdxElement": "SPDXRef-Package-a85c428ca9ea774",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b5e1e59b97fda44b",
+      "relatedSpdxElement": "SPDXRef-Package-9035f8281b432034",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b5e1e59b97fda44b",
+      "relatedSpdxElement": "SPDXRef-Package-a85c428ca9ea774",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b5e1e59b97fda44b",
+      "relatedSpdxElement": "SPDXRef-Package-c424fc7104d75a6e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-be138bb0f2369d6a",
+      "relatedSpdxElement": "SPDXRef-Package-50f8fa6fab60f784",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-be138bb0f2369d6a",
+      "relatedSpdxElement": "SPDXRef-Package-6305c3f45e75d4ab",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-be138bb0f2369d6a",
+      "relatedSpdxElement": "SPDXRef-Package-a85c428ca9ea774",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-be138bb0f2369d6a",
+      "relatedSpdxElement": "SPDXRef-Package-b5e1e59b97fda44b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-be138bb0f2369d6a",
+      "relatedSpdxElement": "SPDXRef-Package-c424fc7104d75a6e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-be138bb0f2369d6a",
+      "relatedSpdxElement": "SPDXRef-Package-d1375d2bf67c11a1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c424fc7104d75a6e",
+      "relatedSpdxElement": "SPDXRef-Package-a85c428ca9ea774",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d1375d2bf67c11a1",
+      "relatedSpdxElement": "SPDXRef-Package-50f8fa6fab60f784",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d1375d2bf67c11a1",
+      "relatedSpdxElement": "SPDXRef-Package-a85c428ca9ea774",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d1375d2bf67c11a1",
+      "relatedSpdxElement": "SPDXRef-Package-b5e1e59b97fda44b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d1375d2bf67c11a1",
+      "relatedSpdxElement": "SPDXRef-Package-c424fc7104d75a6e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d1375d2bf67c11a1",
+      "relatedSpdxElement": "SPDXRef-Package-f7c82f6eb52e908a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d7d357e09bd2c9df",
+      "relatedSpdxElement": "SPDXRef-Package-9859caffe67f07e8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f7c82f6eb52e908a",
+      "relatedSpdxElement": "SPDXRef-Package-3ee9229b087bf832",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f7c82f6eb52e908a",
+      "relatedSpdxElement": "SPDXRef-Package-50f8fa6fab60f784",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f7c82f6eb52e908a",
+      "relatedSpdxElement": "SPDXRef-Package-9035f8281b432034",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f7c82f6eb52e908a",
+      "relatedSpdxElement": "SPDXRef-Package-a85c428ca9ea774",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f7c82f6eb52e908a",
+      "relatedSpdxElement": "SPDXRef-Package-b5e1e59b97fda44b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f7c82f6eb52e908a",
+      "relatedSpdxElement": "SPDXRef-Package-c424fc7104d75a6e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-ad3737673f6d2fbf",
+      "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

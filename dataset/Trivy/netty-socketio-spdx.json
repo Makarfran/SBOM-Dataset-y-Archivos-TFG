@@ -1,0 +1,663 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "https://github.com/mrniko/netty-socketio",
+  "documentNamespace": "http://trivy.dev/repository/github.com/mrniko/netty-socketio-a0186026-3e2e-41c9-93ca-fe142239b8f1",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.69.3"
+    ],
+    "created": "2026-04-19T16:40:51Z"
+  },
+  "packages": [
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-157bf9114c968510",
+      "downloadLocation": "git+https://github.com/mrniko/netty-socketio",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.corundumstudio.socketio:netty-socketio",
+      "SPDXID": "SPDXRef-Package-3f8be85d2d1840c4",
+      "versionInfo": "2.0.15-SNAPSHOT",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/mrniko/netty-socketio",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.corundumstudio.socketio/netty-socketio@2.0.15-SNAPSHOT"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.corundumstudio.socketio:netty-socketio:2.0.15-SNAPSHOT::76df0356"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-annotations",
+      "SPDXID": "SPDXRef-Package-b6e1cd5cf0312291",
+      "versionInfo": "2.18.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/mrniko/netty-socketio",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.18.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-annotations:2.18.3::68ac594c"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-core",
+      "SPDXID": "SPDXRef-Package-a131251c9278f42",
+      "versionInfo": "2.18.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/mrniko/netty-socketio",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.18.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-core:2.18.3::7984ca28"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-databind",
+      "SPDXID": "SPDXRef-Package-1c114dbea6556cbb",
+      "versionInfo": "2.18.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/mrniko/netty-socketio",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.18.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-databind:2.18.3::1176cc94"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-buffer",
+      "SPDXID": "SPDXRef-Package-1cdfb71ef7a82bb7",
+      "versionInfo": "4.1.130.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/mrniko/netty-socketio",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-buffer@4.1.130.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-buffer:4.1.130.Final::df5d34f2"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-codec",
+      "SPDXID": "SPDXRef-Package-62db8ded85b4181f",
+      "versionInfo": "4.1.130.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/mrniko/netty-socketio",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec@4.1.130.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-codec:4.1.130.Final::6fd4f205"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-codec-http",
+      "SPDXID": "SPDXRef-Package-e39ed72c659f9a0d",
+      "versionInfo": "4.1.130.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/mrniko/netty-socketio",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec-http@4.1.130.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-codec-http:4.1.130.Final::aceb9910"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-common",
+      "SPDXID": "SPDXRef-Package-73bc843b88362a83",
+      "versionInfo": "4.1.130.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/mrniko/netty-socketio",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-common@4.1.130.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-common:4.1.130.Final::11318e47"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-handler",
+      "SPDXID": "SPDXRef-Package-9a14dc022974d583",
+      "versionInfo": "4.1.130.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/mrniko/netty-socketio",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-handler@4.1.130.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-handler:4.1.130.Final::b466b415"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-resolver",
+      "SPDXID": "SPDXRef-Package-a538a5b518a04894",
+      "versionInfo": "4.1.130.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/mrniko/netty-socketio",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-resolver@4.1.130.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-resolver:4.1.130.Final::c4fd3ac0"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-transport",
+      "SPDXID": "SPDXRef-Package-7684d6b971217835",
+      "versionInfo": "4.1.130.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/mrniko/netty-socketio",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport@4.1.130.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-transport:4.1.130.Final::6210de90"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-transport-native-unix-common",
+      "SPDXID": "SPDXRef-Package-2efe82306f5ae546",
+      "versionInfo": "4.1.130.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/mrniko/netty-socketio",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.130.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-transport-native-unix-common:4.1.130.Final::fead8869"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.slf4j:slf4j-api",
+      "SPDXID": "SPDXRef-Package-4dffb753c40d06bc",
+      "versionInfo": "2.0.16",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/mrniko/netty-socketio",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@2.0.16"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.slf4j:slf4j-api:2.0.16::f65cd14e"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/mrniko/netty-socketio",
+      "SPDXID": "SPDXRef-Repository-3792fd20e253ce01",
+      "downloadLocation": "git+https://github.com/mrniko/netty-socketio",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:40:51Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-157bf9114c968510",
+      "relatedSpdxElement": "SPDXRef-Package-3f8be85d2d1840c4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-3792fd20e253ce01",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1c114dbea6556cbb",
+      "relatedSpdxElement": "SPDXRef-Package-a131251c9278f42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1c114dbea6556cbb",
+      "relatedSpdxElement": "SPDXRef-Package-b6e1cd5cf0312291",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1cdfb71ef7a82bb7",
+      "relatedSpdxElement": "SPDXRef-Package-73bc843b88362a83",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2efe82306f5ae546",
+      "relatedSpdxElement": "SPDXRef-Package-1cdfb71ef7a82bb7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2efe82306f5ae546",
+      "relatedSpdxElement": "SPDXRef-Package-73bc843b88362a83",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2efe82306f5ae546",
+      "relatedSpdxElement": "SPDXRef-Package-7684d6b971217835",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3f8be85d2d1840c4",
+      "relatedSpdxElement": "SPDXRef-Package-1c114dbea6556cbb",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3f8be85d2d1840c4",
+      "relatedSpdxElement": "SPDXRef-Package-1cdfb71ef7a82bb7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3f8be85d2d1840c4",
+      "relatedSpdxElement": "SPDXRef-Package-4dffb753c40d06bc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3f8be85d2d1840c4",
+      "relatedSpdxElement": "SPDXRef-Package-62db8ded85b4181f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3f8be85d2d1840c4",
+      "relatedSpdxElement": "SPDXRef-Package-73bc843b88362a83",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3f8be85d2d1840c4",
+      "relatedSpdxElement": "SPDXRef-Package-7684d6b971217835",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3f8be85d2d1840c4",
+      "relatedSpdxElement": "SPDXRef-Package-9a14dc022974d583",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3f8be85d2d1840c4",
+      "relatedSpdxElement": "SPDXRef-Package-a131251c9278f42",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3f8be85d2d1840c4",
+      "relatedSpdxElement": "SPDXRef-Package-e39ed72c659f9a0d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-62db8ded85b4181f",
+      "relatedSpdxElement": "SPDXRef-Package-1cdfb71ef7a82bb7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-62db8ded85b4181f",
+      "relatedSpdxElement": "SPDXRef-Package-73bc843b88362a83",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-62db8ded85b4181f",
+      "relatedSpdxElement": "SPDXRef-Package-7684d6b971217835",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7684d6b971217835",
+      "relatedSpdxElement": "SPDXRef-Package-1cdfb71ef7a82bb7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7684d6b971217835",
+      "relatedSpdxElement": "SPDXRef-Package-73bc843b88362a83",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7684d6b971217835",
+      "relatedSpdxElement": "SPDXRef-Package-a538a5b518a04894",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9a14dc022974d583",
+      "relatedSpdxElement": "SPDXRef-Package-1cdfb71ef7a82bb7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9a14dc022974d583",
+      "relatedSpdxElement": "SPDXRef-Package-2efe82306f5ae546",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9a14dc022974d583",
+      "relatedSpdxElement": "SPDXRef-Package-62db8ded85b4181f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9a14dc022974d583",
+      "relatedSpdxElement": "SPDXRef-Package-73bc843b88362a83",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9a14dc022974d583",
+      "relatedSpdxElement": "SPDXRef-Package-7684d6b971217835",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9a14dc022974d583",
+      "relatedSpdxElement": "SPDXRef-Package-a538a5b518a04894",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a538a5b518a04894",
+      "relatedSpdxElement": "SPDXRef-Package-73bc843b88362a83",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e39ed72c659f9a0d",
+      "relatedSpdxElement": "SPDXRef-Package-1cdfb71ef7a82bb7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e39ed72c659f9a0d",
+      "relatedSpdxElement": "SPDXRef-Package-62db8ded85b4181f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e39ed72c659f9a0d",
+      "relatedSpdxElement": "SPDXRef-Package-73bc843b88362a83",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e39ed72c659f9a0d",
+      "relatedSpdxElement": "SPDXRef-Package-7684d6b971217835",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e39ed72c659f9a0d",
+      "relatedSpdxElement": "SPDXRef-Package-9a14dc022974d583",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-3792fd20e253ce01",
+      "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

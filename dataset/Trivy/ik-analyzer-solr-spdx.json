@@ -1,0 +1,302 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "https://github.com/magese/ik-analyzer-solr",
+  "documentNamespace": "http://trivy.dev/repository/github.com/magese/ik-analyzer-solr-d8fd1049-8290-4c1a-b4ce-bf67f9e29c43",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.69.3"
+    ],
+    "created": "2026-04-19T16:09:01Z"
+  },
+  "packages": [
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-157bf9114c968510",
+      "downloadLocation": "git+https://github.com/magese/ik-analyzer-solr",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:01Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:01Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.github.magese:ik-analyzer",
+      "SPDXID": "SPDXRef-Package-5a83bbf4b338ab45",
+      "versionInfo": "8.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/magese/ik-analyzer-solr",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.magese/ik-analyzer@8.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:01Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.github.magese:ik-analyzer:8.5.0::bcd9da41"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:01Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.lucene:lucene-analyzers-common",
+      "SPDXID": "SPDXRef-Package-4ee3fd82fcfb18a7",
+      "versionInfo": "8.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/magese/ik-analyzer-solr",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:01Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.lucene:lucene-analyzers-common:8.5.0::3692228a"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:01Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.lucene:lucene-core",
+      "SPDXID": "SPDXRef-Package-a7d6ce617aea56b2",
+      "versionInfo": "8.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/magese/ik-analyzer-solr",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-core@8.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:01Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.lucene:lucene-core:8.5.0::6e5b1a37"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:01Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.lucene:lucene-queries",
+      "SPDXID": "SPDXRef-Package-ac60ded1e65ed288",
+      "versionInfo": "8.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/magese/ik-analyzer-solr",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-queries@8.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:01Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.lucene:lucene-queries:8.5.0::b6be4ff4"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:01Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.lucene:lucene-queryparser",
+      "SPDXID": "SPDXRef-Package-5048f18bdcadb76c",
+      "versionInfo": "8.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/magese/ik-analyzer-solr",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-queryparser@8.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:01Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.lucene:lucene-queryparser:8.5.0::40950672"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:01Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.lucene:lucene-sandbox",
+      "SPDXID": "SPDXRef-Package-14bebd082de6ec0f",
+      "versionInfo": "8.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/magese/ik-analyzer-solr",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-sandbox@8.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:01Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.lucene:lucene-sandbox:8.5.0::f4da590b"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:01Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/magese/ik-analyzer-solr",
+      "SPDXID": "SPDXRef-Repository-967a29b8598111cd",
+      "downloadLocation": "git+https://github.com/magese/ik-analyzer-solr",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:01Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-157bf9114c968510",
+      "relatedSpdxElement": "SPDXRef-Package-5a83bbf4b338ab45",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-967a29b8598111cd",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4ee3fd82fcfb18a7",
+      "relatedSpdxElement": "SPDXRef-Package-a7d6ce617aea56b2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5048f18bdcadb76c",
+      "relatedSpdxElement": "SPDXRef-Package-14bebd082de6ec0f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5048f18bdcadb76c",
+      "relatedSpdxElement": "SPDXRef-Package-a7d6ce617aea56b2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5048f18bdcadb76c",
+      "relatedSpdxElement": "SPDXRef-Package-ac60ded1e65ed288",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5a83bbf4b338ab45",
+      "relatedSpdxElement": "SPDXRef-Package-4ee3fd82fcfb18a7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5a83bbf4b338ab45",
+      "relatedSpdxElement": "SPDXRef-Package-5048f18bdcadb76c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5a83bbf4b338ab45",
+      "relatedSpdxElement": "SPDXRef-Package-a7d6ce617aea56b2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-967a29b8598111cd",
+      "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

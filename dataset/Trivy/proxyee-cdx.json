@@ -1,0 +1,493 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:86f8cded-6478-42a8-9d15-b7e400ca7a80",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-24T17:37:15+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "7e380a6d-350d-4610-a24e-f7a21b8ad21c",
+      "type": "application",
+      "name": "https://github.com/monkeyWie/proxyee",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "45d6ba2b-4d98-4e83-9bc8-82b05a0a1291",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.github.monkeywie/proxyee@1.7.7",
+      "type": "library",
+      "group": "com.github.monkeywie",
+      "name": "proxyee",
+      "version": "1.7.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.monkeywie/proxyee@1.7.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.github.monkeywie:proxyee:1.7.7::f05f6436"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-buffer@4.1.94.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-buffer",
+      "version": "4.1.94.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-buffer@4.1.94.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-buffer:4.1.94.Final::9dc6337c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-codec-http@4.1.94.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec-http",
+      "version": "4.1.94.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-codec-http@4.1.94.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-codec-http:4.1.94.Final::6a7bbab6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-codec-socks@4.1.94.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec-socks",
+      "version": "4.1.94.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-codec-socks@4.1.94.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-codec-socks:4.1.94.Final::9c10f093"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-codec@4.1.94.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec",
+      "version": "4.1.94.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-codec@4.1.94.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-codec:4.1.94.Final::4a937178"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-common@4.1.94.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-common",
+      "version": "4.1.94.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-common@4.1.94.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-common:4.1.94.Final::c99e558c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-handler-proxy@4.1.94.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-handler-proxy",
+      "version": "4.1.94.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-handler-proxy@4.1.94.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-handler-proxy:4.1.94.Final::fb043439"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-handler@4.1.94.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-handler",
+      "version": "4.1.94.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-handler@4.1.94.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-handler:4.1.94.Final::8cc0261f"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-resolver@4.1.94.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-resolver",
+      "version": "4.1.94.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-resolver@4.1.94.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-resolver:4.1.94.Final::48d8a75e"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.94.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport-native-unix-common",
+      "version": "4.1.94.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.94.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-transport-native-unix-common:4.1.94.Final::e09b18d4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport@4.1.94.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "version": "4.1.94.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-transport@4.1.94.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-transport:4.1.94.Final::a2eaf48a"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.60",
+      "type": "library",
+      "group": "org.bouncycastle",
+      "name": "bcpkix-jdk15on",
+      "version": "1.60",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.60",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.bouncycastle:bcpkix-jdk15on:1.60::1eca171e"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.60",
+      "type": "library",
+      "group": "org.bouncycastle",
+      "name": "bcprov-jdk15on",
+      "version": "1.60",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.60",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.bouncycastle:bcprov-jdk15on:1.60::4f92240b"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "45d6ba2b-4d98-4e83-9bc8-82b05a0a1291",
+      "dependsOn": [
+        "pkg:maven/com.github.monkeywie/proxyee@1.7.7"
+      ]
+    },
+    {
+      "ref": "7e380a6d-350d-4610-a24e-f7a21b8ad21c",
+      "dependsOn": [
+        "45d6ba2b-4d98-4e83-9bc8-82b05a0a1291"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.github.monkeywie/proxyee@1.7.7",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.94.Final",
+        "pkg:maven/io.netty/netty-codec-http@4.1.94.Final",
+        "pkg:maven/io.netty/netty-codec@4.1.94.Final",
+        "pkg:maven/io.netty/netty-handler-proxy@4.1.94.Final",
+        "pkg:maven/io.netty/netty-handler@4.1.94.Final",
+        "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.60"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-buffer@4.1.94.Final",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.94.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-codec-http@4.1.94.Final",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.94.Final",
+        "pkg:maven/io.netty/netty-codec@4.1.94.Final",
+        "pkg:maven/io.netty/netty-common@4.1.94.Final",
+        "pkg:maven/io.netty/netty-handler@4.1.94.Final",
+        "pkg:maven/io.netty/netty-transport@4.1.94.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-codec-socks@4.1.94.Final",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.94.Final",
+        "pkg:maven/io.netty/netty-codec@4.1.94.Final",
+        "pkg:maven/io.netty/netty-common@4.1.94.Final",
+        "pkg:maven/io.netty/netty-transport@4.1.94.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-codec@4.1.94.Final",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.94.Final",
+        "pkg:maven/io.netty/netty-common@4.1.94.Final",
+        "pkg:maven/io.netty/netty-transport@4.1.94.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-common@4.1.94.Final",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-handler-proxy@4.1.94.Final",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.94.Final",
+        "pkg:maven/io.netty/netty-codec-http@4.1.94.Final",
+        "pkg:maven/io.netty/netty-codec-socks@4.1.94.Final",
+        "pkg:maven/io.netty/netty-codec@4.1.94.Final",
+        "pkg:maven/io.netty/netty-common@4.1.94.Final",
+        "pkg:maven/io.netty/netty-transport@4.1.94.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-handler@4.1.94.Final",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.94.Final",
+        "pkg:maven/io.netty/netty-codec@4.1.94.Final",
+        "pkg:maven/io.netty/netty-common@4.1.94.Final",
+        "pkg:maven/io.netty/netty-resolver@4.1.94.Final",
+        "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.94.Final",
+        "pkg:maven/io.netty/netty-transport@4.1.94.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-resolver@4.1.94.Final",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.94.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.94.Final",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.94.Final",
+        "pkg:maven/io.netty/netty-common@4.1.94.Final",
+        "pkg:maven/io.netty/netty-transport@4.1.94.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport@4.1.94.Final",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.94.Final",
+        "pkg:maven/io.netty/netty-common@4.1.94.Final",
+        "pkg:maven/io.netty/netty-resolver@4.1.94.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.60",
+      "dependsOn": [
+        "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.60"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.60",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

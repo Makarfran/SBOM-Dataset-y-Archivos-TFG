@@ -1,0 +1,95 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:1b424a29-8c7b-4c99-b9ca-68a45345354b",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-30T17:13:49+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "01356a37-64ea-4285-9581-74123edc64ff",
+      "type": "application",
+      "name": "https://github.com/mybatis/mybatis-3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "a6d20515-10f8-43cd-ae5d-b4f7b37eadee",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mybatis/mybatis@3.6.0-SNAPSHOT",
+      "type": "library",
+      "group": "org.mybatis",
+      "name": "mybatis",
+      "version": "3.6.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mybatis/mybatis@3.6.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.mybatis:mybatis:3.6.0-SNAPSHOT::5cd7eedb"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "01356a37-64ea-4285-9581-74123edc64ff",
+      "dependsOn": [
+        "a6d20515-10f8-43cd-ae5d-b4f7b37eadee"
+      ]
+    },
+    {
+      "ref": "a6d20515-10f8-43cd-ae5d-b4f7b37eadee",
+      "dependsOn": [
+        "pkg:maven/org.mybatis/mybatis@3.6.0-SNAPSHOT"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mybatis/mybatis@3.6.0-SNAPSHOT",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

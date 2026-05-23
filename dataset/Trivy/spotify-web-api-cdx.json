@@ -1,0 +1,434 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:2796a0e6-003b-4be3-a66a-302d979ff8d3",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-24T18:02:52+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "a1cf1255-af35-49da-9a65-1558beff0290",
+      "type": "application",
+      "name": "https://github.com/spotify-web-api-java/spotify-web-api-java",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "446dfe55-8967-43db-a5f5-77597be36837",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.21",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "version": "2.21",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.21",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.fasterxml.jackson.core:jackson-annotations:2.21::b2c2dd16"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.2",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.21.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.fasterxml.jackson.core:jackson-core:2.21.2::a806cac9"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.2",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.21.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.fasterxml.jackson.core:jackson-databind:2.21.2::67d057b8"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.code.gson/gson@2.13.2",
+      "type": "library",
+      "group": "com.google.code.gson",
+      "name": "gson",
+      "version": "2.13.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.gson/gson@2.13.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.google.code.gson:gson:2.13.2::87d38308"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0",
+      "type": "library",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.41.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.google.errorprone:error_prone_annotations:2.41.0::5462296b"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.neovisionaries/nv-i18n@1.29",
+      "type": "library",
+      "group": "com.neovisionaries",
+      "name": "nv-i18n",
+      "version": "1.29",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.neovisionaries/nv-i18n@1.29",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.neovisionaries:nv-i18n:1.29::ee5ee6eb"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.httpcomponents.client5/httpclient5-cache@5.6",
+      "type": "library",
+      "group": "org.apache.httpcomponents.client5",
+      "name": "httpclient5-cache",
+      "version": "5.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.httpcomponents.client5/httpclient5-cache@5.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.apache.httpcomponents.client5:httpclient5-cache:5.6::3165a733"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.6",
+      "type": "library",
+      "group": "org.apache.httpcomponents.client5",
+      "name": "httpclient5",
+      "version": "5.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.apache.httpcomponents.client5:httpclient5:5.6::5400d029"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.4",
+      "type": "library",
+      "group": "org.apache.httpcomponents.core5",
+      "name": "httpcore5-h2",
+      "version": "5.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.apache.httpcomponents.core5:httpcore5-h2:5.4::e71dc818"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.4",
+      "type": "library",
+      "group": "org.apache.httpcomponents.core5",
+      "name": "httpcore5",
+      "version": "5.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.apache.httpcomponents.core5:httpcore5:5.4::6a9c779f"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@2.0.17",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "2.0.17",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.17",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.slf4j:slf4j-api:2.0.17::875b0b26"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/se.michaelthelin.spotify/spotify-web-api-java@9.4.0",
+      "type": "library",
+      "group": "se.michaelthelin.spotify",
+      "name": "spotify-web-api-java",
+      "version": "9.4.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/se.michaelthelin.spotify/spotify-web-api-java@9.4.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "se.michaelthelin.spotify:spotify-web-api-java:9.4.0::961311ff"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "446dfe55-8967-43db-a5f5-77597be36837",
+      "dependsOn": [
+        "pkg:maven/se.michaelthelin.spotify/spotify-web-api-java@9.4.0"
+      ]
+    },
+    {
+      "ref": "a1cf1255-af35-49da-9a65-1558beff0290",
+      "dependsOn": [
+        "446dfe55-8967-43db-a5f5-77597be36837"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.21",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.2",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.21",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.2"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.code.gson/gson@2.13.2",
+      "dependsOn": [
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.neovisionaries/nv-i18n@1.29",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents.client5/httpclient5-cache@5.6",
+      "dependsOn": [
+        "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.6",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.6",
+      "dependsOn": [
+        "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.4",
+        "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.4",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.4",
+      "dependsOn": [
+        "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.4"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@2.0.17",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/se.michaelthelin.spotify/spotify-web-api-java@9.4.0",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.2",
+        "pkg:maven/com.google.code.gson/gson@2.13.2",
+        "pkg:maven/com.neovisionaries/nv-i18n@1.29",
+        "pkg:maven/org.apache.httpcomponents.client5/httpclient5-cache@5.6",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17"
+      ]
+    }
+  ],
+  "vulnerabilities": []
+}

@@ -1,0 +1,250 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:da9633db-6856-44f8-a84d-2daf81791796",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-24T16:56:21+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "63475756-c5dc-433a-ad68-e3a96bf6b54e",
+      "type": "application",
+      "name": "https://github.com/magese/ik-analyzer-solr",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "d4d916e1-3e15-45a4-a768-665499e1c2c7",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.github.magese/ik-analyzer@8.5.0",
+      "type": "library",
+      "group": "com.github.magese",
+      "name": "ik-analyzer",
+      "version": "8.5.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.magese/ik-analyzer@8.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.github.magese:ik-analyzer:8.5.0::bcd9da41"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.5.0",
+      "type": "library",
+      "group": "org.apache.lucene",
+      "name": "lucene-analyzers-common",
+      "version": "8.5.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.apache.lucene:lucene-analyzers-common:8.5.0::3692228a"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-core@8.5.0",
+      "type": "library",
+      "group": "org.apache.lucene",
+      "name": "lucene-core",
+      "version": "8.5.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.lucene/lucene-core@8.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.apache.lucene:lucene-core:8.5.0::6e5b1a37"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-queries@8.5.0",
+      "type": "library",
+      "group": "org.apache.lucene",
+      "name": "lucene-queries",
+      "version": "8.5.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.lucene/lucene-queries@8.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.apache.lucene:lucene-queries:8.5.0::b6be4ff4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-queryparser@8.5.0",
+      "type": "library",
+      "group": "org.apache.lucene",
+      "name": "lucene-queryparser",
+      "version": "8.5.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.lucene/lucene-queryparser@8.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.apache.lucene:lucene-queryparser:8.5.0::40950672"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-sandbox@8.5.0",
+      "type": "library",
+      "group": "org.apache.lucene",
+      "name": "lucene-sandbox",
+      "version": "8.5.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.lucene/lucene-sandbox@8.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.apache.lucene:lucene-sandbox:8.5.0::f4da590b"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "63475756-c5dc-433a-ad68-e3a96bf6b54e",
+      "dependsOn": [
+        "d4d916e1-3e15-45a4-a768-665499e1c2c7"
+      ]
+    },
+    {
+      "ref": "d4d916e1-3e15-45a4-a768-665499e1c2c7",
+      "dependsOn": [
+        "pkg:maven/com.github.magese/ik-analyzer@8.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.github.magese/ik-analyzer@8.5.0",
+      "dependsOn": [
+        "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.5.0",
+        "pkg:maven/org.apache.lucene/lucene-core@8.5.0",
+        "pkg:maven/org.apache.lucene/lucene-queryparser@8.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.5.0",
+      "dependsOn": [
+        "pkg:maven/org.apache.lucene/lucene-core@8.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.lucene/lucene-core@8.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.lucene/lucene-queries@8.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.lucene/lucene-queryparser@8.5.0",
+      "dependsOn": [
+        "pkg:maven/org.apache.lucene/lucene-core@8.5.0",
+        "pkg:maven/org.apache.lucene/lucene-queries@8.5.0",
+        "pkg:maven/org.apache.lucene/lucene-sandbox@8.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.lucene/lucene-sandbox@8.5.0",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

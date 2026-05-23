@@ -1,0 +1,95 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:448c4187-29e7-4ded-a0ec-af6c7817504d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-24T17:33:27+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "78cb9053-7876-4ea6-bb47-c2404d642b6d",
+      "type": "application",
+      "name": "https://github.com/stleary/json-java",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "78365bbc-dfce-4186-a347-753b3168cfc7",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.json/json@20251224",
+      "type": "library",
+      "group": "org.json",
+      "name": "json",
+      "version": "20251224",
+      "licenses": [
+        {
+          "license": {
+            "name": "Public-Domain"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.json/json@20251224",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.json:json:20251224::830489cb"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "78365bbc-dfce-4186-a347-753b3168cfc7",
+      "dependsOn": [
+        "pkg:maven/org.json/json@20251224"
+      ]
+    },
+    {
+      "ref": "78cb9053-7876-4ea6-bb47-c2404d642b6d",
+      "dependsOn": [
+        "78365bbc-dfce-4186-a347-753b3168cfc7"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.json/json@20251224",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

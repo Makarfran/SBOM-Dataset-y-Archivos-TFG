@@ -1,0 +1,486 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "https://github.com/YeautyYE/netty-websocket-spring-boot-starter",
+  "documentNamespace": "http://trivy.dev/repository/github.com/YeautyYE/netty-websocket-spring-boot-starter-55376783-6e22-4a90-b40e-5218b79ad997",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.69.3"
+    ],
+    "created": "2026-04-19T16:41:33Z"
+  },
+  "packages": [
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-157bf9114c968510",
+      "downloadLocation": "git+https://github.com/YeautyYE/netty-websocket-spring-boot-starter",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-buffer",
+      "SPDXID": "SPDXRef-Package-bea7b7497f50e010",
+      "versionInfo": "4.1.118.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/YeautyYE/netty-websocket-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-buffer@4.1.118.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-buffer:4.1.118.Final::4793595c"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-codec",
+      "SPDXID": "SPDXRef-Package-a86648d9b51f314d",
+      "versionInfo": "4.1.118.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/YeautyYE/netty-websocket-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec@4.1.118.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-codec:4.1.118.Final::2e95bbee"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-codec-http",
+      "SPDXID": "SPDXRef-Package-e7bbfba0d9fcb5ec",
+      "versionInfo": "4.1.118.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/YeautyYE/netty-websocket-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec-http@4.1.118.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-codec-http:4.1.118.Final::918b8c73"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-common",
+      "SPDXID": "SPDXRef-Package-d034367fd91b8883",
+      "versionInfo": "4.1.118.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/YeautyYE/netty-websocket-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-common@4.1.118.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-common:4.1.118.Final::8e826325"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-handler",
+      "SPDXID": "SPDXRef-Package-b11ef0b4f92e6a0d",
+      "versionInfo": "4.1.118.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/YeautyYE/netty-websocket-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-handler@4.1.118.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-handler:4.1.118.Final::dbbdde9d"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-resolver",
+      "SPDXID": "SPDXRef-Package-2bca96c3a692d379",
+      "versionInfo": "4.1.118.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/YeautyYE/netty-websocket-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-resolver@4.1.118.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-resolver:4.1.118.Final::c3d93e6d"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-transport",
+      "SPDXID": "SPDXRef-Package-d5af2ac8ede35d3e",
+      "versionInfo": "4.1.118.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/YeautyYE/netty-websocket-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport@4.1.118.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-transport:4.1.118.Final::fd8c09c0"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-transport-native-unix-common",
+      "SPDXID": "SPDXRef-Package-51a5c218a4391bb6",
+      "versionInfo": "4.1.118.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/YeautyYE/netty-websocket-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.118.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.netty:netty-transport-native-unix-common:4.1.118.Final::bbefd794"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.yeauty:netty-websocket-spring-boot-starter",
+      "SPDXID": "SPDXRef-Package-ba4e83c4d8b5c975",
+      "versionInfo": "0.13.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/YeautyYE/netty-websocket-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.yeauty/netty-websocket-spring-boot-starter@0.13.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.yeauty:netty-websocket-spring-boot-starter:0.13.0::c689e994"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/YeautyYE/netty-websocket-spring-boot-starter",
+      "SPDXID": "SPDXRef-Repository-16e3a939b017ab8b",
+      "downloadLocation": "git+https://github.com/YeautyYE/netty-websocket-spring-boot-starter",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:41:33Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-157bf9114c968510",
+      "relatedSpdxElement": "SPDXRef-Package-ba4e83c4d8b5c975",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-16e3a939b017ab8b",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2bca96c3a692d379",
+      "relatedSpdxElement": "SPDXRef-Package-d034367fd91b8883",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-51a5c218a4391bb6",
+      "relatedSpdxElement": "SPDXRef-Package-bea7b7497f50e010",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-51a5c218a4391bb6",
+      "relatedSpdxElement": "SPDXRef-Package-d034367fd91b8883",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-51a5c218a4391bb6",
+      "relatedSpdxElement": "SPDXRef-Package-d5af2ac8ede35d3e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a86648d9b51f314d",
+      "relatedSpdxElement": "SPDXRef-Package-bea7b7497f50e010",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a86648d9b51f314d",
+      "relatedSpdxElement": "SPDXRef-Package-d034367fd91b8883",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a86648d9b51f314d",
+      "relatedSpdxElement": "SPDXRef-Package-d5af2ac8ede35d3e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b11ef0b4f92e6a0d",
+      "relatedSpdxElement": "SPDXRef-Package-2bca96c3a692d379",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b11ef0b4f92e6a0d",
+      "relatedSpdxElement": "SPDXRef-Package-51a5c218a4391bb6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b11ef0b4f92e6a0d",
+      "relatedSpdxElement": "SPDXRef-Package-a86648d9b51f314d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b11ef0b4f92e6a0d",
+      "relatedSpdxElement": "SPDXRef-Package-bea7b7497f50e010",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b11ef0b4f92e6a0d",
+      "relatedSpdxElement": "SPDXRef-Package-d034367fd91b8883",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b11ef0b4f92e6a0d",
+      "relatedSpdxElement": "SPDXRef-Package-d5af2ac8ede35d3e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ba4e83c4d8b5c975",
+      "relatedSpdxElement": "SPDXRef-Package-b11ef0b4f92e6a0d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ba4e83c4d8b5c975",
+      "relatedSpdxElement": "SPDXRef-Package-e7bbfba0d9fcb5ec",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bea7b7497f50e010",
+      "relatedSpdxElement": "SPDXRef-Package-d034367fd91b8883",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d5af2ac8ede35d3e",
+      "relatedSpdxElement": "SPDXRef-Package-2bca96c3a692d379",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d5af2ac8ede35d3e",
+      "relatedSpdxElement": "SPDXRef-Package-bea7b7497f50e010",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d5af2ac8ede35d3e",
+      "relatedSpdxElement": "SPDXRef-Package-d034367fd91b8883",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e7bbfba0d9fcb5ec",
+      "relatedSpdxElement": "SPDXRef-Package-a86648d9b51f314d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e7bbfba0d9fcb5ec",
+      "relatedSpdxElement": "SPDXRef-Package-b11ef0b4f92e6a0d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e7bbfba0d9fcb5ec",
+      "relatedSpdxElement": "SPDXRef-Package-bea7b7497f50e010",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e7bbfba0d9fcb5ec",
+      "relatedSpdxElement": "SPDXRef-Package-d034367fd91b8883",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e7bbfba0d9fcb5ec",
+      "relatedSpdxElement": "SPDXRef-Package-d5af2ac8ede35d3e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-16e3a939b017ab8b",
+      "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

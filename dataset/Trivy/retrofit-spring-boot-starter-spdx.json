@@ -1,0 +1,714 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+  "documentNamespace": "http://trivy.dev/repository/github.com/LianjiaTech/retrofit-spring-boot-starter-ea06e3e5-98f2-4f4e-98f2-f374c2e22d56",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.69.3"
+    ],
+    "created": "2026-04-19T16:50:13Z"
+  },
+  "packages": [
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-157bf9114c968510",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-annotations",
+      "SPDXID": "SPDXRef-Package-b4794ed17f2c8c84",
+      "versionInfo": "2.19.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.19.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-annotations:2.19.0::14669b09"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-core",
+      "SPDXID": "SPDXRef-Package-d040290a823c0e90",
+      "versionInfo": "2.19.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-core:2.19.0::a9e0c7a9"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-databind",
+      "SPDXID": "SPDXRef-Package-d68bf7e7e13d0b95",
+      "versionInfo": "2.19.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-databind:2.19.0::df4031c9"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.github.lianjiatech:retrofit-spring-boot-starter",
+      "SPDXID": "SPDXRef-Package-d178337c3c48f3a7",
+      "versionInfo": "4.0.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.lianjiatech/retrofit-spring-boot-starter@4.0.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.github.lianjiatech:retrofit-spring-boot-starter:4.0.4::1ca1c936"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.okhttp3:logging-interceptor",
+      "SPDXID": "SPDXRef-Package-ae4382be67790a3a",
+      "versionInfo": "4.12.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/logging-interceptor@4.12.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.squareup.okhttp3:logging-interceptor:4.12.0::40df5659"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.okhttp3:okhttp",
+      "SPDXID": "SPDXRef-Package-4368a593bb8347c5",
+      "versionInfo": "4.12.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/okhttp@4.12.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.squareup.okhttp3:okhttp:4.12.0::fdf69b0b"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.okio:okio",
+      "SPDXID": "SPDXRef-Package-e3ddd2e983e57a0b",
+      "versionInfo": "3.6.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okio/okio@3.6.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.squareup.okio:okio:3.6.0::747b982e"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.okio:okio-jvm",
+      "SPDXID": "SPDXRef-Package-2a3055b33dd989a4",
+      "versionInfo": "3.6.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okio/okio-jvm@3.6.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.squareup.okio:okio-jvm:3.6.0::ac4881f2"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.retrofit2:converter-jackson",
+      "SPDXID": "SPDXRef-Package-3e4ed9d997b5b012",
+      "versionInfo": "3.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.retrofit2/converter-jackson@3.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.squareup.retrofit2:converter-jackson:3.0.0::eb7b4999"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.retrofit2:retrofit",
+      "SPDXID": "SPDXRef-Package-73e9ec8edb493d67",
+      "versionInfo": "3.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.retrofit2/retrofit@3.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.squareup.retrofit2:retrofit:3.0.0::9c6d6e73"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.annotation:jakarta.annotation-api",
+      "SPDXID": "SPDXRef-Package-1e74db02656f36a3",
+      "versionInfo": "2.1.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "EPL-2.0 AND LicenseRef-2e634d8e67fc133b",
+      "licenseDeclared": "EPL-2.0 AND LicenseRef-2e634d8e67fc133b",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: jakarta.annotation:jakarta.annotation-api:2.1.1::e52367da"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.jetbrains.kotlin:kotlin-stdlib",
+      "SPDXID": "SPDXRef-Package-216a8169b701fcab",
+      "versionInfo": "2.1.21",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.1.21"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.jetbrains.kotlin:kotlin-stdlib:2.1.21::f7e651fb"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.jetbrains.kotlin:kotlin-stdlib-common",
+      "SPDXID": "SPDXRef-Package-608aa31775045d61",
+      "versionInfo": "1.9.10",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.9.10"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10::6a4161d7"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.jetbrains.kotlin:kotlin-stdlib-jdk7",
+      "SPDXID": "SPDXRef-Package-dafdfb7f1749e31c",
+      "versionInfo": "1.8.21",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.8.21"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.21::d7ae0081"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
+      "SPDXID": "SPDXRef-Package-1e4b4acade9dedf",
+      "versionInfo": "1.8.21",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.21"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21::624a93a8"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.jetbrains:annotations",
+      "SPDXID": "SPDXRef-Package-800d907642c48bac",
+      "versionInfo": "13.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains/annotations@13.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.jetbrains:annotations:13.0::e7feb09b"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "SPDXID": "SPDXRef-Repository-38f619be07d3397d",
+      "downloadLocation": "git+https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:50:13Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-2e634d8e67fc133b",
+      "extractedText": "This component is licensed under \"GPL-2.0-only WITH classpath-exception\"",
+      "name": "GPL-2.0-only WITH classpath-exception"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-157bf9114c968510",
+      "relatedSpdxElement": "SPDXRef-Package-d178337c3c48f3a7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-38f619be07d3397d",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1e4b4acade9dedf",
+      "relatedSpdxElement": "SPDXRef-Package-216a8169b701fcab",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1e4b4acade9dedf",
+      "relatedSpdxElement": "SPDXRef-Package-dafdfb7f1749e31c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-216a8169b701fcab",
+      "relatedSpdxElement": "SPDXRef-Package-800d907642c48bac",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2a3055b33dd989a4",
+      "relatedSpdxElement": "SPDXRef-Package-1e4b4acade9dedf",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2a3055b33dd989a4",
+      "relatedSpdxElement": "SPDXRef-Package-608aa31775045d61",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3e4ed9d997b5b012",
+      "relatedSpdxElement": "SPDXRef-Package-73e9ec8edb493d67",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3e4ed9d997b5b012",
+      "relatedSpdxElement": "SPDXRef-Package-d68bf7e7e13d0b95",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4368a593bb8347c5",
+      "relatedSpdxElement": "SPDXRef-Package-1e4b4acade9dedf",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4368a593bb8347c5",
+      "relatedSpdxElement": "SPDXRef-Package-e3ddd2e983e57a0b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-73e9ec8edb493d67",
+      "relatedSpdxElement": "SPDXRef-Package-216a8169b701fcab",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-73e9ec8edb493d67",
+      "relatedSpdxElement": "SPDXRef-Package-4368a593bb8347c5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ae4382be67790a3a",
+      "relatedSpdxElement": "SPDXRef-Package-1e4b4acade9dedf",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ae4382be67790a3a",
+      "relatedSpdxElement": "SPDXRef-Package-4368a593bb8347c5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d178337c3c48f3a7",
+      "relatedSpdxElement": "SPDXRef-Package-1e74db02656f36a3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d178337c3c48f3a7",
+      "relatedSpdxElement": "SPDXRef-Package-3e4ed9d997b5b012",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d178337c3c48f3a7",
+      "relatedSpdxElement": "SPDXRef-Package-4368a593bb8347c5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d178337c3c48f3a7",
+      "relatedSpdxElement": "SPDXRef-Package-73e9ec8edb493d67",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d178337c3c48f3a7",
+      "relatedSpdxElement": "SPDXRef-Package-ae4382be67790a3a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d68bf7e7e13d0b95",
+      "relatedSpdxElement": "SPDXRef-Package-b4794ed17f2c8c84",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d68bf7e7e13d0b95",
+      "relatedSpdxElement": "SPDXRef-Package-d040290a823c0e90",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dafdfb7f1749e31c",
+      "relatedSpdxElement": "SPDXRef-Package-216a8169b701fcab",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e3ddd2e983e57a0b",
+      "relatedSpdxElement": "SPDXRef-Package-2a3055b33dd989a4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-38f619be07d3397d",
+      "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

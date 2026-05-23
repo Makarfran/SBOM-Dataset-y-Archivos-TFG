@@ -1,0 +1,525 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "https://github.com/apache/casbin-jcasbin",
+  "documentNamespace": "http://trivy.dev/repository/github.com/apache/casbin-jcasbin-cbc34962-0258-40f0-8b01-d3d93bcad1d1",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.69.3"
+    ],
+    "created": "2026-04-19T16:10:19Z"
+  },
+  "packages": [
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-157bf9114c968510",
+      "downloadLocation": "git+https://github.com/apache/casbin-jcasbin",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-annotations",
+      "SPDXID": "SPDXRef-Package-72a14ae40887256",
+      "versionInfo": "2.18.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/apache/casbin-jcasbin",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.18.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-annotations:2.18.1::7d0c71d5"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-core",
+      "SPDXID": "SPDXRef-Package-c901ecdb94d83cfd",
+      "versionInfo": "2.18.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/apache/casbin-jcasbin",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.18.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-core:2.18.1::a38a3304"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-databind",
+      "SPDXID": "SPDXRef-Package-d7e6b127533696ca",
+      "versionInfo": "2.18.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/apache/casbin-jcasbin",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.18.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-databind:2.18.1::fd007a61"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.github.seancfoley:ipaddress",
+      "SPDXID": "SPDXRef-Package-4205dd975ac123b2",
+      "versionInfo": "5.5.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/apache/casbin-jcasbin",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.seancfoley/ipaddress@5.5.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.github.seancfoley:ipaddress:5.5.1::c12fd36d"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.google.code.gson:gson",
+      "SPDXID": "SPDXRef-Package-72b508d2a4bba9d5",
+      "versionInfo": "2.11.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/apache/casbin-jcasbin",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.gson/gson@2.11.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.google.code.gson:gson:2.11.0::6bc9abe9"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.google.errorprone:error_prone_annotations",
+      "SPDXID": "SPDXRef-Package-e38a63aa543194cd",
+      "versionInfo": "2.27.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/apache/casbin-jcasbin",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.errorprone/error_prone_annotations@2.27.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.google.errorprone:error_prone_annotations:2.27.0::4290e509"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "commons-codec:commons-codec",
+      "SPDXID": "SPDXRef-Package-c740594a37b11cbf",
+      "versionInfo": "1.17.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/apache/casbin-jcasbin",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-codec/commons-codec@1.17.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: commons-codec:commons-codec:1.17.1::964f0e75"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "commons-io:commons-io",
+      "SPDXID": "SPDXRef-Package-a992be197e4424ef",
+      "versionInfo": "2.17.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/apache/casbin-jcasbin",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-io/commons-io@2.17.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: commons-io:commons-io:2.17.0::fa24dd1a"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.github.aviatorscript:aviator",
+      "SPDXID": "SPDXRef-Package-c1cf72733b1eb73",
+      "versionInfo": "5.9.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/apache/casbin-jcasbin",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.github.aviatorscript/aviator@5.9.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.github.aviatorscript:aviator:5.9.0::782e9cee"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.commons:commons-csv",
+      "SPDXID": "SPDXRef-Package-80b230fb35ae0f72",
+      "versionInfo": "1.12.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/apache/casbin-jcasbin",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-csv@1.12.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.commons:commons-csv:1.12.0::bbd0e319"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.casbin:jcasbin",
+      "SPDXID": "SPDXRef-Package-94511312e9891a61",
+      "versionInfo": "0.0.0-SNAPSHOT",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/apache/casbin-jcasbin",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.casbin/jcasbin@0.0.0-SNAPSHOT"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.casbin:jcasbin:0.0.0-SNAPSHOT::66f95a31"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.slf4j:slf4j-api",
+      "SPDXID": "SPDXRef-Package-5e9d1809c7e3152d",
+      "versionInfo": "2.0.16",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/apache/casbin-jcasbin",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@2.0.16"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.slf4j:slf4j-api:2.0.16::21a6e9f2"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/apache/casbin-jcasbin",
+      "SPDXID": "SPDXRef-Repository-bc22eb99985831fa",
+      "downloadLocation": "git+https://github.com/apache/casbin-jcasbin",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:10:19Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-157bf9114c968510",
+      "relatedSpdxElement": "SPDXRef-Package-94511312e9891a61",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-bc22eb99985831fa",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-72b508d2a4bba9d5",
+      "relatedSpdxElement": "SPDXRef-Package-e38a63aa543194cd",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-80b230fb35ae0f72",
+      "relatedSpdxElement": "SPDXRef-Package-a992be197e4424ef",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-80b230fb35ae0f72",
+      "relatedSpdxElement": "SPDXRef-Package-c740594a37b11cbf",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-94511312e9891a61",
+      "relatedSpdxElement": "SPDXRef-Package-4205dd975ac123b2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-94511312e9891a61",
+      "relatedSpdxElement": "SPDXRef-Package-5e9d1809c7e3152d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-94511312e9891a61",
+      "relatedSpdxElement": "SPDXRef-Package-72b508d2a4bba9d5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-94511312e9891a61",
+      "relatedSpdxElement": "SPDXRef-Package-80b230fb35ae0f72",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-94511312e9891a61",
+      "relatedSpdxElement": "SPDXRef-Package-a992be197e4424ef",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-94511312e9891a61",
+      "relatedSpdxElement": "SPDXRef-Package-c1cf72733b1eb73",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-94511312e9891a61",
+      "relatedSpdxElement": "SPDXRef-Package-d7e6b127533696ca",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d7e6b127533696ca",
+      "relatedSpdxElement": "SPDXRef-Package-72a14ae40887256",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d7e6b127533696ca",
+      "relatedSpdxElement": "SPDXRef-Package-c901ecdb94d83cfd",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-bc22eb99985831fa",
+      "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

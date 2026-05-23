@@ -1,0 +1,95 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:9ff86320-bd4f-4fe9-ad7e-f62b56cc6120",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-24T16:41:52+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "e5a6f9f4-d530-4f03-95b4-c40430c3e33c",
+      "type": "application",
+      "name": "https://github.com/yomorun/hashids-java",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "6c9e9031-d7ba-4d31-a503-f48b36acf19e",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.hashids/hashids@1.0.3-SNAPSHOT",
+      "type": "library",
+      "group": "org.hashids",
+      "name": "hashids",
+      "version": "1.0.3-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hashids/hashids@1.0.3-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.hashids:hashids:1.0.3-SNAPSHOT::abc0369e"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "6c9e9031-d7ba-4d31-a503-f48b36acf19e",
+      "dependsOn": [
+        "pkg:maven/org.hashids/hashids@1.0.3-SNAPSHOT"
+      ]
+    },
+    {
+      "ref": "e5a6f9f4-d530-4f03-95b4-c40430c3e33c",
+      "dependsOn": [
+        "6c9e9031-d7ba-4d31-a503-f48b36acf19e"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.hashids/hashids@1.0.3-SNAPSHOT",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

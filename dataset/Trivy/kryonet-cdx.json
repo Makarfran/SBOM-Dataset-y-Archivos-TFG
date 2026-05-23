@@ -1,0 +1,217 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:0dd81ace-dcb5-43dc-987e-9b6355ad1855",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-24T17:34:02+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "403b1809-129e-4309-9f6f-a7ec35da792c",
+      "type": "application",
+      "name": "https://github.com/EsotericSoftware/kryonet",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "4bbd1b87-4253-41b9-8979-43b73bd404a3",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0",
+      "type": "library",
+      "group": "com.esotericsoftware.kryo",
+      "name": "kryo",
+      "version": "2.24.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.esotericsoftware.kryo:kryo:2.24.0::7f48e93e"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.esotericsoftware.minlog/minlog@1.2",
+      "type": "library",
+      "group": "com.esotericsoftware.minlog",
+      "name": "minlog",
+      "version": "1.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.esotericsoftware.minlog/minlog@1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.esotericsoftware.minlog:minlog:1.2::e1aaed52"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.esotericsoftware/jsonbeans@0.7",
+      "type": "library",
+      "group": "com.esotericsoftware",
+      "name": "jsonbeans",
+      "version": "0.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.esotericsoftware/jsonbeans@0.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.esotericsoftware:jsonbeans:0.7::5cb0bcc2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.esotericsoftware/kryonet@2.22.0-RC1",
+      "type": "library",
+      "group": "com.esotericsoftware",
+      "name": "kryonet",
+      "version": "2.22.0-RC1",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.esotericsoftware/kryonet@2.22.0-RC1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.esotericsoftware:kryonet:2.22.0-RC1::3686dac3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.objenesis/objenesis@2.1",
+      "type": "library",
+      "group": "org.objenesis",
+      "name": "objenesis",
+      "version": "2.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.objenesis/objenesis@2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.objenesis:objenesis:2.1::1725dc72"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "403b1809-129e-4309-9f6f-a7ec35da792c",
+      "dependsOn": [
+        "4bbd1b87-4253-41b9-8979-43b73bd404a3"
+      ]
+    },
+    {
+      "ref": "4bbd1b87-4253-41b9-8979-43b73bd404a3",
+      "dependsOn": [
+        "pkg:maven/com.esotericsoftware/kryonet@2.22.0-RC1"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0",
+      "dependsOn": [
+        "pkg:maven/com.esotericsoftware.minlog/minlog@1.2",
+        "pkg:maven/org.objenesis/objenesis@2.1"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.esotericsoftware.minlog/minlog@1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.esotericsoftware/jsonbeans@0.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.esotericsoftware/kryonet@2.22.0-RC1",
+      "dependsOn": [
+        "pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0",
+        "pkg:maven/com.esotericsoftware/jsonbeans@0.7"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.objenesis/objenesis@2.1",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

@@ -1,0 +1,186 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:3b16b264-976e-4851-ad22-a0b14bd28f65",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-30T16:53:22+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "2b5f2c7b-80f4-440d-89d7-b8ed981c7cee",
+      "type": "application",
+      "name": "https://github.com/datafaker-net/datafaker/",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "0961a1f6-bed9-4b6d-9f38-e8cabd800a1b",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.github.curious-odd-man/rgxgen@3.1",
+      "type": "library",
+      "group": "com.github.curious-odd-man",
+      "name": "rgxgen",
+      "version": "3.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.curious-odd-man/rgxgen@3.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.github.curious-odd-man:rgxgen:3.1::83d9d506"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.googlecode.libphonenumber/libphonenumber@9.0.27",
+      "type": "library",
+      "group": "com.googlecode.libphonenumber",
+      "name": "libphonenumber",
+      "version": "9.0.27",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.googlecode.libphonenumber/libphonenumber@9.0.27",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.googlecode.libphonenumber:libphonenumber:9.0.27::8a7e3ecb"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/net.datafaker/datafaker@2.6.0-SNAPSHOT",
+      "type": "library",
+      "group": "net.datafaker",
+      "name": "datafaker",
+      "version": "2.6.0-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.datafaker/datafaker@2.6.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "net.datafaker:datafaker:2.6.0-SNAPSHOT::16139495"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.yaml/snakeyaml@2.6",
+      "type": "library",
+      "group": "org.yaml",
+      "name": "snakeyaml",
+      "version": "2.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.yaml/snakeyaml@2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.yaml:snakeyaml:2.6::b6ed38d6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "0961a1f6-bed9-4b6d-9f38-e8cabd800a1b",
+      "dependsOn": [
+        "pkg:maven/net.datafaker/datafaker@2.6.0-SNAPSHOT"
+      ]
+    },
+    {
+      "ref": "2b5f2c7b-80f4-440d-89d7-b8ed981c7cee",
+      "dependsOn": [
+        "0961a1f6-bed9-4b6d-9f38-e8cabd800a1b"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.github.curious-odd-man/rgxgen@3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.googlecode.libphonenumber/libphonenumber@9.0.27",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/net.datafaker/datafaker@2.6.0-SNAPSHOT",
+      "dependsOn": [
+        "pkg:maven/com.github.curious-odd-man/rgxgen@3.1",
+        "pkg:maven/com.googlecode.libphonenumber/libphonenumber@9.0.27",
+        "pkg:maven/org.yaml/snakeyaml@2.6"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.yaml/snakeyaml@2.6",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

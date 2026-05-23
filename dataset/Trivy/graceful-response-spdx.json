@@ -1,0 +1,1670 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "https://github.com/feiniaojin/graceful-response",
+  "documentNamespace": "http://trivy.dev/repository/github.com/feiniaojin/graceful-response-60fc88aa-054d-430a-9784-2f3bd1e8a2e1",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.69.3"
+    ],
+    "created": "2026-04-19T16:06:39Z"
+  },
+  "packages": [
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-157bf9114c968510",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback:logback-classic",
+      "SPDXID": "SPDXRef-Package-3c0cd302f7dc8841",
+      "versionInfo": "1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "EPL-1.0 AND LGPL-2.1-only",
+      "licenseDeclared": "EPL-1.0 AND LGPL-2.1-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/ch.qos.logback/logback-classic@1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: ch.qos.logback:logback-classic:1.5.12::205ced60"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback:logback-core",
+      "SPDXID": "SPDXRef-Package-baf89a71bda55451",
+      "versionInfo": "1.5.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "EPL-1.0 AND LGPL-2.1-only",
+      "licenseDeclared": "EPL-1.0 AND LGPL-2.1-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/ch.qos.logback/logback-core@1.5.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: ch.qos.logback:logback-core:1.5.12::11d08f21"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-annotations",
+      "SPDXID": "SPDXRef-Package-25b1ca607d097795",
+      "versionInfo": "2.18.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.18.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-annotations:2.18.2::f270e864"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-core",
+      "SPDXID": "SPDXRef-Package-98af368a406b967b",
+      "versionInfo": "2.18.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.18.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-core:2.18.2::cb3c7801"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-databind",
+      "SPDXID": "SPDXRef-Package-893ecc46c9b6e0f5",
+      "versionInfo": "2.18.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.18.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-databind:2.18.2::8d382815"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
+      "SPDXID": "SPDXRef-Package-e37f26053ccd41f4",
+      "versionInfo": "2.18.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.18.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.18.2::83cdecbe"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+      "SPDXID": "SPDXRef-Package-e8407f9a5ceb9448",
+      "versionInfo": "2.18.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.18.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.18.2::7afe4a8c"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.module:jackson-module-parameter-names",
+      "SPDXID": "SPDXRef-Package-44f2919d9066177f",
+      "versionInfo": "2.18.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.18.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.module:jackson-module-parameter-names:2.18.2::d0e1c484"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml:classmate",
+      "SPDXID": "SPDXRef-Package-437bea2a822f852",
+      "versionInfo": "1.5.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml/classmate@1.5.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml:classmate:1.5.1::b1a8c8a8"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.feiniaojin:graceful-response",
+      "SPDXID": "SPDXRef-Package-cb42e53a4137fdbf",
+      "versionInfo": "5.0.5-boot3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.feiniaojin/graceful-response@5.0.5-boot3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.feiniaojin:graceful-response:5.0.5-boot3::2f49d4f1"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.micrometer:micrometer-commons",
+      "SPDXID": "SPDXRef-Package-3a9ab73ce4217021",
+      "versionInfo": "1.14.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.micrometer/micrometer-commons@1.14.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.micrometer:micrometer-commons:1.14.2::5e6fa6e7"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.micrometer:micrometer-observation",
+      "SPDXID": "SPDXRef-Package-52f11b7b1035f022",
+      "versionInfo": "1.14.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.micrometer/micrometer-observation@1.14.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.micrometer:micrometer-observation:1.14.2::6893c717"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.annotation:jakarta.annotation-api",
+      "SPDXID": "SPDXRef-Package-dd45453dd8846d5e",
+      "versionInfo": "2.1.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "EPL-2.0 AND LicenseRef-2e634d8e67fc133b",
+      "licenseDeclared": "EPL-2.0 AND LicenseRef-2e634d8e67fc133b",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: jakarta.annotation:jakarta.annotation-api:2.1.1::a91386c9"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.validation:jakarta.validation-api",
+      "SPDXID": "SPDXRef-Package-6bcacfa2a36d3b06",
+      "versionInfo": "3.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/jakarta.validation/jakarta.validation-api@3.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: jakarta.validation:jakarta.validation-api:3.0.2::164aca7f"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.tomcat.embed:tomcat-embed-core",
+      "SPDXID": "SPDXRef-Package-8f57e219c47b903e",
+      "versionInfo": "10.1.34",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@10.1.34"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.tomcat.embed:tomcat-embed-core:10.1.34::7493a774"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.tomcat.embed:tomcat-embed-el",
+      "SPDXID": "SPDXRef-Package-49559d803a01c76",
+      "versionInfo": "10.1.34",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@10.1.34"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.tomcat.embed:tomcat-embed-el:10.1.34::7cb18dd4"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.tomcat.embed:tomcat-embed-websocket",
+      "SPDXID": "SPDXRef-Package-755dd94d86b61a61",
+      "versionInfo": "10.1.34",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@10.1.34"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.tomcat.embed:tomcat-embed-websocket:10.1.34::a9ef8512"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.hibernate.validator:hibernate-validator",
+      "SPDXID": "SPDXRef-Package-6a0a480b5c05045a",
+      "versionInfo": "8.0.2.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hibernate.validator/hibernate-validator@8.0.2.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.hibernate.validator:hibernate-validator:8.0.2.Final::4af4bb51"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.jboss.logging:jboss-logging",
+      "SPDXID": "SPDXRef-Package-f5605b615f4de3bf",
+      "versionInfo": "3.4.3.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jboss.logging/jboss-logging@3.4.3.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.jboss.logging:jboss-logging:3.4.3.Final::b8227757"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.slf4j:jul-to-slf4j",
+      "SPDXID": "SPDXRef-Package-dffbea70106ea9f0",
+      "versionInfo": "2.0.16",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/jul-to-slf4j@2.0.16"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.slf4j:jul-to-slf4j:2.0.16::f882ea94"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.slf4j:slf4j-api",
+      "SPDXID": "SPDXRef-Package-b4a982b067df30a",
+      "versionInfo": "2.0.13",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@2.0.13"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.slf4j:slf4j-api:2.0.13::3bf3fb5f"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot:spring-boot",
+      "SPDXID": "SPDXRef-Package-346eb2981e08cf0a",
+      "versionInfo": "3.4.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot@3.4.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.springframework.boot:spring-boot:3.4.1::eee62e76"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot:spring-boot-autoconfigure",
+      "SPDXID": "SPDXRef-Package-fef3d24850e9d74d",
+      "versionInfo": "3.4.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.4.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.springframework.boot:spring-boot-autoconfigure:3.4.1::c32f8182"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot:spring-boot-starter",
+      "SPDXID": "SPDXRef-Package-8da2b4db9b2a456c",
+      "versionInfo": "3.4.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter@3.4.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.springframework.boot:spring-boot-starter:3.4.1::be3c25af"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot:spring-boot-starter-json",
+      "SPDXID": "SPDXRef-Package-eef52164f240090b",
+      "versionInfo": "3.4.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-json@3.4.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.springframework.boot:spring-boot-starter-json:3.4.1::3c7eb4d8"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot:spring-boot-starter-logging",
+      "SPDXID": "SPDXRef-Package-de80f50f0fe41cca",
+      "versionInfo": "3.4.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@3.4.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.springframework.boot:spring-boot-starter-logging:3.4.1::22241620"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot:spring-boot-starter-tomcat",
+      "SPDXID": "SPDXRef-Package-dcb465bdcb57f698",
+      "versionInfo": "3.4.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat@3.4.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.springframework.boot:spring-boot-starter-tomcat:3.4.1::da470f74"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot:spring-boot-starter-validation",
+      "SPDXID": "SPDXRef-Package-ed448e9e1568f3d7",
+      "versionInfo": "3.4.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-validation@3.4.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.springframework.boot:spring-boot-starter-validation:3.4.1::d1629f0a"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot:spring-boot-starter-web",
+      "SPDXID": "SPDXRef-Package-32fa5faf95bce516",
+      "versionInfo": "3.4.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-web@3.4.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.springframework.boot:spring-boot-starter-web:3.4.1::ec1d6414"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework:spring-aop",
+      "SPDXID": "SPDXRef-Package-6316413836e3f5c9",
+      "versionInfo": "6.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-aop@6.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.springframework:spring-aop:6.2.1::c6e0393a"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework:spring-beans",
+      "SPDXID": "SPDXRef-Package-20d14d1cb3a6c39",
+      "versionInfo": "6.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-beans@6.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.springframework:spring-beans:6.2.1::95043412"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework:spring-context",
+      "SPDXID": "SPDXRef-Package-b05d3807c099e1ee",
+      "versionInfo": "6.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-context@6.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.springframework:spring-context:6.2.1::ebb8e154"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework:spring-core",
+      "SPDXID": "SPDXRef-Package-2bfef6a551a00927",
+      "versionInfo": "6.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-core@6.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.springframework:spring-core:6.2.1::ea521952"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework:spring-expression",
+      "SPDXID": "SPDXRef-Package-13324958310094ae",
+      "versionInfo": "6.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-expression@6.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.springframework:spring-expression:6.2.1::f3f24816"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework:spring-jcl",
+      "SPDXID": "SPDXRef-Package-ed15b8da5c986b8",
+      "versionInfo": "6.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-jcl@6.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.springframework:spring-jcl:6.2.1::db0320bf"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework:spring-web",
+      "SPDXID": "SPDXRef-Package-8592f5f4fc589f49",
+      "versionInfo": "6.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-web@6.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.springframework:spring-web:6.2.1::f9e6c300"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework:spring-webmvc",
+      "SPDXID": "SPDXRef-Package-fa703582406ae705",
+      "versionInfo": "6.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-webmvc@6.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.springframework:spring-webmvc:6.2.1::346fb22e"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.yaml:snakeyaml",
+      "SPDXID": "SPDXRef-Package-272cb2664e61d2e0",
+      "versionInfo": "2.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.yaml/snakeyaml@2.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.yaml:snakeyaml:2.3::73ad66cd"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/feiniaojin/graceful-response",
+      "SPDXID": "SPDXRef-Repository-cb2603dfea44118",
+      "downloadLocation": "git+https://github.com/feiniaojin/graceful-response",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:06:39Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-2e634d8e67fc133b",
+      "extractedText": "This component is licensed under \"GPL-2.0-only WITH classpath-exception\"",
+      "name": "GPL-2.0-only WITH classpath-exception"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-157bf9114c968510",
+      "relatedSpdxElement": "SPDXRef-Package-cb42e53a4137fdbf",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-cb2603dfea44118",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-13324958310094ae",
+      "relatedSpdxElement": "SPDXRef-Package-2bfef6a551a00927",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-20d14d1cb3a6c39",
+      "relatedSpdxElement": "SPDXRef-Package-2bfef6a551a00927",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2bfef6a551a00927",
+      "relatedSpdxElement": "SPDXRef-Package-ed15b8da5c986b8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-32fa5faf95bce516",
+      "relatedSpdxElement": "SPDXRef-Package-8592f5f4fc589f49",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-32fa5faf95bce516",
+      "relatedSpdxElement": "SPDXRef-Package-8da2b4db9b2a456c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-32fa5faf95bce516",
+      "relatedSpdxElement": "SPDXRef-Package-dcb465bdcb57f698",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-32fa5faf95bce516",
+      "relatedSpdxElement": "SPDXRef-Package-eef52164f240090b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-32fa5faf95bce516",
+      "relatedSpdxElement": "SPDXRef-Package-fa703582406ae705",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-346eb2981e08cf0a",
+      "relatedSpdxElement": "SPDXRef-Package-2bfef6a551a00927",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-346eb2981e08cf0a",
+      "relatedSpdxElement": "SPDXRef-Package-b05d3807c099e1ee",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3c0cd302f7dc8841",
+      "relatedSpdxElement": "SPDXRef-Package-baf89a71bda55451",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-44f2919d9066177f",
+      "relatedSpdxElement": "SPDXRef-Package-893ecc46c9b6e0f5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-44f2919d9066177f",
+      "relatedSpdxElement": "SPDXRef-Package-98af368a406b967b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-52f11b7b1035f022",
+      "relatedSpdxElement": "SPDXRef-Package-3a9ab73ce4217021",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6316413836e3f5c9",
+      "relatedSpdxElement": "SPDXRef-Package-20d14d1cb3a6c39",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6316413836e3f5c9",
+      "relatedSpdxElement": "SPDXRef-Package-2bfef6a551a00927",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6a0a480b5c05045a",
+      "relatedSpdxElement": "SPDXRef-Package-437bea2a822f852",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6a0a480b5c05045a",
+      "relatedSpdxElement": "SPDXRef-Package-6bcacfa2a36d3b06",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6a0a480b5c05045a",
+      "relatedSpdxElement": "SPDXRef-Package-f5605b615f4de3bf",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-755dd94d86b61a61",
+      "relatedSpdxElement": "SPDXRef-Package-8f57e219c47b903e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8592f5f4fc589f49",
+      "relatedSpdxElement": "SPDXRef-Package-20d14d1cb3a6c39",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8592f5f4fc589f49",
+      "relatedSpdxElement": "SPDXRef-Package-2bfef6a551a00927",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8592f5f4fc589f49",
+      "relatedSpdxElement": "SPDXRef-Package-52f11b7b1035f022",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-893ecc46c9b6e0f5",
+      "relatedSpdxElement": "SPDXRef-Package-25b1ca607d097795",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-893ecc46c9b6e0f5",
+      "relatedSpdxElement": "SPDXRef-Package-98af368a406b967b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8da2b4db9b2a456c",
+      "relatedSpdxElement": "SPDXRef-Package-272cb2664e61d2e0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8da2b4db9b2a456c",
+      "relatedSpdxElement": "SPDXRef-Package-2bfef6a551a00927",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8da2b4db9b2a456c",
+      "relatedSpdxElement": "SPDXRef-Package-346eb2981e08cf0a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8da2b4db9b2a456c",
+      "relatedSpdxElement": "SPDXRef-Package-dd45453dd8846d5e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8da2b4db9b2a456c",
+      "relatedSpdxElement": "SPDXRef-Package-de80f50f0fe41cca",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8da2b4db9b2a456c",
+      "relatedSpdxElement": "SPDXRef-Package-fef3d24850e9d74d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b05d3807c099e1ee",
+      "relatedSpdxElement": "SPDXRef-Package-13324958310094ae",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b05d3807c099e1ee",
+      "relatedSpdxElement": "SPDXRef-Package-20d14d1cb3a6c39",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b05d3807c099e1ee",
+      "relatedSpdxElement": "SPDXRef-Package-2bfef6a551a00927",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b05d3807c099e1ee",
+      "relatedSpdxElement": "SPDXRef-Package-52f11b7b1035f022",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b05d3807c099e1ee",
+      "relatedSpdxElement": "SPDXRef-Package-6316413836e3f5c9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cb42e53a4137fdbf",
+      "relatedSpdxElement": "SPDXRef-Package-32fa5faf95bce516",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cb42e53a4137fdbf",
+      "relatedSpdxElement": "SPDXRef-Package-6bcacfa2a36d3b06",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cb42e53a4137fdbf",
+      "relatedSpdxElement": "SPDXRef-Package-b4a982b067df30a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cb42e53a4137fdbf",
+      "relatedSpdxElement": "SPDXRef-Package-dd45453dd8846d5e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cb42e53a4137fdbf",
+      "relatedSpdxElement": "SPDXRef-Package-ed448e9e1568f3d7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dcb465bdcb57f698",
+      "relatedSpdxElement": "SPDXRef-Package-49559d803a01c76",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dcb465bdcb57f698",
+      "relatedSpdxElement": "SPDXRef-Package-755dd94d86b61a61",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dcb465bdcb57f698",
+      "relatedSpdxElement": "SPDXRef-Package-8f57e219c47b903e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dcb465bdcb57f698",
+      "relatedSpdxElement": "SPDXRef-Package-dd45453dd8846d5e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-de80f50f0fe41cca",
+      "relatedSpdxElement": "SPDXRef-Package-3c0cd302f7dc8841",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-de80f50f0fe41cca",
+      "relatedSpdxElement": "SPDXRef-Package-dffbea70106ea9f0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e37f26053ccd41f4",
+      "relatedSpdxElement": "SPDXRef-Package-893ecc46c9b6e0f5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e37f26053ccd41f4",
+      "relatedSpdxElement": "SPDXRef-Package-98af368a406b967b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e8407f9a5ceb9448",
+      "relatedSpdxElement": "SPDXRef-Package-25b1ca607d097795",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e8407f9a5ceb9448",
+      "relatedSpdxElement": "SPDXRef-Package-893ecc46c9b6e0f5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e8407f9a5ceb9448",
+      "relatedSpdxElement": "SPDXRef-Package-98af368a406b967b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ed448e9e1568f3d7",
+      "relatedSpdxElement": "SPDXRef-Package-49559d803a01c76",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ed448e9e1568f3d7",
+      "relatedSpdxElement": "SPDXRef-Package-6a0a480b5c05045a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ed448e9e1568f3d7",
+      "relatedSpdxElement": "SPDXRef-Package-8da2b4db9b2a456c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-eef52164f240090b",
+      "relatedSpdxElement": "SPDXRef-Package-44f2919d9066177f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-eef52164f240090b",
+      "relatedSpdxElement": "SPDXRef-Package-8592f5f4fc589f49",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-eef52164f240090b",
+      "relatedSpdxElement": "SPDXRef-Package-893ecc46c9b6e0f5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-eef52164f240090b",
+      "relatedSpdxElement": "SPDXRef-Package-8da2b4db9b2a456c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-eef52164f240090b",
+      "relatedSpdxElement": "SPDXRef-Package-e37f26053ccd41f4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-eef52164f240090b",
+      "relatedSpdxElement": "SPDXRef-Package-e8407f9a5ceb9448",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fa703582406ae705",
+      "relatedSpdxElement": "SPDXRef-Package-13324958310094ae",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fa703582406ae705",
+      "relatedSpdxElement": "SPDXRef-Package-20d14d1cb3a6c39",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fa703582406ae705",
+      "relatedSpdxElement": "SPDXRef-Package-2bfef6a551a00927",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fa703582406ae705",
+      "relatedSpdxElement": "SPDXRef-Package-6316413836e3f5c9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fa703582406ae705",
+      "relatedSpdxElement": "SPDXRef-Package-8592f5f4fc589f49",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fa703582406ae705",
+      "relatedSpdxElement": "SPDXRef-Package-b05d3807c099e1ee",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fef3d24850e9d74d",
+      "relatedSpdxElement": "SPDXRef-Package-346eb2981e08cf0a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-cb2603dfea44118",
+      "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

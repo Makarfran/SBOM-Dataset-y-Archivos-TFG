@@ -1,0 +1,95 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:19a6b3eb-98b2-4959-b3af-cdf51969c845",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-30T16:43:46+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "4b0d7637-c846-46e5-b464-ea610564b50d",
+      "type": "application",
+      "name": "https://github.com/jhy/jsoup",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "b4733022-74b1-40b3-bc1d-f39f1fa584fe",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jsoup/jsoup@1.22.2-SNAPSHOT",
+      "type": "library",
+      "group": "org.jsoup",
+      "name": "jsoup",
+      "version": "1.22.2-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jsoup/jsoup@1.22.2-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.jsoup:jsoup:1.22.2-SNAPSHOT::a011ec95"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "4b0d7637-c846-46e5-b464-ea610564b50d",
+      "dependsOn": [
+        "b4733022-74b1-40b3-bc1d-f39f1fa584fe"
+      ]
+    },
+    {
+      "ref": "b4733022-74b1-40b3-bc1d-f39f1fa584fe",
+      "dependsOn": [
+        "pkg:maven/org.jsoup/jsoup@1.22.2-SNAPSHOT"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jsoup/jsoup@1.22.2-SNAPSHOT",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

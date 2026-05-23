@@ -1,0 +1,95 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:543433b4-ea40-4fbb-813d-ea828ce69758",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-24T17:36:48+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "976d06cf-dd04-47c8-9c3e-3f68278c58a9",
+      "type": "application",
+      "name": "https://github.com/NLPchina/nlp-lang",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "14bb7c7a-cc1a-48d9-a652-0ef18b2d9907",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.nlpcn/nlp-lang@1.7.9",
+      "type": "library",
+      "group": "org.nlpcn",
+      "name": "nlp-lang",
+      "version": "1.7.9",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.nlpcn/nlp-lang@1.7.9",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.nlpcn:nlp-lang:1.7.9::6c5f072f"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "14bb7c7a-cc1a-48d9-a652-0ef18b2d9907",
+      "dependsOn": [
+        "pkg:maven/org.nlpcn/nlp-lang@1.7.9"
+      ]
+    },
+    {
+      "ref": "976d06cf-dd04-47c8-9c3e-3f68278c58a9",
+      "dependsOn": [
+        "14bb7c7a-cc1a-48d9-a652-0ef18b2d9907"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.nlpcn/nlp-lang@1.7.9",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

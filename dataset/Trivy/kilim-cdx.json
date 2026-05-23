@@ -1,0 +1,294 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:06981931-83c6-4d9f-b5d7-ab8cb1eac535",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-30T16:50:39+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "241ec962-37e2-4867-8b1d-7995376633d9",
+      "type": "application",
+      "name": "https://github.com/kilim/kilim",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "0ef2c324-d8c5-4b57-a116-56eca08312b0",
+      "type": "library",
+      "group": "org.db4j",
+      "name": "kilim",
+      "version": "2.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.db4j/kilim@2.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.db4j:kilim:2.0.2::633956a6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "16d69ba5-b4c1-420b-8d2b-2021e11b4e01",
+      "type": "library",
+      "group": "org.ow2.asm",
+      "name": "asm-tree",
+      "version": "7.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.ow2.asm/asm-tree@7.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.ow2.asm:asm-tree:7.1::c3ba7720"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "230a9c50-b348-48bf-ba26-a62d94f3c8f8",
+      "type": "library",
+      "group": "org.ow2.asm",
+      "name": "asm-tree",
+      "version": "7.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.ow2.asm/asm-tree@7.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.ow2.asm:asm-tree:7.1::a6cd1233"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "3bbe8db8-d25f-46b3-bf85-e228608563ec",
+      "type": "library",
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "7.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.ow2.asm/asm@7.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.ow2.asm:asm:7.1::477173cd"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "70d3b30c-6be5-432d-b4b9-c546f58caddc",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "74391fa8-33f7-4dc3-8f35-c690178a77b2",
+      "type": "library",
+      "group": "org.db4j",
+      "name": "kilim",
+      "version": "2.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.db4j/kilim@2.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.db4j:kilim:2.0.2::3d89285b"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "74b141e7-44ed-46ce-8597-dc8298790afd",
+      "type": "library",
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "7.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.ow2.asm/asm@7.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.ow2.asm:asm:7.1::58d6998b"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b7266793-3bb9-44b0-9a4c-852fb8b32896",
+      "type": "application",
+      "name": "demos/poms/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.db4j/kilim-demo@0.1",
+      "type": "library",
+      "group": "org.db4j",
+      "name": "kilim-demo",
+      "version": "0.1",
+      "purl": "pkg:maven/org.db4j/kilim-demo@0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.db4j:kilim-demo:0.1::e12b361a"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "0ef2c324-d8c5-4b57-a116-56eca08312b0",
+      "dependsOn": [
+        "230a9c50-b348-48bf-ba26-a62d94f3c8f8"
+      ]
+    },
+    {
+      "ref": "16d69ba5-b4c1-420b-8d2b-2021e11b4e01",
+      "dependsOn": [
+        "74b141e7-44ed-46ce-8597-dc8298790afd"
+      ]
+    },
+    {
+      "ref": "230a9c50-b348-48bf-ba26-a62d94f3c8f8",
+      "dependsOn": [
+        "3bbe8db8-d25f-46b3-bf85-e228608563ec"
+      ]
+    },
+    {
+      "ref": "241ec962-37e2-4867-8b1d-7995376633d9",
+      "dependsOn": [
+        "70d3b30c-6be5-432d-b4b9-c546f58caddc",
+        "b7266793-3bb9-44b0-9a4c-852fb8b32896"
+      ]
+    },
+    {
+      "ref": "3bbe8db8-d25f-46b3-bf85-e228608563ec",
+      "dependsOn": []
+    },
+    {
+      "ref": "70d3b30c-6be5-432d-b4b9-c546f58caddc",
+      "dependsOn": [
+        "0ef2c324-d8c5-4b57-a116-56eca08312b0"
+      ]
+    },
+    {
+      "ref": "74391fa8-33f7-4dc3-8f35-c690178a77b2",
+      "dependsOn": [
+        "16d69ba5-b4c1-420b-8d2b-2021e11b4e01"
+      ]
+    },
+    {
+      "ref": "74b141e7-44ed-46ce-8597-dc8298790afd",
+      "dependsOn": []
+    },
+    {
+      "ref": "b7266793-3bb9-44b0-9a4c-852fb8b32896",
+      "dependsOn": [
+        "pkg:maven/org.db4j/kilim-demo@0.1"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.db4j/kilim-demo@0.1",
+      "dependsOn": [
+        "74391fa8-33f7-4dc3-8f35-c690178a77b2"
+      ]
+    }
+  ],
+  "vulnerabilities": []
+}

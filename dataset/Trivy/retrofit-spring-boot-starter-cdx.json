@@ -1,0 +1,568 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:77581113-7f1c-4dd5-b71b-e733239c48ea",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-30T17:15:07+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "40c7d14d-94de-4ef5-a38f-fd029206b944",
+      "type": "application",
+      "name": "https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "5bea710d-935c-4a58-94aa-03d30a3235ff",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.19.0",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "version": "2.19.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.19.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.fasterxml.jackson.core:jackson-annotations:2.19.0::14669b09"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.0",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.19.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.fasterxml.jackson.core:jackson-core:2.19.0::a9e0c7a9"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.0",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.19.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.fasterxml.jackson.core:jackson-databind:2.19.0::df4031c9"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.github.lianjiatech/retrofit-spring-boot-starter@4.0.4",
+      "type": "library",
+      "group": "com.github.lianjiatech",
+      "name": "retrofit-spring-boot-starter",
+      "version": "4.0.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.lianjiatech/retrofit-spring-boot-starter@4.0.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.github.lianjiatech:retrofit-spring-boot-starter:4.0.4::1ca1c936"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.squareup.okhttp3/logging-interceptor@4.12.0",
+      "type": "library",
+      "group": "com.squareup.okhttp3",
+      "name": "logging-interceptor",
+      "version": "4.12.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.squareup.okhttp3/logging-interceptor@4.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.squareup.okhttp3:logging-interceptor:4.12.0::40df5659"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.squareup.okhttp3/okhttp@4.12.0",
+      "type": "library",
+      "group": "com.squareup.okhttp3",
+      "name": "okhttp",
+      "version": "4.12.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.squareup.okhttp3/okhttp@4.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.squareup.okhttp3:okhttp:4.12.0::fdf69b0b"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.squareup.okio/okio-jvm@3.6.0",
+      "type": "library",
+      "group": "com.squareup.okio",
+      "name": "okio-jvm",
+      "version": "3.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.squareup.okio/okio-jvm@3.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.squareup.okio:okio-jvm:3.6.0::ac4881f2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.squareup.okio/okio@3.6.0",
+      "type": "library",
+      "group": "com.squareup.okio",
+      "name": "okio",
+      "version": "3.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.squareup.okio/okio@3.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.squareup.okio:okio:3.6.0::747b982e"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.squareup.retrofit2/converter-jackson@3.0.0",
+      "type": "library",
+      "group": "com.squareup.retrofit2",
+      "name": "converter-jackson",
+      "version": "3.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.squareup.retrofit2/converter-jackson@3.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.squareup.retrofit2:converter-jackson:3.0.0::eb7b4999"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.squareup.retrofit2/retrofit@3.0.0",
+      "type": "library",
+      "group": "com.squareup.retrofit2",
+      "name": "retrofit",
+      "version": "3.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.squareup.retrofit2/retrofit@3.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.squareup.retrofit2:retrofit:3.0.0::9c6d6e73"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1",
+      "type": "library",
+      "group": "jakarta.annotation",
+      "name": "jakarta.annotation-api",
+      "version": "2.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GPL-2.0-only WITH classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jakarta.annotation:jakarta.annotation-api:2.1.1::e52367da"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.9.10",
+      "type": "library",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-common",
+      "version": "1.9.10",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.9.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10::6a4161d7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.8.21",
+      "type": "library",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk7",
+      "version": "1.8.21",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.8.21",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.21::d7ae0081"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.21",
+      "type": "library",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk8",
+      "version": "1.8.21",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.21",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21::624a93a8"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.1.21",
+      "type": "library",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "2.1.21",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.1.21",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.jetbrains.kotlin:kotlin-stdlib:2.1.21::f7e651fb"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains/annotations@13.0",
+      "type": "library",
+      "group": "org.jetbrains",
+      "name": "annotations",
+      "version": "13.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains/annotations@13.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.jetbrains:annotations:13.0::e7feb09b"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "40c7d14d-94de-4ef5-a38f-fd029206b944",
+      "dependsOn": [
+        "5bea710d-935c-4a58-94aa-03d30a3235ff"
+      ]
+    },
+    {
+      "ref": "5bea710d-935c-4a58-94aa-03d30a3235ff",
+      "dependsOn": [
+        "pkg:maven/com.github.lianjiatech/retrofit-spring-boot-starter@4.0.4"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.19.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.0",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.19.0",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.github.lianjiatech/retrofit-spring-boot-starter@4.0.4",
+      "dependsOn": [
+        "pkg:maven/com.squareup.okhttp3/logging-interceptor@4.12.0",
+        "pkg:maven/com.squareup.okhttp3/okhttp@4.12.0",
+        "pkg:maven/com.squareup.retrofit2/converter-jackson@3.0.0",
+        "pkg:maven/com.squareup.retrofit2/retrofit@3.0.0",
+        "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.squareup.okhttp3/logging-interceptor@4.12.0",
+      "dependsOn": [
+        "pkg:maven/com.squareup.okhttp3/okhttp@4.12.0",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.21"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.squareup.okhttp3/okhttp@4.12.0",
+      "dependsOn": [
+        "pkg:maven/com.squareup.okio/okio@3.6.0",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.21"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.squareup.okio/okio-jvm@3.6.0",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.9.10",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.21"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.squareup.okio/okio@3.6.0",
+      "dependsOn": [
+        "pkg:maven/com.squareup.okio/okio-jvm@3.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.squareup.retrofit2/converter-jackson@3.0.0",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.0",
+        "pkg:maven/com.squareup.retrofit2/retrofit@3.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.squareup.retrofit2/retrofit@3.0.0",
+      "dependsOn": [
+        "pkg:maven/com.squareup.okhttp3/okhttp@4.12.0",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.1.21"
+      ]
+    },
+    {
+      "ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.9.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.8.21",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.1.21"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.21",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.8.21",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.1.21"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.1.21",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains/annotations@13.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains/annotations@13.0",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

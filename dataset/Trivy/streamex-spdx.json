@@ -1,0 +1,368 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "https://github.com/amaembo/streamex",
+  "documentNamespace": "http://trivy.dev/repository/github.com/amaembo/streamex-b1a67829-4fb8-436d-b73b-e39da7848161",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.69.3"
+    ],
+    "created": "2026-04-02T09:44:56Z"
+  },
+  "packages": [
+    {
+      "name": "benchmark/pom.xml",
+      "SPDXID": "SPDXRef-Application-ecbbe033b25266",
+      "downloadLocation": "git+https://github.com/amaembo/streamex",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-157bf9114c968510",
+      "downloadLocation": "git+https://github.com/amaembo/streamex",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "net.sf.jopt-simple:jopt-simple",
+      "SPDXID": "SPDXRef-Package-db955a0fc522feda",
+      "versionInfo": "4.6",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/amaembo/streamex",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: benchmark/pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.sf.jopt-simple/jopt-simple@4.6"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: net.sf.jopt-simple:jopt-simple:4.6::516c6d02"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "one.util:streamex",
+      "SPDXID": "SPDXRef-Package-1a3018dc723af580",
+      "versionInfo": "0.8.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/amaembo/streamex",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: benchmark/pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/one.util/streamex@0.8.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: one.util:streamex:0.8.3::60974b92"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "one.util:streamex",
+      "SPDXID": "SPDXRef-Package-684d3efc085c703",
+      "versionInfo": "0.9.0-SNAPSHOT",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/amaembo/streamex",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/one.util/streamex@0.9.0-SNAPSHOT"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: one.util:streamex:0.9.0-SNAPSHOT::fd1b38a5"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "one.util:streamex-benchmark",
+      "SPDXID": "SPDXRef-Package-5bc76b5a9374e197",
+      "versionInfo": "0.8.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/amaembo/streamex",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: benchmark/pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/one.util/streamex-benchmark@0.8.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: one.util:streamex-benchmark:0.8.3::3161d761"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.commons:commons-math3",
+      "SPDXID": "SPDXRef-Package-1e33fb9820ca45c5",
+      "versionInfo": "3.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/amaembo/streamex",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: benchmark/pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-math3@3.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.commons:commons-math3:3.2::aaf84680"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.openjdk.jmh:jmh-core",
+      "SPDXID": "SPDXRef-Package-26e58bc3b0718964",
+      "versionInfo": "1.21",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/amaembo/streamex",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: benchmark/pom.xml",
+      "licenseConcluded": "LicenseRef-2e634d8e67fc133b",
+      "licenseDeclared": "LicenseRef-2e634d8e67fc133b",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.openjdk.jmh/jmh-core@1.21"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.openjdk.jmh:jmh-core:1.21::14317433"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.openjdk.jmh:jmh-generator-annprocess",
+      "SPDXID": "SPDXRef-Package-70eceb543afb2138",
+      "versionInfo": "1.21",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/amaembo/streamex",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: benchmark/pom.xml",
+      "licenseConcluded": "LicenseRef-2e634d8e67fc133b",
+      "licenseDeclared": "LicenseRef-2e634d8e67fc133b",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.openjdk.jmh/jmh-generator-annprocess@1.21"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.openjdk.jmh:jmh-generator-annprocess:1.21::f9e1cbf5"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/amaembo/streamex",
+      "SPDXID": "SPDXRef-Repository-bd13075faaab95c",
+      "downloadLocation": "git+https://github.com/amaembo/streamex",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-02T09:44:56Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-2e634d8e67fc133b",
+      "extractedText": "This component is licensed under \"GPL-2.0-only WITH classpath-exception\"",
+      "name": "GPL-2.0-only WITH classpath-exception"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-157bf9114c968510",
+      "relatedSpdxElement": "SPDXRef-Package-684d3efc085c703",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ecbbe033b25266",
+      "relatedSpdxElement": "SPDXRef-Package-5bc76b5a9374e197",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-bd13075faaab95c",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-26e58bc3b0718964",
+      "relatedSpdxElement": "SPDXRef-Package-1e33fb9820ca45c5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-26e58bc3b0718964",
+      "relatedSpdxElement": "SPDXRef-Package-db955a0fc522feda",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5bc76b5a9374e197",
+      "relatedSpdxElement": "SPDXRef-Package-1a3018dc723af580",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5bc76b5a9374e197",
+      "relatedSpdxElement": "SPDXRef-Package-26e58bc3b0718964",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5bc76b5a9374e197",
+      "relatedSpdxElement": "SPDXRef-Package-70eceb543afb2138",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-70eceb543afb2138",
+      "relatedSpdxElement": "SPDXRef-Package-26e58bc3b0718964",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-bd13075faaab95c",
+      "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-bd13075faaab95c",
+      "relatedSpdxElement": "SPDXRef-Application-ecbbe033b25266",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

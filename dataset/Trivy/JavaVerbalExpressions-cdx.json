@@ -1,0 +1,95 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:955e1188-8394-4a5a-9975-bf5e86588a8c",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-24T16:59:41+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "921b0b3d-810a-49f8-88ae-9dc3c4743bf0",
+      "type": "application",
+      "name": "https://github.com/VerbalExpressions/JavaVerbalExpressions",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "defb5bc4-534a-4135-9685-b99af39e9443",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/ru.lanwen.verbalregex/java-verbal-expressions@1.5-SNAPSHOT",
+      "type": "library",
+      "group": "ru.lanwen.verbalregex",
+      "name": "java-verbal-expressions",
+      "version": "1.5-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ru.lanwen.verbalregex/java-verbal-expressions@1.5-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ru.lanwen.verbalregex:java-verbal-expressions:1.5-SNAPSHOT::9c4d5c5c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "921b0b3d-810a-49f8-88ae-9dc3c4743bf0",
+      "dependsOn": [
+        "defb5bc4-534a-4135-9685-b99af39e9443"
+      ]
+    },
+    {
+      "ref": "defb5bc4-534a-4135-9685-b99af39e9443",
+      "dependsOn": [
+        "pkg:maven/ru.lanwen.verbalregex/java-verbal-expressions@1.5-SNAPSHOT"
+      ]
+    },
+    {
+      "ref": "pkg:maven/ru.lanwen.verbalregex/java-verbal-expressions@1.5-SNAPSHOT",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

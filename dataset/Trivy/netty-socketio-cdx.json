@@ -1,0 +1,485 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:a4031897-0267-4de8-a561-21f060a90a39",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-30T16:49:28+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "7144e583-76ce-478c-90ba-a0fa91f7fee9",
+      "type": "application",
+      "name": "https://github.com/mrniko/netty-socketio",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "a18a05ec-230b-4161-9330-35f10a001308",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.corundumstudio.socketio/netty-socketio@2.0.15-SNAPSHOT",
+      "type": "library",
+      "group": "com.corundumstudio.socketio",
+      "name": "netty-socketio",
+      "version": "2.0.15-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.corundumstudio.socketio/netty-socketio@2.0.15-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.corundumstudio.socketio:netty-socketio:2.0.15-SNAPSHOT::76df0356"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.18.3",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "version": "2.18.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.18.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.fasterxml.jackson.core:jackson-annotations:2.18.3::68ac594c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.18.3",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.18.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.18.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.fasterxml.jackson.core:jackson-core:2.18.3::7984ca28"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.18.3",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.18.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.18.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.fasterxml.jackson.core:jackson-databind:2.18.3::1176cc94"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-buffer@4.1.130.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-buffer",
+      "version": "4.1.130.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-buffer@4.1.130.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-buffer:4.1.130.Final::df5d34f2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-codec-http@4.1.130.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec-http",
+      "version": "4.1.130.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-codec-http@4.1.130.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-codec-http:4.1.130.Final::aceb9910"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-codec@4.1.130.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec",
+      "version": "4.1.130.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-codec@4.1.130.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-codec:4.1.130.Final::6fd4f205"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-common@4.1.130.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-common",
+      "version": "4.1.130.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-common@4.1.130.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-common:4.1.130.Final::11318e47"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-handler@4.1.130.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-handler",
+      "version": "4.1.130.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-handler@4.1.130.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-handler:4.1.130.Final::b466b415"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-resolver@4.1.130.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-resolver",
+      "version": "4.1.130.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-resolver@4.1.130.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-resolver:4.1.130.Final::c4fd3ac0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.130.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport-native-unix-common",
+      "version": "4.1.130.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.130.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-transport-native-unix-common:4.1.130.Final::fead8869"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport@4.1.130.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "version": "4.1.130.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-transport@4.1.130.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "io.netty:netty-transport:4.1.130.Final::6210de90"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@2.0.16",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "2.0.16",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.16",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.slf4j:slf4j-api:2.0.16::f65cd14e"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "7144e583-76ce-478c-90ba-a0fa91f7fee9",
+      "dependsOn": [
+        "a18a05ec-230b-4161-9330-35f10a001308"
+      ]
+    },
+    {
+      "ref": "a18a05ec-230b-4161-9330-35f10a001308",
+      "dependsOn": [
+        "pkg:maven/com.corundumstudio.socketio/netty-socketio@2.0.15-SNAPSHOT"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.corundumstudio.socketio/netty-socketio@2.0.15-SNAPSHOT",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.18.3",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.18.3",
+        "pkg:maven/io.netty/netty-buffer@4.1.130.Final",
+        "pkg:maven/io.netty/netty-codec-http@4.1.130.Final",
+        "pkg:maven/io.netty/netty-codec@4.1.130.Final",
+        "pkg:maven/io.netty/netty-common@4.1.130.Final",
+        "pkg:maven/io.netty/netty-handler@4.1.130.Final",
+        "pkg:maven/io.netty/netty-transport@4.1.130.Final",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.16"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.18.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.18.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.18.3",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.18.3",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.18.3"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-buffer@4.1.130.Final",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.130.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-codec-http@4.1.130.Final",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.130.Final",
+        "pkg:maven/io.netty/netty-codec@4.1.130.Final",
+        "pkg:maven/io.netty/netty-common@4.1.130.Final",
+        "pkg:maven/io.netty/netty-handler@4.1.130.Final",
+        "pkg:maven/io.netty/netty-transport@4.1.130.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-codec@4.1.130.Final",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.130.Final",
+        "pkg:maven/io.netty/netty-common@4.1.130.Final",
+        "pkg:maven/io.netty/netty-transport@4.1.130.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-common@4.1.130.Final",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-handler@4.1.130.Final",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.130.Final",
+        "pkg:maven/io.netty/netty-codec@4.1.130.Final",
+        "pkg:maven/io.netty/netty-common@4.1.130.Final",
+        "pkg:maven/io.netty/netty-resolver@4.1.130.Final",
+        "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.130.Final",
+        "pkg:maven/io.netty/netty-transport@4.1.130.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-resolver@4.1.130.Final",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.130.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.130.Final",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.130.Final",
+        "pkg:maven/io.netty/netty-common@4.1.130.Final",
+        "pkg:maven/io.netty/netty-transport@4.1.130.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport@4.1.130.Final",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.130.Final",
+        "pkg:maven/io.netty/netty-common@4.1.130.Final",
+        "pkg:maven/io.netty/netty-resolver@4.1.130.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@2.0.16",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

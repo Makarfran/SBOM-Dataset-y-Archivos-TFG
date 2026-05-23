@@ -1,0 +1,198 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "https://github.com/bytedeco/javacpp",
+  "documentNamespace": "http://trivy.dev/repository/github.com/bytedeco/javacpp-a841a27d-8e06-4335-aac1-366e05bab890",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.69.3"
+    ],
+    "created": "2026-04-19T16:09:25Z"
+  },
+  "packages": [
+    {
+      "name": "platform/pom.xml",
+      "SPDXID": "SPDXRef-Application-a164c3fb60740006",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:25Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:25Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-157bf9114c968510",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:25Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:25Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-53f4e7dff2659963",
+      "versionInfo": "1.5.14-SNAPSHOT",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp@1.5.14-SNAPSHOT"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:25Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp:1.5.14-SNAPSHOT::2eda774a"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:25Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp",
+      "SPDXID": "SPDXRef-Package-b758fff7327421ba",
+      "versionInfo": "1.5.14-SNAPSHOT",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp@1.5.14-SNAPSHOT"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:25Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp:1.5.14-SNAPSHOT::3bab2ef9"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:25Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.bytedeco:javacpp-platform",
+      "SPDXID": "SPDXRef-Package-917696c8b5d4e795",
+      "versionInfo": "1.5.14-SNAPSHOT",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platform/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bytedeco/javacpp-platform@1.5.14-SNAPSHOT"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:25Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.bytedeco:javacpp-platform:1.5.14-SNAPSHOT::77161496"
+        },
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:25Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/bytedeco/javacpp",
+      "SPDXID": "SPDXRef-Repository-848c44a30e91edc1",
+      "downloadLocation": "git+https://github.com/bytedeco/javacpp",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.69.3",
+          "annotationDate": "2026-04-19T16:09:25Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-157bf9114c968510",
+      "relatedSpdxElement": "SPDXRef-Package-b758fff7327421ba",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-a164c3fb60740006",
+      "relatedSpdxElement": "SPDXRef-Package-917696c8b5d4e795",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-848c44a30e91edc1",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-917696c8b5d4e795",
+      "relatedSpdxElement": "SPDXRef-Package-53f4e7dff2659963",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-848c44a30e91edc1",
+      "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-848c44a30e91edc1",
+      "relatedSpdxElement": "SPDXRef-Application-a164c3fb60740006",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}
