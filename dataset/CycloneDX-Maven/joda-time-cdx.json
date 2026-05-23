@@ -1,0 +1,257 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.6",
+  "serialNumber" : "urn:uuid:c32125f3-1144-30c4-8029-7e1e4307d01e",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-04-06T16:42:15Z",
+    "lifecycles" : [
+      {
+        "phase" : "build"
+      }
+    ],
+    "tools" : {
+      "components" : [
+        {
+          "type" : "library",
+          "author" : "OWASP Foundation",
+          "group" : "org.cyclonedx",
+          "name" : "cyclonedx-maven-plugin",
+          "version" : "2.9.0",
+          "description" : "CycloneDX Maven plugin",
+          "hashes" : [
+            {
+              "alg" : "MD5",
+              "content" : "dfaeab7ec837ce07874e2ee66fdc57d3"
+            },
+            {
+              "alg" : "SHA-1",
+              "content" : "8bab47bafc8183d0a5f37790ff55ed05ead1ae2d"
+            },
+            {
+              "alg" : "SHA-256",
+              "content" : "67117e03eae4a03ca8bab3add044995f4899aa21798a2510b8265ef8101e90ac"
+            },
+            {
+              "alg" : "SHA-512",
+              "content" : "ae6b706516bb76da806b7854aef9e348fa593f5159ae9d693ad38942165c0ebc0846d977a477f6029612d43468fd2cd73a5aa253c228a94fb8d184e0acefc3d2"
+            },
+            {
+              "alg" : "SHA-384",
+              "content" : "ee872354d8b0dcd6f9835a913b3aaba70d9365a46043be78020183282a1e9fca812e969246cbe31d642541591b46648b"
+            },
+            {
+              "alg" : "SHA3-384",
+              "content" : "e5167f9e7ceba3b7b4d1900c404543907868745334bedc69cdf79c271727148413033a3b1426b733b7549e612e44adee"
+            },
+            {
+              "alg" : "SHA3-256",
+              "content" : "41fc0bc2275f354e2c7da01041ce73ce677364799cba53920a180aa5d4571c63"
+            },
+            {
+              "alg" : "SHA3-512",
+              "content" : "ed7f97900b09b818dbc0b8a23c00a2843e1bc34e2e8eb5b6df52533af0a15b721de6f7d5c2fd9352b8d4fde768e080053b40a16f0f9f04c336fe9b44abe83fc0"
+            }
+          ]
+        }
+      ]
+    },
+    "component" : {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/joda-time/joda-time@2.14.0?type=jar",
+      "publisher" : "Joda.org",
+      "group" : "joda-time",
+      "name" : "joda-time",
+      "version" : "2.14.0",
+      "description" : "Date and time library to replace JDK date handling",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/joda-time/joda-time@2.14.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://www.joda.org/joda-time/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/JodaOrg/joda-time/issues/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/JodaOrg/joda-time"
+        }
+      ]
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system,test"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.joda/joda-convert@1.9.2?type=jar",
+      "publisher" : "Joda.org",
+      "group" : "org.joda",
+      "name" : "joda-convert",
+      "version" : "1.9.2",
+      "description" : "Library to convert Objects to and from String",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d0b2a1dca0867a0cb91bf90a89c9b987"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8d892325853142eb9decae91d5fcfdc630d069e8"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "6b411dce0fa286ebf03324f0ad7a33b4b1f3042769abef04c99319cd9075f313"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b62d8c419522b76141d00890dd6521c42c02838e6441709c06bed00c9f1691b021ee4cf2d7391d99c9c2a1d4445525839d83d0696908bbc95b0bb4f397997c43"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e427bc9d30bf3838f06724c68593819c17f03bc70b7a348eb34a54b95733553a238eb011a26213ba3cd9447c1052a382"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0f277a8190b202203900e71212242de70a7d3f1b2500883a579e7f4ebb4476cf4f10a86809dda48f31bc1f661c66d9c5"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0e32c31aba3abf93f964b141ae7b13c56a325dffb3b386c0146d7a1cd22dc9c1"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "8f625f8b4544ef0c8b5873873a65f41b80270b0cedefa6a1177eeb4a9b8760aa5b19f922474058d0e7e7ed46612e6931175b4e7cf93c919cb3b41f13c93c1fc9"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.joda/joda-convert@1.9.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.joda.org/joda-convert/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "http://oss.sonatype.org/content/repositories/joda-releases"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "http://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/JodaOrg/joda-convert/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/JodaOrg/joda-convert"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/junit/junit@3.8.2?type=jar",
+      "publisher" : "JUnit",
+      "group" : "junit",
+      "name" : "junit",
+      "version" : "3.8.2",
+      "description" : "JUnit is a regression testing framework written by Erich Gamma and Kent Beck. It is used by the developer who implements unit tests in Java.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "28e7eb9eeefe31a657c68755bfccc541"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "07e4cde26b53a9a0e3fe5b00d1dbbc7cc1d46060"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ecdcc08183708ea3f7b0ddc96f19678a0db8af1fb397791d484aed63200558b0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "29a3084a39cf3f78f766056fbe59d7a14d9e766ce53859260a9a6b5ae4c43223c13f18a688ca721545c98a183a3511ce5369ace8978758a7326a8c1120c0c8a4"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "681f20ecbae4bc174bfd9723f4e512ec23aefa30bba7d05c65fcf754ebadf493470115cb3d9b79436736f2feb29522d0"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f939655850b0bac5803ce0b10b23dc2df4f7643b7babc8eb45be548a3786bed08ef9b7451d33a4b81e87728136c736b0"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2b4ea67050b05a43d158974bfa2c57c038a3484d24e26290862b3184045eb759"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "fd36fafca47641a72f1804cc736a626f73f592959ba3d2d3e1019f55d5344963891f53c9d8649235ff8c80f135a0428b2e8fee279c36249a2e31d42d031aac77"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Common Public License Version 1.0",
+            "url" : "http://www.opensource.org/licenses/cpl1.0.txt"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/junit/junit@3.8.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://junit.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://junit.cvs.sourceforge.net/junit/"
+        }
+      ]
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/joda-time/joda-time@2.14.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.joda/joda-convert@1.9.2?type=jar",
+        "pkg:maven/junit/junit@3.8.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.joda/joda-convert@1.9.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/junit/junit@3.8.2?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}

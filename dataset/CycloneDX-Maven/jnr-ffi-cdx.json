@@ -1,0 +1,994 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.6",
+  "serialNumber" : "urn:uuid:64057196-358e-38c7-ab1c-34f7aabd8842",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-04-06T16:41:52Z",
+    "lifecycles" : [
+      {
+        "phase" : "build"
+      }
+    ],
+    "tools" : {
+      "components" : [
+        {
+          "type" : "library",
+          "author" : "OWASP Foundation",
+          "group" : "org.cyclonedx",
+          "name" : "cyclonedx-maven-plugin",
+          "version" : "2.9.0",
+          "description" : "CycloneDX Maven plugin",
+          "hashes" : [
+            {
+              "alg" : "MD5",
+              "content" : "dfaeab7ec837ce07874e2ee66fdc57d3"
+            },
+            {
+              "alg" : "SHA-1",
+              "content" : "8bab47bafc8183d0a5f37790ff55ed05ead1ae2d"
+            },
+            {
+              "alg" : "SHA-256",
+              "content" : "67117e03eae4a03ca8bab3add044995f4899aa21798a2510b8265ef8101e90ac"
+            },
+            {
+              "alg" : "SHA-512",
+              "content" : "ae6b706516bb76da806b7854aef9e348fa593f5159ae9d693ad38942165c0ebc0846d977a477f6029612d43468fd2cd73a5aa253c228a94fb8d184e0acefc3d2"
+            },
+            {
+              "alg" : "SHA-384",
+              "content" : "ee872354d8b0dcd6f9835a913b3aaba70d9365a46043be78020183282a1e9fca812e969246cbe31d642541591b46648b"
+            }
+          ]
+        }
+      ]
+    },
+    "component" : {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.github.jnr/jnr-ffi@2.2.19-SNAPSHOT?type=jar",
+      "group" : "com.github.jnr",
+      "name" : "jnr-ffi",
+      "version" : "2.2.19-SNAPSHOT",
+      "description" : "A library for invoking native functions from java",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.github.jnr/jnr-ffi@2.2.19-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/jnr/jnr-ffi"
+        }
+      ]
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system,test"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.7.2?type=jar",
+      "group" : "org.junit.jupiter",
+      "name" : "junit-jupiter-engine",
+      "version" : "5.7.2",
+      "description" : "Module \"junit-jupiter-engine\" of JUnit 5.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "7cb8e985fc3e25c7664ac6d646e2e89a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9415680a889f00b8205a094c5c487bc69dc7077d"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8a35afb26cd5e8393cb763ff13d26a52a507a35c5b2d7650d42024a7226b80db"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "652a2268d54ae1f1d0f1876962479c27be892b6ea17c62ccb04af184dd3d1db21a760e39c129b129a5f82e26f791d34e90b05e385cb83c38859cb13b36eb0851"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "32a1902aae325794025e31e90758f41d0f4cc7ce9e960b6a1311b10ba2f38d9823d387bdf0ef821f7f37e08216c2b073"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.7.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://junit.org/junit5/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/junit-team/junit5"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar",
+      "group" : "org.apiguardian",
+      "name" : "apiguardian-api",
+      "version" : "1.1.0",
+      "description" : "@API Guardian",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "944805817b648e558ed6be6fc7f054f3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "fc9dff4bb36d627bdc553de77e1f17efd790876c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a9aae9ff8ae3e17a2a18f79175e82b16267c246fbbd3ca9dfbbb290b08dcfdd4"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "eb05878cf282e971a7fff0ff4a1b7b90d61e6405ea368b19832177269b21f66ad4de211f6abdd762165a72e1c19781a6df1187e6c1cce1ae2cbf0e913fc5f504"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f454c66833bd270ec9b1c11fee9c3670241172933f545975db298a0708f65753d2cf738aa928fd1f91c6a13d5872b5ff"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/apiguardian-team/apiguardian"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apiguardian-team/apiguardian"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.junit.platform/junit-platform-engine@1.7.2?type=jar",
+      "group" : "org.junit.platform",
+      "name" : "junit-platform-engine",
+      "version" : "1.7.2",
+      "description" : "Module \"junit-platform-engine\" of JUnit 5.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "06839674fdfa603d734987401d39abe3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2573770b46b8a199ed5f6b0f96fb99e468bfe891"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "abebbfa420fa8ffdc51083c06807e8692dd9bf8c52455dcdb72474ab90425573"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "afb7595e2166be3d330795d1605d8baa12c2412fc7ea1c88433a60080113e4ba5fbe2561762c9a626e98686c6f318b99df1357351e5d7e473d22b53bf7681a2f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "60ea1f6df94ab716895ecc15ad139a33887c697cc841564d57e50f0840a5087e1017b0f3c924770213b305897698681d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.junit.platform/junit-platform-engine@1.7.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://junit.org/junit5/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/junit-team/junit5"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar",
+      "group" : "org.opentest4j",
+      "name" : "opentest4j",
+      "version" : "1.2.0",
+      "description" : "Open Test Alliance for the JVM",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "45c9a837c21f68e8c93e85b121e2fb90"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "28c11eb91f9b6d8e200631d46e20a7f407f2a046"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "58812de60898d976fb81ef3b62da05c6604c18fd4a249f5044282479fc286af2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "17f77797a260eb2bd1666a90e25efc79a5413afa9df1c1cb6c4cd1949d61c38b241e3bb20956396b5f54d144720303d72a2ac00bc5bf245a260a3c3099e01c74"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ef25f5dd948c9ab7256e896da994871c1645b22a8d2d83f1e9ff7c6562b62acb70fcf0bb976a9580fb955a8e8b9c43dd"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/ota4j-team/opentest4j"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/ota4j-team/opentest4j"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.junit.platform/junit-platform-commons@1.7.2?type=jar",
+      "group" : "org.junit.platform",
+      "name" : "junit-platform-commons",
+      "version" : "1.7.2",
+      "description" : "Module \"junit-platform-commons\" of JUnit 5.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "915465d94cb76d01639ac478d105be3c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "34adfea6c13fc4a996cf38cdad80800ce850d198"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "738d0df021a0611fff5d277634e890cc91858fa72227cf0bcf36232a7caf014c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3b94c80d88f31e5645f0de99401eb3a79430fba6e5aafc1d3868978c5688fea3e23a2e66d973a6402f922c8a5d4dede835b34f55e0ef6b6844e710e86d47f68a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "cf82369d27d51d5f4c05a5796e88b8cde2c6b2ba85b4318643844510b026f26ac7d8e4fdbac7cd34540fcb3104ebc13d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.junit.platform/junit-platform-commons@1.7.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://junit.org/junit5/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/junit-team/junit5"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.7.2?type=jar",
+      "group" : "org.junit.jupiter",
+      "name" : "junit-jupiter-api",
+      "version" : "5.7.2",
+      "description" : "Module \"junit-jupiter-api\" of JUnit 5.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8398ea26631b10fc9f9ac674de0d37d3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f4b4079732a9c537983324cfa4e46655f21d2c56"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "bc98326ecbc501e1860a2bc9780aebe5777bd29cf00059f88c2a56f48fbc9ce6"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "52f696608fedc0063305603f791d54561110f2ec239572ae0e84747401621e069cabe693f5e23d675090c7eff80183310132586c9582a9195068d05eb781adf7"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4fb07fc44565ac771c04a355e8a78cd9410b0c0c60b35cc66228701a6ad2ad41717893d95ee8e0601a7b2915dda4a284"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.7.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://junit.org/junit5/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/junit-team/junit5"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.github.jnr/jffi@1.3.14?type=jar",
+      "group" : "com.github.jnr",
+      "name" : "jffi",
+      "version" : "1.3.14",
+      "description" : "Java Foreign Function Interface",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9f65659b11b4d8b03e18d274d4957541"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e12b6a40e6d7cb7489cb28cd299d855bad277d54"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "fe61cec21b07feec6191c0c7ff240f4b5048789d53ced4b2e06df0f7fad3df42"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d0be453ca344a5e6fd4e17f2122c998be9723d61010a53607b03f351099f481e030b4d8518c656415f3b02c30de03ff08663874637cbe7c89d552230bc718543"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "7050a7bab139041c4b8ffed2efa9c3aeb6bf28a6d0cfc4e55fa426c43b6bd31ba527f3e85d963e558d80e11542de0d1e"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "name" : "GNU Lesser General Public License version 3",
+            "url" : "https://www.gnu.org/licenses/lgpl-3.0.txt"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.github.jnr/jffi@1.3.14?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/jnr/jffi"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.github.jnr/jffi@1.3.14?classifier=native&type=jar",
+      "group" : "com.github.jnr",
+      "name" : "jffi",
+      "version" : "1.3.14",
+      "description" : "Java Foreign Function Interface",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "009ee73399bfbe58f146d98bcb041931"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c70bd3559a580d6bb4f0e1b63c00ce98618fff15"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d432bbd8b0773749cbec8bb59fd6963fedc6491163669196eb4108e4abc8cfd0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3efde11bb89c9ebef3ef248405940b0f6af6f40d8c2c2269d86e73a184cab66553361f9113479e5e84ef35551e7d635f1105f91978954442ab06ba2310c86454"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ac66de0712e4b064ed3751860d4ba5f9c47efd99885f98bf4f4bebd6bf2d8220d98931b610358cbc76bf4905edab456c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "name" : "GNU Lesser General Public License version 3",
+            "url" : "https://www.gnu.org/licenses/lgpl-3.0.txt"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.github.jnr/jffi@1.3.14?classifier=native&type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/jnr/jffi"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.ow2.asm/asm@9.7.1?type=jar",
+      "publisher" : "OW2",
+      "group" : "org.ow2.asm",
+      "name" : "asm",
+      "version" : "9.7.1",
+      "description" : "ASM, a very small and fast Java bytecode manipulation framework",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e2cdd32d198ad31427d298eee9d39d8d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f0ed132a49244b042cd0e15702ab9f2ce3cc8436"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8cadd43ac5eb6d09de05faecca38b917a040bb9139c7edeb4cc81c740b713281"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "4767b01603dad5c79cc1e2b5f3722f72b1059d928f184f446ba11badeb1b381b3a3a9a801cc43d25d396df950b09d19597c73173c411b1da890de808b94f1f50"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "166e2be10a19ca6a6d7cadb542eb1c948562483f02557b467a50a3d19d01318e12e5c3b495c482f3f5369be1b7f20eed"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.ow2.asm/asm@9.7.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://gitlab.ow2.org/asm/asm/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail.ow2.org/wws/arc/asm/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitlab.ow2.org/asm/asm/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.ow2.asm/asm-commons@9.7.1?type=jar",
+      "publisher" : "OW2",
+      "group" : "org.ow2.asm",
+      "name" : "asm-commons",
+      "version" : "9.7.1",
+      "description" : "Usefull class adapters based on ASM, a very small and fast Java bytecode manipulation framework",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8344aea3c8b7d707e9d35a62710e77c9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "406c6a2225cfe1819f102a161e54cc16a5c24f75"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9a579b54d292ad9be171d4313fd4739c635592c2b5ac3a459bbd1049cddec6a0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "81daf5765e387e6aeec5d45c4b9e4e1b471fb4f350931e5a214845c7c657a2142768f6902765e49c0ce2c595962e5d008883cba2e4a40c4bdce8f2e92518d2db"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "473ba9b72bd47d2000d127dababdd649fd7738d658cd5b818266cd978e8d3bb2589e431a52bfaa7fb8a03d2345a529f2"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.ow2.asm/asm-commons@9.7.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://gitlab.ow2.org/asm/asm/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail.ow2.org/wws/arc/asm/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitlab.ow2.org/asm/asm/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.ow2.asm/asm-analysis@9.7.1?type=jar",
+      "publisher" : "OW2",
+      "group" : "org.ow2.asm",
+      "name" : "asm-analysis",
+      "version" : "9.7.1",
+      "description" : "Static code analysis API of ASM, a very small and fast Java bytecode manipulation framework",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4cd9e7178dfb85371bba3077e40cd514"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f97a3b319f0ed6a8cd944dc79060d3912a28985f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "85b29371884ba31bb76edf22323c2c24e172c3267a67152eba3d1ccc2e041ef2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a8bd265c81d9bb4371cafd3f5d18f96ad79aec65031457d518c54599144d199d9feddf13b8dc822b2598b8b504a88edbd81d1f2c52991a70a6b343d8f5bb6fe5"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "31620bb948127b811684769f966990170ced469f4b15f30bf22a7a0d28c7da644027cf7c9ffd10f80fcc4cdf377909d8"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.ow2.asm/asm-analysis@9.7.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://gitlab.ow2.org/asm/asm/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail.ow2.org/wws/arc/asm/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitlab.ow2.org/asm/asm/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.ow2.asm/asm-tree@9.7.1?type=jar",
+      "publisher" : "OW2",
+      "group" : "org.ow2.asm",
+      "name" : "asm-tree",
+      "version" : "9.7.1",
+      "description" : "Tree API of ASM, a very small and fast Java bytecode manipulation framework",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e85029f613b6469989cc7cf53fe06b74"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3a53139787663b139de76b627fca0084ab60d32c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9929881f59eb6b840e86d54570c77b59ce721d104e6dfd7a40978991c2d3b41f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e55008c392fdd35e95d3404766b12dd4b46e13d5c362fcd0ab42a65751a82737eaf0ebc857691d1916190d34407adfde4437615d69c278785416fd911e00978d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4363d7d075700cbe6161bf86a0ff1b0e732fe96963010f1fc66f7701e8139673cc4fba81ae2937d25e0a5032368b0d5a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.ow2.asm/asm-tree@9.7.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://gitlab.ow2.org/asm/asm/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail.ow2.org/wws/arc/asm/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitlab.ow2.org/asm/asm/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.ow2.asm/asm-util@9.7.1?type=jar",
+      "publisher" : "OW2",
+      "group" : "org.ow2.asm",
+      "name" : "asm-util",
+      "version" : "9.7.1",
+      "description" : "Utilities for ASM, a very small and fast Java bytecode manipulation framework",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "36d373a9cd6cad9b35db9f984c6b4bbb"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9e23359b598ec6b74b23e53110dd5c577adf2243"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f885be71b5c90556f5f1ad1c4f9276b29b96057c497d46666fe4ddbec3cb43c6"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "522d793d15a2c5ea6504a50222cf0750f1eab7b881cf289675042539b1aba8b3868197b1bebe729de728dd10020eb028ae16252dcd5d84fdcbf7f925832bc269"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c073e7d64d5891d024860f638c3ee901aca60637b820ad05f9be7d33b4f4ad99fc448173dd9cb0b1cd0032485e813b24"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.ow2.asm/asm-util@9.7.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://gitlab.ow2.org/asm/asm/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail.ow2.org/wws/arc/asm/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitlab.ow2.org/asm/asm/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.github.jnr/jnr-a64asm@1.0.0?type=jar",
+      "group" : "com.github.jnr",
+      "name" : "jnr-a64asm",
+      "version" : "1.0.0",
+      "description" : "A pure-java A64 assembler",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6cb469cbbcf9eca78d50f7da595a8337"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0a1cb8dbe71b5a6a0288043c3ba3ca64545be165"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "53ae5ea7fa5c284e8279aa348e7b9de4548b0cae10bfd058fa217c791875e4cf"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "922bdf2883c6a9cd6491289020d404ab151fd9ffa78d2ec884a2ac3af739d397016f1f4596c3e6c58744ea600fdbc2d330c8f520a1a9ab0eef6af6b667b35b89"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "933298b61960f09eccb672a0622a93a721d06cf85cdb29500ff6efdf874bad7b08aede29b6cf3b51141c16b38b250be2"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.github.jnr/jnr-a64asm@1.0.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/jnr-a64asm"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.github.jnr/jnr-x86asm@1.0.2?type=jar",
+      "group" : "com.github.jnr",
+      "name" : "jnr-x86asm",
+      "version" : "1.0.2",
+      "description" : "A pure-java X86 and X86_64 assembler",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "00670735acb2a9d1421b506dc7d338bc"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "006936bbd6c5b235665d87bd450f5e13b52d4b48"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "39f3675b910e6e9b93825f8284bec9f4ad3044cd20a6f7c8ff9e2f8695ebf21e"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e928926b01ce545144c1bbf160edee9b923773e32f9a399a71c2ab5e8325d9cbcfb41f41c8f008b80d1beab8da1c4b74845996479c07ed73bc131959911d4762"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "91839815885716f1202a824b195a475d4d7561690192b42cf05b8c6432556a3e7e2dab13b6e970986a97711fb7060844"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/license/mit/"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.github.jnr/jnr-x86asm@1.0.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/jnr/jnr-x86asm"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        }
+      ]
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/com.github.jnr/jnr-ffi@2.2.19-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.7.2?type=jar",
+        "pkg:maven/com.github.jnr/jffi@1.3.14?type=jar",
+        "pkg:maven/com.github.jnr/jffi@1.3.14?classifier=native&type=jar",
+        "pkg:maven/org.ow2.asm/asm@9.7.1?type=jar",
+        "pkg:maven/org.ow2.asm/asm-commons@9.7.1?type=jar",
+        "pkg:maven/org.ow2.asm/asm-analysis@9.7.1?type=jar",
+        "pkg:maven/org.ow2.asm/asm-tree@9.7.1?type=jar",
+        "pkg:maven/org.ow2.asm/asm-util@9.7.1?type=jar",
+        "pkg:maven/com.github.jnr/jnr-a64asm@1.0.0?type=jar",
+        "pkg:maven/com.github.jnr/jnr-x86asm@1.0.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.7.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar",
+        "pkg:maven/org.junit.platform/junit-platform-engine@1.7.2?type=jar",
+        "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.7.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.junit.platform/junit-platform-engine@1.7.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar",
+        "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar",
+        "pkg:maven/org.junit.platform/junit-platform-commons@1.7.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.junit.platform/junit-platform-commons@1.7.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.7.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar",
+        "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar",
+        "pkg:maven/org.junit.platform/junit-platform-commons@1.7.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.github.jnr/jffi@1.3.14?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.github.jnr/jffi@1.3.14?classifier=native&type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.ow2.asm/asm@9.7.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.ow2.asm/asm-commons@9.7.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.ow2.asm/asm@9.7.1?type=jar",
+        "pkg:maven/org.ow2.asm/asm-tree@9.7.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.ow2.asm/asm-tree@9.7.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.ow2.asm/asm@9.7.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.ow2.asm/asm-analysis@9.7.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.ow2.asm/asm-tree@9.7.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.ow2.asm/asm-util@9.7.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.ow2.asm/asm@9.7.1?type=jar",
+        "pkg:maven/org.ow2.asm/asm-tree@9.7.1?type=jar",
+        "pkg:maven/org.ow2.asm/asm-analysis@9.7.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.github.jnr/jnr-a64asm@1.0.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.github.jnr/jnr-x86asm@1.0.2?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}

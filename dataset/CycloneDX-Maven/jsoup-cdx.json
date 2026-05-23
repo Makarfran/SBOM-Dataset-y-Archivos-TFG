@@ -1,0 +1,1772 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.6",
+  "serialNumber" : "urn:uuid:9401414f-b9de-3ae3-910f-61909b55260e",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-04-06T16:43:42Z",
+    "lifecycles" : [
+      {
+        "phase" : "build"
+      }
+    ],
+    "tools" : {
+      "components" : [
+        {
+          "type" : "library",
+          "author" : "OWASP Foundation",
+          "group" : "org.cyclonedx",
+          "name" : "cyclonedx-maven-plugin",
+          "version" : "2.9.0",
+          "description" : "CycloneDX Maven plugin",
+          "hashes" : [
+            {
+              "alg" : "MD5",
+              "content" : "dfaeab7ec837ce07874e2ee66fdc57d3"
+            },
+            {
+              "alg" : "SHA-1",
+              "content" : "8bab47bafc8183d0a5f37790ff55ed05ead1ae2d"
+            },
+            {
+              "alg" : "SHA-256",
+              "content" : "67117e03eae4a03ca8bab3add044995f4899aa21798a2510b8265ef8101e90ac"
+            },
+            {
+              "alg" : "SHA-512",
+              "content" : "ae6b706516bb76da806b7854aef9e348fa593f5159ae9d693ad38942165c0ebc0846d977a477f6029612d43468fd2cd73a5aa253c228a94fb8d184e0acefc3d2"
+            },
+            {
+              "alg" : "SHA-384",
+              "content" : "ee872354d8b0dcd6f9835a913b3aaba70d9365a46043be78020183282a1e9fca812e969246cbe31d642541591b46648b"
+            },
+            {
+              "alg" : "SHA3-384",
+              "content" : "e5167f9e7ceba3b7b4d1900c404543907868745334bedc69cdf79c271727148413033a3b1426b733b7549e612e44adee"
+            },
+            {
+              "alg" : "SHA3-256",
+              "content" : "41fc0bc2275f354e2c7da01041ce73ce677364799cba53920a180aa5d4571c63"
+            },
+            {
+              "alg" : "SHA3-512",
+              "content" : "ed7f97900b09b818dbc0b8a23c00a2843e1bc34e2e8eb5b6df52533af0a15b721de6f7d5c2fd9352b8d4fde768e080053b40a16f0f9f04c336fe9b44abe83fc0"
+            }
+          ]
+        }
+      ]
+    },
+    "component" : {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jsoup/jsoup@1.22.2-SNAPSHOT?type=jar",
+      "publisher" : "Jonathan Hedley",
+      "group" : "org.jsoup",
+      "name" : "jsoup",
+      "version" : "1.22.2-SNAPSHOT",
+      "description" : "jsoup is a Java library that simplifies working with real-world HTML and XML. It offers an easy-to-use API for URL fetching, data parsing, extraction, and manipulation using DOM API methods, CSS, and xpath selectors. jsoup implements the WHATWG HTML5 specification, and parses HTML to the same DOM as modern browsers.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jsoup/jsoup@1.22.2-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jsoup.org/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jhy/jsoup/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jhy/jsoup"
+        }
+      ]
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system,test"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.junit.jupiter/junit-jupiter@5.14.3?type=jar",
+      "group" : "org.junit.jupiter",
+      "name" : "junit-jupiter",
+      "version" : "5.14.3",
+      "description" : "Module \"junit-jupiter\" of JUnit 5.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "172eded8b950e6a144e0593efeea6a29"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0b6dd745743bfddcd65bab444e8fdc80f6767104"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "74632e3a463e7ba4317971e8c7471b5503909a812fcaea24d65c679b02d08708"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ec8c3f06c181ce7bc2803d7769701645b40f05d9d4ac948f9de6ed2ebaf76bba727d2b91d4d81defce082ac30215e29ede59028e5fd8d86bd5df1bbc5b7cea23"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "3f31a12ef4390569ffea8077046c1a5bf5d96d730986106d5086ed8cd9c0bcac0cf394e7d3ffcd347b6f8ec5de233b47"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "8acfab9b58309301bcf46a56e02c17031df7cfd00263d3e26ddb87ac93a7184f5a6a6bb87c63a98eb73230638ced012a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "58febdeb30549f55237665b57b09633c86b7f22d18a4478daa8fa5b983f722ed"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "3980a49c9c423283dbf16b0bd08417fc8b10371b38d9196509596ca62254fdfb0aa87aa5e393bc29d30d9184aa1234c6a7dccd69c01332669cef3b24815c4d4d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.junit.jupiter/junit-jupiter@5.14.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://junit.org/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/junit-team/junit-framework"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.14.3?type=jar",
+      "group" : "org.junit.jupiter",
+      "name" : "junit-jupiter-api",
+      "version" : "5.14.3",
+      "description" : "Module \"junit-jupiter-api\" of JUnit 5.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "87d225ef16154a78250eee603cab699e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ae3af0dc327be8ec5cb9ff1347edb61673fdcd47"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a884b46d3cb9daf7adc775538cf2504ff2dcae76d7b9e9a28f9366d15ac2fbed"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5ada794d305920ceecc00ccd02c48f54bf3d4b36002810f543a2215eff5034519ba939c2451f42828ea4d0a19712cf1e9ec23dd0e91a6fe568bbd7ee023253d8"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "57785f6ea6b46e5641db588971a81b2ff10334fc0f77e66217cd9192a427760972872c89068ef8045bc5e91930b2d764"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d553c38b35522c30e0a0d33cb02540fdf92d873fa8d36f59d02fafed81ac040d7eac960a942e13e28209add26c4558d9"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2825f95c9a1d0030c8658925b61bc7cabf048fac683a5410e1535e2aaf7e7f48"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "72c4339aa65aa10a20b1a549ecdd284bd5edf082a1f8bde46e83d7013e54bbf2f091fa00425a78ec2fc5750b5d42fd3bc35e72e9212e5c2088b4ebbb5f72d197"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.14.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://junit.org/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/junit-team/junit-framework"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar",
+      "group" : "org.opentest4j",
+      "name" : "opentest4j",
+      "version" : "1.3.0",
+      "description" : "Open Test Alliance for the JVM",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "03c404f727531f3fd3b4c73997899327"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "48e2df636cab6563ced64dcdff8abb2355627cb236ef0bf37598682ddf742f1b"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "78fc698a7871bb50305e3657893c10500595f043348d875f57bc39ca4a6a51eda3967b7c8c8a7ec3e8f85f2171bca4aa98823e912e416e87e81c6ba5b70a37c3"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "10398b6998c9202a0731e2e19ae1c3f9d8a83582c2663fe7bdda15794ee6fa816727dbd8f7c7164bd5395ee1cfe7c97e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "3abe706fd78509c25a402c7bbf6f9ddf71ffb5b35054864ba0fdf7902207115f888a0ba728fd71d2e87a9360d2498121"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d961907a1bfa1dcda329dca494ffbc251b31fabcaca5ab7095661a8ce3c1d654"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0ad661617bcac51bcd26f7ad4611c69b1fd9811b50dbf734e041a3243ab1f845e7796620e8a7c40c4a2df3946864598b1251396c7d9bd813203d82710788cce0"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/ota4j-team/opentest4j"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/ota4j-team/opentest4j"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.junit.platform/junit-platform-commons@1.14.3?type=jar",
+      "group" : "org.junit.platform",
+      "name" : "junit-platform-commons",
+      "version" : "1.14.3",
+      "description" : "Module \"junit-platform-commons\" of JUnit 5.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "46a1aba671336550ad04d99c431d9cdd"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3fe542777a97a239cb492e4be99057e2855d18f9"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9eb52432baefc7de97dbddf51939456b9c272c6bdcb8fb535e0405c670f96ae8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "dd9fea9acbd864594c9f750822dcb17d43f6ad37b68bb4a8729f1813d612c177f27efc6b25d983e5195be8aad3482052685b2b9698205730cff35b585114343a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e31dba5271c5ce5fa9ab05c4603fbf97128a61c92575eb9518cb6b07d0d6988bca76995e75c60ceca56a79c2c870288c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5e6192b8b473f60ea94a3628c0816547ff770175ba7a5f42a5202784849b7ca599a65b1c7eab622c14008b6ecac79f70"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "74ad8fef34ba08c4bc8d68353bd8c378c2c4da7fe53f006db85cc732e0bdc9cc"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "f0fd7e8df5af4615075f7f8f36c99722c3866b16707f539ebfdbdd871dd9aee5a9217f4e9deaa7272aab3927529f164e1f514b6ece17c1aba054c12c0295f913"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.junit.platform/junit-platform-commons@1.14.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://junit.org/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/junit-team/junit-framework"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar",
+      "group" : "org.apiguardian",
+      "name" : "apiguardian-api",
+      "version" : "1.1.2",
+      "description" : "@API Guardian",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8c7de3f82037fa4a2e8be2a2f13092af"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a231e0d844d2721b0fa1b238006d15c6ded6842a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d7ccd0e7019f1a997de39d66dc0ad4efe150428fdd7f4c743c93884f1602a3e90135ad34baea96d5b6d925ad6c0c8487c8e78304f0a089a12383d4a62e2c9a61"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "5ae11cfedcee7da43a506a67946ddc8a7a2622284a924ba78f74541e9a22db6868a15f5d84edb91a541e38afded734ea"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "c146116b3dfd969200b2ce52d96b92dd02d6f5a45a86e7e85edf35600ddbc2f3c6e8a1ad7e2db4dcd2c398c09fad0927"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b4b436d7f615fc0b820204e69f83c517d1c1ccc5f6b99e459209ede4482268de"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "7b95b7ac68a6891b8901b5507acd2c24a0c1e20effa63cd513764f513eab4eb55f8de5178edbe0a400c11f3a18d3f56243569d6d663100f06dd98288504c09c5"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/apiguardian-team/apiguardian"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apiguardian-team/apiguardian"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.14.3?type=jar",
+      "group" : "org.junit.jupiter",
+      "name" : "junit-jupiter-params",
+      "version" : "5.14.3",
+      "description" : "Module \"junit-jupiter-params\" of JUnit 5.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a691830b460c8253a388e5e55b9324d4"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "270166532277ee04771a5da105a6acad8f8fb384"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "324c6c7ab5f1128be25a692f394766f76be9578526ad0ae777a1ee6e42334598"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "00367c3b8c02fbe91c07bb889763777eda02a25a88ed9fb8013d00d6c2f9171ea85e4af7a4326859485aa342600c3d90be5be2883f3953280ff184bb7085465a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c501b6fb9e310b501c64cc79b8cfc9f0f28f937a1bd62bafb5812b75bfa6f859cf2305cd11dbfa330d4058946ae1f9cb"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "c4b9ff1318db638158028b7d08db4188cfea12d19cc52e658ff16112e7cc0be175a434298d3c9913820a9b3a44c337ae"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "7928c47be44fc076d37e723fcd6b79270213512e1ba833f4d28a51fee75aa36e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "46b68ce24f460aa3944d75d8451458ed711d2946d0a40ed7e293c9b38c5b5c3854771dfb27bc2b2a6da91b6e41446afac45b16ade7455b664ef51a0e32b6caf3"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.14.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://junit.org/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/junit-team/junit-framework"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.14.3?type=jar",
+      "group" : "org.junit.jupiter",
+      "name" : "junit-jupiter-engine",
+      "version" : "5.14.3",
+      "description" : "Module \"junit-jupiter-engine\" of JUnit 5.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "59c94cc3f2d18c353bb8c78bc99e0d4c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "87e8beed2e7ff92e677ad36ecf9223e875346b5b"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b6af8b715a9fa53b868428600f4b51d57595f0866f455701fb917285daabd5b2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "73de20444b8898e8fdbea282055807ac280676606e0bfabd25375e580cb5bcce163e9c3fa15828cd7600d364cd0bbac92554560cebed9e7e5116a3693b3fc074"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "3e73e33f141a3426f898c7de8ada73190c9f82930d01dc9f132a796b104ba2486cffb2e5343d1df9c249ee396a5c7143"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0e1da960867452ef7be8535a3863086b5ca16df0fe0223fe7315873bfda59797093a27776e3204c125bcbde4dad24b9f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1ec8806a5b9e4ae2b9c0f67d6daa6973bf1a28ba35ffc3cb5314e8d2eedfbb88"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "021a2ab2917d0cf7c1ea25259d76831dbf7f0effb0a381de7cce9139e75247c3051829bd65059a40050669b56ca1e9a6c4b7ab1344e25747ca19a41c10878742"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.14.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://junit.org/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/junit-team/junit-framework"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.junit.platform/junit-platform-engine@1.14.3?type=jar",
+      "group" : "org.junit.platform",
+      "name" : "junit-platform-engine",
+      "version" : "1.14.3",
+      "description" : "Module \"junit-platform-engine\" of JUnit 5.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d49408425bace99c2ade5aeebd5a3f20"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ff37f1fa8ace9ff5c5991629a3ee0833de8fe571"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "16bbbf7f5c2f531b97c48b1c6f351d738a41d8809c73b1136457ead77da51019"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "51a681bb853236b618e42c9c7922a035de515bfa217e3d5f1fa917486d0398c0ffb1cc5504a16130ba06976c24a76d213e8676231f1badb19fc2a164c80b92df"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "28a21276c639d86e576c5bb5a017f221deef4d55235a450edd8edc65142ffabd398ef802fc7a5619018afd8fd7893173"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "693b807ff7ca7237d8a293acc7596079890705cf5dc116f5b2ee6a9416130ea17f5ec9e76720db51169460c68bb11c3b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b6aa379bd7f80084b8cd3c7cde510d90bcb2ad09273633860d571b3eedaf43db"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "540749092f09892d6a3bf28b4122ccc1c1b866dba8af5d13c053571118342ee8fe53b5520e645e0a5b541a7a210845d18634c57d466e507a94991a90fe5af590"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.junit.platform/junit-platform-engine@1.14.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://junit.org/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/junit-team/junit-framework"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.code.gson/gson@2.13.2?type=jar",
+      "group" : "com.google.code.gson",
+      "name" : "gson",
+      "version" : "2.13.2",
+      "description" : "Gson JSON library",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a2c47e14ce5e956105458fe455f5d542"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "48b8230771e573b54ce6e867a9001e75977fe78e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "dd0ce1b55a3ed2080cb70f9c655850cda86c206862310009dcb5e5c95265a5e0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "8974a052656d2e5ec968b6bac2edf51413ffc62040fdc65f14f00597e738ab544d22487f8579ba90618b5a7f94ef33773510fac67b408fee6ed274b38f3d9947"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "98e8afe5b23c43b84e7a57e0e27f683a182fcf97ee3eeb6a1311582f7fecd846c806ffb092b620088dc03d256d8eaf27"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d61d6b1cf6997c75287f454e536f855db8404e5fb9d0b8faa4dcc1e7a60ffefc05c2f92f3514e091808a8677b29f3619"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1c051cfe5e630b35d003f96e135de7c5d5cab145b6e1159143570cb246426a0d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "55ddee7f6c1659ffa82e5c308a0181b459cfeb3442f1f9868ff7e9a3c83376bd2ad527b16d5131df442ffd03d06c35dbd64458df6b02a111c1654f01db381ba5"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.code.gson/gson@2.13.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/google/gson"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/google/gson/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/gson/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0?type=jar",
+      "publisher" : "Google LLC",
+      "group" : "com.google.errorprone",
+      "name" : "error_prone_annotations",
+      "version" : "2.41.0",
+      "description" : "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "75e3b25da8b8a2136463c4674f5e49bf"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4381275efdef6ddfae38f002c31e84cd001c97f0"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a56e782b5b50811ac204073a355a21d915a2107fce13ec711331ad036f660fcc"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e2eb4bf9f36f95a4d4c5ea344db5cd90a456e63bef8e52932b8f6f4ecfdd59cb2f6c2ce9e67b0070c82177e42885688b95afef591b16001f789b378f18afdf30"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "43700b378624aa37197ef03a6b5ea40b5fbb6c0aa667eadf810ad36f0707dffaf3ea23471f2553327c3f5644cc875ee7"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "8bf3293cf4b72c9a999948f8812190636ef3b0c35bab8dbf9a54c263eeab2a3b3d0774fdcab52c6d114551ff74a8aea2"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2ca1a59f4fdc37a3c83501542c63842fa4fe40c06f69a59a2a072e4af442a16a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "6d1f419996b15e5a2bd9b268d166046e38fe9cc6c58fe56aaacbe71b95e3db8c8fe1d226e7f549ea227956feaf3087706bdfa79930fe432298bba9ec06c26a90"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://errorprone.info/error_prone_annotations"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/error-prone/error_prone_annotations"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-server@9.4.58.v20250814?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-server",
+      "version" : "9.4.58.v20250814",
+      "description" : "The core jetty server artifact.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1f156b5d990d00631333bbb245a333a3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e9ac923c0ffbc08f6b8d08bbc81093fee725b85e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "608dbd3e1c4184374f02c70704e5d1c9daaded45e6a31d07824f40dac6083ba9"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5f2b1efe5f6279ed9c3a25d8c3a6413b195a6957500752cb7b59fc8e8bc43d01eeb2e97b619bfb74ff5ec96cd8893ba1d9d372f8a226ff197d3b452febafa146"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "7141c889bb25873b2d0db40e1c316ea5e0d955484055fb14c13b08dcfaa3401b3337ba229c5899309957eb12abd3f3d3"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "62c2f24aedf942135eed84dbc51a59820d7335ae2f10e51fcd7cecbd2bc963f55fb56479a28c94d01467621a069add7e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e5c2671b6f5727d3fd15f34ce1022ef3231daeec0cf216e6b668e3b5e57090b5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "3f752724697d8e92dc2e03bbd192808a16851ea73d9a6ce6527eabc539203bbc7e819be7a340051a53bfb11c9f49230f229ac433e4082e8633ab672d13042b3d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-server@9.4.58.v20250814?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jetty.org/jetty-server/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repo.maven.apache.org/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jetty/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jetty/jetty.project/jetty-server"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+      "publisher" : "GlassFish Community",
+      "group" : "javax.servlet",
+      "name" : "javax.servlet-api",
+      "version" : "3.1.0",
+      "description" : "Java.net - The Source for Java Technology Collaboration",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "79de69e9f5ed8c7fcb8342585732bbf7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3cd63d075497751784b2fa84be59432f4905bf7c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "af456b2dd41c4e82cf54f3e743bc678973d9fe35bd4d3071fa05c7e5333b8482"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "32f7e3565c6cdf3d9a562f8fd597fe5059af0cf6b05b772a144a74bbc95927ac275eb38374538ec1c72adcce4c8e1e2c9f774a7b545db56b8085af0065e4a1e5"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8bf960fd053ef6ad1c3535824311f676b9ad537678b85f855dd5d6d726e391f8a7be9c9c76a8ae3ce8bfe671c1e2c942"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e8f3282c08ceeed02947a13e886a3d75a6ea63e4f869a0e0bcbcf622e7cbffc81ed7bc045e82820443b6572c897cc4cc"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "8acc3481503989e1a78ad619bcbdc005b616c13736522b52e5ae5d782e8a0216"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ab5f85d424640ddcf6fc13a41d12ffdee0be9508cd4cdc581168b31cf7917323f6e0d984a0631068e0e01c098098fe0037d1c4176352fd89ba3a4da5d641ca3d"
+        }
+      ],
+      "licenses" : [
+        {
+          "expression" : "(CDDL-1.0 OR GPL-2.0-with-classpath-exception)"
+        }
+      ],
+      "purl" : "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://servlet-spec.java.net"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://java.net/jira/browse/SERVLET_SPEC"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "users@servlet-spec.java.net"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://java.net/projects/glassfish/sources/svn/show/tags/javax.servlet-api-3.1.0"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-http",
+      "version" : "9.4.58.v20250814",
+      "description" : "The Eclipse Jetty Project",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9946c9ecc8193405df3bcd3120310c60"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "98c52c56ecc1eedd9e05327f266f35c5ef8bf0c4"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8f49b8583fc8dbbfe3a0ba80a04c97df64ebabca2981b56ee403c989aba9d4da"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "609516a5c3b7fa9e256b768124d3c822f28ce426687a479eb57b0f2f6dc82ee6c3560f8e790394b71feebc409eda78a04d6c03254bb41127506ffcf6b7905a61"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "dd2c23b694d3067c22f9e7a3426ce82b917f519e74759762303f79de7fa6a75e454bb08067eac57f26430d19d72c19b3"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "73977773292be4f5505c4db662f57bcbaa70234a08e07144797d0d198d56473a1d8541b508edee4ef72a4d4e1f799760"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d6d15fa5f8e263011109c77d0a4d72907a3364a1866f8fa1276c906ec365b223"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "be0fb77f833b17e1b36a9fa92316fa62a58e30f44108085137f6c4a32acdad712125a2e5843543488d4cf94e37e2cbd6ba57f82108b2570e3f026935ca9984d9"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jetty.org/jetty-http/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repo.maven.apache.org/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jetty/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jetty/jetty.project/jetty-http"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-io@9.4.58.v20250814?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-io",
+      "version" : "9.4.58.v20250814",
+      "description" : "The Eclipse Jetty Project",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e0a82e5c51fbecba26a129c886be9c1b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e198dae4d91fa79d9c1e2e039870d49c487c45cf"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f55b2cc7c05244fd7b1773e99979b740002b0186e45b8a688243d89c7006fe21"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "02f2b9aae285421f76323d0076e06209e4ff29e61e483cb6ffca777d67cf3f407ff892a00f414725d210acd6ca7d2769c47e25b093e1aefaea8f7903bad81e3f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "2dfd5b0dc30ffb011000c7ee5574f54b7a3417ad44feaad9614af3d231504dc394b6fb7862bd5aef1d70d2367c2ce98e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ee6be8e577c980aa49a3de53cb906e92ea67cc81bea02bba2566cf58d15c1ff978560fbd983e10e2734b86dddbcce230"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b5e55b2268df1445407dcfa30068ce0d00aba28bf0a5c407701f95795a314c08"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b2eb17c8546c8f31501b5b19b604678871a962f237736776ac64b591af855f86249a6661e2f570076c01142a5e9b5ad509fbd6f0fe1e227063f931fa63a34b7d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-io@9.4.58.v20250814?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jetty.org/jetty-io/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repo.maven.apache.org/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jetty/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jetty/jetty.project/jetty-io"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.58.v20250814?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-servlet",
+      "version" : "9.4.58.v20250814",
+      "description" : "Jetty Servlet Container",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "eb7458cfb0366b14709c56daa229613b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "bb10a371cbb3f03ae1657d79bea1f64ea6c0cc9b"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1c6bb17326147e642c8a41e4657b32bca5057c8958db4da770d09c0904aefcff"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "210f888a723d8e09dd09694787db4a54102900b8b9ef2842329f562e7773d6f06844d1819909cf578b1c80e78bcae86b98b66accedb5052009892a1fb21b3491"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "180499795d0206179473d375cc9ea17834f5ebd9a300c3f213c156cca83a409db1640bf6bdeb73d2229cc2caf46f0a57"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "432fabb44da955c5ca5b911cd4ac47320e2e787a5bac8294f37441b5464fbf26f5275817d3c13e1877b69cfa0c660563"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "7d57b4e6bd30a9820156777943e7c85916c6298e7319fbe78a379df236b49ffc"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "8aa9ec6c899c0e1fe365679f193a1456e195600e231133406422e06a77bfe6c4cc7013c49addabc0cdc35582e127d3c2cde9419bad24f10d3cd571c9323cdd46"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.58.v20250814?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jetty.org/jetty-servlet/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repo.maven.apache.org/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jetty/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jetty/jetty.project/jetty-servlet"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-security@9.4.58.v20250814?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-security",
+      "version" : "9.4.58.v20250814",
+      "description" : "Jetty security infrastructure",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c79190a0ef47af936ab75351b68842e9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9b2548cdc6b30f0425b1563f2553ba75b29da4fd"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "301548ebf008551a3a4312b04df0ea0468acc2780f863b83cc9cf0d668e62252"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d5c50044968a507739dd334116f49784cf5cf4cfc9fd4c2ab55f69f913d73d3a5d83efcc432cdd742ec5ce16e643440fe1b66c31d2d262895f561492ee121a8b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e8eb1164134f2231d2af03c733a43f863badfa7581f7f5c3eaed03e8acbac7f45457a0a5dfbabf723f163ffc7ba7b673"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0f29a8ea7fbbaf021c2ef1a0e2949aed73d4335ab92de050ed6b7d56d46fd40c67afcab0bd3101e4443ace834ca1bdb3"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "9153dfd30979c7294111d831aaf41b205694b84e4e25904f3a70c4bd37a0b15a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "7e9d2b6248a3aa3abc56c5174f5f947dff5dcf1509a986192dd41c16a9baaf93f0c1dcdf6c7c5ac32686c0bf6b02650aeecbfb9eb085b88428f26cb92ecc2f3c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-security@9.4.58.v20250814?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jetty.org/jetty-security/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repo.maven.apache.org/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jetty/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jetty/jetty.project/jetty-security"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.58.v20250814?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-util-ajax",
+      "version" : "9.4.58.v20250814",
+      "description" : "JSON/Ajax Utility classes for Jetty",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0748f006b7784eeb5808b1f9614205b3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "44a41bccf287e2cd98f35a4ac758fe950a66be86"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "185430a2eafcdffba18204dbf51cb18436ab4ca09b74d97c1dc13abbadd9704b"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "7923b20d90f38ccf1215821930ccd60bd34214f49e682c13e94bef83998fec5eb88a40585f80a1ebc38137bf6de3d6965bc5bd1057a95f5862aaadd86dd6a1a7"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4b615046faff58f6e9e8562c6eb4c7ccbf88d804e661876bf5c87889ed5b52a82c099ac7c497378672598ecf873c101e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "989b8182ea15097b01471dab9e7fa768b657f3f6a24091655a03e2a7e76d441d6e0ae4bd24cac89bff0a3ea0d1b932e2"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e77618187565f849edb8588e8703a99040c87b891c4bbf035016670bdb775f6e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "faf3a00b6ddcf4b8703c12078f89a8061b679b5bc391ae46c66316bfef053192db573c9cf6900aba99c1b6d15f108b10089aa3316f7a995ea86870f0083b18b8"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.58.v20250814?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jetty.org/jetty-util-ajax/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repo.maven.apache.org/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jetty/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jetty/jetty.project/jetty-util-ajax"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-proxy@9.4.58.v20250814?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-proxy",
+      "version" : "9.4.58.v20250814",
+      "description" : "Jetty Proxy",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "70e5fba9bff5f1ec4209683fac57b069"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9a93d1627a09b578e4e23d1b7f7f8b48061085dc"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "17f9be2a1c558f0236c33370e780b0bf60940559f4af6f6a7c30af36fba2332a"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c5fc318ec8d6f8b3f7220c2c55365c5bcf39ceabc1315b705d053504d88873e7bbe6221157842afefeed089556d519c31eea52236cba2627daa0f13fd22f5c8b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "fe4376a9409b24e4bda962439b7a4829bb51ab684c8859fc8a5fb873531b0459438d3f7c8b8e787cf1fea6f6074bfec4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "049f4e1537c910eb26ced09c108c950790aafc822701389c616fb5719fe0b46bba5b3ce6fc1d2f88da626b2c7434673b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e789562c4a6c188beb036385e32413257b4c31c49779683e959a994dfd96a6ae"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "c8f729a681c68bcd0285bf47b6c37a89fd07ae9ccfaa97266ce2dcf97c26ac7f797d0e63797cfd131a6012ddf4439717f9701e7402cf675a2522b00806b8e373"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-proxy@9.4.58.v20250814?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jetty.org/jetty-proxy/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repo.maven.apache.org/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jetty/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jetty/jetty.project/jetty-proxy"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-util@9.4.58.v20250814?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-util",
+      "version" : "9.4.58.v20250814",
+      "description" : "Utility classes for Jetty",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "653955178a5c765c27d0e68ff5798ba4"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4175e2c7b347d31dba112e8a6f168a029a5f4225"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8d591679d318d20c8fb2b1e83900562b3c4571ff7a189696be700293e0204146"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c4505826e68be8d8736eba5cd29fd86ada455ee5765f8d46d33085b788eb3295023b167354178441e80c97edde9f988f89bf3959c59ef8aada56e5d863673021"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c462e4e60027f78c705eb1e6bd5b6a6db0fc6ff88a2992da884572907f19d8422c24e3c47d4d73030f79f3a5355f9eed"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b04acb9c5a8a5629b8b00cbb669012dbd7bb40cb43aaa30039c0a34546d265987426d59b7c35859d2ac13f3dded34f11"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "3418a374779dd0aacbc1c5d75923d518a3f2e1f2c2876732effb507b0018beaf"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "5bfbebb4ed31eaed64158c1f9ecfc998522c9335656a52d350e4ee277e8dcb02db8a8c9ff490e3bc4e557ffb536874c4db5bf703a7e54ab9ca0cdbdc9560353f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-util@9.4.58.v20250814?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jetty.org/jetty-util/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repo.maven.apache.org/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jetty/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jetty/jetty.project/jetty-util"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-client@9.4.58.v20250814?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-client",
+      "version" : "9.4.58.v20250814",
+      "description" : "The Eclipse Jetty Project",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6ee877eee4083e81ed1d98edd1dec3b6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4cd34d919db0fa69fc2a0c7a071e826a1aa45d39"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "629371e5f65f321832930538bd485e5fd637d180412ea75f592881921e2d4b83"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "21480dc0c078fe8169f590f11b1e8a6abfcb32fa06d99342a895d14e79841dccbe0d7fbe9f46e67492c75c723561c58b93138543057cacdae283eaaf62c6289d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "75e9a4260399568f2812846540a8e5f967ec3f684d7c1c0980675e6a40685167af5b032c70713b30c0334137d30ef96a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "6fa4eaefa941ee6c996d91f2673d2e10c74046d8e10840c7aabccea0bb855f7f5a5a4f28c405e644ad7a37e711ffdada"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "3cfeb6837510e9f0570d32338020f594319f8b2937253910cad0ba0810bfd615"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ab1b083fc2b50cc7427537c6d6daaf1e8628f729189b3a5bdf81078bf220523abdf8a99fd9e283e75b618e1d073c69ebec68f8b672290e550e2303d6e82e5bf8"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-client@9.4.58.v20250814?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jetty.org/jetty-client/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repo.maven.apache.org/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jetty/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jetty/jetty.project/jetty-client"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jspecify/jspecify@1.0.0?type=jar",
+      "group" : "org.jspecify",
+      "name" : "jspecify",
+      "version" : "1.0.0",
+      "description" : "An artifact of well-named and well-specified annotations to power static analysis checks",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9133aba420d0ca3b001dbb6ae9992cf6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7425a601c1c7ec76645a78d22b8c6a627edee507"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1fad6e6be7557781e4d33729d49ae1cdc8fdda6fe477bb0cc68ce351eafdfbab"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "efded31ef5b342f09422935076e599789076431e93a746685c0607e7de5592719ba6aacde0be670b3f064d1e85630d58d5bce6b34aed2a288fdb34f745efb7bc"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "814f860e5a44ead6c457676841eef471a8b87be31b84c60a8a4477a18a9cbcb6e3c2ae700969d5c5e52309d961e0537a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "c8844e5b71e5ecfbb7366097ce34af2f5863d86d5ccc3f9ec384d8ade4b60ccc8124c7fc88664f1afd2b0962fc8775bf"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "4b4f08ad7606a3ac62997779484919a302267b26d26ee19125f8a7eea60e8a71"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "65c6845ebae981cb81b61107707ced39f5b377dae970b47606ef482aaf10e3729def0da40d9377c43abbfb483a5ceae039b0d51c129c50a6d36ad351a5d6b01e"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jspecify/jspecify@1.0.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://jspecify.org/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jspecify/jspecify/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.re2j/re2j@1.8?type=jar",
+      "group" : "com.google.re2j",
+      "name" : "re2j",
+      "version" : "1.8",
+      "description" : "Linear time regular expressions for Java",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4240e655caa938c61ddbec8b92bfb061"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "12c25e923e9e4fb1575a7640a2698745c6f19a94"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7b52c72156dd7f98b3237a5b35c1d34fba381b21048c89208913ad80a45dfbd7"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f556b098dc29ed8fbfa7ecd343b457c49c4deda80dc495ed164297a415328c20d7c89b17cb240f6d2f92607828db52e4f13b66b11277e33e6ebc34a97832da86"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "beef5588c374be01cb9cb1c7854e2741827444ce6908c73e4494fb6c7b14fda4a8424f257c1cf900957dd7928e7247d4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "580230a2224e63cbbe5dd3742935e8ff51333b9e38510203b7ab22070b903dbbc8d720a820db3a01b65cb06983632f7d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1346abb0ccffe538d735667ba664b4ee2eaec5c30f2052115d34b16fb0fb350b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "68b26bddbacc2d72fde5db285549bdefc62206adbf285b58cd5b49f7a20ce1e2545a031c021b5d4402ff068170f4ce1fb90b618b5ed1e1f3b7a1b694f5ddf5ec"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Go License",
+            "url" : "https://golang.org/LICENSE"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.re2j/re2j@1.8?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/google/re2j"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/re2j.git"
+        }
+      ]
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/org.jsoup/jsoup@1.22.2-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.junit.jupiter/junit-jupiter@5.14.3?type=jar",
+        "pkg:maven/com.google.code.gson/gson@2.13.2?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-server@9.4.58.v20250814?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.58.v20250814?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-proxy@9.4.58.v20250814?type=jar",
+        "pkg:maven/org.jspecify/jspecify@1.0.0?type=jar",
+        "pkg:maven/com.google.re2j/re2j@1.8?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.junit.jupiter/junit-jupiter@5.14.3?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.14.3?type=jar",
+        "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.14.3?type=jar",
+        "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.14.3?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.14.3?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar",
+        "pkg:maven/org.junit.platform/junit-platform-commons@1.14.3?type=jar",
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.junit.platform/junit-platform-commons@1.14.3?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.14.3?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.14.3?type=jar",
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.14.3?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.junit.platform/junit-platform-engine@1.14.3?type=jar",
+        "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.14.3?type=jar",
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.junit.platform/junit-platform-engine@1.14.3?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar",
+        "pkg:maven/org.junit.platform/junit-platform-commons@1.14.3?type=jar",
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.code.gson/gson@2.13.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-server@9.4.58.v20250814?type=jar",
+      "dependsOn" : [
+        "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-io@9.4.58.v20250814?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.58.v20250814?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-io@9.4.58.v20250814?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-util@9.4.58.v20250814?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-io@9.4.58.v20250814?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.58.v20250814?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.58.v20250814?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-security@9.4.58.v20250814?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.58.v20250814?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-security@9.4.58.v20250814?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-server@9.4.58.v20250814?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.58.v20250814?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.58.v20250814?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-proxy@9.4.58.v20250814?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.58.v20250814?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-client@9.4.58.v20250814?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-client@9.4.58.v20250814?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-io@9.4.58.v20250814?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jspecify/jspecify@1.0.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.re2j/re2j@1.8?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}

@@ -1,0 +1,2573 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.6",
+  "serialNumber" : "urn:uuid:f2641b50-b5fd-3413-b9ed-4df6aabd77f5",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-04-06T17:18:03Z",
+    "lifecycles" : [
+      {
+        "phase" : "build"
+      }
+    ],
+    "tools" : {
+      "components" : [
+        {
+          "type" : "library",
+          "author" : "OWASP Foundation",
+          "group" : "org.cyclonedx",
+          "name" : "cyclonedx-maven-plugin",
+          "version" : "2.9.0",
+          "description" : "CycloneDX Maven plugin",
+          "hashes" : [
+            {
+              "alg" : "MD5",
+              "content" : "dfaeab7ec837ce07874e2ee66fdc57d3"
+            },
+            {
+              "alg" : "SHA-1",
+              "content" : "8bab47bafc8183d0a5f37790ff55ed05ead1ae2d"
+            },
+            {
+              "alg" : "SHA-256",
+              "content" : "67117e03eae4a03ca8bab3add044995f4899aa21798a2510b8265ef8101e90ac"
+            },
+            {
+              "alg" : "SHA-512",
+              "content" : "ae6b706516bb76da806b7854aef9e348fa593f5159ae9d693ad38942165c0ebc0846d977a477f6029612d43468fd2cd73a5aa253c228a94fb8d184e0acefc3d2"
+            },
+            {
+              "alg" : "SHA-384",
+              "content" : "ee872354d8b0dcd6f9835a913b3aaba70d9365a46043be78020183282a1e9fca812e969246cbe31d642541591b46648b"
+            }
+          ]
+        }
+      ]
+    },
+    "component" : {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sparkjava/spark-core@2.9.4-SNAPSHOT?type=bundle",
+      "group" : "com.sparkjava",
+      "name" : "spark-core",
+      "version" : "2.9.4-SNAPSHOT",
+      "description" : "A micro framework for creating web applications in Kotlin and Java 8 with minimal effort",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.sparkjava/spark-core@2.9.4-SNAPSHOT?type=bundle",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.sparkjava.com"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:git:git@github.com:perwendel/spark.git"
+        }
+      ]
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system,test"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar",
+      "publisher" : "QOS.ch",
+      "group" : "org.slf4j",
+      "name" : "slf4j-api",
+      "version" : "1.7.25",
+      "description" : "The slf4j API",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "caafe376afb7086dcbee79f780394ca3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "da76ca59f6a57ee3102f8f9bd9cee742973efa8a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "18c4a0095d5c1da6b817592e767bb23d29dd2f560ad74df75ff3961dbde25b79"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5dd6271fd5b34579d8e66271bab75c89baca8b2ebeaa9966de391284bd08f2d720083c6e0e1edda106ecf8a04e9a32116de6873f0f88c19c049c0fe27e5d820b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f2791380e87fccb18519efd016c03be11206984f4765586d348e57e2f33756b21ed51a95fa09679e1473a5bf5d2d76e1"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/license/mit/"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.slf4j.org"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/qos-ch/slf4j/slf4j-api"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/slf4j-simple@1.7.25?type=jar",
+      "publisher" : "QOS.ch",
+      "group" : "org.slf4j",
+      "name" : "slf4j-simple",
+      "version" : "1.7.25",
+      "description" : "SLF4J Simple binding",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "722bb90689aecc523e3fe317e1f0984b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8dacf9514f0c707cbbcdd6fd699e8940d42fb54e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "0966e86fffa5be52d3d9e7b89dd674d98a03eed0a454fbaf7c1bd9493bd9d874"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d5effbfa105bcd615e56ef983075c9ef0f52bcfdbefa3ce8cea9550f25b859e48b32f2ec9aa7a305c6611a3be5e0cde0d269588d9c2897ca987359b77213331d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "7d34c505efc47fb55f7e5da58535c71c4967a92f266d0896a49122a388178f46ed7e27427b75fc8f2b9eca3a01a83cf5"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/license/mit/"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.slf4j/slf4j-simple@1.7.25?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.slf4j.org"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/qos-ch/slf4j/slf4j-simple"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-server",
+      "version" : "9.4.48.v20220622",
+      "description" : "The core jetty server artifact.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "11f66d05aa4e992e9823836b2bd84f70"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b91a0641cda31c93962503b88f783602d2bd8093"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "dbb2b64216b0f10db591319c313979c1389249a196afb9690c022a923c0f0f77"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "eb0c7fd8d0672c385434436d94662a30eade7d9456fc079d295d2112e6a581c3797dc013ce2c4131ca3a25a3b7951dd8ccadf6ff815fcb100da1646c03a2e4d1"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ea5ea182be1bcc59cf67c12da5c037257508c3a8adc71ace5cdbe937899974fd860f0066c7ca7ac50ccc5fe059483f84"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse.org/jetty/jetty-server"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-server"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+      "publisher" : "GlassFish Community",
+      "group" : "javax.servlet",
+      "name" : "javax.servlet-api",
+      "version" : "3.1.0",
+      "description" : "Java.net - The Source for Java Technology Collaboration",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "79de69e9f5ed8c7fcb8342585732bbf7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3cd63d075497751784b2fa84be59432f4905bf7c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "af456b2dd41c4e82cf54f3e743bc678973d9fe35bd4d3071fa05c7e5333b8482"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "32f7e3565c6cdf3d9a562f8fd597fe5059af0cf6b05b772a144a74bbc95927ac275eb38374538ec1c72adcce4c8e1e2c9f774a7b545db56b8085af0065e4a1e5"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8bf960fd053ef6ad1c3535824311f676b9ad537678b85f855dd5d6d726e391f8a7be9c9c76a8ae3ce8bfe671c1e2c942"
+        }
+      ],
+      "licenses" : [
+        {
+          "expression" : "(CDDL-1.0 OR GPL-2.0-with-classpath-exception)"
+        }
+      ],
+      "purl" : "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://servlet-spec.java.net"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://java.net/jira/browse/SERVLET_SPEC"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "users@servlet-spec.java.net"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://java.net/projects/glassfish/sources/svn/show/tags/javax.servlet-api-3.1.0"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-http",
+      "version" : "9.4.48.v20220622",
+      "description" : "The Eclipse Jetty Project",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ada5db67b9fea8de0720d7d750b5125c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8cb235e70bda0c5e97a41e7ee0ea33ee7f5bcc6a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c99914804c25288fde0470530411258ee4bab83b69ad764149c816c984f8175e"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1afbff2f9fcccbb3aba6766eb854c6f2a86ef380fb9d5ec8f20b6ad509b3df6d025d65c86d3269dbb33b42a73881339b320a539f1609cdfa6ebe3e107ce40eb1"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c095e2d9167f623edffcecafc94591d5b791106ce65575c2321c2ad1f8eeb2ba8b27485b7f2a04020853d25ff5236ac8"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse.org/jetty/jetty-http"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-http"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-io",
+      "version" : "9.4.48.v20220622",
+      "description" : "The Eclipse Jetty Project",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a64fa8ebc74f4c7e846f34b8b9ab0645"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b09b55209d0a304e542f779750a01f6914dc55e7"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "4d2f60a0348905a0a70bb266d1eb23a29959281391aba54d17d4a3a0460b8b47"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2887d83db6bba1a497932e94a2aa54c75fcd6d37f31d7d2f0b4e6f54a02e8e4f0a6bcfd3fb5907b86d84df9f1d0a85c2ed9f6fe91867e2540f2004f394ce4bad"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "2d604f8fd20c5ffe371c06ac371d1a119e575aec360541ac78b542e08167ae3d01df417f8efaa91de26d745d879e7eb9"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse.org/jetty/jetty-io"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-io"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.48.v20220622?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-webapp",
+      "version" : "9.4.48.v20220622",
+      "description" : "Jetty web application support",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9c70011eb42d0b2581f80a411a768725"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9317a8518674c54b5ed9ec5ece8fcad92af91802"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "bdb33dd7e9a30ea428f301010d08c7f69b37ec75dda340b79a86e95149fec0b2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f476c05ae431b15358c01274185698d2600ef5943f4ae4feb158fa4cfda6ac5ab3a4f620e4edc7c0ce69d1a1c88c0a7a8f39dd9c574aec12f4c77978a113d88f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "70aa09b1dc2ea01b96a7c2300e87afecaa599c7161011d5c5fcfdadcfce66ff00d604d27b813d518adb7c79a01b9ac04"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.48.v20220622?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse.org/jetty/jetty-webapp"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-webapp"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.48.v20220622?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-xml",
+      "version" : "9.4.48.v20220622",
+      "description" : "The jetty xml utilities.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ea799d326e665fa7e2035e12dbfeb442"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2c8b7ad6b64437a693cd30666f3def666aac8207"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "fe94705c7f49fe56194abfc16050fafc44be0faf691a2e6dca13c5d343a2bea5"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "4946f3821a358c8d5275cf920ef924ed0cc96b349a7983ba12fb3216832fb88fe0285a9c1a21c89d6950990c2c6b4fbcf8590e64e6d3d3d5daabecf87d1192f6"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9e7cfe27420663f98bd1bee5bff643ee00b548267898c63d911db9f642c489ab840bf8e98192a8a123ac788261057941"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.48.v20220622?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse.org/jetty/jetty-xml"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-xml"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.48.v20220622?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-servlet",
+      "version" : "9.4.48.v20220622",
+      "description" : "Jetty Servlet Container",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1e7281a0df0d72d146ce3106a837a099"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8a9a53e0aad3f194a4cc9940f7e9d5619254bf62"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "eabc36f43fb4080b7d02e1fbcad0b437e035d3adc7bfd7a89b3cdeb22247e682"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "eea3d6ecdb9cf5efbe58cb8fda133f69bfe9f1415b7260ad2efc6f50c73f3cefeab304ad778f5f3c5c2a17bacce71420737791ffe49ebf381ba4ce03ef5afe5c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f1169fcd61cd67d243cf4695983109a4c2dc7034828148c7b7e820cc1f4964aa75e9f55f2cfd5fa039d29ab21c9359a3"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.48.v20220622?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse.org/jetty/jetty-servlet"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-servlet"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-security@9.4.48.v20220622?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-security",
+      "version" : "9.4.48.v20220622",
+      "description" : "Jetty security infrastructure",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b27a38cb1391fe48bfb24b1fe0bcae4a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "6114f92529e9cff489528e6be77b48526a92d577"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "43039b0f58a156a7f1b9b7750ad82f7fcdd5dba81717b970c381cb1b8618ff73"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c387010213c76166902b45a5610ed2974fed7af63cf8a9dace2319daa77534a50fe209fa1e6f50e86b53262da8e8300f3e1e035dae6cc30542adbf24d26f47b9"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "40127ea6b0f367473e8074cf8986550383845f1d19387bee770bbcb04182c227094b52cc93d4a9334a07be2491cb6c47"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-security@9.4.48.v20220622?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse.org/jetty/jetty-security"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-security"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.48.v20220622?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-util-ajax",
+      "version" : "9.4.48.v20220622",
+      "description" : "JSON/Ajax Utility classes for Jetty",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d6f651beb733473a3ee7ef1ff66a8649"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "def39454993d094df10b1689592d235e636d7dde"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b5d4b40be3cf9f48b3d5f8e5918066724a620cb901684939c9f1dd7ec1b930cb"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "33a66c99274f91013dfbf5d2e163dd8436bfef761c55612e1d893208c0221414bf95ed755c7c9871c6083211bb6b4d94883e1e556b4eb99cf64be776fda8a6fb"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "41f41f982c2f4ab568deadcd9747ac0570f5f1921433ee02d07148e18df18b0b5864327e9db3f3f0fccbabb137d8dcd0"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.48.v20220622?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse.org/jetty/jetty-util-ajax"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-util-ajax"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.48.v20220622?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty.websocket",
+      "name" : "websocket-server",
+      "version" : "9.4.48.v20220622",
+      "description" : "The Eclipse Jetty Project",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ee0c25d21cf26be31f89ee23733bb9c1"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "317d5fcb9f4a11265201546a0f55a0c2f4b1dd5c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "32ad18b3c610a5036c33d2e6bdf76eb46759fb8e067483d7a96f94e3909a4285"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "4012624d0fbb646751e993469791b9e9e24878167ee1738adeeb9eda556e23e65588d101607e5fcca99a3bfd71651b203c4f74d8201f54b300e6062246d70ba8"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "2fb27c3265ab5c175ccff11d3537f6488f283604ad1dc04a78dcf31c3434e502e980d0a8d26f0e1b09d07f2c45f99e8f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.48.v20220622?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse.org/jetty/websocket-parent/websocket-server"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/websocket-parent/websocket-server"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty.websocket",
+      "name" : "websocket-common",
+      "version" : "9.4.48.v20220622",
+      "description" : "The Eclipse Jetty Project",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c533e9ec7fa83676388aef6ae49a74e5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "03953122cd495f64ff72831e889a5a661631f580"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1f630339e7e7f6de5d7f47f9496495d7689ad41fc11565aaf11ce9e22ff6ccda"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "31cc85352840a09d672edeb79f9283ead6b6295486b150a39362cbef8effca79b4a497522563314f7ca3a47e1b96b44f5e259bd45c25aa4694e929889d04311d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "bc69108bcada4c8c7fd4e8fe15bb6a496a521d5320b0a476c36428272b6caf5db8a7aa243a31fe4d28762b61b61a7753"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse.org/jetty/websocket-parent/websocket-common"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/websocket-parent/websocket-common"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.48.v20220622?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty.websocket",
+      "name" : "websocket-servlet",
+      "version" : "9.4.48.v20220622",
+      "description" : "The Eclipse Jetty Project",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9fc6d0839bfb55f91e0857e49af37e47"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "6216200152965667066df70b65698e3a063e383d"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "28aeea9ac33a3f6d22e31ed2a6079abc35ce3ec1d5c80e1cc13859f536680b25"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "49d58d5e6f8df6d3ece4d4a90784bdff728dae60447de2b504080944d13e9a3644b32882bc186df0d33d4cf097a0ced19ea9c0419a135174b13a3ad956625fb8"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a47bc17c9b453afe9eb9e7a4e51ba1bd302899304b7b6efa3f465a9a7398d9fea96584536ef5f1f5b8631a4f481498ba"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.48.v20220622?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse.org/jetty/websocket-parent/websocket-servlet"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/websocket-parent/websocket-servlet"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty.websocket",
+      "name" : "websocket-api",
+      "version" : "9.4.48.v20220622",
+      "description" : "The Eclipse Jetty Project",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "81e6d92c840d6d1a430b25904a37bab9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "76523923d4a5efabe05c2a7aa120282ac1db8c79"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "87fb052324d6c5e22f58fb729169913bb318d97921115640c3dca453c7eb19e1"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ba240ae3da1a6aa66913e79d5c1acff9be054ad1b5c0091d0d026b609d9417842b02168d57ba07b1b10c74594d1d90d08d824821982ef79f477e2f2a7c932c2c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f45a351613dcc956446b91d0c4cc513de9534347bfd89ff8d44e96c73c827440846c4016c12fbd1346191b311b8efcee"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse.org/jetty/websocket-parent/websocket-api"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/websocket-parent/websocket-api"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/junit/junit@4.12?type=jar",
+      "publisher" : "JUnit",
+      "group" : "junit",
+      "name" : "junit",
+      "version" : "4.12",
+      "description" : "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5b38c40c97fbd0adee29f91e60405584"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2973d150c0dc1fefe998f834810d68f278ea58ec"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "59721f0805e223d84b90677887d9ff567dc534d7c502ca903c0c2b17f05c116a"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5974670c3d178a12da5929ba5dd9b4f5ff461bdc1b92618c2c36d53e88650df7adbf3c1684017bb082b477cb8f40f15dcf7526f06f06183f93118ba9ebeaccce"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e2f0c2db405e282d0f84a1766b9e8d9736d4377e292a5ef8457aec10384f9077005865167025b2779634d75bcb4d62cd"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-1.0",
+            "url" : "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/junit/junit@4.12?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://junit.org"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://junit.ci.cloudbees.com/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://github.com/junit-team/junit/wiki/Download-and-Install"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/junit-team/junit/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://groups.yahoo.com/neo/groups/junit/info"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/junit-team/junit/tree/master"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "group" : "org.hamcrest",
+      "name" : "hamcrest-core",
+      "version" : "1.3",
+      "description" : "This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6393363b47ddcbba82321110c3e07519"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "42a25dc3219429f0e5d060061f71acb49bf010a0"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e237ae735aac4fa5a7253ec693191f42ef7ddce384c11d29fbf605981c0be077d086757409acad53cb5b9e53d86a07cc428d459ff0f5b00d32a8cbbca390be49"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4b5297d2a12cc32b824153afc83f1ba9f1869ca288330f0a2f759659d09e4c420eb6ba4a1efbfa0657b625edd41293d5"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/hamcrest/JavaHamcrest/hamcrest-core"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/hamcrest/JavaHamcrest/hamcrest-core"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.mockito/mockito-core@1.10.19?type=jar",
+      "group" : "org.mockito",
+      "name" : "mockito-core",
+      "version" : "1.10.19",
+      "description" : "Mock objects library for java",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c1967f0a515c4b8155f62478ec823464"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e8546f5bef4e061d8dd73895b4e8f40e3fe6effe"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d5831ee4f71055800821a34a3051cf1ed5b3702f295ffebd50f65fb5d81a71b8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "15222889398341f867c4e9cc2884cd37eafff68542a28c852382bded5d7d76b67831f006a36f8f069524ccf9acd1295f9b5267ec8b2f1f49470b3fc6aedfc548"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "21af70f9cdea1c17cdc44d480bdd9b9be93389034b0caef7cde51b8c2a476159632be2ea93c1771813eae7f175e10230"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.mockito/mockito-core@1.10.19?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.mockito.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/mockito/mockito"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.objenesis/objenesis@2.1?type=jar",
+      "publisher" : "Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+      "group" : "org.objenesis",
+      "name" : "objenesis",
+      "version" : "2.1",
+      "description" : "A library for instantiating Java objects",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "32ccb1d20a42b5aaaceb90c9082a2efa"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "87c0ea803b69252868d09308b4618f766f135a96"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c74330cc6b806c804fd37e74487b4fe5d7c2750c5e15fbc6efa13bdee1bdef80"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1dec9ee30812b8006e536a2749c5781ccdc4b446539efb6fa534f22e70562033876bf2eb22c6946d617695729bd65f0f65b984f15f05ac63db5bed215e74427c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "657b8a3b80a5475f198425396f7264301f9e0f3ad5dc336ef0c7b46874f5544861a8a2fd48cdb5f672e199a6935c19d1"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.objenesis/objenesis@2.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://objenesis.org"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "http://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/easymock/easymock/objenesis"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.powermock/powermock-module-junit4@1.7.4?type=jar",
+      "group" : "org.powermock",
+      "name" : "powermock-module-junit4",
+      "version" : "1.7.4",
+      "description" : "PowerMock support module for JUnit 4.x.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9c3e967ab49e461f976cb4d3d5c83ea0"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "18cc40fb5e3997ad766405986bcbb64d6a4551a4"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8271bc70cc8d396360d600396c795825c0121f72a537f25b23e0e86c0278fccc"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1b40661454af2e4967e3addf4ce03bffc9511e3502b6e40d72b9b8971340b8aea0793a4943ba37badb6ccc435c837b0b0b0a4676cb556d3e78d23524d1f3cc76"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "68695c1dfc61dcfc5f44e51823cb6e37d19344818269f625decf5becb95b2f7346d323334ee021deb61e902539b91545"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.powermock/powermock-module-junit4@1.7.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.powermock.org"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://travis-ci.org/powermock/powermock"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/powermock/powermock/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/powermock/powermock.git"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.powermock/powermock-module-junit4-common@1.7.4?type=jar",
+      "group" : "org.powermock",
+      "name" : "powermock-module-junit4-common",
+      "version" : "1.7.4",
+      "description" : "PowerMock support module for all versions of JUnit 4.x.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "89c4b19e736d28c747913784f0841008"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "53a078efeb50a0a8ab80c2eb3ecf83219d64008c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "af14d42765e1d09fe0aa362a5470e100aecb0274e0c2fa8d32c99035b2771039"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f4d4f8313b44504944252ffa2354b8186123658112477a78ff0de1c875f2fef95f05b01f41b6c9380a0a2513edbf6261305c2c96828daf642ae28068d7a78bee"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c71e8a41be032681e7e2a0a97096722e9a24e2469d6a29631616f324cbcc097d10ff82cb4707df77133ba825285fcdec"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.powermock/powermock-module-junit4-common@1.7.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.powermock.org"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://travis-ci.org/powermock/powermock"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/powermock/powermock/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/powermock/powermock.git"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.powermock/powermock-reflect@1.7.4?type=jar",
+      "group" : "org.powermock",
+      "name" : "powermock-reflect",
+      "version" : "1.7.4",
+      "description" : "Various utilities for accessing internals of a class.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "99455ec48198298fdb8104c92b86b6ae"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a484263077a371165c2fa96aa52935cd580a3e3c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "01970886cf822f44fc0815c46b7fcf6d67efcc21d5dc2f8985ff1dbbfe3f24c6"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "53a534e6b52ed918504d031fd506a7dda5c9069448bfc6b10c106c700201defccaa51a78ae9c18fe6aa67daae52a2d7faf5d6bfb1ad102a86f24ceaa72ac193f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "3b31ac5a8e17acb3d1e85c1f57d9004929f75a698c9cca0e0c4c60ac8e46a944829928bba1a98cafc4bde262e962d60d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.powermock/powermock-reflect@1.7.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.powermock.org"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://travis-ci.org/powermock/powermock"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/powermock/powermock/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/powermock/powermock.git"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.powermock/powermock-core@1.7.4?type=jar",
+      "group" : "org.powermock",
+      "name" : "powermock-core",
+      "version" : "1.7.4",
+      "description" : "Various utilities for accessing internals of a class.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5a4d4bc7158ae2a2f6cad52480ca82a6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2170b16d933fdd9815bc1f3871771ab30e9ad2fe"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "72d96da61d697f1834f05912d4d73f3697ee33e86716244b22902f251f19232f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "80168e6bf52b77f068804c8456a903c12df6897390b599a457962a4358e813ccf8dcd236bc0717cec58165571241c131c3c18e0b7a164345b9cfc9c5f8c51ebe"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "d9ee7be0b1c71a89b4d94b60bbfdcc2dbe65cac3713d1171ec30546d1b6ecf34290441b3fea495f1f3fd280d47a77bd0"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.powermock/powermock-core@1.7.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.powermock.org"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://travis-ci.org/powermock/powermock"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/powermock/powermock/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/powermock/powermock.git"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.javassist/javassist@3.21.0-GA?type=jar",
+      "publisher" : "Shigeru Chiba, www.javassist.org",
+      "group" : "org.javassist",
+      "name" : "javassist",
+      "version" : "3.21.0-GA",
+      "description" : "Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation simple. It is a class library for editing bytecodes in Java.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "3dba2305f842c2891df0a0926e18bcfa"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "598244f595db5c5fb713731eddbb1c91a58d959b"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7aa59e031f941984af07dacc6ca85e6dc9bd3a485e9aa2494cbc034efa1225d0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "28b0c1ab9d5e74d0b5045f152e7ef6fc29bf6c27c085f6b874dadddacb7e68f49c1d9a5e97cf5002ee5076a63ce55a5c297f0427345728244efe0c8971155bd0"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0dbc4a6fafe6dcbbb8914cb27460af9fed505ebb8b7a1a2b403fd82f580ff6d58d8b7f3f94b3b1ec8e3b755c093ca5e4"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MPL-1.1"
+          }
+        },
+        {
+          "license" : {
+            "id" : "LGPL-2.1-only"
+          }
+        },
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.javassist/javassist@3.21.0-GA?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.javassist.org/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://jira.jboss.org/jira/browse/JASSIST/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:git:git@github.com:jboss-javassist/javassist.git"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.powermock/powermock-api-mockito@1.7.4?type=jar",
+      "group" : "org.powermock",
+      "name" : "powermock-api-mockito",
+      "version" : "1.7.4",
+      "description" : "PowerMock API for Mockito 1.+..",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b3551c51cf2f539722a22d18a2fcc63f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ae9398856e5264c0742227b9db3a395a753d9aaf"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "24811f7229a13e92ce759da42854bd022369929aec3de84ae1cda7e278c88447"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d1901e7fe145c12d4cfed1b7083ef468a2ec0070121f944dad7712c4dcd901c13d5aa672539ff25934939b4eeba7a9845072b67ff0be1894429a0d81897ba656"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "eab0b603e3f28b04d972325d6fc4e122bbf7927ef223128b96e186b1d6b6484c97ed607166812d8e958415fe7f51d4ad"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.powermock/powermock-api-mockito@1.7.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.powermock.org"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://travis-ci.org/powermock/powermock"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/powermock/powermock/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/powermock/powermock.git"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.powermock/powermock-api-mockito-common@1.7.4?type=jar",
+      "group" : "org.powermock",
+      "name" : "powermock-api-mockito-common",
+      "version" : "1.7.4",
+      "description" : "PowerMock API for Mockito. Common classes.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "39e65ecb1987a65e03e72a2d4923c4f6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7db8344c2c34baab81ac3f6e9ad1cf45e1d08d37"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9b216ae6583ae2b073a30677307c661a5548d3bdf5b5999daae080a735894bb3"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "19cf6f45997116d389300969198855c8f0c3d851b8572339acc21394214dd1899496c398b065651be0775b01e05a0c6244bf21256f9d1e59c47bcae5ac224c19"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "51d93db9c1f1d2baf7ba21d1faacbfa35d4a1160b8127343565dc575f80453dd824dccf677e0c85e34121b11ed3743de"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.powermock/powermock-api-mockito-common@1.7.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.powermock.org"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://travis-ci.org/powermock/powermock"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/powermock/powermock/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/powermock/powermock.git"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.powermock/powermock-api-support@1.7.4?type=jar",
+      "group" : "org.powermock",
+      "name" : "powermock-api-support",
+      "version" : "1.7.4",
+      "description" : "PowerMock API Utility classes.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "019fea77211f3f7f74eb5b35cc73a476"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "688c8cb384a31060fc04130eec1c6e68546d0e3e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "faa0ef7f926dc1e27764dfb0d3da34dd8b37ed6d870cabcca9c3ca808dc2d278"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d953e56ddf39194254071440d0497a58b00bde546505dc5922c9a8d0a0f0d8cb13afbe2b5df604326e184edd166896a5b9a2092bff048b7b56ee0839ea85dd64"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "27b08cb0a823c7f666f4e0892659909f81858b593e86084bcb24440194b3a88711ed7db4262288a18e0bf41044433663"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.powermock/powermock-api-support@1.7.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.powermock.org"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://travis-ci.org/powermock/powermock"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/powermock/powermock/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/powermock/powermock.git"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.httpcomponents/httpclient@4.5.6?type=jar",
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.httpcomponents",
+      "name" : "httpclient",
+      "version" : "4.5.6",
+      "description" : "Apache HttpComponents Client",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "877aca56579fea38c6358d06408976ba"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1afe5621985efe90a92d0fbc9be86271efbe796f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c03f813195e7a80e3608d0ddd8da80b21696a4c92a6a2298865bf149071551c7"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "32cb1ee6e34c883ff7f4ade7eaf563152962b0e40e6795f93d1600ffe1ced7102062c8d0c2c31f4fc9606f1f500ea554e5d83b7ae650c1d78a3be312808e6f35"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "b34eb7c27c43a0934b2a6ca8dcc9508ecd30fef0e5f6f47f3e2a5e504e2b538b0c31a31a9c755bd1dbde313a62795b15"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.httpcomponents/httpclient@4.5.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://hc.apache.org/httpcomponents-client"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/HTTPCLIENT"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/httpcomponents-client/tree/4.5.6/httpclient"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.httpcomponents/httpcore@4.4.10?type=jar",
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.httpcomponents",
+      "name" : "httpcore",
+      "version" : "4.4.10",
+      "description" : "Apache HttpComponents Core (blocking I/O)",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0aa2d618716ab34e5c0389b44814700a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "acc54d9b28bdffe4bbde89ed2e4a1e86b5285e2b"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "78ba1096561957db1b55200a159b648876430342d15d461277e62360da19f6fd"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "7f58003e9eec977627401c4c6bc720af257094f492b0f73c43fb547e0d161017657f5c9c0b834704c5c00112b91e88ee9e4c255cc1e31aa62ba979d21393aed4"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f0d4381a3c5a6f62ac920762a9315a56097c3917f1b57fab9e63f5236ed683170b04401a9dfcef104b03c8a32f79c529"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.httpcomponents/httpcore@4.4.10?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://hc.apache.org/httpcomponents-core-ga"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/HTTPCORE"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/httpcomponents-core/tree/4.4.10/httpcore"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "publisher" : "The Apache Software Foundation",
+      "group" : "commons-logging",
+      "name" : "commons-logging",
+      "version" : "1.2",
+      "description" : "Apache Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "040b4b4d8eac886f6b4a2a3bd2f31b00"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4bfc12adfe4842bf07b657f0369c4cb522955686"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ed00dbfabd9ae00efa26dd400983601d076fe36408b7d6520084b447e5d1fa527ce65bd6afdcb58506c3a808323d28e88f26cb99c6f5db9ff64f6525ecdfa557"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ac20720d7156131478205f1b454395abf84cfc8da2f163301af32f63bd3c4764bd26cb54ed53800f33193ae591f3ce9c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-logging/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://continuum-ci.apache.org/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/LOGGING"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/repos/asf/commons/proper/logging/trunk"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-codec/commons-codec@1.10?type=jar",
+      "publisher" : "The Apache Software Foundation",
+      "group" : "commons-codec",
+      "name" : "commons-codec",
+      "version" : "1.10",
+      "description" : "The Apache Commons Codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "353cf6a2bdba09595ccfa073b78c7fcb"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4b95f4897fa13f2cd904aee711aeafc0c5295cd8"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "4241dfa94e711d435f29a4604a3e2de5c4aa3c165e23bd066be6fc1fc4309569"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "8edecc0faf38e8620460909d8191837f34e2bb2ce853677c486c5e79bb79e88d043c3aed69c11f1365c4884827052ee4e1c18ca56e38d1a5bc0ce15c57daeee3"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8412e1f64746422f1875a811c71c51b6e45512a6255ff47e3b2b437bf6fb12eeea3910e3c1a0bb3caad672d3ae15852d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-codec/commons-codec@1.10?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-codec/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://continuum-ci.apache.org/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/CODEC"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/codec/trunk"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.freemarker/freemarker@2.3.28?type=jar",
+      "publisher" : "Apache Software Foundation",
+      "group" : "org.freemarker",
+      "name" : "freemarker",
+      "version" : "2.3.28",
+      "description" : "FreeMarker is a \"template engine\"; a generic tool to generate text output based on templates.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c5e35d814518da7b0247d42311b8e296"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7200064467a935052f99d114c2c05c3d189bc6d6"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "de92d103d3a86c2287307218ff50dc1c941de283f7b9e1fb23e93fc7220838bf"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "44435cb2b6ba02abacdc4a21bea44a2dc50faa1b486fc5b2f79097a68f1f98ca24aa835448ac5dec33a1869eed1b8a32ac285e95fdabbdafaa810d575951894e"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "3aef324f7ee0a8e356e291f7b81564c907fbcb287da399515e814411c7c622238cf129b65ad0928c65b9c4ba7544ac2a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.freemarker/freemarker@2.3.28?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://freemarker.apache.org/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/FREEMARKER/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/freemarker-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://git-wip-us.apache.org/repos/asf?p=freemarker.git"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.code.gson/gson@2.8.5?type=jar",
+      "group" : "com.google.code.gson",
+      "name" : "gson",
+      "version" : "2.8.5",
+      "description" : "Gson JSON library",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "089104cb90d8b4e1aa00b1f5faef0742"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f645ed69d595b24d4cf8b3fbb64cc505bede8829"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "233a0149fc365c9f6edbd683cfe266b19bdc773be98eabdaf6b3c924b48e7d81"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5dd7214c542a7b93aab3eab0ba13e4ac3d6ddb05c795fb6d3992e21925a98dce87cb186ac67b4d3ad146f96e14d38b3892837eca57a27b4e845aca6d4e4f708a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "77f4d6efe8d9cf78b72f34e439035d266db1b82c9d96e6b78e6c571d4c719bb5f2b78e8377263280c6cc9dffe18b3d16"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.code.gson/gson@2.8.5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/google/gson/gson"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/google/gson/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/gson/gson/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.48.v20220622?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty.websocket",
+      "name" : "websocket-client",
+      "version" : "9.4.48.v20220622",
+      "description" : "The Eclipse Jetty Project",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1f74bb095077aa177667a7fd1e31e90e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e5536fc714ab049505f99ad799a831f7be36bbf0"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "432d9d85734be8acbdbc3656200d2b1d540574c9bebe0b4f75a3f8bbe402a2f1"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2a8bd1f65b0e58dcba049b6240c570a02e1d24423b76d6b8a269a8f14328606587235136a1febc28a868038941df795de22f5c58a3a86482f97fe02ad1b30407"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "7921ae20a6547ac541da43c8c8e68ef91dc3356c4999fc848c3e069204bf9b835739659465b3d95bd57d6eab61ca98ec"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.48.v20220622?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse.org/jetty/websocket-parent/websocket-client"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/websocket-parent/websocket-client"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-client@9.4.48.v20220622?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-client",
+      "version" : "9.4.48.v20220622",
+      "description" : "The Eclipse Jetty Project",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a94cf822833e096125f1e28bb6692365"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "fc2e953a7030045e1ca467d57e200856a170848e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7f89fe0900d36b296275999992a6ad76d523be35487d613d8fb56434c34d1d15"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "cb1fc80d304ebdddd7603180f104de940356e05df4660bbaa4aa5e739a9405e1d4d599ac8eca98f562306377e62cb9e23df3b8f30fddb010aae67260f2d74fe2"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "766e12ca5e8b2eb6ac22af10964c10468ba4c8f182cb6669c794bc40bd687c0e9f664c5cdedff6694b8e8504aae41c4d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-client@9.4.48.v20220622?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse.org/jetty/jetty-client"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-client"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622?type=jar",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-util",
+      "version" : "9.4.48.v20220622",
+      "description" : "Utility classes for Jetty",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e7d823f303f92de1d4ea694d9ec602de"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7efc06f7ec0ff33d8c219bcc8c7415280c103669"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "24cafd449ca4b4bea9c2792b28fc6fe1c43beb628c0c1a0a72ee33afeac82b87"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "960ce187a62970475c83c372325ed7b0ff6dec8e15817f65a71ee71a661f74a870a7512ca5601d8cb38c7511b4141fa226a45edf6c7422f96808c4ee020ee3b3"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "cccf00ff8b1a7477085f5e6c2f2d14e36a61e1e8faa69bbd529dd3fdd76c223aa59a7caba705faf25e8c729a6c6e6080"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse.org/jetty/jetty-util"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-util"
+        }
+      ]
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/com.sparkjava/spark-core@2.9.4-SNAPSHOT?type=bundle",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar",
+        "pkg:maven/org.slf4j/slf4j-simple@1.7.25?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.48.v20220622?type=jar",
+        "pkg:maven/junit/junit@4.12?type=jar",
+        "pkg:maven/org.mockito/mockito-core@1.10.19?type=jar",
+        "pkg:maven/org.powermock/powermock-module-junit4@1.7.4?type=jar",
+        "pkg:maven/org.powermock/powermock-api-mockito@1.7.4?type=jar",
+        "pkg:maven/org.apache.httpcomponents/httpclient@4.5.6?type=jar",
+        "pkg:maven/org.freemarker/freemarker@2.3.28?type=jar",
+        "pkg:maven/com.google.code.gson/gson@2.8.5?type=jar",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/slf4j-simple@1.7.25?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622?type=jar",
+      "dependsOn" : [
+        "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.48.v20220622?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.48.v20220622?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.48.v20220622?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-security@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-security@9.4.48.v20220622?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.48.v20220622?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.48.v20220622?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.48.v20220622?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-client@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-client@9.4.48.v20220622?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.48.v20220622?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622?type=jar",
+        "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/junit/junit@4.12?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.mockito/mockito-core@1.10.19?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+        "pkg:maven/org.objenesis/objenesis@2.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.objenesis/objenesis@2.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.powermock/powermock-module-junit4@1.7.4?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.powermock/powermock-module-junit4-common@1.7.4?type=jar",
+        "pkg:maven/junit/junit@4.12?type=jar",
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.powermock/powermock-module-junit4-common@1.7.4?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.powermock/powermock-reflect@1.7.4?type=jar",
+        "pkg:maven/org.powermock/powermock-core@1.7.4?type=jar",
+        "pkg:maven/junit/junit@4.12?type=jar",
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.powermock/powermock-reflect@1.7.4?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.objenesis/objenesis@2.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.powermock/powermock-core@1.7.4?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.powermock/powermock-reflect@1.7.4?type=jar",
+        "pkg:maven/org.javassist/javassist@3.21.0-GA?type=jar",
+        "pkg:maven/org.mockito/mockito-core@1.10.19?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.javassist/javassist@3.21.0-GA?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.powermock/powermock-api-mockito@1.7.4?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.powermock/powermock-api-mockito-common@1.7.4?type=jar",
+        "pkg:maven/org.mockito/mockito-core@1.10.19?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.powermock/powermock-api-mockito-common@1.7.4?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.powermock/powermock-api-support@1.7.4?type=jar",
+        "pkg:maven/org.mockito/mockito-core@1.10.19?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.powermock/powermock-api-support@1.7.4?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.powermock/powermock-reflect@1.7.4?type=jar",
+        "pkg:maven/org.powermock/powermock-core@1.7.4?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.httpcomponents/httpclient@4.5.6?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.httpcomponents/httpcore@4.4.10?type=jar",
+        "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+        "pkg:maven/commons-codec/commons-codec@1.10?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.httpcomponents/httpcore@4.4.10?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-codec/commons-codec@1.10?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.freemarker/freemarker@2.3.28?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.code.gson/gson@2.8.5?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}

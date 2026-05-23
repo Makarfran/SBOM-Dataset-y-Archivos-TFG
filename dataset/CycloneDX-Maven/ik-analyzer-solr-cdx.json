@@ -1,0 +1,452 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.6",
+  "serialNumber" : "urn:uuid:c466f74a-e10e-3325-9732-7fa2a5ba87a9",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-04-06T16:38:45Z",
+    "lifecycles" : [
+      {
+        "phase" : "build"
+      }
+    ],
+    "tools" : {
+      "components" : [
+        {
+          "type" : "library",
+          "author" : "OWASP Foundation",
+          "group" : "org.cyclonedx",
+          "name" : "cyclonedx-maven-plugin",
+          "version" : "2.9.0",
+          "description" : "CycloneDX Maven plugin",
+          "hashes" : [
+            {
+              "alg" : "MD5",
+              "content" : "dfaeab7ec837ce07874e2ee66fdc57d3"
+            },
+            {
+              "alg" : "SHA-1",
+              "content" : "8bab47bafc8183d0a5f37790ff55ed05ead1ae2d"
+            },
+            {
+              "alg" : "SHA-256",
+              "content" : "67117e03eae4a03ca8bab3add044995f4899aa21798a2510b8265ef8101e90ac"
+            },
+            {
+              "alg" : "SHA-512",
+              "content" : "ae6b706516bb76da806b7854aef9e348fa593f5159ae9d693ad38942165c0ebc0846d977a477f6029612d43468fd2cd73a5aa253c228a94fb8d184e0acefc3d2"
+            },
+            {
+              "alg" : "SHA-384",
+              "content" : "ee872354d8b0dcd6f9835a913b3aaba70d9365a46043be78020183282a1e9fca812e969246cbe31d642541591b46648b"
+            }
+          ]
+        }
+      ]
+    },
+    "component" : {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.github.magese/ik-analyzer@8.5.0?type=jar",
+      "group" : "com.github.magese",
+      "name" : "ik-analyzer",
+      "version" : "8.5.0",
+      "description" : "IK-Analyzer for solr 7-8",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.github.magese/ik-analyzer@8.5.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://code.google.com/p/ik-analyzer/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/magese/ik-analyzer-solr"
+        }
+      ]
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system,test"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.lucene/lucene-core@8.5.0?type=jar",
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.lucene",
+      "name" : "lucene-core",
+      "version" : "8.5.0",
+      "description" : "Apache Lucene Java Core",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a852b4c934320c575b508230623542b9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3f9ea85fff4fc3f7c83869dddb9b0ef7818c0cae"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1934af4cf63970a54c0ff93cbb05d8303e45dd101723c85409d770b2a17907cd"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b17786a61f04515914960ba98adef43f600509d0d6d62157e151fd21a5842a3490ad4c5b20d3ceeec65f72fa2e13a519dd4ae65852abc73bd8540575b062d7ba"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "00cfefe2f6aecafbde86a3189c1bab6a5ab442ae91b8c1e79201c66d6c959d5aece1b8c140bc7f0e3f75bb642cb19a5e"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.lucene/lucene-core@8.5.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://lucene.apache.org/lucene-parent/lucene-core"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/computer/lucene/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LUCENE"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/lucene-general/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=lucene-solr.git;f=lucene/core"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.lucene/lucene-queryparser@8.5.0?type=jar",
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.lucene",
+      "name" : "lucene-queryparser",
+      "version" : "8.5.0",
+      "description" : "Lucene QueryParsers module",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "77d8421016d54622c0ebac4fca200b65"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "13c38f39b1a7d10c4749ba789fa95da5868d4885"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1ba9e4c5805430bd59774fc66e7e3850cde64161a214913f1303878fe0672412"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "05aadc70490da9012c63e90e28955c16a6b576a842722eaba753a2268ced8584aac5c046ce257246450d3ad22cbe404332f93c943542242e533e64520e75175d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "7c9b7980346b27e93e2031cfa62c7eaee71c27584860f4e312d900a21bf13b34abe707fcd49885a8aff7f384e8fd4fe4"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.lucene/lucene-queryparser@8.5.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://lucene.apache.org/lucene-parent/lucene-queryparser"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/computer/lucene/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LUCENE"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/lucene-general/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=lucene-solr.git;f=lucene/queryparser"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.lucene/lucene-queries@8.5.0?type=jar",
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.lucene",
+      "name" : "lucene-queries",
+      "version" : "8.5.0",
+      "description" : "Lucene Queries Module",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "eb3368a2ed12d88e33ce670e6cea6bc3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "708c1f850ed70c506822b021a722e42f29c397a1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e2135f20d5fae1824b51d28b5d39eea48c13703365c8791c681c763f2ba90ee3"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "19dbdcd905bab1fd2555d0d823a49c27a6840748a6b255040c60bb52d810430ca4a2c7b53a5b85ad2cd4da81ea6171956d413483a40cbb7d99681ec17d6d692d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f4948032e55147b32f4e2ebb095602e35bb2e47d389f2aca6791f0283453e1a02048043a311ed954f1dc0b8f062e87a0"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.lucene/lucene-queries@8.5.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://lucene.apache.org/lucene-parent/lucene-queries"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/computer/lucene/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LUCENE"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/lucene-general/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=lucene-solr.git;f=lucene/queries"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.lucene/lucene-sandbox@8.5.0?type=jar",
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.lucene",
+      "name" : "lucene-sandbox",
+      "version" : "8.5.0",
+      "description" : "Lucene Sandbox",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "afcea9e58241218b2336b53cf10c1bb0"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2b275921f2fd92b15b4f1a2a565467c3fa221ef9"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "5a521d6b545fdab0f57e313baf299335ffbffbd28caabeaceb74063f2390c572"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c718d74efa514ca2260e6f61ec021669f4658946d77310d8e64ae1178353f94cb4a35de55ef3aa242b384d496824fb2a64d5e78194c4311b4931ef28babfb425"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "04a0f564a2bfd4dd6e75d2e513ad16ff03f6c2bdfa98b25201da5b1b2762694b3d21431c4a780062a8c1de632f815d23"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.lucene/lucene-sandbox@8.5.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://lucene.apache.org/lucene-parent/lucene-sandbox"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/computer/lucene/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LUCENE"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/lucene-general/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=lucene-solr.git;f=lucene/sandbox"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.5.0?type=jar",
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.lucene",
+      "name" : "lucene-analyzers-common",
+      "version" : "8.5.0",
+      "description" : "Additional Analyzers",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "35abafa2b5140aaa78c058ebf005d69c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7156f2e545fd6e7faaee4781d15eb60cf5f07646"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "26ca7b0eb9cb1035d40fc3225679376255a51196f6318d130c165e8661f16b37"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "8b298e8359e3c240d19db39465857500ae3fe989690fec8dd1f0f7b2e3350a361fc73314fd443b46a698b1007bf811e37175fa223c154381f87c3a1446219965"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "01d796e4e057a029f40c32dd15e360d04e4ee93ef3f9f0f167833c4f76dd56fe0964d7bcede6840036373225f96269d4"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.5.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://lucene.apache.org/lucene-parent/lucene-analyzers-common"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/computer/lucene/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LUCENE"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/lucene-general/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=lucene-solr.git;f=lucene/analysis/common"
+        }
+      ]
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/com.github.magese/ik-analyzer@8.5.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.lucene/lucene-core@8.5.0?type=jar",
+        "pkg:maven/org.apache.lucene/lucene-queryparser@8.5.0?type=jar",
+        "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.5.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.lucene/lucene-core@8.5.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.lucene/lucene-queryparser@8.5.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.lucene/lucene-core@8.5.0?type=jar",
+        "pkg:maven/org.apache.lucene/lucene-queries@8.5.0?type=jar",
+        "pkg:maven/org.apache.lucene/lucene-sandbox@8.5.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.lucene/lucene-queries@8.5.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.lucene/lucene-sandbox@8.5.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.5.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.lucene/lucene-core@8.5.0?type=jar"
+      ]
+    }
+  ]
+}
